@@ -54,7 +54,7 @@ function Header() {
                             </li>
                             <li><a href="#">About Us</a>                         
                             </li>
-                            <li class="has-droupdown"><a href="#">Courser</a>
+                            <li class="has-droupdown"><a href="#">Courses</a>
                                 <ul class="submenu">
                                     <li><a href="#">Power BI Training</a></li>
                                     <li><a href="#">Snow Flake Training</a></li>
@@ -113,7 +113,7 @@ function Header() {
                             <li><a href="#">About Us</a>                         
                             </li>
                             <li class="has-droupdown" onClick={showSubmenu}>
-                                <a href="#">Courser</a>
+                                <a href="#">Coursers</a>
                                 <ul class="submenu">
                                     <li><a href="#">Power BI Training</a></li>
                                     <li><a href="#">Snow Flake Training</a></li>
