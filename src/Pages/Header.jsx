@@ -64,7 +64,8 @@ function Header() {
                                
                                 </ul>
                             </li>
-                            <li><a href="#">Contact</a>                         
+                            <li>
+                                <Link to="contact-us">Contact Us</Link>                        
                             </li>
                         </ul>
                     </nav>
@@ -75,7 +76,8 @@ function Header() {
                         <div class="header-menu-bar">
 
                             <div class="quote-icon quote-user d-none d-md-block ml--15">
-                                <a class="edu-btn btn-medium left-icon btn-white" href="login-register.html"><i class="ri-user-line"></i>Quick Contact</a>
+                            <Link to="contact-us" class="edu-btn btn-medium left-icon btn-white"><i class="ri-user-line"></i> Quick Contact</Link> 
+                                
                             </div>
 
                             <div class="quote-icon quote-user d-block d-md-none ml--15 ml_sm--5">

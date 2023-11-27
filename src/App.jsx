@@ -13,9 +13,13 @@ import Contact from './Pages/Contact'
 function App() {
     return (
         <div>
+                
             <Router>
-               <Header/>
-                <Routes>
+          <div>
+          <Header/>
+          <Routes>
+           
+                    
                     <Route  exact path='/' element={<Home/>}></Route>
                     <Route  path='/about-us' element={<About/>}></Route>
                     <Route  path='/contact-us' element={<Contact/>}></Route>
@@ -26,6 +30,8 @@ function App() {
                     <Route  path='/python-training-in-chennai/' element={<Python/>}></Route>
 
                 </Routes>
+          </div>
+               
             </Router>
             
 
