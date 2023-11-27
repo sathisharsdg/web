@@ -2,7 +2,7 @@ import React ,{useEffect}from 'react'
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import "../App.css";
- 
+import { Link } from 'react-router-dom';
 
 function Header() {
     useEffect(() => {
@@ -50,17 +50,18 @@ function Header() {
                 <div class="col-lg-6 d-none d-xl-block">
                     <nav class="mainmenu-nav">
                         <ul class="mainmenu">
-                            <li><a href="#">Home</a>                         
+                            <li> <Link to="/">Home</Link>                     
                             </li>
-                            <li><a href="#">About Us</a>                         
+                            <li> <Link to="/about-us">About Us</Link>                        
                             </li>
                             <li class="has-droupdown"><a href="#">Courses</a>
                                 <ul class="submenu">
-                                    <li><a href="#">Power BI Training</a></li>
-                                    <li><a href="#">Snow Flake Training</a></li>
-                                    <li><a href="#">Selenium Training</a></li>
-                                    <li><a href="#">Aws Training</a></li>
-                                    <li><a href="#">Python Training</a></li>
+                                    <li><Link to="/power-bi-training-in-chennai/">Power BI Training</Link></li>
+                                    <li><Link to="/snowflake-training-in-chennai/">Snow Flake Training</Link></li>
+                                    <li><Link to="/selenium-training-in-chennai/">Selenium Training</Link></li>
+                                    <li><Link to="/aws-training-in-chennai/">Aws Training</Link></li>
+                                    <li><Link to="/python-training-in-chennai/">Python Training</Link></li>
+                               
                                 </ul>
                             </li>
                             <li><a href="#">Contact</a>                         
