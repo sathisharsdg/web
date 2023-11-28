@@ -9,6 +9,7 @@ import Aws from './Pages/Aws'
 import Python from './Pages/Python'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
+import Footer from './Pages/Footer'
 
 function App() {
     return (
@@ -32,7 +33,7 @@ function App() {
 
                 </Routes>
           </div>
-               
+               <Footer/>
             </Router>
             
 

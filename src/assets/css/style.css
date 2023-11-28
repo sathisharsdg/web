@@ -395,7 +395,7 @@ body {
   line-height: var(--line-height-b2);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: var(--font-primary);
+  font-family: var(--font-primary)!important;
   color: var(--color-body);
   font-weight: 500;
   background-color: var(--color-white);
@@ -6655,7 +6655,7 @@ button.edu-btn {
 
 .section-title .title {
   margin-bottom: 0;
-  font-size: 40px; }
+  font-size: 25px; }
   @media only screen and (max-width: 575px) {
     .section-title .title {
       font-size: 32px; } }
@@ -16601,7 +16601,7 @@ Gallery Item
       color: var(--color-white);
       transition: 0.3s; }
     .footer-style-default .information-list li + li {
-      margin-top: 20px; }
+      margin-top: 5px; }
     .footer-style-default .information-list li:hover a {
       color: var(--color-primary); }
   .footer-style-default .edu-footer-widget .inner {
@@ -16761,4 +16761,9 @@ Gallery Item
     transition: 0.4s; }
     .copyright-default p a:hover {
       color: var(--color-primary); }
+
+      .logo {
+        min-width: 150px;
+        width: 160px;
+    }
 

@@ -42,7 +42,7 @@ function Header() {
                 <div class="col-lg-6 col-xl-3 col-md-6 col-6">
                     <div class="logo">
                         <Link to="/">
-                            <img class="logo-light" src="assets/images/logo/Aimore-logo.svg" alt="Site Logo"/>
+                            <img class="logo-light" src="/assets/images/logo/Aimore-logo.svg" alt="Site Logo"/>
                        </Link>
                     </div>
                 </div>
