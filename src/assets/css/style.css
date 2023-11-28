@@ -5991,8 +5991,8 @@ body.sal-disabled [data-sal|='flip'] {
 --------------------------*/
 .edu-header .logo a {
   display: block;
-  height: 118px;
-  line-height: 118px;
+  height: 82px;
+  line-height: 82px;
   transition: min-height 1s ease !important; }
   .edu-header .logo a img {
     max-height: 35px; }
@@ -6009,13 +6009,14 @@ body.sal-disabled [data-sal|='flip'] {
   position: relative; }
 
 .edu-header.header-transparent {
-  position: absolute;
-  left: 0;
+  /* position: absolute; */
+  left: -1.5px;
   right: 0;
   width: auto;
-  background: transparent;
+  background-image: url("/public/assets/images/bg/new-banner.jpg"); 
   backdrop-filter: inherit;
-  z-index: 9; }
+  z-index: 9; 
+background-position: top;}
 
 .edu-header.header-sticky {
   transition: height .5s ease-in;
@@ -14772,10 +14773,13 @@ Gallery Item
 --------------------------*/
 .banner-style-5 {
   position: relative;
-  z-index: 1;
-  background-image: url(../images/bg/home-five-banner.jpg); }
+  z-index: 0;
+  background-image: url(../images/bg/home-five-banner.jpg); 
+}
   .banner-style-5 .wrapper {
-    height: 860px; }
+    height: 860px; 
+ 
+  }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .banner-style-5 .wrapper {
         height: auto;

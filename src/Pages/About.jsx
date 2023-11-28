@@ -1,9 +1,16 @@
 import React from 'react'
-
 function About() {
     return (
         <div>
-            <h2>About us</h2>
+               
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-md-12'>
+                        <h1>Welcome</h1>
+                    </div>
+                </div>
+
+            </div>
         </div>
     )
 }

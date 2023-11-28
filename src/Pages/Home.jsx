@@ -1,10 +1,11 @@
 import React from 'react'
 import $ from 'jquery'
 import { Helmet } from 'react-helmet'
+import Header from './Header'
 function Home() {
     return (
         <div>
-
+ 
             <div class="slider-area banner-style-5 bg-image">
                 <div class="wrapper d-flex align-items-center">
                     <div class="container">

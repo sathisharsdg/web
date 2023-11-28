@@ -41,9 +41,9 @@ function Header() {
             <div class="row align-items-center">
                 <div class="col-lg-6 col-xl-3 col-md-6 col-6">
                     <div class="logo">
-                        <a href="index.html">
+                        <Link to="/">
                             <img class="logo-light" src="assets/images/logo/Aimore-logo.svg" alt="Site Logo"/>
-                        </a>
+                       </Link>
                     </div>
                 </div>
 
@@ -100,9 +100,9 @@ function Header() {
             <div class="inner">
                 <div class="header-top">
                     <div class="logo">
-                        <a href="index.html">
+                      <Link to="/">
                             <img src="assets/images/logo/Aimore-logo.svg" alt="Site Logo"/>
-                        </a>
+                       </Link>
                     </div>
                     <div class="close-menu">
                         <button class="close-button" onClick={closeSidebar}>

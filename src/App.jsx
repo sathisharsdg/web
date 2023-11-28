@@ -15,8 +15,9 @@ function App() {
         <div>
                 
             <Router>
+            <Header/>
           <div>
-          <Header/>
+         
           <Routes>
            
                     
