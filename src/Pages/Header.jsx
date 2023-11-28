@@ -101,7 +101,7 @@ function Header() {
                 <div class="header-top">
                     <div class="logo">
                       <Link to="/">
-                            <img src="assets/images/logo/Aimore-logo.svg" alt="Site Logo"/>
+                            <img src="/assets/images/logo/Aimore-logo.svg" alt="Site Logo"/>
                        </Link>
                     </div>
                     <div class="close-menu">
