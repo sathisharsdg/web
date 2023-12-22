@@ -33,6 +33,11 @@ function Header() {
           let elm = document.querySelector(".popup-mobile-menu");
           elm.classList.remove("active");
       }
+      const closeMobile = ()=>{
+        closeSidebar();
+      }
+     
+     
 
  
     return (
@@ -111,19 +116,19 @@ function Header() {
                     </div>
                 </div>
                 <ul class="mainmenu">
-                            <li><a href="#">Home</a>                         
+                            <li><a href="#" onClick={closeMobile}>Home</a>                         
                             </li>
-                            <li><a href="#">About Us</a>                         
+                            <li><a href="#" onClick={closeMobile}>About Us</a>                         
                             </li>
                             <li class="has-droupdown" onClick={showSubmenu}>
                                 <a href="#">Coursers</a>
                                 <ul class="submenu">
-                                    <li><a href="#">Power BI Training</a></li>
-                                    <li><a href="#">Snow Flake Training</a></li>
-                                    <li><a href="#">Selenium Training</a></li>
-                                    <li><Link to="/aws-training-in-chennai/">Aws Training</Link></li>
+                                    <li><a href="#" onClick={closeMobile}>Power BI Training</a></li>
+                                    <li><a href="#" onClick={closeMobile}>Snow Flake Training</a></li>
+                                    <li><a href="#" onClick={closeMobile}>Selenium Training</a></li>
+                                    <li><Link to="/aws-training-in-chennai/" onClick={closeMobile}>Aws Training</Link></li>
                                     
-                                    <li><a href="#">Python Training</a></li>
+                                    <li><a href="#" onClick={closeMobile}>Python Training</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Contact</a>                         
@@ -131,6 +136,7 @@ function Header() {
                         </ul>
             </div>
         </div>
+ 
         </div>
     )
 }
