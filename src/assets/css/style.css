@@ -1630,7 +1630,7 @@ textarea:-ms-input-placeholder {
   margin-top: -20px; }
 
 .edu-section-gap {
-  padding: 130px 0 !important; }
+  padding: 50px 0 !important; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .edu-section-gap {
       padding: 80px 0 !important; } }
@@ -1666,7 +1666,7 @@ textarea:-ms-input-placeholder {
     padding-bottom: 80px  !important; } }
 
 .edu-section-gapTop {
-  padding-top: 130px !important; }
+  padding-top: 60px !important; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .edu-section-gapTop {
       padding-top: 80px !important; } }
@@ -6655,7 +6655,10 @@ button.edu-btn {
 
 .section-title .title {
   margin-bottom: 0;
-  font-size: 25px; }
+  font-size: 30px; font-weight: 700;}
+  .section-title .title-h2{
+    margin-bottom: 0;
+    font-size: 25px; font-weight: 500;}
   @media only screen and (max-width: 575px) {
     .section-title .title {
       font-size: 32px; } }
@@ -9242,9 +9245,10 @@ button.edu-btn {
 .service-wrapper-3 {
   position: relative;
   z-index: 1;
-  padding-bottom: 281px; }
+  padding-bottom: 0px; }
   .service-wrapper-3 .about-us-two-service-wrapper {
-    background-image: url(../images/bg/about-us-two-service.jpg); }
+    background-image: url(../images/bg/about-us-two-service.jpg); 
+  padding: 60px 0;}
 
 .service-card-3 {
   padding: 30px 30px;
@@ -16570,7 +16574,7 @@ Gallery Item
   position: relative;
   z-index: 1; }
   .footer-style-default .footer-top {
-    padding: 130px 0; }
+    padding: 130px 0 30px 0; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .footer-style-default .footer-top {
         padding: 80px 0; } }
@@ -16767,3 +16771,13 @@ Gallery Item
         width: 160px;
     }
 
+    .accordion-button {
+      font-size: 1.6rem!important;
+    }
+    .accordion-body {
+     font-size: 15px!important;
+  }
+  .title-inner {
+    font-size: 20px;
+    font-weight: 600;
+}

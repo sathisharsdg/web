@@ -5,7 +5,9 @@ import Header from './Header'
 function Home() {
     return (
         <div>
- 
+       <Helmet>
+         <title>Home Page</title>
+       </Helmet>
             <div class="slider-area banner-style-5 bg-image">
                 <div class="wrapper d-flex align-items-center">
                     <div class="container">

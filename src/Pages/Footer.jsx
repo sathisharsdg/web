@@ -52,25 +52,25 @@ function Footer() {
                                     <div class="inner">
                                         <div class="widget-information">
                                             <h2 className='text-white pb-2'>Medavakkam Branch</h2>
-                                            <h4 className='text-white'>
+                                            <h4 className='text-white mb-3'><i class="icon-map-pin-line me-3"></i>
                                                 3/165, Sumangali Second floor,<br />
                                                 Perumbakkam Main Rd, Medavakkam,<br />
                                                 Chennai, Tamil Nadu - 600100
                                             </h4>
                                             <h2 className='text-white pb-2'>Porur Branch</h2>
-                                            <h4 className='text-white'>
+                                            <h4 className='text-white mb-3'><i class="icon-map-pin-line me-3"></i>
                                                 No 112/2, Door No 140/104, First Floor,<br />
                                                 Phase 1 Mount Poonamallee Trunk Rd, Porur,<br />
                                                 Chennai, Tamilnadu - 600116
                                             </h4>
                                             <h2 className='text-white pb-2'>Karapakkam Branch</h2>
-                                            <h4 className='text-white'>
+                                            <h4 className='text-white mb-3'><i class="icon-map-pin-line me-3"></i>
                                             1/16/2, Rajiv Gandhi Road<br/>
 (Old Mahabalipuram Road),Karapakkam(N198),<br/>
 Chennai, Tamil Nadu - 600097
                                             </h4>
                                             {/* <ul class="information-list">
-                                                <li><i class="icon-map-pin-line"></i>275 Quadra Street Victoria Road, New York
+                                                <li>275 Quadra Street Victoria Road, New York
                                                 </li>
                                                 <li><i class="icon-phone-fill"></i><a href="tel:+1(237)382-2839">+ 1 (237) 382-2839</a></li>
                                                 <li><i class="icon-phone-fill"></i><a href="tel:+1(237)382-2840">+ 1 (237) 382-2840</a></li>
