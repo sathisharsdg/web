@@ -121,7 +121,8 @@ function Header() {
                                     <li><a href="#">Power BI Training</a></li>
                                     <li><a href="#">Snow Flake Training</a></li>
                                     <li><a href="#">Selenium Training</a></li>
-                                    <li><a href="#">Aws Training</a></li>
+                                    <li><Link to="/aws-training-in-chennai/">Aws Training</Link></li>
+                                    
                                     <li><a href="#">Python Training</a></li>
                                 </ul>
                             </li>
