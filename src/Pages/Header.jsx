@@ -85,9 +85,7 @@ function Header() {
                                 
                             </div>
 
-                            <div class="quote-icon quote-user d-block d-md-none ml--15 ml_sm--5">
-                                <a class="white-box-icon" href="login-register.html"><i class="ri-user-line"></i></a>
-                            </div>
+                      
 
                             <div class="mobile-menu-bar ml--15 ml_sm--5 d-block d-xl-none">
                                 <div class="hamberger">
