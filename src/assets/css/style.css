@@ -16792,3 +16792,13 @@ Gallery Item
 .carousel-control-prev {
   left: -8%!important;
 }
+.eduvibe-home-three-one-video{
+   background-image: url(".././images/bg/home-one-instructor.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+}
+.edu-winner-card-left{
+  text-align: left!important;
+}

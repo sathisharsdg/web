@@ -466,9 +466,9 @@ function Aws() {
                         <div className="row gy-lg-0 gy-5 row--60 align-items-center">
                             <div className="col-lg-7 order-2 order-lg-1">
                                 <div className="workshop-inner">
-                                    <div className="section-title text-white sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                        <span className="pre-title">What Does An </span>
-                                        <h3 className="title">AWS Engineer Do?</h3>
+                                    <div className="section-title  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                        <span className="pre-title text-white">What Does An </span>
+                                        <h3 className="title text-white">AWS Engineer Do?</h3>
                                     </div>
                                     <p className="description sal-animate" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
                                         An AWS engineer, also known as an Amazon Web Services engineer, is a professional responsible for designing, implementing, and maintaining cloud infrastructure solutions on the AWS platform. These engineers play a crucial role in helping organizations leverage the full potential of AWS services to achieve scalability,
@@ -888,9 +888,9 @@ function Aws() {
                         <div class="row gy-lg-0 gy-5 row--60">
                             <div class="col-lg-4 order-2 order-lg-1">
                                 <div class="workshop-inner">
-                                    <div class="section-title text-white sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                    <div class="section-title  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
 
-                                        <h3 class="title">Course Objectives</h3>
+                                        <h3 class="title text-white">Course Objectives</h3>
                                         <p class="description sal-animate" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
                                             Welcome to our comprehensive Cloud Computing and AWS Training! This course is designed to equip you with essential skills and knowledge to thrive in the rapidly evolving world of cloud technology. By the end of this program, you will achieve the following objectives:
                                         </p>
@@ -919,7 +919,7 @@ function Aws() {
 
                             <div class="col-lg-4 order-2 order-lg-1">
                                 <div class="workshop-inner">
-                                    <div class="section-title text-white sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                    <div class="section-title  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
 
                                         <h5 class="title-inner text-white">Linux Fundamentals</h5>
                                         <ul className='mb-5 border-bottom border-1'>
@@ -953,7 +953,7 @@ function Aws() {
 
                             <div class="col-lg-4 order-2 order-lg-1">
                                 <div class="workshop-inner">
-                                    <div class="section-title text-white sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                    <div class="section-title  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
 
 
 
@@ -1304,8 +1304,8 @@ function Aws() {
 
                             <div class="col-lg-10 offset-lg-1">
                                 <div class="section-title text-center sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                    <h3 class="title">Course Highlights</h3>
-                                    <h3 className='py-3 text-dark'>The eligibility criteria for AWS training in Chennai may vary slightly depending on the specific training institute and the level of the course (beginner, intermediate, or advanced). However, in general, AWS training programs are designed to accommodate a broad range of participants, from beginners with no prior cloud computing experience to experienced professionals seeking to enhance their AWS skills.</h3>
+                                    <h3 class="title">Eligibility for AWS Training in Chennai</h3>
+                                    <p className='py-3 lh-md'>The eligibility criteria for AWS training in Chennai may vary slightly depending on the specific training institute and the level of the course (beginner, intermediate, or advanced). However, in general, AWS training programs are designed to accommodate a broad range of participants, from beginners with no prior cloud computing experience to experienced <br />professionals seeking to enhance their AWS skills.</p>
                                 </div>
                             </div>
 
@@ -1398,14 +1398,14 @@ function Aws() {
                 <div class="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
                     <div class="container eduvibe-animated-shape">
                         <div class="row gy-lg-0 gy-5 row--60 align-items-center">
-                            <div class="section-title text-white text-center sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                <h3 class="title">Features Of The Best AWS Training In Chennai</h3>
+                            <div class="section-title  text-center sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <h3 class="title text-white">Features Of The Best AWS Training In Chennai</h3>
                             </div>
                         </div>
                     </div>
                     <div id="carouselExample2" class="container carousel py-5 slide" data-bs-touch="true" data-bs-interval="2000" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item">
+                            <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="edu-card card-type-1 radius-small service-card-3">
@@ -1417,9 +1417,9 @@ function Aws() {
                                                         </a>
                                                     </div>
                                                     <h4 class="title-inner">
-                                                        <a href="course-details.html"> Expertise That Matters</a>
+                                                        <a href="course-details.html"> Instructor-led Sessions</a>
                                                     </h4>
-                                                    <p>Aimore boasts a team of seasoned professionals and AWS-certified experts who possess a wealth of experience in cloud computing. With their guidance, you'll receive training that is both comprehensive and practical. Our instructors bring real-world insights into the classroom, ensuring that you learn not just theory but how to apply it effectively in practical scenarios.</p>
+                                                    <p>Benefit from 50 hours of comprehensive instructor-led classes, ensuring a thorough understanding of AWS concepts and applications.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1434,9 +1434,9 @@ function Aws() {
                                                         </a>
                                                     </div>
                                                     <h4 class="title-inner">
-                                                        <a href="course-details.html"> A Tailored Learning Experience</a>
+                                                        <a href="course-details.html"> Capstone Projects</a>
                                                     </h4>
-                                                    <p>Individual learners exhibit unique characteristics, and we acknowledge and appreciate this diversity.. Aimore's AWS Training in Chennai offers a personalized learning experience. Whether you're a beginner or have some AWS knowledge, our AWS Training In Chennai is designed to accommodate your level. This tailored approach ensures that you receive the training you need, making your journey to AWS certification as smooth as possible.</p>
+                                                    <p>Engage in hands-on learning with 60 hours dedicated to practical projects and real-time case studies, allowing you to apply your skills to industry-relevant scenarios.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1451,9 +1451,9 @@ function Aws() {
                                                         </a>
                                                     </div>
                                                     <h4 class="title-inner">
-                                                        <a href="course-details.html"> A Comprehensive Curriculum</a>
+                                                        <a href="course-details.html"> Practicals and Hands-on Sessions</a>
                                                     </h4>
-                                                    <p>Our AWS Training In Chennai program covers the full spectrum of AWS services and concepts. You won't just learn the basics; you'll delve into advanced topics, including architectural best practices, security, scalability, and much more. By the end of the course, you'll have a holistic understanding of AWS that prepares you for the certification exam and real-world applications.</p>
+                                                    <p>Reinforce your learning with practical sessions after each class, totaling 40 hours. These sessions are designed to build confidence and proficiency in applying AWS knowledge.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1472,9 +1472,9 @@ function Aws() {
                                                         </a>
                                                     </div>
                                                     <h4 class="title-inner">
-                                                        <a href="course-details.html"> Hands-On Learning</a>
+                                                        <a href="course-details.html"> Lifetime Free Upgrade</a>
                                                     </h4>
-                                                    <p>Learning by doing is the foundation of our AWS Training In Chennai approach. Aimore provides you with the opportunity to work with AWS hands-on. You'll have access to AWS labs and real-world projects, which are essential for understanding how to apply AWS services in practical settings. This practical exposure ensures you can confidently navigate real-world AWS challenges.</p>
+                                                    <p>Enjoy lifetime access to our online library, featuring presentations, questionnaires, installation guides, and session recordings. Stay updated with the latest materials to support your ongoing learning.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1489,9 +1489,9 @@ function Aws() {
                                                         </a>
                                                     </div>
                                                     <h4 class="title-inner">
-                                                        <a href="course-details.html"> Exam Preparation Support</a>
+                                                        <a href="course-details.html"> 24x7 Expert Support & Access</a>
                                                     </h4>
-                                                    <p>Our commitment to your success extends to preparing you for AWS certification exams. Aimore provides exam-specific training, practice tests, and expert guidance to ensure you're ready to ace the certification exams. We'll walk you through the exam process, discuss strategies, and provide you with resources to bolster your confidence.</p>
+                                                    <p>Access our 24x7 online support team throughout your learning journey. Our dedicated team is available for a lifetime, ready to assist you with technical queries through a ticket-based tracking system.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1506,9 +1506,9 @@ function Aws() {
                                                         </a>
                                                     </div>
                                                     <h4 class="title-inner">
-                                                        <a href="course-details.html"> Flexibility and Convenience</a>
+                                                        <a href="course-details.html"> Certification and Job Assistance</a>
                                                     </h4>
-                                                    <p>We understand the demands of today's busy lifestyles. Aimore offers flexible training options, including both online and in-person classes. You have the flexibility to select the learning mode that aligns with your schedule and personal preferences. Whether you're a full-time professional or a student, our flexible options ensure you can accommodate AWS Training In Chennai without disrupting your life.</p>
+                                                    <p>Ensure your success with AWS certification. Receive recognition based on your internal assignments and practical session performances. Additionally, benefit from job assistance to kickstart your career in the AWS ecosystem.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1527,9 +1527,9 @@ function Aws() {
                                                         </a>
                                                     </div>
                                                     <h4 class="title-inner">
-                                                        <a href="course-details.html"> Networking Opportunities</a>
+                                                        <a href="course-details.html"> Forum</a>
                                                     </h4>
-                                                    <p>At Aimore, you're not just a student; you're part of a vibrant AWS Training In Chennai. Within this community, members have the chance to engage in networking, collaboration, and the sharing of knowledge. You'll have the chance to connect with fellow learners, exchange experiences, and even interact with industry professionals who visit our campus.</p>
+                                                    <p>Join a vibrant global community forum designed to guide your AWS journey. Engage in brain-storming sessions, share knowledge, and connect with fellow students for a collaborative learning experience.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1544,259 +1544,19 @@ function Aws() {
                                                         </a>
                                                     </div>
                                                     <h4 class="title-inner">
-                                                        <a href="course-details.html"> Real-World Projects</a>
+                                                        <a href="course-details.html"> Flexible Schedule</a>
                                                     </h4>
-                                                    <p>One of the most distinguishing features of Aimore's AWS Training in Chennai is our emphasis on real-world projects. These projects allow you to apply your AWS skills in practical scenarios, building a robust portfolio that showcases your abilities to potential employers. Real-world experience is invaluable, and we ensure you gain it during your training.</p>
+                                                    <p>Tailor your learning experience with flexible timings. We understand the importance of accommodating various schedules, allowing you to comfortably learn and excel in the course.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-folder-user-line"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html"> Career Support</a>
-                                                    </h4>
-                                                    <p>Our dedication to your success extends beyond certification. Aimore offers career support services to help you kickstart or advance your career in cloud computing. Our career counsellors provide guidance on job opportunities, interview preparation, and resume building, ensuring you're well-equipped to enter the job market with confidence.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
-                            <div class="carousel-item active carousel-item-start">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-home-3-line"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html"> Industry Recognition</a>
-                                                    </h4>
-                                                    <p>Aimore's reputation in the industry is a testament to the quality of our training. Many employers in Chennai and beyond recognize the value of AWS professionals trained by Aimore. Your certification from our institute carries significant weight in the job market, opening doors to exciting career opportunities.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-vip-crown-fill"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html"> Commitment to Excellence</a>
-                                                    </h4>
-                                                    <p>Aimore is driven by a commitment to excellence in AWS training in Chennai. Our dedication to staying updated with the latest AWS developments ensures that you receive the most current and relevant training. We are continuously improving our courses, incorporating industry best practices, and evolving to meet the ever-changing demands of the cloud computing landscape.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-price-tag-2-line"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html"> Affordable Pricing</a>
-                                                    </h4>
-                                                    <p>Quality training shouldn't break the bank. Aimore offers AWS Training in Chennai at a competitive and affordable price. We believe that everyone should have access to top-tier AWS training, and our pricing reflects this belief.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item carousel-item-next carousel-item-start">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-account-pin-circle-line"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html">Student Success Stories</a>
-                                                    </h4>
-                                                    <p>The real measure of a training institute's success lies in the achievements of its students. Aimore takes immense pride in the success stories of our alumni. Many of our students have gone on to secure prestigious job positions and advance their careers with their AWS certifications. These accomplishments serve as evidence of our training's efficacy.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-team-line"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html"> Customer Satisfaction</a>
-                                                    </h4>
-                                                    <p>Aimore has garnered a reputation for delivering training that exceeds our students' expectations. We take pride in the high levels of satisfaction expressed by our students, which is a testament to the quality of our training.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-arrow-go-forward-fill"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html"> Commitment to Diversity and Inclusion</a>
-                                                    </h4>
-                                                    <p>Aimore believes in the power of diversity and inclusion. We embrace learners from diverse backgrounds and various walks of life. Our training environment is inclusive, fostering a culture of collaboration and respect. We're committed to providing equal opportunities for all individuals interested in AWS training.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-building-line"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html">Chennai's Premier AWS Training Institute in Chennai</a>
-                                                    </h4>
-                                                    <p>Aimore is widely recognized as the premier AWS training institute in Chennai. Our commitment to excellence, combined with the depth and breadth of our training programs, has established us as the go-to destination for AWS aspirants in the region.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-line-height"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html"> Continuous Learning</a>
-                                                    </h4>
-                                                    <p>The field of AWS is constantly evolving, and Aimore recognizes the importance of continuous learning. Our training is designed to equip you with the skills and mindset needed to adapt to the ever-changing cloud computing landscape. We emphasize the value of staying up-to-date with AWS developments to remain competitive in your career.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-team-line"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html"> Commitment to Sustainability</a>
-                                                    </h4>
-                                                    <p>Aimore is committed to sustainable and eco-friendly practices. Our training centers are designed with sustainability in mind, minimizing our environmental footprint. By choosing Aimore, you're contributing to a more sustainable future.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-shield-user-fill"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html">Access to Learning Resources</a>
-                                                    </h4>
-                                                    <p>Aimore provides you with access to a wealth of learning resources, including study materials, practice exams, and a supportive online community. These resources are invaluable for reinforcing your learning and preparing for the certification exam.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-vip-crown-line"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html"> Future-Ready Skills</a>
-                                                    </h4>
-                                                    <p>The world is rapidly embracing cloud technology, and AWS is at the forefront of this revolution. By choosing Aimore's AWS Training in Chennai, you're investing in skills that are not only relevant today but future-proof. AWS skills are in high demand, and this trend is expected to continue, making AWS certification a smart career move.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="edu-card card-type-1 radius-small service-card-3">
-                                            <div class="inner">
-                                                <div class="content ">
-                                                    <div class="icon">
-                                                        <a href="#">
-                                                            <i class="ri-git-repository-fill"></i>
-                                                        </a>
-                                                    </div>
-                                                    <h4 class="title-inner">
-                                                        <a href="course-details.html"> Who Should Attend?</a>
-                                                    </h4>
-                                                    <p>Our AWS Training in Chennai is suitable for:</p>
-                                                    <ul>
-                                                        <li>IT professionals seeking to upgrade their cloud computing skills.</li>
-                                                        <li>Developers interested in cloud-based application development.</li>
-                                                        <li>System administrators looking to manage infrastructure in the cloud.</li>
-                                                        <li>Entrepreneurs and business owners aiming to leverage AWS for their ventures.</li>
-                                                        <li>Students and fresh graduates aspiring to start a career in cloud computing.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
+
+
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1809,6 +1569,910 @@ function Aws() {
                     </div>
                 </div>
 
+
+                <div class="eduvibe-about-two-award edu-winner-area edu-section-gap bg-color-white">
+                    <div class="container eduvibe-animated-shape">
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1">
+                                <div class="section-title text-center sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                    <h3 class="title">Choose AWS Training In Chennai For The Best Career</h3>
+                                    <p class="py-3 lh-md">Choosing the right AWS training course depends on your learning style, career goals, and preferences. Let's explore the features of each option: self-paced e-learning, live online training, and corporate training, including the one that offers a 100% job guarantee.</p>
+                                    <h4 class="title-inner">Self-Paced E-Learning</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-5 mt--20">
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h1>
+                                                <i class="ri-vip-crown-fill"></i>
+                                            </h1>
+                                            <h3 class="title">Flexibility</h3>
+                                            <p>Learn at your own pace and schedule, allowing you to balance training with other commitments.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h1>
+                                                <i class="ri-mac-line"></i>
+                                            </h1>
+                                            <h3 class="title">Access to Resources</h3>
+                                            <p>Typically includes video lectures, reading materials, and hands-on labs accessible 24/7.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h1>
+                                                <i class="ri-building-4-line"></i>
+                                            </h1>
+                                            <h3 class="title">Cost-Effective</h3>
+                                            <p>May be more affordable than live training options.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h1>
+                                                <i class="ri-profile-line"></i>
+                                            </h1>
+                                            <h3 class="title">Self-Discipline</h3>
+                                            <p>Requires self-motivation and discipline to complete the course.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h1>
+                                                <i class="ri-english-input"></i>
+                                            </h1>
+                                            <h3 class="title">Limited Interaction</h3>
+                                            <p>Limited direct interaction with instructors for immediate clarifications.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h1>
+                                                <i class="ri-at-fill"></i>
+                                            </h1>
+                                            <h3 class="title">Real-Time Interaction</h3>
+                                            <p>Engage with instructors and ask questions in real-time.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h1>
+                                                <i class="ri-at-fill"></i>
+                                            </h1>
+                                            <h3 class="title">Structured Schedule</h3>
+                                            <p>Follow a set schedule, providing a routine for learning.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h1>
+                                                <i class="ri-at-fill"></i>
+                                            </h1>
+                                            <h3 class="title">Scheduled Sessions</h3>
+                                            <p>Requires commitment to attend live sessions at specific times.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h1>
+                                                <i class="ri-at-fill"></i>
+                                            </h1>
+                                            <h3 class="title">Dependent on Internet Connection</h3>
+                                            <p>Relies on a stable Internet connection for live participation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
+                    <div class="container eduvibe-animated-shape">
+                        <div class="row gy-lg-0 gy-5 row--60 align-items-center">
+                            <div class="section-title  text-center sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <h3 class="title text-white">Corporate Training</h3>
+                                <h4 className='title-inner text-white py-3'>Advantages</h4>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+
+                                            <h3 class="title">Customized Content</h3>
+                                            <p>Tailored to the specific needs and goals of a corporate team.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+
+                                            <h3 class="title">Team Collaboration</h3>
+                                            <p>Fosters collaboration among team members.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h3 class="title">Direct Application</h3>
+                                            <p>Can focus on projects directly related to the organization's objectives.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-5 col-lg-6 col-md-6 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h3 class="title">Limited to Corporate Teams</h3>
+                                            <p>Typically not available for individual <br />enrollment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-5 col-lg-6 col-md-6 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h3 class="title">Specific to Company Needs</h3>
+                                            <p>This may be less generalized than courses designed for a broader audience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="section-title eduvibe-home-five-course slider-dots edu-course-area edu-section-gap bg-image">
+                    <div id="carouselExampleControlsw" class="section-title container carousel py-5 slide" data-bs-touch="true" data-bs-interval="2000" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <h3 class="text-center py-5 title">Success Stories Of Our AWS Training And Placement In Chennai</h3>
+                            <p class="description mb-5 text-center lh-sm text-dark">At Aimore Technologies, best aws training institute in chennai we are proud to share the remarkable journeys of individuals who have successfully navigated the ever-evolving landscape of cloud computing through our AWS Training and Placement program. These stories are a testament to the transformative power of our comprehensive training, expert mentorship, and dedicated placement support. </p>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 1: From Novice to AWS Pro</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Meet Rajkumar, a recent graduate who embarked on a journey to master AWS to become a certified professional. Eager to make a mark in the tech industry, he enrolled in our AWS Training program. The structured curriculum, hands-on labs, and the guidance of our experienced trainers helped Rajkumar grasp AWS concepts with precision.Upon completion of the training, Rajkumar not only earned the coveted AWS certification but also secured a position at Wipro. The real-world scenarios covered in our program empowered him to seamlessly integrate into a dynamic work environment. Rajkumar emphasizes the role of our training in not only building technical proficiency but also in instilling the confidence to tackle complex challenges head-on.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 2: Scaling New Heights</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Enter the story of Naveen Shankar, a seasoned professional seeking to upskill and stay abreast of the latest advancements in cloud computing. Our AWS Training program became the catalyst for his career growth. The program's emphasis on practical application and real-world scenarios proved invaluable as Naveen Shankar applied AWS solutions to enhance operational efficiency at Infosys.
+                                                        The hands-on experience gained during the training empowered Naveen Shankar to implement scalable and cost-effective solutions, showcasing the immediate applicability of our program to real-world business challenges. This success story underscores the effectiveness of our training in preparing professionals not just for certification exams but for impactful contributions in their respective workplaces.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 3: A Career Pivot with AWS</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Consider the inspiring journey of Maha Lakshmi, who made a deliberate career shift into the dynamic realm of AWS. Recognizing the industry demand for skilled cloud professionals, she chose Aimore for its reputation for delivering high-quality AWS training. The program not only provided the necessary technical skills but also facilitated a smooth transition through placement assistance.
+                                                        Today, Maha Lakshmi holds a thriving position as a software engineer at, CTS a testament to the successful career pivot made possible by our comprehensive AWS Training and Placement program. She attributes this achievement to the personalized guidance received during the training, which focused on honing not just technical skills but also soft skills essential for professional success.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 4: Confidence Redefined</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>For Venkatesan, the prospect of diving into AWS was initially overwhelming. The extensive course content, practical labs, and personalized mentoring at Aimore played a pivotal role in building the confidence needed to face real-world challenges. He shares that the program not only equipped him with technical proficiency but also fostered problem-solving skills crucial for success in the industry.
+                                                        Now, Venkatesan stands as a confident AWS professional, having successfully implemented AWS solutions at Quess Corp Limited. This success story exemplifies the transformative impact of our training on individuals who, despite initial apprehensions, emerge as self-assured and capable contributors to the tech industry.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 5: Seamless Integration into the Industry</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Celebrate the success of Sneha, who seamlessly integrated into the tech industry after completing our AWS Training in Chennai program. She highlights the real-world relevance of the training, emphasizing that the hands-on experience gained during the program made the transition from education to the workforce seamless.
+                                                        Currently contributing to the success of Birla, Sneha exemplifies how our AWS Training and Placement program equips individuals not just with theoretical knowledge but also with the practical skills demanded by the industry.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 6: From Aspiration to Certification</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Witness the transformation of Geetika, who turned aspirations into achievements with our AWS Training in Chennai. Not only did she earn the prestigious AWS certification, but Geetika also secured a position at Zoho, setting the stage for a stellar career.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 7: Elevating Expertise</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Experience the journey of Sebastian, a seasoned professional seeking to amplify expertise. Our AWS Training not only honed his skills but empowered him to implement cutting-edge AWS solutions at TCS, making a tangible impact on operations.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 8: Seamless Career Shift
+                                                        </a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Discover the success story of Anand, who smoothly transitioned into the world of AWS with our training. Today, he thrives at Cognizant, showcasing the versatility and career-shifting power of our comprehensive AWS Training and Placement program.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 9: Confidence Redefined</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Explore how Prabhat overcame initial challenges and emerged as a confident AWS professional. The program not only imparted technical skills but also instilled problem-solving abilities, enabling him to implement successful solutions at Tech Mahindra.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 10: Industry Integration Mastery</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Join us in celebrating Shankar's seamless integration into the tech industry post-our AWS Training in Chennai. The hands-on experience gained during the program facilitated a smooth transition, and he now contributes significantly to the success of Accenture.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 11: Career Ascent Empowerment</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Embark on the journey of Aditya, who soared from a novice to an AWS pro with our training. The program's comprehensive curriculum and personalized mentoring empowered him to navigate AWS complexities, leading to significant contributions at CTS.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 12: Unleashing Technical Mastery</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Delve into the story of Eravanth, whose thirst for technical mastery found the perfect training ground at Aimore. Our AWS Training in Chennai not only honed his technical skills but also provided practical insights, leading to his success in the field.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 13: Learning to Leadership</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Witness Deeksha's journey from a learning environment to a leadership role after completing our AWS Training. The program not only imparted technical knowledge but also instilled leadership qualities, propelling her to Leadership Position.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html">Success Story 14: Evolution of Skills</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Embark on the journey of skill evolution with Sampoorna, who found the perfect avenue for growth in our AWS Training. The program's focus on hands-on labs and real-world applications enabled her to evolve into a skilled AWS professional.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 15: Beyond Certification Success</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Meet Malavika, whose success transcended certification with our AWS Training. Beyond exam preparation, the program equipped her with the skills needed for impactful contributions. Malavika is now a key player in Mind Tree, showcasing the comprehensive excellence of our training.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html">Success Story 16: Navigating Cloud Challenges
+                                                        </a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Explore how Darshini navigated the intricate world of cloud computing with our AWS Training. Armed with newfound knowledge, she implemented effective solutions at Eveika, overcoming challenges with confidence.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 18: Architecting Success</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Witness the success story of Avaneesh, who went beyond learning AWS to architecting success. The program not only provided technical proficiency but also nurtured his ability to design and implement innovative solutions.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html">Success Story 19: Cloud Innovator
+                                                        </a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Join Poornima in the league of cloud innovators who reshaped their careers with our AWS Training. Her ability to innovate and apply AWS solutions transformed Accenture's operations, showcasing the practical impact of our program.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 20: Rapid Career Acceleration</a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Experience the rapid career acceleration of Karan, who propelled his career trajectory with our AWS Training in Chennai. The skills acquired enabled him to take on more significant responsibilities at Accenture, solidifying his position as a valuable asset.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html">Success Story 21: Business Transformation
+                                                        </a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Explore how Isha contributed to the transformation of Capgemini's business landscape with our AWS Training. Her proficiency in AWS solutions played a pivotal role in reshaping processes for increased efficiency and innovation.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 22: Future-Ready Professional
+                                                        </a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Discover the story of Oviya, a future-ready professional who equipped herself with the skills needed for the ever-evolving tech landscape through our AWS Training. Her adaptability and expertise positioned her as a forward-thinking leader in the industry.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html">Success Story 23: Innovating Tomorrow
+                                                        </a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Celebrate the journey of Mohammed Raj, who is not just succeeding today but innovating for tomorrow with our AWS Training. His story exemplifies how our program empowers individuals not only with current knowledge but also with the ability to shape the future of technology.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 24: Architect of Efficiency
+                                                        </a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Witness the story of Shalim, who became the architect of efficiency with our AWS Training in Chennai. His ability to design and implement streamlined AWS solutions contributed to a remarkable improvement in processes at Cognizant.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html">Success Story 25: Cloud Pioneer
+                                                        </a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Become acquainted with Kishnan, a true cloud pioneer who embraced AWS expertise through our training. His journey from novice to pioneer exemplifies the transformative impact of our program on individuals seeking to lead in the cloud era.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu-card card-type-1 radius-small service-card-3">
+                                            <div class="inner">
+                                                <div class="content ">
+                                                    <h4 class="title-inner">
+                                                        <a href="course-details.html"> Success Story 26: Tech Trailblazer
+                                                        </a>
+                                                        <hr />
+                                                    </h4>
+                                                    <p>Meet Kajal, a tech trailblazer who blazed a path of success with our AWS Training. Her ability to leverage AWS solutions not only transformed cognizant's operations but also set new standards for tech innovation.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsw" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsw" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="edu-workshop-area eduvibe-home-three-one-video workshop-style-1 edu-section-gap bg-image">
+                    <div class="container eduvibe-animated-shape">
+                        <div class="workshop-inner text-center">
+                            <div class="section-title  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <h3 class="title mb-2 text-white">Your Journey Starts Here</h3>
+                                <p className='description mt-0 text-center '>These success stories are just a glimpse of what awaits you at Aimore Technologies. Our AWS Training and Placement program is designed to empower individuals with the skills, knowledge, and confidence needed to thrive in the competitive landscape of cloud computing.
+                                    When you enroll with us, you're not just joining a program; you're joining a community committed to your success. Our experienced trainers, hands-on labs, and personalized guidance are here to shape your journey, from novice to AWS professional.
+                                    Modes Of Training
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="row gy-lg-0 gy-5 row--60  section-title">
+
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card edu-winner-card-left">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h4 className='title-inner'>Offline / Classroom Training</h4>
+
+                                            <ul className='list-unstyled'>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> Immerse yourself in a customized learning experience featuring direct interaction with our expert trainers.</li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> Clarify doubts instantly, </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> Enjoy premium learning environments with well-equipped classrooms and labs, </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> Participate in Codeathon practices </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> Receive direct aptitude training </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i>  Enhance interview skills </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i>   Engage in panel mock interviews </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i>   Benefit from campus drives </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i>    All are supported by our commitment to ensuring 100% placement support. Your journey to success begins with personalized excellence. </li>
+
+                                            </ul>
+                                            <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"><a class="edu-btn" href="/contact-us">Explore Now<i class="icon-arrow-right-line-right"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card edu-winner-card-left">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h4 className='title-inner'>Corporate Training</h4>
+                                            <ul className='list-unstyled'>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i>Blended Delivery model (both Online and Offline as per Clients’ requirements) </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> Industry-endorsed Skilled Faculties</li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> Flexible Pricing Options </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> Customized Syllabus </li>
+
+
+                                            </ul>
+                                            <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"><a class="edu-btn" href="/contact-us">Explore Now<i class="icon-arrow-right-line-right"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div class="edu-winner-card edu-winner-card-left">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <h4 className='title-inner'>Online Live Training</h4>
+                                            <ul className='list-unstyled'>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i>Instructor Led Live Training! </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> No Recorded Sessions</li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> Live Virtual Interaction with the Trainer </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> Clarify doubts then and there virtually </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> Live Virtual Interview Skills Training </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i> Live Virtual Aptitude Training </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i>   Online Panel Mock Interviews </li>
+                                                <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i>   100% Placement Support </li>
+
+                                            </ul>
+                                            <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"><a class="edu-btn" href="/contact-us">Explore Now<i class="icon-arrow-right-line-right"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container py-5">
+                    <div class="row py-5">
+                        <div class="col-md-12 section-title">
+                            <h3 class="text-center title">Frequently Asked Questions - AWS Training in Chennai by Aimore</h3>
+                            <div class="row py-5">
+                                <div class="col-md-6">
+                                    <div class="accordion-style-1">
+                                        <div class="edu-accordion edu-accordion-02 sal-animate" id="accordionExample1" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headinga">
+                                                    <button class="edu-accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapsea" aria-expanded="false" aria-controls="collapsea">
+                                                        What is AWS, and why is it important <br />for my career?  </button>
+                                                </div>
+                                                <div id="collapsea" class="accordion-collapse collapse" aria-labelledby="headinga" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body section-title">
+                                                        <p>Amazon Web Services (AWS) is the leading cloud computing platform, offering a wide range of services that power businesses worldwide. AWS skills are highly sought after, and organizations are increasingly shifting to the cloud. By training in AWS, you open doors to exciting career opportunities in the rapidly growing cloud industry.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headingb">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseb" aria-expanded="false" aria-controls="collapseb">
+                                                        Why should I choose Aimore for AWS training in Chennai? </button>
+                                                </div>
+                                                <div id="collapseb" class="accordion-collapse collapse" aria-labelledby="headingb" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        <p>Aimore stands out for its expert instructors, comprehensive curriculum, hands-on learning, flexibility, and commitment to student success. Our training is tailored to your needs, preparing you for AWS certification and real-world applications. We have a strong reputation in Chennai and a track record of producing successful AWS professionals.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headingc">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsec" aria-expanded="false" aria-controls="collapsec">
+                                                        Is prior experience required to enroll in the AWS training program? </button>
+                                                </div>
+                                                <div id="collapsec" class="accordion-collapse collapse" aria-labelledby="headingc" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        <p>No, prior experience is not necessary. Our AWS training in chennai is designed to accommodate both beginners and those with some knowledge of AWS. We offer personalized learning experiences to meet the needs of learners at various levels.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headingd">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsed" aria-expanded="false" aria-controls="collapsed">
+                                                        What is the duration of the AWS training program? </button>
+                                                </div>
+                                                <div id="collapsed" class="accordion-collapse collapse" aria-labelledby="headingd" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        <p>The duration of the AWS training in chennai may vary based on the specific course and your learning pace. The duration typically spans from a few weeks to several months. We offer both fast-track and regular-paced courses to accommodate different schedules.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headingi">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsei" aria-expanded="false" aria-controls="collapsei">
+                                                        What career support does Aimore offer after completing the AWS training in chennai? </button>
+                                                </div>
+                                                <div id="collapsei" class="accordion-collapse collapse" aria-labelledby="headingi" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        <p>Aimore offers career support services to help you start or advance your career in cloud computing. Our career counselors provide guidance on job opportunities, interview preparation, and resume building, ensuring you're well-equipped for the job market.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headingj">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsej" aria-expanded="false" aria-controls="collapsej">
+                                                        Is the cost of Aimore's AWS training program affordable? </button>
+                                                </div>
+                                                <div id="collapsej" class="accordion-collapse collapse" aria-labelledby="headingj" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        <p>Yes, we offer AWS training at a competitive and affordable price. We believe in making quality training accessible to all, without breaking the bank. Our pricing reflects this commitment.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headingk">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsek" aria-expanded="false" aria-controls="collapsek">
+                                                        Can I connect with fellow learners and industry professionals through Aimore's AWS community in Chennai? </button>
+                                                </div>
+                                                <div id="collapsek" class="accordion-collapse collapse" aria-labelledby="headingk" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        <p>Yes, you can. Aimore provides opportunities to network, collaborate, and learn from fellow learners and industry professionals. Our AWS community in Chennai is vibrant, fostering connections and knowledge-sharing.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="accordion-style-1">
+                                        <div class="edu-accordion edu-accordion-02 sal-animate" id="accordionExample2" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headinge">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsee" aria-expanded="false" aria-controls="collapsee">
+                                                        Are the training sessions available online, and can I attend in-person classes as well?</button>
+                                                </div>
+                                                <div id="collapsee" class="accordion-collapse collapse" aria-labelledby="headinge" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        <p>Certainly, we provide the flexibility of both online and in-person training options. You have the freedom to select the learning mode that aligns best with your schedule and personal preferences. Our online classes provide the flexibility to learn from anywhere, while in-person classes offer a traditional classroom experience.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headingf">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsef" aria-expanded="false" aria-controls="collapsef">
+                                                        What does the AWS training curriculum cover? </button>
+                                                </div>
+                                                <div id="collapsef" class="accordion-collapse collapse" aria-labelledby="headingf" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        Our AWS training curriculum covers a comprehensive range of AWS services, including architectural best practices, security, scalability, and much more. You'll gain a deep understanding of AWS, preparing you for certification exams and real-world scenarios.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headingg">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseg" aria-expanded="false" aria-controls="collapseg">
+                                                        How will Aimore help me prepare for AWS certification exams? </button>
+                                                </div>
+                                                <div id="collapseg" class="accordion-collapse collapse" aria-labelledby="headingg" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        <p>We provide exam-specific training, practice tests, and expert guidance to ensure you're well-prepared for AWS certification exams. Our instructors will walk you through the exam process, discuss strategies, and offer resources to boost your confidence.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headingh">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseh" aria-expanded="false" aria-controls="collapseh">
+                                                        Do I get hands-on experience with AWS during the training? </button>
+                                                </div>
+                                                <div id="collapseh" class="accordion-collapse collapse" aria-labelledby="headingh" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        <p>Absolutely. Aimore believes in learning by doing. You'll have access to AWS labs and real-world projects as part of your training. This hands-on experience is essential for gaining practical skills that you can apply in your future career.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headingL">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseL" aria-expanded="false" aria-controls="collapseL">
+                                                        What distinguishes Aimore as the premier AWS training institute in Chennai? </button>
+                                                </div>
+                                                <div id="collapseL" class="accordion-collapse collapse" aria-labelledby="headingL" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        <p>Our commitment to excellence, continuous learning, sustainability, and our dedication to student success set us apart. We have a track record of producing successful AWS professionals who are well-equipped for the industry.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headingM">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseM" aria-expanded="false" aria-controls="collapseM">
+                                                        How can I access learning resources and support while enrolled in the training program? </button>
+                                                </div>
+                                                <div id="collapseM" class="accordion-collapse collapse" aria-labelledby="headingM" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        <p>Aimore offers access to a wide range of learning resources, including study materials, practice exams, and an online community. These resources are essential for reinforcing your learning and preparing for certification.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="edu-accordion-item">
+                                                <div class="edu-accordion-header" id="headingN">
+                                                    <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseN" aria-expanded="false" aria-controls="collapseN">
+                                                        Are AWS skills future-proof? </button>
+                                                </div>
+                                                <div id="collapseN" class="accordion-collapse collapse" aria-labelledby="headingN" data-bs-parent="#accordionExample1">
+                                                    <div class="edu-accordion-body">
+                                                        <p>AWS skills are highly relevant today and are expected to remain in high demand. The cloud computing industry is constantly evolving, making AWS skills a smart investment in your career.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
