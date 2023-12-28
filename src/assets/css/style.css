@@ -1638,7 +1638,7 @@ textarea:-ms-input-placeholder {
     .edu-section-gap {
       padding: 80px 0 !important; } }
   .edu-section-gap.slider-dots {
-    padding: 130px 0 205px !important; }
+    padding: 60px 0 205px !important; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .edu-section-gap.slider-dots {
         padding: 80px 0 130px !important; } }

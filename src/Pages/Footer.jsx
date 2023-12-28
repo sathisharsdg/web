@@ -7,7 +7,7 @@ function Footer() {
                 <div class="footer-top">
                     <div class="container eduvibe-animated-shape">
                         <div class="row g-5">
-                            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="edu-footer-widget">
                                     <div class="logo">
                                         <a href="index.html">
@@ -24,7 +24,7 @@ function Footer() {
                                 </div>
                             </div>
 
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div class="edu-footer-widget explore-widget">
                                     <h5 class="widget-title">Explore</h5>
                                     <div class="inner">
@@ -45,7 +45,7 @@ function Footer() {
 
 
 
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div class="edu-footer-widget">
                                     <h5 class="widget-title">Contact Us</h5>
 
@@ -69,13 +69,7 @@ function Footer() {
 (Old Mahabalipuram Road),Karapakkam(N198),<br/>
 Chennai, Tamil Nadu - 600097
                                             </h4>
-                                            {/* <ul class="information-list">
-                                                <li>275 Quadra Street Victoria Road, New York
-                                                </li>
-                                                <li><i class="icon-phone-fill"></i><a href="tel:+1(237)382-2839">+ 1 (237) 382-2839</a></li>
-                                                <li><i class="icon-phone-fill"></i><a href="tel:+1(237)382-2840">+ 1 (237) 382-2840</a></li>
-                                                <li><i class="icon-mail-line-2"></i><a target="_blank" href="mailto:yourmailaddress@example.com">yourmailaddress@example.com</a></li>
-                                            </ul> */}
+                                           
                                         </div>
                                     </div>
                                 </div>
