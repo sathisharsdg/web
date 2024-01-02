@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 import amazonbanner from "../assets/images/banner/banner-01/new-amazon.jpg"
@@ -6,15 +6,31 @@ import amozoncloud from "../assets/images/banner/banner-01/amazon-cloud-services
 import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg"
 import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif"
 import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg"
+
 function Aws() {
+    const [schemas,setSchemas] = useState([]);
+    const loadSchema = ()=>{
+        const script = document.createElement("script");
+        script.src = "https://aimoretech.com/schemafiles/scriptsaws.js";
+        script.async = true;    
+         
+        console.log(document.body.appendChild(script));       
+    }
+    useEffect(()=>{
+       
+       loadSchema();
+    },[])
+ 
     return (
 
         <div>
+
             <div>
                 <Helmet>
                     <title>Aws Training in Chennai | Aimore Technology</title>
                     <meta name="description" content="Aimore Technology offers Aws Training in Chennai with Guaranteed Placement. Elevate your skills with hands-on. ✔️ Online Classes ✔️ certification ✔️ 40 Hrs ✔️. Live projects ✔️Job Guaranteed." />
                     <meta name="keywords" content="Aws Training in Chennai,  Aws Course in Chennai, Aws Training institute in Chennai " />
+                     
                 </Helmet>
                 <div className="edu-breadcrumb-area breadcrumb-style-1 ptb--60 ptb_md--40 ptb_sm--40 bg-image">
                     <div className="container eduvibe-animated-shape">

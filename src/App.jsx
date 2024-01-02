@@ -10,7 +10,6 @@ import Python from './Pages/Python'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Footer from './Pages/Footer'
-
 function App() {
     return (
         <div>
@@ -30,6 +29,8 @@ function App() {
                     <Route  path='/selenium-training-in-chennai/' element={<Selenium/>}></Route>
                     <Route  path='/aws-training-in-chennai/' element={<Aws/>}></Route>
                     <Route  path='/python-training-in-chennai/' element={<Python/>}></Route>
+                    
+
 
                 </Routes>
           </div>
