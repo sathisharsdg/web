@@ -11,13 +11,11 @@ function Aws() {
     const [schemas,setSchemas] = useState([]);
     const loadSchema = ()=>{
         const script = document.createElement("script");
-        script.src = "https://aimoretech.com/schemafiles/scriptsaws.js";
+        script.src = "https://aimoretech.com/schemafiles/scriptsaws.json";
         script.async = true;    
-         
         console.log(document.body.appendChild(script));       
     }
     useEffect(()=>{
-       
        loadSchema();
     },[])
  
