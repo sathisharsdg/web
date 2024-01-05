@@ -17,9 +17,10 @@ function Footer() {
                                     <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
                                     <ul class="social-share">
                                         <li><a href="https://www.facebook.com/aimoretechnologies/"><i class="icon-Fb"></i></a></li>
-                                        <li><a href="#"><i class="icon-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="icon-Pinterest"></i></a></li>
-                                        <li><a href="#"><i class="icon-Twitter"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/aimore-technologies-78237b179/?originalSubdomain=in"><i class="icon-linkedin"></i></a></li>                                          
+                                        <li><a href="https://www.youtube.com/channel/UC1xJg649I7UOr1WW669Sb7A"><i class="ri-youtube-line"></i></a></li>
+                                        <li><a href="https://api.whatsapp.com/send?phone=919176333334"><i class="ri-whatsapp-line"></i></a></li>
+                                        <li><a href="https://www.instagram.com/aimoretechnologies/"><i class="ri-instagram-line"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

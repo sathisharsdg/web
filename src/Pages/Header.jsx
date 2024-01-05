@@ -37,7 +37,6 @@ function Header() {
         closeSidebar();
       }
      
-     
 
  
     return (
@@ -66,6 +65,7 @@ function Header() {
                                     <li><Link to="/selenium-training-in-chennai/">Selenium Training</Link></li>
                                     <li><Link to="/aws-training-in-chennai/">Aws Training</Link></li>
                                     <li><Link to="/python-training-in-chennai/">Python Training</Link></li>
+                                    <li><Link to="/best-software-training-in-chennai/">Best Software Training</Link></li>
                                
                                 </ul>
                             </li>
@@ -127,6 +127,7 @@ function Header() {
                                     <li><Link to="/aws-training-in-chennai/" onClick={closeMobile}>Aws Training</Link></li>
                                     
                                     <li><a href="#" onClick={closeMobile}>Python Training</a></li>
+                                    <li><a href="#" onClick={closeMobile}>Best Software Training</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Contact</a>                         

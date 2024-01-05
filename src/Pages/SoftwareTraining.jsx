@@ -8,7 +8,7 @@ import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg
 import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif"
 import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg"
 
-function Python() {
+function SoftwareTraining() {
     const [schemas,setSchemas] = useState([]);
     const loadSchema = ()=>{
         const script = document.createElement("script");
@@ -2493,4 +2493,4 @@ function Python() {
     )
 }
 
-export default Python
+export default SoftwareTraining

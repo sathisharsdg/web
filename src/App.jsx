@@ -29,6 +29,7 @@ function App() {
                     <Route  path='/selenium-training-in-chennai/' element={<Selenium/>}></Route>
                     <Route  path='/aws-training-in-chennai/' element={<Aws/>}></Route>
                     <Route  path='/python-training-in-chennai/' element={<Python/>}></Route>
+                    <Route  path='/best-software-training-in-chennai/' element={<Python/>}></Route>
                     
 
 

@@ -6142,7 +6142,7 @@ background-position: top;}
           .mainmenu-nav .mainmenu li.has-droupdown > a::after {
             right: 0px; } }
     .mainmenu-nav .mainmenu li.has-droupdown .submenu {
-      min-width: 210px;
+      min-width: 250px;
       height: auto;
       position: absolute;
       top: 90%;
