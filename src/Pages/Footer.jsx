@@ -33,7 +33,6 @@ function Footer() {
                                             <li> <Link to='/about-us'> <i class="icon-Double-arrow"></i>About Us</Link></li>
                                             <li> <Link to='/contact-us'> <i class="icon-Double-arrow"></i>Contact Us</Link></li>
                                             <li>  <Link to='/power-bi-training-in-chennai/'><i class="icon-Double-arrow"></i>Power BI Training</Link></li>
-                                            <li> <Link to='/snowflake-training-in-chennai/'><i class="icon-Double-arrow"></i>Snowflake Training</Link></li>
                                             <li> <Link to='/selenium-training-in-chennai/'><i class="icon-Double-arrow"></i>Selenium Training</Link></li>
                                             <li>   <Link to='/aws-training-in-chennai/' ><i class="icon-Double-arrow"></i>AWS Training</Link></li>
                                             <li><Link to='/python-training-in-chennai/'><i class="icon-Double-arrow"></i>Python Training</Link></li>

@@ -61,7 +61,7 @@ function Header() {
                             <li class="has-droupdown"><a href="#">Courses</a>
                                 <ul class="submenu">
                                     <li><Link to="/power-bi-training-in-chennai/">Power BI Training</Link></li>
-                                    <li><Link to="/snowflake-training-in-chennai/">Snow Flake Training</Link></li>
+                                    
                                     <li><Link to="/selenium-training-in-chennai/">Selenium Training</Link></li>
                                     <li><Link to="/aws-training-in-chennai/">Aws Training</Link></li>
                                     <li><Link to="/python-training-in-chennai/">Python Training</Link></li>
