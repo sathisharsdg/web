@@ -11,6 +11,7 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Footer from './Pages/Footer'
 import SoftwareTraining from './Pages/SoftwareTraining'
+
 function App() {
     return (
         <div>
@@ -31,6 +32,7 @@ function App() {
                     <Route  path='/aws-training-in-chennai/' element={<Aws/>}></Route>
                     <Route  path='/python-training-in-chennai/' element={<Python/>}></Route>
                     <Route  path='/best-software-training-in-chennai/' element={<SoftwareTraining/>}></Route>
+                  
                     
 
 
