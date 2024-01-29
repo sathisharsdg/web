@@ -36,6 +36,7 @@ function Footer() {
                                             <li> <Link to='/selenium-training-in-chennai/'><i class="icon-Double-arrow"></i>Selenium Training</Link></li>
                                             <li>   <Link to='/aws-training-in-chennai/' ><i class="icon-Double-arrow"></i>AWS Training</Link></li>
                                             <li><Link to='/python-training-in-chennai/'><i class="icon-Double-arrow"></i>Python Training</Link></li>
+                                            <li><Link to="/best-software-training-institute-in-chennai/"><i class="icon-Double-arrow"></i> Best Software Training</Link></li>
 
 
                                         </ul>
