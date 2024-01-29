@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 function Contact() {
   const form = useRef()
   const [urls, setUrls] = useState("")  
-  console.log(urls);
+  const [message, setMessage] = useState("");
   useEffect(()=>{
     setUrls(window.location.href)
   },[])
@@ -14,13 +14,16 @@ function Contact() {
    
     emailjs.sendForm('service_m2qphau', 'template_fuxwcph', form.current, 'R1muJOWgzl2ngf6ye')
       .then((result) => {
-         
+        setMessage("Form Submitted Successfully..")
+       
           console.log(result.text);
           
       }, (error) => {
+        setMessage("Something went wrong..")
           console.log(error.text);
       });
       form.current.reset();
+     
   };
   return (
     <div>
@@ -267,6 +270,7 @@ function Contact() {
                         <button type='submit' className='btn btn-primary rn-btn edu-btn w-100'>SUBMIT</button>
                     </div>
                </form>
+               <h4>{message}</h4>
             </div>
           </div>
 

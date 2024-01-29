@@ -65,7 +65,7 @@ function Header() {
                                     <li><Link to="/selenium-training-in-chennai/">Selenium Training</Link></li>
                                     <li><Link to="/aws-training-in-chennai/">Aws Training</Link></li>
                                     <li><Link to="/python-training-in-chennai/">Python Training</Link></li>
-                                    <li><Link to="/best-software-training-in-chennai/">Best Software Training</Link></li>
+                                    <li><Link to="/best-software-training-institute-in-chennai/">Best Software Training</Link></li>
                                
                                 </ul>
                             </li>
