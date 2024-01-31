@@ -2,6 +2,7 @@ import React from 'react'
 import $ from 'jquery'
 import { Helmet } from 'react-helmet'
 import Header from './Header'
+import Video from './Video'
 function Home() {
     return (
         <div>

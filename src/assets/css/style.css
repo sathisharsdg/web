@@ -6161,7 +6161,7 @@ background-position: top;}
         .mainmenu-nav .mainmenu li.has-droupdown .submenu li a {
           font-size: 16px;
           font-weight: 600;
-          padding: 3px 20px;
+          padding: 3px 15px;
           display: block;
           color: var(--color-heading);
           margin: 0 10px; }
@@ -11084,9 +11084,9 @@ button.edu-btn {
     .social-share li a {
       background: rgba(255, 255, 255, 0.1);
       border-radius: 4px;
-      width: 50px;
-      height: 50px;
-      line-height: 55px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
       display: inline-block;
       font-size: 18px;
       color: var(--color-white);
@@ -12774,7 +12774,7 @@ Gallery Item
   background: #FFFFFF;
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
-  padding: 5px 15px;
+  padding: 3px 15px;
   text-align: left;
   transition: 0.4s; }
   .contact-address-card-1 .inner .icon {
