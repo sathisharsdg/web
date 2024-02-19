@@ -3,6 +3,8 @@ import $ from 'jquery'
 import { Helmet } from 'react-helmet'
 import Header from './Header'
 import Video from './Video'
+import homeMainbanner from "../assets/images/home-banner.png"
+import { Link } from 'react-router-dom'
 function Home() {
     return (
         <div>
@@ -13,10 +15,13 @@ function Home() {
                 <div class="wrapper d-flex align-items-center">
                 <div class="container eduvibe-animated-shape content">
                    <div className="row">
-                      <div className="col-md-6">
+                      <div className="col-md-7">
                          <h1 className='title'>Software Training Institute In Chennai</h1>
                          <p>Best Software Training Institute In Chennai. We Offer The Best Training For Courses Like AWS, Data Science, Selenium, Python, Web Development, Azure DevOps, Cloud Computing, Artificial Intelligence, Machine Learning, Power BI, And More</p>
-                         <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"><a class="edu-btn" href="/">Know About Us <i class="icon-arrow-right-line-right"></i></a></div>
+                         <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"><Link class="edu-btn" to="/contact-us">Enroll Now <i class="icon-arrow-right-line-right"></i></Link></div>
+                      </div>
+                      <div className="col-md-5">
+                         <img src={homeMainbanner} alt="home" className='img-fluid'/>
                       </div>
                    </div>
                   

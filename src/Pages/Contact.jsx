@@ -14,8 +14,7 @@ function Contact() {
    
     emailjs.sendForm('service_m2qphau', 'template_fuxwcph', form.current, 'R1muJOWgzl2ngf6ye')
       .then((result) => {
-        setMessage("Form Submitted Successfully..")
-       
+        setMessage("Form Submitted Successfully..")       
           console.log(result.text);
           
       }, (error) => {
@@ -247,6 +246,7 @@ function Contact() {
             </div>
 
             <div class="col-lg-5">
+              <h1 className='title py-3'>Fill up the details</h1>
                <form onSubmit={sendEmail} ref={form} className='rnt-contact-form rwt-dynamic-form row'>
                     <div className='form-group'>
                         <input type="text" name='contact_name' placeholder='Enter Name' className='form-control'/>

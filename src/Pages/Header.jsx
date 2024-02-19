@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import "../App.css";
 import { Link } from 'react-router-dom';
+import Popupform from '../Components/Popupform';
 
 function Header() {
     useEffect(() => {
@@ -81,7 +82,7 @@ function Header() {
                         <div class="header-menu-bar">
 
                             <div class="quote-icon quote-user d-none d-md-block ml--15">
-                            <Link to="contact-us" class="edu-btn btn-medium left-icon btn-white"><i class="ri-user-line"></i> Quick Contact</Link> 
+                            <Link to="contact-us" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="edu-btn btn-medium left-icon btn-white"><i class="ri-user-line"></i> Quick Contact</Link> 
                                 
                             </div>
 
@@ -134,6 +135,27 @@ function Header() {
                         </ul>
             </div>
         </div>
+
+           {/* Common-diallog */}
+          <div>
+          
+ 
+
+ 
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <Popupform/>
+      </div>
+  
+    </div>
+  </div>
+</div>
+          </div>
  
         </div>
     )
