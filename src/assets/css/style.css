@@ -14781,7 +14781,7 @@ Gallery Item
   background-image: url(../images/bg/home-five-banner.jpg); 
 }
   .banner-style-5 .wrapper {
-    height: 860px; 
+    height: 600px; 
  
   }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
