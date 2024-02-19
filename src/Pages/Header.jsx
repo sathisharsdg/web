@@ -114,23 +114,22 @@ function Header() {
                     </div>
                 </div>
                 <ul class="mainmenu">
-                            <li><a href="#" onClick={closeMobile}>Home</a>                         
+                            <li> <Link to="/" onClick={closeMobile}>Home</Link>                      
                             </li>
-                            <li><a href="#" onClick={closeMobile}>About Us</a>                         
+                            <li><Link to="/about-us/" onClick={closeMobile}>About Us</Link>                       
                             </li>
                             <li class="has-droupdown" onClick={showSubmenu}>
                                 <a href="#">Coursers</a>
                                 <ul class="submenu">
-                                    <li><a href="#" onClick={closeMobile}>Power BI Training</a></li>
-                                    <li><a href="#" onClick={closeMobile}>Snow Flake Training</a></li>
-                                    <li><a href="#" onClick={closeMobile}>Selenium Training</a></li>
-                                    <li><Link to="/aws-training-in-chennai/" onClick={closeMobile}>Aws Training</Link></li>
-                                    
-                                    <li><a href="#" onClick={closeMobile}>Python Training</a></li>
-                                    <li><a href="#" onClick={closeMobile}>Best Software Training</a></li>
+                                    <li><Link to="/power-bi-training-in-chennai/" onClick={closeMobile}>Power BI Training</Link></li>
+                                    <li><Link to="/snowflake-training-in-chennai/" onClick={closeMobile}>Snow Flake Training</Link></li>
+                                    <li><Link to="/selenium-training-in-chennai/" onClick={closeMobile}>Selenium Training</Link></li>
+                                    <li><Link to="/aws-training-in-chennai/" onClick={closeMobile}>Aws Training</Link></li>                                    
+                                    <li><Link to="/python-training-in-chennai/" onClick={closeMobile}>Python Training</Link></li>
+                                    <li><Link to="/best-software-training-institute-in-chennai/" onClick={closeMobile}>Best Software Training</Link></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Contact</a>                         
+                            <li> <Link to="/contact-us/" onClick={closeMobile}>Contact</Link>                   
                             </li>
                         </ul>
             </div>

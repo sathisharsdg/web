@@ -7,7 +7,7 @@ import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg
 import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
 import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg";
 
-function Aws() {
+function Selenium() {
   const [schemas, setSchemas] = useState([]);
   const loadSchema = () => {
     const script = document.createElement("script");
@@ -674,7 +674,11 @@ function Aws() {
                       </h1>
                       <h3 class="title">Browser Automation</h3>
                       <p>
-                      Selenium interacts with web browsers by using browser-specific driver executables. These drivers interpret the Selenium commands and perform actions on the browser.                      </p>
+                        Selenium interacts with web browsers by using
+                        browser-specific driver executables. These drivers
+                        interpret the Selenium commands and perform actions on
+                        the browser.{" "}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -693,8 +697,10 @@ function Aws() {
                       </h1>
                       <h3 class="title">Locating Web Elements</h3>
                       <p>
-                      Selenium provides various methods to locate web elements on a page, such as by ID, name, XPath, CSS selector, and more. This allows testers to interact with specific elements like buttons, input fields, and links.
-
+                        Selenium provides various methods to locate web elements
+                        on a page, such as by ID, name, XPath, CSS selector, and
+                        more. This allows testers to interact with specific
+                        elements like buttons, input fields, and links.
                       </p>
                     </div>
                   </div>
@@ -714,7 +720,9 @@ function Aws() {
                       </h1>
                       <h3 class="title">Executing Actions</h3>
                       <p>
-                      Testers can perform actions like clicking buttons, filling forms, navigating between pages, and handling alerts using Selenium commands.
+                        Testers can perform actions like clicking buttons,
+                        filling forms, navigating between pages, and handling
+                        alerts using Selenium commands.
                       </p>
                     </div>
                   </div>
@@ -734,7 +742,10 @@ function Aws() {
                       </h1>
                       <h3 class="title">Verifying Results</h3>
                       <p>
-                      Selenium allows the verification of expected outcomes by comparing actual results with expected values. Assertions and verification points ensure the correctness of the application under test.
+                        Selenium allows the verification of expected outcomes by
+                        comparing actual results with expected values.
+                        Assertions and verification points ensure the
+                        correctness of the application under test.
                       </p>
                     </div>
                   </div>
@@ -754,7 +765,10 @@ function Aws() {
                       </h1>
                       <h3 class="title">Integration with Test Frameworks</h3>
                       <p>
-                      Selenium seamlessly integrates with popular testing frameworks like JUnit, TestNG, NUnit, and others, enabling the creation of structured and maintainable test suites.
+                        Selenium seamlessly integrates with popular testing
+                        frameworks like JUnit, TestNG, NUnit, and others,
+                        enabling the creation of structured and maintainable
+                        test suites.
                       </p>
                     </div>
                   </div>
@@ -797,7 +811,10 @@ function Aws() {
                     data-sal="slide-up"
                     data-sal-duration="800"
                   >
-                    Understand Testing Requirements: Collaborate with stakeholders, including developers and quality assurance (QA) teams, to comprehend testing requirements and acceptance criteria for software applications.
+                    Understand Testing Requirements: Collaborate with
+                    stakeholders, including developers and quality assurance
+                    (QA) teams, to comprehend testing requirements and
+                    acceptance criteria for software applications.
                   </p>
                   <p
                     className="description sal-animate"
@@ -805,7 +822,10 @@ function Aws() {
                     data-sal="slide-up"
                     data-sal-duration="800"
                   >
-                    Develop Test Plans: Create test plans outlining the scope, objectives, and approach for automated testing. Define test scenarios and identify the features or functionalities to be tested using Selenium.
+                    Develop Test Plans: Create test plans outlining the scope,
+                    objectives, and approach for automated testing. Define test
+                    scenarios and identify the features or functionalities to be
+                    tested using Selenium.
                   </p>
                   <p
                     className="description sal-animate"
@@ -813,7 +833,11 @@ function Aws() {
                     data-sal="slide-up"
                     data-sal-duration="800"
                   >
-                    Write Automated Test Scripts: Develop automated test scripts using Selenium WebDriver and relevant programming languages such as Java, Python, C#, or Ruby. Leverage Selenium's capabilities to interact with web elements and simulate user interactions.
+                    Write Automated Test Scripts: Develop automated test scripts
+                    using Selenium WebDriver and relevant programming languages
+                    such as Java, Python, C#, or Ruby. Leverage Selenium's
+                    capabilities to interact with web elements and simulate user
+                    interactions.
                   </p>
                   <p
                     className="description sal-animate"
@@ -821,7 +845,11 @@ function Aws() {
                     data-sal="slide-up"
                     data-sal-duration="800"
                   >
-                    Build Test Automation Frameworks: Design and implement test automation frameworks using Selenium. This includes defining the project structure, organizing test scripts, and incorporating best practices such as the Page Object Model (POM) for maintainability.
+                    Build Test Automation Frameworks: Design and implement test
+                    automation frameworks using Selenium. This includes defining
+                    the project structure, organizing test scripts, and
+                    incorporating best practices such as the Page Object Model
+                    (POM) for maintainability.
                   </p>
                   <p
                     className="description sal-animate"
@@ -829,7 +857,10 @@ function Aws() {
                     data-sal="slide-up"
                     data-sal-duration="800"
                   >
-                    Execute Automated Tests: Run automated test scripts to perform functional, regression, and integration testing. Ensure that test scenarios cover a broad range of use cases and validate the expected behavior of the application.
+                    Execute Automated Tests: Run automated test scripts to
+                    perform functional, regression, and integration testing.
+                    Ensure that test scenarios cover a broad range of use cases
+                    and validate the expected behavior of the application.
                   </p>
                   <p
                     className="description sal-animate"
@@ -837,7 +868,10 @@ function Aws() {
                     data-sal="slide-up"
                     data-sal-duration="800"
                   >
-                   Identify and Resolve Issues: Debug and troubleshoot automated test scripts to identify issues and defects. Collaborate with developers to address problems related to application behavior or script execution.
+                    Identify and Resolve Issues: Debug and troubleshoot
+                    automated test scripts to identify issues and defects.
+                    Collaborate with developers to address problems related to
+                    application behavior or script execution.
                   </p>
                   <p
                     className="description sal-animate"
@@ -845,23 +879,10 @@ function Aws() {
                     data-sal="slide-up"
                     data-sal-duration="800"
                   >
-                   Create and Manage Test Data: Generate or acquire test data necessary for test scenarios. Ensure that test data is representative of real-world scenarios and covers various input conditions.
-                   </p>
-                  <p
-                    className="description sal-animate"
-                    data-sal-delay="250"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                  >
-                    Integrate with CI/CD Pipelines: Integrate automated tests into CI/CD pipelines using tools like Jenkins or GitLab CI. Automate test execution seamlessly as an integral part of the build and deployment process.                  
-                   </p>
-                  <p
-                    className="description sal-animate"
-                    data-sal-delay="250"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                  >
-Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate that the application functions correctly on different web browsers. Use Selenium's capabilities to run tests across popular browsers like Chrome, Firefox, Safari, and Internet Explorer.                  
+                    Create and Manage Test Data: Generate or acquire test data
+                    necessary for test scenarios. Ensure that test data is
+                    representative of real-world scenarios and covers various
+                    input conditions.
                   </p>
                   <p
                     className="description sal-animate"
@@ -869,39 +890,89 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                     data-sal="slide-up"
                     data-sal-duration="800"
                   >
-                   Collaborate with Performance Testers: Coordinate with performance testing teams to integrate automated tests with performance testing efforts. Ensure that automated tests contribute to overall application performance assessment.                  
-                   </p>
-                   <p
-                   className="description sal-animate"
-                   data-sal-delay="250"
-                   data-sal="slide-up"
-                   data-sal-duration="800"
-                   >Generate Test Reports: Create detailed test reports that provide insights into test results, including pass/fail status, test coverage, and any defects identified. Use reporting tools or frameworks to enhance visibility.</p>
-                   <p
-                   className="description sal-animate"
-                   data-sal-delay="250"
-                   data-sal="slide-up"
-                   data-sal-duration="800"
-                   >Maintain Test Scripts: Regularly update and maintain automated test scripts to adapt to changes in the application under test. Address any script-related issues arising from application updates or modifications.</p>
-                   <p
-                   className="description sal-animate"
-                   data-sal-delay="250"
-                   data-sal="slide-up"
-                   data-sal-duration="800"
-                   >Collaborate with Teams: Work closely with developers, product owners, and other stakeholders to understand new features, changes, and updates. Communicate effectively to ensure alignment on testing objectives.</p>
-                   <p
-                   className="description sal-animate"
-                   data-sal-delay="250"
-                   data-sal="slide-up"
-                   data-sal-duration="800"
-                   >Document Test Cases: Document test cases, test scenarios, and test results for future reference. Create comprehensive documentation to facilitate knowledge sharing and onboarding of new team members.</p>
-                   <p
-                   className="description sal-animate"
-                   data-sal-delay="250"
-                   data-sal="slide-up"
-                   data-sal-duration="800"
-                   >Continuous Learning: Stay abreast of industry trends, updates to Selenium, and advancements in test automation. Participate in training programs, webinars, and communities to enhance skills and knowledge.</p>
-
+                    Integrate with CI/CD Pipelines: Integrate automated tests
+                    into CI/CD pipelines using tools like Jenkins or GitLab CI.
+                    Automate test execution seamlessly as an integral part of
+                    the build and deployment process.
+                  </p>
+                  <p
+                    className="description sal-animate"
+                    data-sal-delay="250"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                    Ensure Cross-Browser Compatibility: Conduct cross-browser
+                    testing to validate that the application functions correctly
+                    on different web browsers. Use Selenium's capabilities to
+                    run tests across popular browsers like Chrome, Firefox,
+                    Safari, and Internet Explorer.
+                  </p>
+                  <p
+                    className="description sal-animate"
+                    data-sal-delay="250"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                    Collaborate with Performance Testers: Coordinate with
+                    performance testing teams to integrate automated tests with
+                    performance testing efforts. Ensure that automated tests
+                    contribute to overall application performance assessment.
+                  </p>
+                  <p
+                    className="description sal-animate"
+                    data-sal-delay="250"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                    Generate Test Reports: Create detailed test reports that
+                    provide insights into test results, including pass/fail
+                    status, test coverage, and any defects identified. Use
+                    reporting tools or frameworks to enhance visibility.
+                  </p>
+                  <p
+                    className="description sal-animate"
+                    data-sal-delay="250"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                    Maintain Test Scripts: Regularly update and maintain
+                    automated test scripts to adapt to changes in the
+                    application under test. Address any script-related issues
+                    arising from application updates or modifications.
+                  </p>
+                  <p
+                    className="description sal-animate"
+                    data-sal-delay="250"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                    Collaborate with Teams: Work closely with developers,
+                    product owners, and other stakeholders to understand new
+                    features, changes, and updates. Communicate effectively to
+                    ensure alignment on testing objectives.
+                  </p>
+                  <p
+                    className="description sal-animate"
+                    data-sal-delay="250"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                    Document Test Cases: Document test cases, test scenarios,
+                    and test results for future reference. Create comprehensive
+                    documentation to facilitate knowledge sharing and onboarding
+                    of new team members.
+                  </p>
+                  <p
+                    className="description sal-animate"
+                    data-sal-delay="250"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                    Continuous Learning: Stay abreast of industry trends,
+                    updates to Selenium, and advancements in test automation.
+                    Participate in training programs, webinars, and communities
+                    to enhance skills and knowledge.
+                  </p>
                 </div>
               </div>
               <div className="col-lg-5 order-1 order-lg-2">
@@ -922,40 +993,29 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
             <div className="row">
               <div className="col-md-6 mb-5">
                 <h2 className="title pb-3">
-                  Why Should You Choose Aimore for AWS Training In Chennai?
+                  Why Should You Choose Aimore for Selenium Training In Chennai?
                 </h2>
                 <p>
-                  Choosing AWS training in Chennai offers a compelling blend of
-                  a thriving IT ecosystem, quality training institutes, and
-                  abundant career opportunities. Chennai stands as a significant
-                  hub for the IT industry, hosting a multitude of IT companies,
-                  startups, and enterprises that actively seek professionals
-                  proficient in cloud computing. The city boasts several
-                  reputable training institutes with experienced instructors,
-                  up-to-date course materials, and hands-on labs, ensuring
-                  participants gain practical skills and knowledge. With
-                  Chennai's lower cost of living compared to some major cities,
-                  individuals can invest in their training without compromising
-                  on quality.
+                  Choosing Aimore for Selenium training in Chennai comes with
+                  several compelling reasons that make it a preferred and
+                  distinguished choice for individuals aspiring to master
+                  Selenium and advance their careers in software testing and
+                  automation. Aimore's commitment to staying current with
+                  industry trends is reflected in the regularly updated
+                  curriculum. The training content evolves in tandem with the
+                  dynamic landscape of Selenium and test automation, ensuring
+                  that participants are equipped with the latest tools and
+                  techniques used in the industry.
                 </p>
               </div>
               <div className="col-md-6 mb-5">
                 <p>
-                  Moreover, the city's diverse industries, spanning
-                  manufacturing, healthcare, finance, and more, make AWS skills
-                  highly applicable across sectors. Completing AWS training in
-                  Chennai not only enhances one's career prospects in the local
-                  job market but also provides access to networking
-                  opportunities with industry experts and professionals. The IT
-                  community in Chennai frequently organizes meetups, workshops,
-                  and conferences related to cloud computing, allowing
-                  participants to connect with potential employers and
-                  like-minded individuals. Some training programs may even offer
-                  job placement assistance or have affiliations with local
-                  companies, further facilitating career advancement. In
-                  essence, choosing AWS training in Chennai aligns with both the
-                  city's vibrant tech landscape and the broader demand for cloud
-                  computing expertise in today's competitive job market.
+                  Moreover, the learning experience at Aimore goes beyond the
+                  classroom. The institute fosters a supportive community where
+                  participants can collaborate, share experiences, and learn
+                  from one another. This collaborative approach enhances the
+                  overall learning journey and creates a conducive environment
+                  for skill development.
                 </p>
               </div>
             </div>
@@ -981,19 +1041,17 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Expertise That Matters
+                              Comprehensive Curriculum
                             </a>
                           </h4>
                           <p>
-                            Aimore boasts a team of seasoned professionals and
-                            AWS-certified experts who possess a wealth of
-                            experience in cloud computing. With their guidance,
-                            you'll receive training that is both comprehensive
-                            and practical. Our instructors bring real-world
-                            insights into the classroom, ensuring that you learn
-                            not just theory but how to apply it effectively in
-                            practical scenarios.
+                            Aimore offers a comprehensive and up-to-date
+                            curriculum that covers the entire spectrum of
+                            Selenium, from basics to advanced topics. The
+                            training program is meticulously designed to provide
+                            participants with a holistic understanding of
+                            Selenium WebDriver, automation frameworks, scripting
+                            languages, and best practices.
                           </p>
                         </div>
                       </div>
@@ -1010,20 +1068,17 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              A Tailored Learning Experience
+                              Experienced and Certified Trainers
                             </a>
                           </h4>
                           <p>
-                            Individual learners exhibit unique characteristics,
-                            and we acknowledge and appreciate this diversity..
-                            Aimore's AWS Training in Chennai offers a
-                            personalized learning experience. Whether you're a
-                            beginner or have some AWS knowledge, our AWS
-                            Training In Chennai is designed to accommodate your
-                            level. This tailored approach ensures that you
-                            receive the training you need, making your journey
-                            to AWS certification as smooth as possible.
+                            The training at Aimore is facilitated by experienced
+                            and industry-certified trainers who bring a wealth
+                            of practical knowledge to the classroom. These
+                            trainers not only impart theoretical concepts but
+                            also share real-world insights, ensuring that
+                            participants are well-prepared for the challenges of
+                            the industry.
                           </p>
                         </div>
                       </div>
@@ -1040,19 +1095,17 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              A Comprehensive Curriculum
+                              Hands-On Learning Experience
                             </a>
                           </h4>
                           <p>
-                            Our AWS Training In Chennai program covers the full
-                            spectrum of AWS services and concepts. You won't
-                            just learn the basics; you'll delve into advanced
-                            topics, including architectural best practices,
-                            security, scalability, and much more. By the end of
-                            the course, you'll have a holistic understanding of
-                            AWS that prepares you for the certification exam and
-                            real-world applications.
+                            Aimore places a strong emphasis on hands-on
+                            learning. Participants engage in practical
+                            exercises, case studies, and real-world projects to
+                            apply the concepts learned in the classroom. This
+                            hands-on approach ensures that participants develop
+                            practical skills that are crucial in real-world
+                            scenarios.
                           </p>
                         </div>
                       </div>
@@ -1072,17 +1125,18 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                             </a>
                           </div>
                           <h4 class="title-inner">
-                            <a href="course-details.html"> Hands-On Learning</a>
+                            <a href="course-details.html">
+                              {" "}
+                              Regular Curriculum Updates
+                            </a>
                           </h4>
                           <p>
-                            Learning by doing is the foundation of our AWS
-                            Training In Chennai approach. Aimore provides you
-                            with the opportunity to work with AWS hands-on.
-                            You'll have access to AWS labs and real-world
-                            projects, which are essential for understanding how
-                            to apply AWS services in practical settings. This
-                            practical exposure ensures you can confidently
-                            navigate real-world AWS challenges.
+                            The curriculum at Aimore is regularly updated to
+                            align with the latest industry trends and
+                            technological advancements in Selenium and test
+                            automation. This commitment to staying current
+                            ensures that participants are equipped with the most
+                            relevant and in-demand skills.
                           </p>
                         </div>
                       </div>
@@ -1099,18 +1153,16 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Exam Preparation Support
+                              Supportive Learning Community
                             </a>
                           </h4>
                           <p>
-                            Our commitment to your success extends to preparing
-                            you for AWS certification exams. Aimore provides
-                            exam-specific training, practice tests, and expert
-                            guidance to ensure you're ready to ace the
-                            certification exams. We'll walk you through the exam
-                            process, discuss strategies, and provide you with
-                            resources to bolster your confidence.
+                            Aimore fosters a supportive learning community where
+                            participants can collaborate, share experiences, and
+                            learn from each other. The interactive and
+                            collaborative nature of the training environment
+                            enhances the overall learning experience and creates
+                            a sense of camaraderie among participants.
                           </p>
                         </div>
                       </div>
@@ -1127,20 +1179,16 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Flexibility and Convenience
+                              Practical Orientation
                             </a>
                           </h4>
                           <p>
-                            We understand the demands of today's busy
-                            lifestyles. Aimore offers flexible training options,
-                            including both online and in-person classes. You
-                            have the flexibility to select the learning mode
-                            that aligns with your schedule and personal
-                            preferences. Whether you're a full-time professional
-                            or a student, our flexible options ensure you can
-                            accommodate AWS Training In Chennai without
-                            disrupting your life.
+                            The training program at Aimore is not just about
+                            theoretical knowledge. Participants gain practical
+                            exposure through hands-on labs, simulation
+                            exercises, and real-world projects. This practical
+                            orientation prepares participants for the challenges
+                            they may encounter in their professional roles.
                           </p>
                         </div>
                       </div>
@@ -1162,19 +1210,16 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Networking Opportunities
+                              Placement Assistance
                             </a>
                           </h4>
                           <p>
-                            At Aimore, you're not just a student; you're part of
-                            a vibrant AWS Training In Chennai. Within this
-                            community, members have the chance to engage in
-                            networking, collaboration, and the sharing of
-                            knowledge. You'll have the chance to connect with
-                            fellow learners, exchange experiences, and even
-                            interact with industry professionals who visit our
-                            campus.
+                            Aimore goes beyond training by offering placement
+                            assistance to participants. The institute has
+                            tie-ups with a network of companies, and its active
+                            placement cell assists participants in finding
+                            suitable job opportunities in the field of Selenium
+                            testing.
                           </p>
                         </div>
                       </div>
@@ -1191,19 +1236,16 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Real-World Projects
+                              Soft Skills and Professional Development
                             </a>
                           </h4>
                           <p>
-                            One of the most distinguishing features of Aimore's
-                            AWS Training in Chennai is our emphasis on
-                            real-world projects. These projects allow you to
-                            apply your AWS skills in practical scenarios,
-                            building a robust portfolio that showcases your
-                            abilities to potential employers. Real-world
-                            experience is invaluable, and we ensure you gain it
-                            during your training.
+                            In addition to technical skills, Aimore recognizes
+                            the importance of soft skills and professional
+                            development. Participants receive guidance on
+                            interview preparation, resume building, and
+                            communication skills, making them well-rounded
+                            professionals ready for the workplace.
                           </p>
                         </div>
                       </div>
@@ -1219,17 +1261,17 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                             </a>
                           </div>
                           <h4 class="title-inner">
-                            <a href="course-details.html"> Career Support</a>
+                            <a href="course-details.html">
+                              Positive Reviews and Testimonials
+                            </a>
                           </h4>
                           <p>
-                            Our dedication to your success extends beyond
-                            certification. Aimore offers career support services
-                            to help you kickstart or advance your career in
-                            cloud computing. Our career counsellors provide
-                            guidance on job opportunities, interview
-                            preparation, and resume building, ensuring you're
-                            well-equipped to enter the job market with
-                            confidence.
+                            Aimore has garnered positive reviews and
+                            testimonials from past participants who have
+                            benefited from its Selenium training program. The
+                            success stories and positive feedback from the
+                            alumni reflect the institute's commitment to
+                            delivering quality education.
                           </p>
                         </div>
                       </div>
@@ -1239,315 +1281,6 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
               </div>
               <div class="carousel-item">
                 <div className="row">
-                  <div className="col-md-4">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <div class="icon">
-                            <a href="#">
-                              <i class="ri-home-3-line"></i>
-                            </a>
-                          </div>
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Industry Recognition
-                            </a>
-                          </h4>
-                          <p>
-                            Aimore's reputation in the industry is a testament
-                            to the quality of our training. Many employers in
-                            Chennai and beyond recognize the value of AWS
-                            professionals trained by Aimore. Your certification
-                            from our institute carries significant weight in the
-                            job market, opening doors to exciting career
-                            opportunities.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <div class="icon">
-                            <a href="#">
-                              <i class="ri-vip-crown-fill"></i>
-                            </a>
-                          </div>
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Commitment to Excellence
-                            </a>
-                          </h4>
-                          <p>
-                            Aimore is driven by a commitment to excellence in
-                            AWS training in Chennai. Our dedication to staying
-                            updated with the latest AWS developments ensures
-                            that you receive the most current and relevant
-                            training. We are continuously improving our courses,
-                            incorporating industry best practices, and evolving
-                            to meet the ever-changing demands of the cloud
-                            computing landscape.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <div class="icon">
-                            <a href="#">
-                              <i class="ri-price-tag-2-line"></i>
-                            </a>
-                          </div>
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Affordable Pricing
-                            </a>
-                          </h4>
-                          <p>
-                            Quality training shouldn't break the bank. Aimore
-                            offers AWS Training in Chennai at a competitive and
-                            affordable price. We believe that everyone should
-                            have access to top-tier AWS training, and our
-                            pricing reflects this belief.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div className="row">
-                  <div className="col-md-4">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <div class="icon">
-                            <a href="#">
-                              <i class="ri-account-pin-circle-line"></i>
-                            </a>
-                          </div>
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              Student Success Stories
-                            </a>
-                          </h4>
-                          <p>
-                            The real measure of a training institute's success
-                            lies in the achievements of its students. Aimore
-                            takes immense pride in the success stories of our
-                            alumni. Many of our students have gone on to secure
-                            prestigious job positions and advance their careers
-                            with their AWS certifications. These accomplishments
-                            serve as evidence of our training's efficacy.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <div class="icon">
-                            <a href="#">
-                              <i class="ri-team-line"></i>
-                            </a>
-                          </div>
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Customer Satisfaction
-                            </a>
-                          </h4>
-                          <p>
-                            Aimore has garnered a reputation for delivering
-                            training that exceeds our students' expectations. We
-                            take pride in the high levels of satisfaction
-                            expressed by our students, which is a testament to
-                            the quality of our training.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <div class="icon">
-                            <a href="#">
-                              <i class="ri-arrow-go-forward-fill"></i>
-                            </a>
-                          </div>
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Commitment to Diversity and Inclusion
-                            </a>
-                          </h4>
-                          <p>
-                            Aimore believes in the power of diversity and
-                            inclusion. We embrace learners from diverse
-                            backgrounds and various walks of life. Our training
-                            environment is inclusive, fostering a culture of
-                            collaboration and respect. We're committed to
-                            providing equal opportunities for all individuals
-                            interested in AWS training.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div className="row">
-                  <div className="col-md-4">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <div class="icon">
-                            <a href="#">
-                              <i class="ri-building-line"></i>
-                            </a>
-                          </div>
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              Chennai's Premier AWS Training Institute in
-                              Chennai
-                            </a>
-                          </h4>
-                          <p>
-                            Aimore is widely recognized as the premier AWS
-                            training institute in Chennai. Our commitment to
-                            excellence, combined with the depth and breadth of
-                            our training programs, has established us as the
-                            go-to destination for AWS aspirants in the region.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <div class="icon">
-                            <a href="#">
-                              <i class="ri-line-height"></i>
-                            </a>
-                          </div>
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Continuous Learning
-                            </a>
-                          </h4>
-                          <p>
-                            The field of AWS is constantly evolving, and Aimore
-                            recognizes the importance of continuous learning.
-                            Our training is designed to equip you with the
-                            skills and mindset needed to adapt to the
-                            ever-changing cloud computing landscape. We
-                            emphasize the value of staying up-to-date with AWS
-                            developments to remain competitive in your career.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <div class="icon">
-                            <a href="#">
-                              <i class="ri-team-line"></i>
-                            </a>
-                          </div>
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Commitment to Sustainability
-                            </a>
-                          </h4>
-                          <p>
-                            Aimore is committed to sustainable and eco-friendly
-                            practices. Our training centers are designed with
-                            sustainability in mind, minimizing our environmental
-                            footprint. By choosing Aimore, you're contributing
-                            to a more sustainable future.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div className="row">
-                  <div className="col-md-4">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <div class="icon">
-                            <a href="#">
-                              <i class="ri-shield-user-fill"></i>
-                            </a>
-                          </div>
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              Access to Learning Resources
-                            </a>
-                          </h4>
-                          <p>
-                            Aimore provides you with access to a wealth of
-                            learning resources, including study materials,
-                            practice exams, and a supportive online community.
-                            These resources are invaluable for reinforcing your
-                            learning and preparing for the certification exam.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <div class="icon">
-                            <a href="#">
-                              <i class="ri-vip-crown-line"></i>
-                            </a>
-                          </div>
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Future-Ready Skills
-                            </a>
-                          </h4>
-                          <p>
-                            The world is rapidly embracing cloud technology, and
-                            AWS is at the forefront of this revolution. By
-                            choosing Aimore's AWS Training in Chennai, you're
-                            investing in skills that are not only relevant today
-                            but future-proof. AWS skills are in high demand, and
-                            this trend is expected to continue, making AWS
-                            certification a smart career move.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                   <div className="col-md-4">
                     <div class="edu-card card-type-1 radius-small service-card-3">
                       <div class="inner">
@@ -1563,7 +1296,7 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                               Who Should Attend?
                             </a>
                           </h4>
-                          <p>Our AWS Training in Chennai is suitable for:</p>
+                          <p>Our Selenium training in Chennai is ideal for:</p>
                           <ul>
                             <li>
                               IT professionals seeking to upgrade their cloud
@@ -1579,7 +1312,7 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                             </li>
                             <li>
                               Entrepreneurs and business owners aiming to
-                              leverage AWS for their ventures.
+                              leverage Selenium for their ventures.
                             </li>
                             <li>
                               Students and fresh graduates aspiring to start a
@@ -1625,41 +1358,34 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
             <div class="row">
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
-                  Which Is the Best AWS Training In Chennai?
+                  Which Is the Best Selenium Training In Chennai?
                 </h3>
                 <p>
-                  Choosing the best AWS training in Chennai is a critical
-                  decision for individuals aspiring to excel in cloud computing.
-                  One of the standout options for AWS training in Chennai is
-                  Aimore. Renowned for its commitment to excellence, Aimore
-                  offers comprehensive AWS courses led by seasoned instructors
-                  with extensive industry experience. The curriculum is designed
-                  to cover the latest AWS technologies, providing participants
-                  with hands-on experience through practical labs and real-world
-                  scenarios.
+                  Aimore has garnered positive reviews and testimonials from
+                  past participants who have benefited from its Selenium
+                  training program. The institute's commitment to quality
+                  education and its dedication to producing industry-ready
+                  professionals make it the go-to choice for individuals
+                  aspiring to excel in Selenium testing and automation. Aimore's
+                  Selenium training in Chennai stands out as a benchmark for
+                  excellence in the ever-evolving field of software testing.
                 </p>
                 <p>
-                  What sets Aimore apart is its focus on not just theoretical
-                  knowledge but also practical application. The institute
-                  ensures that students gain proficiency in deploying and
-                  managing AWS solutions, preparing them for the dynamic demands
-                  of the industry. Additionally, Aimore provides a conducive
-                  learning environment with state-of-the-art facilities and
-                  resources, enhancing the overall training experience.
+                  A noteworthy aspect of Aimore's Selenium training is its
+                  practical orientation. Participants are not just passive
+                  learners; they actively engage in hands-on exercises, case
+                  studies, and real-world projects. This practical exposure not
+                  only reinforces theoretical concepts but also prepares
+                  participants to tackle real-world challenges in their future
+                  roles.
                 </p>
                 <p>
-                  Moreover, Aimore has a track record of successful placements,
-                  with ties to leading companies in Chennai's thriving IT
-                  sector. The institute's emphasis on practical skills, coupled
-                  with networking opportunities and industry collaborations,
-                  positions students for a seamless transition into the
-                  workforce.
-                </p>
-                <p>
-                  For those seeking the best AWS training in Chennai, Aimore
-                  stands as a top choice, combining expert instruction,
-                  practical learning, and strong industry connections to empower
-                  individuals for successful careers in cloud computing.
+                  In addition to the technical aspects of Selenium, Aimore
+                  places importance on soft skills and professional development.
+                  The institute guides interview preparation, resume building,
+                  and communication skills, ensuring that participants are not
+                  only technically proficient but also well-rounded
+                  professionals ready to enter the workforce.
                 </p>
               </div>
               <div class="col-md-5 mb-5">
@@ -1676,48 +1402,107 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                 <img src={awscertification} alt="" className="img-fluid" />
               </div>
               <div class="col-md-7 mb-5">
-                <h3 class="title pb-3">
-                  Best AWS Training In Chennai And Certification
-                </h3>
+                <h3 class="title pb-3">Best Selenium Training In Chennai</h3>
                 <p>
-                  When it comes to the best AWS training in Chennai with a focus
-                  on certification, Aimore stands out as a premier choice.
-                  Recognized for its excellence in cloud computing training,
-                  Aimore offers a comprehensive AWS training in Chennai program
-                  that not only imparts in-depth knowledge but also prepares
-                  participants for AWS certifications.
+                  Aimore Technologies has emerged as a leader in providing the
+                  best Selenium training in Chennai, setting itself apart
+                  through a combination of comprehensive curriculum, experienced
+                  trainers, and a commitment to excellence. The training program
+                  offered by Aimore is designed to equip participants with a
+                  deep understanding of Selenium and its applications in the
+                  field of software testing and automation.
                 </p>
                 <p>
-                  The training at Aimore covers the entire spectrum of AWS
-                  services, ensuring a thorough understanding of cloud concepts,
-                  architecture, security, and best practices. What makes this
-                  institute exceptional is its commitment to aligning the
-                  training with AWS certification exams. The instructors, often
-                  AWS-certified themselves, guide students through the
-                  intricacies of exam objectives, providing valuable insights
-                  and tips for success.
+                  The strength of Aimore's Selenium training lies in its
+                  well-structured curriculum, covering everything from the
+                  basics to advanced concepts. Participants undergo rigorous
+                  training in Selenium WebDriver, various automation frameworks,
+                  and scripting languages like Java or Python. The emphasis on a
+                  holistic understanding ensures that learners not only grasp
+                  the theoretical foundations but also gain hands-on experience
+                  through practical exercises and projects..
                 </p>
+
                 <p>
-                  Aimore goes beyond traditional classroom learning,
-                  incorporating hands-on labs and practical exercises to
-                  reinforce theoretical concepts. This approach not only
-                  enhances comprehension but also equips participants with the
-                  skills needed to tackle real-world AWS challenges.
+                  Course Content: Ensure that the training covers a
+                  comprehensive set of topics related to Selenium, including
+                  Selenium WebDriver, test automation frameworks, scripting
+                  languages, and best practices.
                 </p>
+
                 <p>
-                  The institute's emphasis on certification preparation is
-                  evident in its structured course modules, which cover key exam
-                  topics and provide ample opportunities for practice tests and
-                  assessments. Aimore also offers additional resources and
-                  support to ensure that participants are well-prepared and
-                  confident when sitting for their AWS certification exams.
+                  Trainer Expertise: Check the credentials and experience of the
+                  trainers. Professionals with substantial industry experience
+                  can offer valuable insights and practical knowledge.
                 </p>
+
                 <p>
-                  For individuals in Chennai seeking the best AWS training in
-                  Chennai with a clear pathway to certification, Aimore stands
-                  as a reliable and comprehensive choice, fostering both
-                  knowledge acquisition and the attainment of valuable AWS
-                  certifications.
+                  Hands-On Practice: Practical, hands-on exercises and projects
+                  are crucial for reinforcing theoretical concepts. Look for
+                  training programs that offer ample opportunities for hands-on
+                  practice with Selenium.
+                </p>
+
+                <p>
+                  Course Duration and Flexibility: Consider the duration and
+                  schedule of the training. Some learners may prefer intensive
+                  boot camps, while others may opt for part-time or weekend
+                  courses to accommodate work or other commitments.
+                </p>
+
+                <p>
+                  Online or Classroom Options: Determine your preference between
+                  traditional in-person classroom training or the flexibility
+                  offered by online courses. Many reputable training providers
+                  offer both options.
+                </p>
+
+                <p>
+                  Reviews and Testimonials: Look for reviews and testimonials
+                  from past participants. Online platforms, course review
+                  websites, or social media can provide insights into the
+                  experiences of others who have taken the course.
+                </p>
+
+                <p>
+                  Certification: Verify whether the training program provides a
+                  certification upon successful completion. A recognized
+                  certification can enhance your credibility as a Selenium
+                  professional.
+                </p>
+
+                <p>
+                  Placement Assistance: If you are seeking job opportunities
+                  after completing the course, inquire about placement
+                  assistance services provided by the training institute.
+                </p>
+
+                <p>
+                  Cost and Value for Money: Compare the costs of different
+                  training programs and evaluate them in terms of the value they
+                  offer. Consider factors such as the quality of instruction,
+                  course content, and post-training support.
+                </p>
+
+                <p>
+                  Community and Support: A supportive community or forum where
+                  learners can interact, ask questions, and share experiences
+                  can enhance the learning experience. Check if the training
+                  program provides access to such resources.
+                </p>
+
+                <p>
+                  Up-to-Date Content: Selenium and related technologies are
+                  constantly evolving. Ensure that the training content is
+                  up-to-date and reflects the latest industry practices and
+                  advancements.
+                </p>
+
+                <p>
+                  Demo Classes or Trial Period: Some training providers offer
+                  demo classes or a trial period. Take advantage of these
+                  opportunities to assess the teaching style, course content,
+                  and overall suitability of the training.
                 </p>
               </div>
             </div>
@@ -1728,44 +1513,75 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
           <div class="container">
             <div class="row">
               <div class="col-md-7 mb-5">
-                <h3 class="title pb-3">
-                  How Long Is The AWS Course In Chennai?
-                </h3>
+                <h3 class="title pb-3">How long is the Selenium Training course in Chennai?</h3>
                 <p>
-                  The duration of an AWS course in Chennai can vary depending on
-                  the specific training program and the depth of coverage for
-                  AWS services. Typically, AWS courses are designed to
-                  accommodate various learning styles and prior knowledge
-                  levels. Intensive, full-time programs may span several weeks,
-                  providing in-depth coverage of AWS concepts, hands-on labs,
-                  and real-world applications.
+                The duration of a Selenium training course in Chennai can vary depending on the training provider, the specific curriculum, and the mode of delivery (e.g., full-time, part-time, weekend classes). Training programs are designed to cover a comprehensive set of topics related to Selenium automation testing, including Selenium WebDriver, test automation frameworks, scripting languages, and best practices.
+
+Typically, Selenium training courses may range from a few weeks to a couple of months, and the total duration is often measured in terms of hours of instruction.
                 </p>
                 <p>
-                  Part-time or evening courses, designed for individuals
-                  balancing work or other commitments, might extend over a
-                  longer period, such as a few months. These courses often
-                  provide a more flexible schedule to accommodate diverse
-                  learner needs.
+                Short Courses or Workshops:
+Short courses or workshops may last anywhere from a few days to a week. These are intensive programs designed to provide a quick overview and hands-on experience with Selenium for participants who may already have some background in software testing or programming.
+
                 </p>
                 <p>
-                  Additionally, the duration may be influenced by the level of
-                  the AWS course—whether it is an introductory course for
-                  beginners, an intermediate-level program, or an advanced,
-                  specialized training for professionals seeking in-depth
-                  expertise in specific AWS services or solutions.
+                Regular Classroom Training:
+Regular classroom training programs may span four to eight weeks, with classes held on weekdays. These courses often cover the fundamentals of Selenium, scripting languages (such as Java or Python), and the basics of test automation.
+
                 </p>
                 <p>
-                  It's advisable for individuals considering an AWS course in
-                  Chennai to review the curriculum and duration offered by
-                  specific training institutes, ensuring alignment with their
-                  learning goals and schedule constraints. Ultimately, the
-                  length of an AWS course is structured to provide comprehensive
-                  coverage of AWS services while accommodating the diverse needs
-                  and preferences of the participants.
+                Weekend or Part-Time Courses:
+For individuals who may be working or have other commitments, some training providers offer weekend or part-time courses. These programs may extend over a couple of months, allowing participants to balance their learning with other responsibilities.
+
+                </p>
+                <p>
+                Online Training:
+Online Selenium training programs, conducted through virtual classrooms or e-learning platforms, can have flexible durations. Some online courses are self-paced, allowing participants to progress at their own speed, while others may have a structured schedule with live or recorded sessions.
+
+                </p>
+                <p>
+                Bootcamps or Intensive Training:
+Bootcamps or intensive training programs may compress the curriculum into a few weeks of full-time, immersive learning. These programs are designed for individuals who can dedicate a significant amount of time to training and seek a quick and intensive learning experience.
+
                 </p>
               </div>
               <div class="col-md-5 mb-5">
                 <img src={aimorecourse} alt="" className="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-5 mb-5 section-title">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 mb-5">
+                <img src={awscertification} alt="" className="img-fluid" />
+              </div>
+              <div class="col-md-7 mb-5">
+                <h3 class="title pb-3">Challenges and Considerations</h3>
+                <p>
+                While Selenium offers numerous advantages, it's essential to acknowledge the challenges and considerations associated with a career in Selenium testing.  However, success in a Selenium career requires a commitment to continuous learning, adaptability to changes, and the ability to address the challenges associated with test automation. As organizations increasingly embrace test automation, Selenium professionals are poised to play a pivotal role in shaping the future of software testing.
+
+                </p>
+                <p>
+                Learning Curve: For beginners, Selenium might have a learning curve, especially when mastering concepts like locators, handling dynamic elements, and understanding the intricacies of automation frameworks.
+
+                </p>
+
+                <p>
+                Evolving Ecosystem: The technological terrain undergoes swift changes, with the constant emergence of novel tools and frameworks.Keeping up with the latest advancements and adapting to changes is part of the Selenium professional's journey.
+
+                </p>
+
+                <p>
+                Test Maintenance: Managing and maintaining automated tests can become complex, especially in large projects. Regular updates to the application may require corresponding updates to the test scripts.
+
+                </p>
+
+                <p>
+                Non-GUI Testing Limitations: Selenium primarily focuses on automating interactions with the user interface (UI). It may not be the best choice for scenarios that involve extensive non-GUI testing.
+                </p>
               </div>
             </div>
           </div>
@@ -1789,114 +1605,56 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       data-sal="slide-up"
                       data-sal-duration="800"
                     >
-                      Welcome to our comprehensive Cloud Computing and AWS
-                      Training! This course is designed to equip you with
-                      essential skills and knowledge to thrive in the rapidly
-                      evolving world of cloud technology. By the end of this
-                      program, you will achieve the following objectives:
+                      The main objectives of Selenium training in Chennai at our
+                      institute are designed to provide participants with
+                      comprehensive knowledge and practical skills in using
+                      Selenium for automated web testing. The training aims to
+                      equip individuals with the expertise needed to thrive in
+                      the field of software testing.
+                    </p>
+                    <p
+                      class="description sal-animate"
+                      data-sal-delay="250"
+                      data-sal="slide-up"
+                      data-sal-duration="800"
+                    >
+                      Our Selenium training program in Chennai is designed to
+                      empower participants with the skills and confidence to
+                      excel in automated web testing using Selenium. The
+                      practical and hands-on approach ensures that participants
+                      are well-prepared for real-world testing scenarios and
+                      challenges.{" "}
                     </p>
                     <h5 class="title-inner text-white">
-                      Cloud Computing Basics
+                      Understanding Selenium Ecosystem
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
-                        The history and evolution of cloud computing trace back
-                        to the 1960s, with the concept evolving over decades.
-                      </li>
-                      <li className="text-white">
-                        Explore the benefits of cloud technology and its
-                        critical roles in modern computing systems.
+                        Gain a deep understanding of the Selenium ecosystem,
+                        including Selenium WebDriver, Selenium Grid, and
+                        Selenium IDE.
                       </li>
                     </ul>
                     <h5 class="title-inner text-white">
-                      Cloud Service Models and Deployment
+                      Mastering Selenium WebDriver{" "}
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
-                        Differentiate between SaaS, PaaS, and IaaS cloud service
-                        models.
-                      </li>
-                      <li className="text-white">
-                        Explore various deployment models, including public,
-                        private, community, and hybrid clouds.
+                        Develop proficiency in using Selenium WebDriver for
+                        automating interactions with web applications. Learn to
+                        locate web elements, perform actions, and handle
+                        different types of web controls.
                       </li>
                     </ul>
 
                     <h5 class="title-inner text-white">
-                      Amazon Web Services (AWS) Essentials
+                      Test Automation Frameworks
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
-                        Gain hands-on experience with AWS by creating accounts
-                        and navigating the AWS Management Console.
-                      </li>
-                      <li className="text-white">
-                        Investigate a variety of AWS goods and services to
-                        understand their applications and functionalities.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 order-2 order-lg-1">
-                <div class="workshop-inner">
-                  <div
-                    class="section-title  sal-animate"
-                    data-sal-delay="150"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                  >
-                    <h5 class="title-inner text-white">Linux Fundamentals</h5>
-                    <ul className="mb-5 border-bottom border-1">
-                      <li className="text-white">
-                        Acquire a foundational understanding of basic Linux
-                        concepts.
-                      </li>
-                      <li className="text-white">
-                        Develop essential Linux command-line skills to enhance
-                        your proficiency in cloud computing environments.
-                      </li>
-                    </ul>
-
-                    <h5 class="title-inner text-white">
-                      Amazon EC2 and Instance Management
-                    </h5>
-                    <ul className="mb-5 border-bottom border-1">
-                      <li className="text-white">
-                        Explore Amazon EC2 (Elastic Compute Cloud) and
-                        understand different EC2 instance types.
-                      </li>
-                      <li className="text-white">
-                        Implement best practices for managing instances,
-                        security groups, and network configurations.
-                      </li>
-                    </ul>
-
-                    <h5 class="title-inner text-white">AWS Auto-Scaling</h5>
-                    <ul className="mb-5 border-bottom border-1">
-                      <li className="text-white">
-                        Learn the basics of AWS auto-scaling, including its
-                        benefits, components, lifecycle, and pricing.
-                      </li>
-                      <li className="text-white">
-                        Understand how auto-scaling can enhance the efficiency
-                        and responsiveness of your cloud infrastructure.
-                      </li>
-                    </ul>
-
-                    <h5 class="title-inner text-white">
-                      Amazon Virtual Private Cloud (VPC)
-                    </h5>
-                    <ul className="mb-5 border-bottom border-1">
-                      <li className="text-white">
-                        Gain insights into Amazon VPC and learn about network
-                        fundamentals within the AWS environment.
-                      </li>
-                      <li className="text-white">
-                        Understand security groups and other features that
-                        enable the creation of isolated and secure cloud
-                        environments.
+                        Explore and implement test automation frameworks to
+                        enhance the structure, scalability, and maintainability
+                        of automated test scripts.
                       </li>
                     </ul>
                   </div>
@@ -1912,44 +1670,133 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                     data-sal-duration="800"
                   >
                     <h5 class="title-inner text-white">
-                      Load Balancing and Notification Services
+                      Cross-Browser Testing
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
-                        Investigate load balancing using Amazon Elastic Load
-                        Balancing (ELB).
+                        Learn to perform cross-browser testing using Selenium,
+                        ensuring that web applications function consistently
+                        across various browsers.
                       </li>
+                    </ul>
+
+                    <h5 class="title-inner text-white">Data-Driven Testing </h5>
+                    <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
-                        Explore AWS notification and messaging services such as
-                        SNS, SES, and SQS for effective communication within
-                        your cloud architecture.
+                        Understand and implement data-driven testing techniques
+                        to enhance test coverage and handle multiple sets of
+                        test data.
                       </li>
                     </ul>
 
                     <h5 class="title-inner text-white">
-                      Additional AWS Services
+                      Page Object Model (POM)
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
-                        Explore a wide array of additional AWS services,
-                        including Amazon Route 53, Identity Access Management
-                        (IAM), Amazon S3, Glacier, CloudWatch, CloudFront, RDS,
-                        DynamoDB, Elastic Beanstalk, CloudFormation, and
-                        disaster recovery and security best practices.
+                        Implement the Page Object Model design pattern to create
+                        a modular and maintainable test automation framework.
                       </li>
                     </ul>
                     <h5 class="title-inner text-white">
-                      Real-Life Capstone Projects
+                      Handling Dynamic Elements{" "}
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
-                        Utilize your acquired knowledge in real-world contexts
-                        by participating in capstone projects.{" "}
+                        Learn strategies for handling dynamic web elements,
+                        AJAX-based applications, and asynchronous operations in
+                        automated tests.
                       </li>
+                    </ul>
+                    <h5 class="title-inner text-white">
+                      Best Practices and Coding Standards{" "}
+                    </h5>
+                    <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
-                        Engage in hands-on activities such as creating a Windows
-                        Virtual Machine and implementing mass emailing using AWS
-                        Lambda.{" "}
+                        Follow industry best practices and coding standards for
+                        writing efficient, maintainable, and scalable Selenium
+                        test scripts.{" "}
+                      </li>
+                    </ul>
+                    <h5 class="title-inner text-white">
+                      Debugging and Troubleshooting{" "}
+                    </h5>
+                    <ul className="mb-5 border-bottom border-1">
+                      <li className="text-white">
+                        Develop skills in debugging and troubleshooting
+                        automated test scripts to identify and resolve issues
+                        effectively.{" "}
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 order-2 order-lg-1">
+                <div class="workshop-inner">
+                  <div
+                    class="section-title  sal-animate"
+                    data-sal-delay="150"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                    <h5 class="title-inner text-white">
+                      Synchronization Strategies{" "}
+                    </h5>
+                    <ul className="mb-5 border-bottom border-1">
+                      <li className="text-white">
+                        Understand and implement synchronization strategies to
+                        handle timing issues and ensure reliable test execution.
+                      </li>
+                    </ul>
+
+                    <h5 class="title-inner text-white">TestNG Integration </h5>
+                    <ul className="mb-5 border-bottom border-1">
+                      <li className="text-white">
+                        Integrate Selenium with TestNG, a popular testing
+                        framework for Java, to facilitate parallel test
+                        execution, data-driven testing, and test reporting.
+                      </li>
+                    </ul>
+                    <h5 class="title-inner text-white">
+                      Continuous Integration with Jenkin{" "}
+                    </h5>
+                    <ul className="mb-5 border-bottom border-1">
+                      <li className="text-white">
+                        Explore the integration of Selenium tests with Jenkins
+                        for continuous integration, allowing automated testing
+                        as part of the development pipeline.
+                      </li>
+                    </ul>
+                    <h5 class="title-inner text-white">
+                      Real-Time Projects and Case Studies{" "}
+                    </h5>
+                    <ul className="mb-5 border-bottom border-1">
+                      <li className="text-white">
+                        Apply the acquired knowledge through hands-on experience
+                        with real-time projects and case studies, gaining
+                        practical exposure to Selenium in a professional
+                        setting.{" "}
+                      </li>
+                    </ul>
+                    <h5 class="title-inner text-white">
+                      Performance Optimization{" "}
+                    </h5>
+                    <ul className="mb-5 border-bottom border-1">
+                      <li className="text-white">
+                        Learn techniques for optimizing the performance of
+                        automated test scripts, ensuring efficiency and
+                        reliability.{" "}
+                      </li>
+                    </ul>
+                    <h5 class="title-inner text-white">
+                      Reporting and Documentation{" "}
+                    </h5>
+                    <ul className="mb-5 border-bottom border-1">
+                      <li className="text-white">
+                        Implement effective reporting mechanisms and
+                        documentation practices for test results, making it
+                        easier to communicate and analyze test outcomes.{" "}
                       </li>
                     </ul>
                   </div>
@@ -1969,7 +1816,19 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                   data-sal="slide-up"
                   data-sal-duration="800"
                 >
-                  <h3 class="title">Course Highlights</h3>
+                  <h3 class="title">Is Selenium a good career choice?</h3>
+                  <br />
+                  <p>
+                    Selenium, an open-source automation testing tool, has become
+                    a cornerstone in the field of test automation. Let's delve
+                    into the various aspects that make Selenium an attractive
+                    and promising career option. Selenium is undeniably a good
+                    career choice for individuals aspiring to build a career in
+                    test automation. Its widespread adoption, versatility,
+                    community support, and integration capabilities make it a
+                    valuable skill set in the software testing and development
+                    industry.
+                  </p>
                 </div>
               </div>
             </div>
@@ -1986,9 +1845,15 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       <h1>
                         <i class="ri-cloud-line"></i>
                       </h1>
-                      <h3 class="title">AWS Fundamentals</h3>
+                      <h3 class="title">Rising Demand for Test Automation</h3>
                       <p>
-                        Get started with AWS and understand its core services.
+                        The increasing complexity of software applications and
+                        the need for rapid releases have led to a growing demand
+                        for test automation. Organizations are shifting towards
+                        automated testing to accelerate the testing process,
+                        reduce manual errors, and achieve quicker
+                        time-to-market. Selenium, being a powerful and versatile
+                        automation tool, is at the forefront of this demand.{" "}
                       </p>
                     </div>
                   </div>
@@ -2006,10 +1871,14 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       <h1>
                         <i class="ri-file-cloud-fill"></i>
                       </h1>
-                      <h3 class="title">Architecting on AWS</h3>
+                      <h3 class="title">Widely Adopted in the Industry</h3>
                       <p>
-                        Learn how to design scalable and fault-tolerant systems
-                        on AWS.
+                        Selenium has gained widespread adoption across the
+                        software industry. Many tech giants and enterprises use
+                        Selenium for their test automation needs. This
+                        widespread usage not only indicates the tool's
+                        effectiveness but also ensures a steady demand for
+                        professionals skilled in Selenium.
                       </p>
                     </div>
                   </div>
@@ -2027,10 +1896,18 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       <h1>
                         <i class="ri-lock-password-line"></i>
                       </h1>
-                      <h3 class="title">Security Best Practices</h3>
+                      <h3 class="title">
+                        Versatility and Language Agnosticism
+                      </h3>
                       <p>
-                        Master AWS security to protect your infrastructure and
-                        data.
+                        One of Selenium's key strengths is its language
+                        agnosticism. Selenium offers compatibility with a
+                        variety of programming languages, encompassing Java,
+                        Python, C#, Ruby, and JavaScript. This versatility
+                        allows automation engineers to choose a language that
+                        aligns with their preferences or the requirements of the
+                        project. It also makes Selenium compatible with a wide
+                        range of development stacks.
                       </p>
                     </div>
                   </div>
@@ -2048,10 +1925,18 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       <h1>
                         <i class="ri-slideshow-line"></i>
                       </h1>
-                      <h3 class="title">AWS Certified</h3>
+                      <h3 class="title">
+                        Continuous Updates and Community Support
+                      </h3>
                       <p>
-                        Prepare for AWS Certified Solutions Architect, AWS
-                        Certified Developer, and more.
+                        Selenium boasts a dynamic and engaged community of
+                        developers and testers. The community actively
+                        contributes to the tool's development, ensures regular
+                        updates, and provides extensive support through forums,
+                        blogs, and online communities. This collaborative
+                        ecosystem not only fosters knowledge sharing but also
+                        ensures that Selenium remains up-to-date with the latest
+                        technological advancements.
                       </p>
                     </div>
                   </div>
@@ -2069,10 +1954,147 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       <h1>
                         <i class="ri-projector-line"></i>
                       </h1>
-                      <h3 class="title">Real-World Projects</h3>
+                      <h3 class="title">Integration with CI/CD Pipelines</h3>
                       <p>
-                        Apply your skills to real projects to build a strong
-                        portfolio.
+                        In the era of continuous integration and continuous
+                        delivery (CI/CD), Selenium plays a crucial role. It
+                        seamlessly integrates with popular CI/CD tools such as
+                        Jenkins, Travis CI, and Bamboo. This integration allows
+                        automated tests to be part of the development pipeline,
+                        ensuring that testing is an integral and automated part
+                        of the software development lifecycle.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container eduvibe-animated-shape">
+            <div class="row g-5 mt--20">
+              <div
+                class="col-lg-4 col-md-6 col-12 sal-animate"
+                data-sal-delay="150"
+                data-sal="slide-up"
+                data-sal-duration="800"
+              >
+                <div class="edu-winner-card">
+                  <div class="inner">
+                    <div class="content">
+                      <h1>
+                        <i class="ri-cloud-line"></i>
+                      </h1>
+                      <h3 class="title">Cost-Effective Solution</h3>
+                      <p>
+                        Selenium being an open-source tool is cost-effective for
+                        organizations. It eliminates the need for expensive
+                        licensing fees associated with proprietary automation
+                        tools. This cost-effectiveness makes Selenium an
+                        attractive choice for companies aiming to achieve
+                        automation within budget constraints.{" "}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 col-12 sal-animate"
+                data-sal-delay="150"
+                data-sal="slide-up"
+                data-sal-duration="800"
+              >
+                <div class="edu-winner-card">
+                  <div class="inner">
+                    <div class="content">
+                      <h1>
+                        <i class="ri-file-cloud-fill"></i>
+                      </h1>
+                      <h3 class="title">Skill Portability</h3>
+                      <p>
+                        Professionals skilled in Selenium often find their
+                        skills to be highly portable. The knowledge gained in
+                        Selenium can be applied across different industries and
+                        domains. As Selenium is not tied to a specific
+                        technology stack, professionals can transition smoothly
+                        between projects and organizations.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 col-12 sal-animate"
+                data-sal-delay="150"
+                data-sal="slide-up"
+                data-sal-duration="800"
+              >
+                <div class="edu-winner-card">
+                  <div class="inner">
+                    <div class="content">
+                      <h1>
+                        <i class="ri-lock-password-line"></i>
+                      </h1>
+                      <h3 class="title">High Salary and Career Growth</h3>
+                      <p>
+                        As the demand for automation testing and Selenium
+                        expertise increases, professionals with Selenium skills
+                        are often rewarded with competitive salaries.
+                        Additionally, the versatility of Selenium allows
+                        individuals to take on varied roles within the testing
+                        and development ecosystem, leading to potential career
+                        growth.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-6 col-md-6 col-12 sal-animate"
+                data-sal-delay="150"
+                data-sal="slide-up"
+                data-sal-duration="800"
+              >
+                <div class="edu-winner-card">
+                  <div class="inner">
+                    <div class="content">
+                      <h1>
+                        <i class="ri-slideshow-line"></i>
+                      </h1>
+                      <h3 class="title">Industry Recognition and Acceptance</h3>
+                      <p>
+                        Selenium has established itself as an industry standard
+                        for testing web applications. Its recognition and
+                        acceptance by industry leaders make it a valuable skill
+                        on a tester's or developer's resume. Many job postings
+                        for testing roles specifically mention Selenium as a
+                        required or preferred skill.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-6 col-md-6 col-12 sal-animate"
+                data-sal-delay="150"
+                data-sal="slide-up"
+                data-sal-duration="800"
+              >
+                <div class="edu-winner-card">
+                  <div class="inner">
+                    <div class="content">
+                      <h1>
+                        <i class="ri-projector-line"></i>
+                      </h1>
+                      <h3 class="title">Continuous Learning Opportunities</h3>
+                      <p>
+                        The field of test automation is dynamic, with new tools
+                        and frameworks emerging regularly. Selenium
+                        professionals are continually presented with
+                        opportunities to enhance their skills, explore new
+                        testing approaches, and stay updated on the latest
+                        industry trends. This continuous learning aspect
+                        contributes to professional development and job
+                        satisfaction.
                       </p>
                     </div>
                   </div>
@@ -2092,18 +2114,20 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
           >
             <div class="carousel-inner">
               <h3 className="text-center py-5 title">
-                Unlocking the Benefits AWS Training in Chennai
-              </h3>
-
+              Career prospects post completing Selenium training in Chennai             
+               </h3>
               <p className="description title-inner text-center lh-sm text-dark">
-                Welcome to our comprehensive course on Amazon Web Services
-                (AWS), where you'll discover the key <br />
-                features that make AWS a powerhouse in the world of cloud
-                computing.
+                Embarking on Selenium Training in Chennai opens doors to a
+                multitude of job prospects in the dynamic field of software
+                testing and quality assurance. As a widely recognized automation
+                testing tool, Selenium equips professionals with sought-after
+                expertise, making them valuable assets for companies keen on
+                enhancing their testing methodologies. The training not only
+                imparts essential skills but positions individuals strategically
+                in response to the growing demand for optimization in testing
+                processes.
               </p>
-              <h4 className="mt-0 mb-5 title-inner text-center lh-sm ">
-                Placement Session at Aimore For AWS Training in Chennai
-              </h4>
+              <br />
               <div class="carousel-item active">
                 <div class="row">
                   <div class="col-md-6">
@@ -2112,26 +2136,18 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Module 1: Scalability and Flexibility
+                              Automation Test Engineer
                             </a>
                             <hr />
                           </h4>
                           <div className="text-left">
-                            <h3>Scalability</h3>
                             <p>
-                              Learn how AWS allows you to scale your resources
-                              dynamically to meet the demands of your
-                              applications.
-                            </p>
-                            <hr />
-                          </div>
-                          <div className="text-left">
-                            <h3>Flexibility</h3>
-                            <p>
-                              Explore the vast array of AWS services that you
-                              can mix and match to tailor solutions to your
-                              specific needs.
+                              As an Automation Test Engineer, you will be
+                              responsible for designing, developing, and
+                              implementing automated test scripts using
+                              Selenium. This role involves collaborating with
+                              the development team to ensure the quality of
+                              software applications.
                             </p>
                           </div>
                         </div>
@@ -2143,251 +2159,220 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       <div class="inner">
                         <div class="content ">
                           <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Module 2: Security and Compliance
-                            </a>
+                            <a href="course-details.html">QA Analyst</a>
                             <hr />
                           </h4>
                           <div className="text-left">
-                            <h3>Security</h3>
                             <p>
-                              Dive into AWS's robust security features,
-                              including Identity and Access Management (IAM),
-                              encryption, and DDoS protection. Compliance:
-                              Discover how AWS provides compliance
-                              certifications to help protect your data and
-                              applications.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Module 3: Global Reach and Data Sovereignty
-                            </a>
-                            <hr />
-                          </h4>
-                          <div className="text-left">
-                            <h3>Global Reach</h3>
-                            <p>
-                              Understand how AWS's global network of data
-                              centers and regions can optimize performance and
-                              ensure compliance with data sovereignty
-                              regulations.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              Module 4: Cost Optimization
-                            </a>
-                            <hr />
-                          </h4>
-                          <div className="text-left">
-                            <h3>Cost Management</h3>
-                            <p>
-                              Learn about AWS's tools like AWS Cost Explorer and
-                              AWS Trusted Advisor to monitor and control cloud
-                              spending.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Module 5: High Availability and Elasticity
-                            </a>
-                            <hr />
-                          </h4>
-                          <div className="text-left">
-                            <h3>High Availability</h3>
-                            <p>
-                              Explore AWS services designed for high
-                              availability and data redundancy.
-                            </p>
-                            <hr />
-                          </div>
-                          <div className="text-left">
-                            <h3>Elasticity</h3>
-                            <p>
-                              See how AWS's Auto Scaling and other tools ensure
-                              your applications are responsive and
-                              cost-efficient.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              Module 6: DevOps Tools
-                            </a>
-                            <hr />
-                          </h4>
-                          <div className="text-left">
-                            <h3>DevOps Tools</h3>
-                            <p>
-                              Understand how AWS's suite of DevOps tools
-                              streamlines software development and deployment
-                              processes.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Module 7: Serverless Computing and Containers
-                            </a>
-                            <hr />
-                          </h4>
-                          <div className="text-left">
-                            <h3>Serverless Computing</h3>
-                            <p>
-                              Learn about AWS Lambda for running code without
-                              server management.
-                            </p>
-                            <hr />
-                          </div>
-                          <div className="text-left">
-                            <h3>Containerization</h3>
-                            <p>
-                              Explore Amazon ECS and EKS for deploying and
-                              managing containers at scale.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              Module 8: Machine Learning and AI
-                            </a>
-                            <hr />
-                          </h4>
-                          <div className="text-left">
-                            <h3>Machine Learning and AI</h3>
-                            <p>
-                              Get an overview of AWS's powerful machine learning
-                              and artificial intelligence services like Amazon
-                              SageMaker.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              {" "}
-                              Module 9: Internet of Things (IoT) and Big Data
-                            </a>
-                            <hr />
-                          </h4>
-                          <div className="text-left">
-                            <h3>Internet of Things (IoT)</h3>
-                            <p>
-                              See how AWS simplifies IoT device management and
-                              data analysis.
-                            </p>
-                            <hr />
-                          </div>
-                          <div className="text-left">
-                            <h3>Analytics and Big Data</h3>
-                            <p>
-                              Learn how AWS services like Amazon Redshift and
-                              EMR help you gain insights from your data.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="edu-card card-type-1 radius-small service-card-3">
-                      <div class="inner">
-                        <div class="content ">
-                          <h4 class="title-inner">
-                            <a href="course-details.html">
-                              Module 10: Content Delivery and Monitoring
-                            </a>
-                            <hr />
-                          </h4>
-                          <div className="text-left">
-                            <h3>Content Delivery</h3>
-                            <p>
-                              Discover how Amazon CloudFront accelerates content
+                              Quality Assurance (QA) Analysts use Selenium to
+                              perform automated testing and ensure the
+                              functionality, performance, and security of
+                              software applications. They work to identify and
+                              resolve defects, ensuring high-quality software
                               delivery.
                             </p>
-                            <hr />
                           </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="edu-card card-type-1 radius-small service-card-3">
+                      <div class="inner">
+                        <div class="content ">
+                          <h4 class="title-inner">
+                            <a href="course-details.html">
+                              Test Automation Architect
+                            </a>
+                            <hr />
+                          </h4>
                           <div className="text-left">
-                            <h3>Monitoring and Logging</h3>
                             <p>
-                              Explore AWS CloudWatch and CloudTrail for resource
-                              monitoring and user activity tracking.
+                              Test Automation Architects design and implement
+                              automated testing frameworks using tools like
+                              Selenium. They play a strategic role in defining
+                              the overall automation strategy for an
+                              organization and ensuring its successful
+                              implementation.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="edu-card card-type-1 radius-small service-card-3">
+                      <div class="inner">
+                        <div class="content ">
+                          <h4 class="title-inner">
+                            <a href="course-details.html">
+                              SDET (Software Development Engineer in Test)
+                            </a>
+                            <hr />
+                          </h4>
+                          <div className="text-left">
+                            <p>
+                              SDETs are hybrid roles that blend software
+                              development and testing skills. Professionals in
+                              this role use Selenium to automate test scenarios,
+                              contribute to the development of testing
+                              frameworks, and participate in the software
+                              development process.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="edu-card card-type-1 radius-small service-card-3">
+                      <div class="inner">
+                        <div class="content ">
+                          <h4 class="title-inner">
+                            <a href="course-details.html">Test Lead/Manager</a>
+                            <hr />
+                          </h4>
+                          <div className="text-left">
+                            <p>
+                              Test Leads or Managers with Selenium expertise
+                              oversee the testing team, ensuring the successful
+                              execution of automated test scripts. They play a
+                              key role in test planning, strategy development,
+                              and ensuring testing standards are met.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="edu-card card-type-1 radius-small service-card-3">
+                      <div class="inner">
+                        <div class="content ">
+                          <h4 class="title-inner">
+                            <a href="course-details.html">DevOps Engineer</a>
+                            <hr />
+                          </h4>
+                          <div className="text-left">
+                            <p>
+                              DevOps Engineers leverage Selenium for continuous
+                              testing as part of the DevOps pipeline. They
+                              integrate automated tests into the development and
+                              deployment process to ensure rapid and reliable
+                              software delivery.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="edu-card card-type-1 radius-small service-card-3">
+                      <div class="inner">
+                        <div class="content ">
+                          <h4 class="title-inner">
+                            <a href="course-details.html">
+                              Performance Test Engineer
+                            </a>
+                            <hr />
+                          </h4>
+                          <div className="text-left">
+                            <p>
+                              Performance Test Engineers use Selenium to
+                              automate performance tests and measure the
+                              scalability and responsiveness of applications
+                              under different conditions. They play a crucial
+                              role in identifying and addressing performance
+                              issues.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="edu-card card-type-1 radius-small service-card-3">
+                      <div class="inner">
+                        <div class="content ">
+                          <h4 class="title-inner">
+                            <a href="course-details.html">
+                              Quality Assurance Consultant
+                            </a>
+                            <hr />
+                          </h4>
+                          <div className="text-left">
+                            <p>
+                              QA Consultants provide expert advice on quality
+                              assurance practices, including test automation
+                              using Selenium. They may work with multiple
+                              clients to enhance their testing processes and
+                              ensure the delivery of high-quality software.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="edu-card card-type-1 radius-small service-card-3">
+                      <div class="inner">
+                        <div class="content ">
+                          <h4 class="title-inner">
+                            <a href="course-details.html">
+                              Mobile Test Engineer
+                            </a>
+                            <hr />
+                          </h4>
+                          <div className="text-left">
+                            <p>
+                              With Selenium's capabilities for mobile testing,
+                              professionals can specialize as Mobile Test
+                              Engineers. They focus on automating tests for
+                              mobile applications, ensuring their functionality
+                              across different devices and platforms.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="edu-card card-type-1 radius-small service-card-3">
+                      <div class="inner">
+                        <div class="content ">
+                          <h4 class="title-inner">
+                            <a href="course-details.html">
+                              Test Trainer/Educator{" "}
+                            </a>
+                            <hr />
+                          </h4>
+                          <div className="text-left">
+                            <p>
+                              Individuals with Selenium expertise can explore
+                              opportunities as trainers or educators, imparting
+                              knowledge on automated testing practices and
+                              Selenium to aspiring testers and professionals
+                              seeking to enhance their skills.
                             </p>
                           </div>
                         </div>
@@ -2434,16 +2419,16 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                   data-sal="slide-up"
                   data-sal-duration="800"
                 >
-                  <h3 class="title">Eligibility for AWS Training in Chennai</h3>
+                  <h3 class="title">
+                    Eligibility for Selenium Training in Chennai
+                  </h3>
                   <p className="py-3 lh-md">
-                    The eligibility criteria for AWS training in Chennai may
-                    vary slightly depending on the specific training institute
-                    and the level of the course (beginner, intermediate, or
-                    advanced). However, in general, AWS training programs are
-                    designed to accommodate a broad range of participants, from
-                    beginners with no prior cloud computing experience to
-                    experienced <br />
-                    professionals seeking to enhance their AWS skills.
+                    The eligibility criteria for Selenium training in Chennai
+                    can vary depending on the specific training institute or
+                    program. However, in general, the eligibility requirements
+                    for Selenium training are usually flexible, and individuals
+                    from diverse educational and professional backgrounds can
+                    enroll.
                   </p>
                 </div>
               </div>
@@ -2463,10 +2448,11 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       </h1>
                       <h3 class="title">Educational Background</h3>
                       <p>
-                        Most AWS training in Chennai does not have strict
-                        educational prerequisites. Individuals from diverse
-                        educational backgrounds, including IT, engineering, or
-                        related fields, are generally eligible.
+                        Selenium training is typically open to individuals with
+                        various educational backgrounds. Whether you have a
+                        degree in computer science, engineering, or a related
+                        field, or you are a working professional looking to
+                        enhance your skills, you are likely eligible.
                       </p>
                     </div>
                   </div>
@@ -2486,11 +2472,11 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       </h1>
                       <h3 class="title">Basic Computer Skills</h3>
                       <p>
-                        Participants are expected to have basic computer
-                        literacy, including familiarity with operating systems,
-                        file management, and fundamental computing concepts.
-                        This is essential for navigating AWS services and
-                        performing hands-on exercises.
+                        A basic understanding of computer fundamentals and
+                        knowledge of operating systems is often sufficient.
+                        Familiarity with concepts related to web browsers,
+                        websites, and general programming principles can be
+                        beneficial.
                       </p>
                     </div>
                   </div>
@@ -2508,14 +2494,14 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       <h1>
                         <i class="ri-building-4-line"></i>
                       </h1>
-                      <h3 class="title">Work Experience (Varies)</h3>
+                      <h3 class="title">Programming Knowledge</h3>
                       <p>
-                        While some AWS training in Chennai is designed for
-                        beginners and assumes no prior work experience, advanced
-                        courses may recommend or require participants to have
-                        some experience in IT, system administration, or related
-                        fields. Always check the specific eligibility
-                        requirements for the course level you are interested in.
+                        While many Selenium training programs start with the
+                        basics, having some prior knowledge of programming
+                        languages (such as Java, Python, C#, etc.) can be
+                        advantageous. However, this is not always a strict
+                        requirement as introductory programming concepts are
+                        often covered in the training.
                       </p>
                     </div>
                   </div>
@@ -2533,15 +2519,13 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       <h1>
                         <i class="ri-profile-line"></i>
                       </h1>
-                      <h3 class="title">Prerequisites for Advanced Courses</h3>
+                      <h3 class="title">Testing or QA Background</h3>
                       <p>
-                        Advanced AWS courses, such as those focusing on
-                        professional certifications or specialized skills, may
-                        have specific prerequisites. For example, a training
-                        program for AWS Certified Solutions Architect -
-                        Professional may require prior certification at the
-                        associate level and practical experience in architecting
-                        complex solutions on AWS.
+                        Individuals with a background in software testing or
+                        quality assurance may find it easier to grasp Selenium
+                        concepts quickly. However, many Selenium training
+                        programs are designed for beginners with no prior
+                        testing experience.
                       </p>
                     </div>
                   </div>
@@ -2559,12 +2543,13 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       <h1>
                         <i class="ri-english-input"></i>
                       </h1>
-                      <h3 class="title">English Proficiency</h3>
+                      <h3 class="title">Passion for Software Testing</h3>
                       <p>
-                        Given that AWS documentation and training materials are
-                        often in English, basic proficiency in English is
-                        beneficial for participants to fully engage with the
-                        course content.
+                        Enthusiasm and a genuine interest in software testing
+                        and test automation are valuable assets. If you are
+                        passionate about improving the quality of software
+                        through automated testing, Selenium training can be an
+                        excellent fit.
                       </p>
                     </div>
                   </div>
@@ -2582,13 +2567,15 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                       <h1>
                         <i class="ri-at-fill"></i>
                       </h1>
-                      <h3 class="title">Motivation and Commitment</h3>
+                      <h3 class="title">
+                        Working Professionals and IT Graduates
+                      </h3>
                       <p>
-                        AWS Training in Chennai programs often require a strong
-                        commitment to learning and keeping pace with the course
-                        curriculum. Motivation to explore cloud computing
-                        concepts and a dedication to completing hands-on
-                        exercises are essential.
+                        Selenium training is suitable for working professionals
+                        in IT, recent graduates, or anyone seeking a career
+                        change. It is often chosen by software testers,
+                        developers, and individuals involved in web application
+                        testing.
                       </p>
                     </div>
                   </div>
@@ -2608,8 +2595,30 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                 data-sal-duration="800"
               >
                 <h3 class="title text-white">
-                  Features Of The Best AWS Training In Chennai
+                  Trainer Profile of Selenium Training in Chennai
                 </h3>
+                <br />
+                <p class="text-white">
+                  Enroll in the Selenium Training Program offered by Aimore
+                  Technologies in Chennai, recognized as India's premier
+                  placement-oriented Selenium training institute. Our program is
+                  designed to elevate you to the status of a certified Selenium
+                  professional through comprehensive training led by industry
+                  experts. With a focus on practical applications, live
+                  projects, and guaranteed placement support, the course ensures
+                  your success as a SeU-certified Selenium Engineer (CSE).
+                </p>
+                <p class="text-white">
+                  Aimore Technologies goes beyond Selenium expertise by offering
+                  programming courses in C#, Python, SQL, and Java essentials.
+                  Our holistic approach aims to equip you with a well-rounded
+                  skill set, making you proficient not only in Selenium but also
+                  in key programming languages essential for a successful career
+                  in software testing. Join us on a learning journey that
+                  combines industry insights, hands-on projects, and a
+                  commitment to securing your placement in the dynamic world of
+                  Selenium testing and beyond.
+                </p>
               </div>
             </div>
           </div>
@@ -2634,14 +2643,16 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Instructor-led Sessions
+                              Industry Experience
                             </a>
                           </h4>
                           <p>
-                            Benefit from 50 hours of comprehensive
-                            instructor-led classes, ensuring a thorough
-                            understanding of AWS concepts and applications.
+                            A qualified Selenium trainer should have significant
+                            industry experience in software testing and
+                            automation, particularly in using Selenium.
+                            Practical exposure to real-world projects equips
+                            trainers with valuable insights to share with
+                            learners.
                           </p>
                         </div>
                       </div>
@@ -2657,13 +2668,13 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                             </a>
                           </div>
                           <h4 class="title-inner">
-                            <a href="course-details.html"> Capstone Projects</a>
+                            <a href="course-details.html">Certifications</a>
                           </h4>
                           <p>
-                            Engage in hands-on learning with 60 hours dedicated
-                            to practical projects and real-time case studies,
-                            allowing you to apply your skills to
-                            industry-relevant scenarios.
+                            Look for trainers who hold relevant certifications
+                            in Selenium or related areas. Certifications can
+                            validate their expertise and commitment to staying
+                            updated with industry best practices.
                           </p>
                         </div>
                       </div>
@@ -2680,15 +2691,15 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Practicals and Hands-on Sessions
+                              Educational Background
                             </a>
                           </h4>
                           <p>
-                            Reinforce your learning with practical sessions
-                            after each class, totaling 40 hours. These sessions
-                            are designed to build confidence and proficiency in
-                            applying AWS knowledge.
+                            While practical experience is crucial, a solid
+                            educational background in computer science, software
+                            engineering, or a related field can provide trainers
+                            with a strong foundation to teach Selenium concepts
+                            effectively.
                           </p>
                         </div>
                       </div>
@@ -2709,16 +2720,15 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Lifetime Free Upgrade
+                              Teaching Experience
                             </a>
                           </h4>
                           <p>
-                            Enjoy lifetime access to our online library,
-                            featuring presentations, questionnaires,
-                            installation guides, and session recordings. Stay
-                            updated with the latest materials to support your
-                            ongoing learning.
+                            Effective communication and teaching skills are
+                            essential. Trainers with prior teaching experience
+                            or a history of conducting successful training
+                            programs are better equipped to convey complex
+                            concepts understandably.
                           </p>
                         </div>
                       </div>
@@ -2735,15 +2745,15 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              24x7 Expert Support & Access
+                              Expertise in Automation Frameworks
                             </a>
                           </h4>
                           <p>
-                            Access our 24x7 online support team throughout your
-                            learning journey. Our dedicated team is available
-                            for a lifetime, ready to assist you with technical
-                            queries through a ticket-based tracking system.
+                            Selenium is often used in conjunction with various
+                            automation frameworks. A proficient trainer should
+                            have expertise in these frameworks (e.g., TestNG,
+                            JUnit) and be able to guide learners on their
+                            implementation.
                           </p>
                         </div>
                       </div>
@@ -2760,16 +2770,15 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Certification and Job Assistance
+                              Scripting Languages
                             </a>
                           </h4>
                           <p>
-                            Ensure your success with AWS certification. Receive
-                            recognition based on your internal assignments and
-                            practical session performances. Additionally,
-                            benefit from job assistance to kickstart your career
-                            in the AWS ecosystem.
+                            Selenium supports multiple scripting languages such
+                            as Java, Python, C#, and more. A versatile trainer
+                            should be proficient in at least one of these
+                            languages and be able to teach learners how to use
+                            Selenium with their language of choice.
                           </p>
                         </div>
                       </div>
@@ -2789,13 +2798,17 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                             </a>
                           </div>
                           <h4 class="title-inner">
-                            <a href="course-details.html"> Forum</a>
+                            <a href="course-details.html">
+                              {" "}
+                              Continuous Learning
+                            </a>
                           </h4>
                           <p>
-                            Join a vibrant global community forum designed to
-                            guide your AWS journey. Engage in brain-storming
-                            sessions, share knowledge, and connect with fellow
-                            students for a collaborative learning experience.
+                            Given the dynamic nature of technology, a good
+                            trainer should demonstrate a commitment to
+                            continuous learning. This includes staying updated
+                            on the latest Selenium updates, industry trends, and
+                            emerging tools in the test automation landscape.
                           </p>
                         </div>
                       </div>
@@ -2811,13 +2824,40 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                             </a>
                           </div>
                           <h4 class="title-inner">
-                            <a href="course-details.html"> Flexible Schedule</a>
+                            <a href="course-details.html">Practical Approach</a>
                           </h4>
                           <p>
-                            Tailor your learning experience with flexible
-                            timings. We understand the importance of
-                            accommodating various schedules, allowing you to
-                            comfortably learn and excel in the course.
+                            Trainers who emphasize a practical, hands-on
+                            approach to learning can provide learners with the
+                            skills needed to apply Selenium in real-world
+                            scenarios. Practical examples, case studies, and
+                            interactive sessions enhance the learning
+                            experience.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="edu-card card-type-1 radius-small service-card-3">
+                      <div class="inner">
+                        <div class="content ">
+                          <div class="icon">
+                            <a href="#">
+                              <i class="ri-android-line"></i>
+                            </a>
+                          </div>
+                          <h4 class="title-inner">
+                            <a href="course-details.html">
+                              Feedback and Reviews
+                            </a>
+                          </h4>
+                          <p>
+                            Check for feedback and reviews from previous
+                            participants who have undergone training with the
+                            specific instructor. Positive reviews and
+                            testimonials can offer insights into the trainer's
+                            effectiveness.
                           </p>
                         </div>
                       </div>
@@ -2864,10 +2904,10 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                   data-sal-duration="800"
                 >
                   <h3 class="title">
-                    Choose AWS Training In Chennai For The Best Career
+                    Choose Selenium Training In Chennai For The Best Career!
                   </h3>
                   <p class="py-3 lh-md">
-                    Choosing the right AWS training course depends on your
+                    Choosing the right Selenium training course depends on your
                     learning style, career goals, and preferences. Let's explore
                     the features of each option: self-paced e-learning, live
                     online training, and corporate training, including the one
@@ -3180,16 +3220,17 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
           >
             <div class="carousel-inner">
               <h3 class="text-center py-5 title">
-                Success Stories Of Our AWS Training And Placement In Chennai
+                Success Stories Of Our Selenium Training And Placement In
+                Chennai
               </h3>
               <p class="description mb-5 text-center lh-sm text-dark">
-                At Aimore Technologies, best aws training institute in chennai
-                we are proud to share the remarkable journeys of individuals who
-                have successfully navigated the ever-evolving landscape of cloud
-                computing through our AWS Training and Placement program. These
-                stories are a testament to the transformative power of our
-                comprehensive training, expert mentorship, and dedicated
-                placement support.{" "}
+                At Aimore Technologies, the best Selenium training institute in
+                Chennai we are proud to share the remarkable journeys of
+                individuals who have successfully navigated the ever-evolving
+                landscape of cloud computing through our Selenium Training and
+                Placement program. These stories are a testament to the
+                transformative power of our comprehensive training, expert
+                mentorship, and dedicated placement support.
               </p>
 
               <div class="carousel-item">
@@ -3200,27 +3241,28 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Success Story 1: From Novice to AWS Pro
+                              Success Story 1: From Novice to Selenium Pro
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Meet Rajkumar, a recent graduate who embarked on a
-                            journey to master AWS to become a certified
+                            journey to master Selenium to become a certified
                             professional. Eager to make a mark in the tech
-                            industry, he enrolled in our AWS Training program.
-                            The structured curriculum, hands-on labs, and the
-                            guidance of our experienced trainers helped Rajkumar
-                            grasp AWS concepts with precision.Upon completion of
-                            the training, Rajkumar not only earned the coveted
-                            AWS certification but also secured a position at
-                            Wipro. The real-world scenarios covered in our
-                            program empowered him to seamlessly integrate into a
-                            dynamic work environment. Rajkumar emphasizes the
-                            role of our training in not only building technical
-                            proficiency but also in instilling the confidence to
-                            tackle complex challenges head-on.
+                            industry, he enrolled in our Selenium Training
+                            program. The structured curriculum, hands-on labs,
+                            and the guidance of our experienced trainers helped
+                            Rajkumar grasp Selenium concepts with precision.{" "}
+                            <br />
+                            Upon completion of the training, Rajkumar not only
+                            earned the coveted Selenium certification but also
+                            secured a position at Wipro. The real-world
+                            scenarios covered in our program empowered him to
+                            seamlessly integrate into a dynamic work
+                            environment. Rajkumar emphasizes the role of our
+                            training in not only building technical proficiency
+                            but also in instilling the confidence to tackle
+                            complex challenges head-on.
                           </p>
                         </div>
                       </div>
@@ -3232,7 +3274,6 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
                               Success Story 2: Scaling New Heights
                             </a>
                             <hr />
@@ -3240,21 +3281,21 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           <p>
                             Enter the story of Naveen Shankar, a seasoned
                             professional seeking to upskill and stay abreast of
-                            the latest advancements in cloud computing. Our AWS
-                            Training program became the catalyst for his career
-                            growth. The program's emphasis on practical
-                            application and real-world scenarios proved
-                            invaluable as Naveen Shankar applied AWS solutions
-                            to enhance operational efficiency at Infosys. The
-                            hands-on experience gained during the training
-                            empowered Naveen Shankar to implement scalable and
-                            cost-effective solutions, showcasing the immediate
-                            applicability of our program to real-world business
-                            challenges. This success story underscores the
-                            effectiveness of our training in preparing
-                            professionals not just for certification exams but
-                            for impactful contributions in their respective
-                            workplaces.
+                            the latest advancements in cloud computing. Our
+                            Selenium Training program became the catalyst for
+                            his career growth. The program's emphasis on
+                            practical application and real-world scenarios
+                            proved invaluable as Naveen Shankar applied Selenium
+                            solutions to enhance operational efficiency at
+                            Infosys. The hands-on experience gained during the
+                            training empowered Naveen Shankar to implement
+                            scalable and cost-effective solutions, showcasing
+                            the immediate applicability of our program to
+                            real-world business challenges. This success story
+                            underscores the effectiveness of our training in
+                            preparing professionals not just for certification
+                            exams but for impactful contributions in their
+                            respective workplaces.
                           </p>
                         </div>
                       </div>
@@ -3270,28 +3311,28 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Success Story 3: A Career Pivot with AWS
+                              Success Story 3: A Career Pivot with Selenium
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Consider the inspiring journey of Maha Lakshmi, who
                             made a deliberate career shift into the dynamic
-                            realm of AWS. Recognizing the industry demand for
-                            skilled cloud professionals, she chose Aimore for
-                            its reputation for delivering high-quality AWS
-                            training. The program not only provided the
+                            realm of Selenium. Recognizing the industry demand
+                            for skilled cloud professionals, she chose Aimore
+                            for its reputation for delivering high-quality
+                            Selenium training. The program not only provided the
                             necessary technical skills but also facilitated a
                             smooth transition through placement assistance.
                             Today, Maha Lakshmi holds a thriving position as a
                             software engineer at, CTS a testament to the
                             successful career pivot made possible by our
-                            comprehensive AWS Training and Placement program.
-                            She attributes this achievement to the personalized
-                            guidance received during the training, which focused
-                            on honing not just technical skills but also soft
-                            skills essential for professional success.
+                            comprehensive Selenium Training and Placement
+                            program. She attributes this achievement to the
+                            personalized guidance received during the training,
+                            which focused on honing not just technical skills
+                            but also soft skills essential for professional
+                            success.
                           </p>
                         </div>
                       </div>
@@ -3303,27 +3344,27 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
                               Success Story 4: Confidence Redefined
                             </a>
                             <hr />
                           </h4>
                           <p>
-                            For Venkatesan, the prospect of diving into AWS was
-                            initially overwhelming. The extensive course
+                            For Venkatesan, the prospect of diving into Selenium
+                            was initially overwhelming. The extensive course
                             content, practical labs, and personalized mentoring
                             at Aimore played a pivotal role in building the
                             confidence needed to face real-world challenges. He
                             shares that the program not only equipped him with
                             technical proficiency but also fostered
                             problem-solving skills crucial for success in the
-                            industry. Now, Venkatesan stands as a confident AWS
-                            professional, having successfully implemented AWS
-                            solutions at Quess Corp Limited. This success story
-                            exemplifies the transformative impact of our
-                            training on individuals who, despite initial
-                            apprehensions, emerge as self-assured and capable
-                            contributors to the tech industry.
+                            industry. Now, Venkatesan stands as a confident
+                            Selenium professional, having successfully
+                            implemented Selenium solutions at Quess Corp
+                            Limited. This success story exemplifies the
+                            transformative impact of our training on individuals
+                            who, despite initial apprehensions, emerge as
+                            self-assured and capable contributors to the tech
+                            industry.
                           </p>
                         </div>
                       </div>
@@ -3339,7 +3380,6 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
                               Success Story 5: Seamless Integration into the
                               Industry
                             </a>
@@ -3348,13 +3388,13 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           <p>
                             Celebrate the success of Sneha, who seamlessly
                             integrated into the tech industry after completing
-                            our AWS Training in Chennai program. She highlights
-                            the real-world relevance of the training,
+                            our Selenium Training in Chennai program. She
+                            highlights the real-world relevance of the training,
                             emphasizing that the hands-on experience gained
                             during the program made the transition from
                             education to the workforce seamless. Currently
                             contributing to the success of Birla, Sneha
-                            exemplifies how our AWS Training and Placement
+                            exemplifies how our Selenium Training and Placement
                             program equips individuals not just with theoretical
                             knowledge but also with the practical skills
                             demanded by the industry.
@@ -3369,18 +3409,17 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
                               Success Story 6: From Aspiration to Certification
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Witness the transformation of Geetika, who turned
-                            aspirations into achievements with our AWS Training
-                            in Chennai. Not only did she earn the prestigious
-                            AWS certification, but Geetika also secured a
-                            position at Zoho, setting the stage for a stellar
-                            career.
+                            aspirations into achievements with our Selenium
+                            Training in Chennai. Not only did she earn the
+                            prestigious Selenium certification, but Geetika also
+                            secured a position at Zoho, setting the stage for a
+                            stellar career.
                           </p>
                         </div>
                       </div>
@@ -3396,7 +3435,6 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
                               Success Story 7: Elevating Expertise
                             </a>
                             <hr />
@@ -3418,17 +3456,17 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
                               Success Story 8: Seamless Career Shift
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Discover the success story of Anand, who smoothly
-                            transitioned into the world of AWS with our
+                            transitioned into the world of Selenium with our
                             training. Today, he thrives at Cognizant, showcasing
                             the versatility and career-shifting power of our
-                            comprehensive AWS Training and Placement program.
+                            comprehensive Selenium Training and Placement
+                            program.
                           </p>
                         </div>
                       </div>
@@ -3444,15 +3482,14 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
                               Success Story 9: Confidence Redefined
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Explore how Prabhat overcame initial challenges and
-                            emerged as a confident AWS professional. The program
-                            not only imparted technical skills but also
+                            emerged as a confident Selenium professional. The
+                            program not only imparted technical skills but also
                             instilled problem-solving abilities, enabling him to
                             implement successful solutions at Tech Mahindra.
                           </p>
@@ -3466,14 +3503,13 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
                               Success Story 10: Industry Integration Mastery
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Join us in celebrating Shankar's seamless
-                            integration into the tech industry post-our AWS
+                            integration into the tech industry after Selenium
                             Training in Chennai. The hands-on experience gained
                             during the program facilitated a smooth transition,
                             and he now contributes significantly to the success
@@ -3494,16 +3530,15 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
                               Success Story 11: Career Ascent Empowerment
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Embark on the journey of Aditya, who soared from a
-                            novice to an AWS pro with our training. The
+                            novice to a Selenium pro with our training. The
                             program's comprehensive curriculum and personalized
-                            mentoring empowered him to navigate AWS
+                            mentoring empowered him to navigate Selenium
                             complexities, leading to significant contributions
                             at CTS.
                           </p>
@@ -3517,7 +3552,6 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
                               Success Story 12: Unleashing Technical Mastery
                             </a>
                             <hr />
@@ -3525,10 +3559,9 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           <p>
                             Delve into the story of Eravanth, whose thirst for
                             technical mastery found the perfect training ground
-                            at Aimore. Our AWS Training in Chennai not only
-                            honed his technical skills but also provided
-                            practical insights, leading to his success in the
-                            field.
+                            at Aimore. Our Selenium Training in Chennai honed
+                            his technical skills and provided practical
+                            insights, leading to his success in the field.
                           </p>
                         </div>
                       </div>
@@ -3544,7 +3577,6 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
                               Success Story 13: Learning to Leadership
                             </a>
                             <hr />
@@ -3552,7 +3584,7 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           <p>
                             Witness Deeksha's journey from a learning
                             environment to a leadership role after completing
-                            our AWS Training. The program not only imparted
+                            our Selenium Training. The program not only imparted
                             technical knowledge but also instilled leadership
                             qualities, propelling her to Leadership Position.
                           </p>
@@ -3573,9 +3605,9 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           <p>
                             Embark on the journey of skill evolution with
                             Sampoorna, who found the perfect avenue for growth
-                            in our AWS Training. The program's focus on hands-on
-                            labs and real-world applications enabled her to
-                            evolve into a skilled AWS professional.
+                            in our Selenium Training. The program's focus on
+                            hands-on labs and real-world applications enabled
+                            her to evolve into a skilled Selenium professional.
                           </p>
                         </div>
                       </div>
@@ -3591,17 +3623,16 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
                               Success Story 15: Beyond Certification Success
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Meet Malavika, whose success transcended
-                            certification with our AWS Training. Beyond exam
-                            preparation, the program equipped her with the
-                            skills needed for impactful contributions. Malavika
-                            is now a key player in Mind Tree, showcasing the
+                            certification with our Selenium Training. Beyond
+                            exam preparation, the program gave her the skills
+                            needed for impactful contributions. Malavika is now
+                            a key player in Mind Tree, showcasing the
                             comprehensive excellence of our training.
                           </p>
                         </div>
@@ -3620,8 +3651,8 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           </h4>
                           <p>
                             Explore how Darshini navigated the intricate world
-                            of cloud computing with our AWS Training. Armed with
-                            newfound knowledge, she implemented effective
+                            of cloud computing with our Selenium Training. Armed
+                            with newfound knowledge, she implemented effective
                             solutions at Eveika, overcoming challenges with
                             confidence.
                           </p>
@@ -3639,14 +3670,13 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Success Story 18: Architecting Success
+                              Success Story 17: Architecting Success
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Witness the success story of Avaneesh, who went
-                            beyond learning AWS to architecting success. The
+                            beyond learning Selenium to architect success. The
                             program not only provided technical proficiency but
                             also nurtured his ability to design and implement
                             innovative solutions.
@@ -3661,14 +3691,14 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              Success Story 19: Cloud Innovator
+                              Success Story 18: Cloud Innovator
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Join Poornima in the league of cloud innovators who
-                            reshaped their careers with our AWS Training. Her
-                            ability to innovate and apply AWS solutions
+                            reshaped their careers with our Selenium Training.
+                            Her ability to innovate and apply Selenium solutions
                             transformed Accenture's operations, showcasing the
                             practical impact of our program.
                           </p>
@@ -3687,18 +3717,17 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Success Story 20: Rapid Career Acceleration
+                              Success Story 19: Rapid Career Acceleration
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Experience the rapid career acceleration of Karan,
-                            who propelled his career trajectory with our AWS
-                            Training in Chennai. The skills acquired enabled him
-                            to take on more significant responsibilities at
-                            Accenture, solidifying his position as a valuable
-                            asset.
+                            who propelled his career trajectory with our
+                            Selenium Training in Chennai. The skills acquired
+                            enabled him to take on more significant
+                            responsibilities at Accenture, solidifying his
+                            position as a valuable asset.
                           </p>
                         </div>
                       </div>
@@ -3710,16 +3739,16 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              Success Story 21: Business Transformation
+                              Success Story 20: Business Transformation
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Explore how Isha contributed to the transformation
-                            of Capgemini's business landscape with our AWS
-                            Training. Her proficiency in AWS solutions played a
-                            pivotal role in reshaping processes for increased
-                            efficiency and innovation.
+                            of Capgemini's business landscape with our Selenium
+                            Training. Her proficiency in Selenium solutions
+                            played a pivotal role in reshaping processes for
+                            increased efficiency and innovation.
                           </p>
                         </div>
                       </div>
@@ -3737,7 +3766,7 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           <h4 class="title-inner">
                             <a href="course-details.html">
                               {" "}
-                              Success Story 22: Future-Ready Professional
+                              Success Story 21: Future-Ready Professional
                             </a>
                             <hr />
                           </h4>
@@ -3745,9 +3774,9 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                             Discover the story of Oviya, a future-ready
                             professional who equipped herself with the skills
                             needed for the ever-evolving tech landscape through
-                            our AWS Training. Her adaptability and expertise
-                            positioned her as a forward-thinking leader in the
-                            industry.
+                            our Selenium Training. Her adaptability and
+                            expertise positioned her as a forward-thinking
+                            leader in the industry.
                           </p>
                         </div>
                       </div>
@@ -3759,17 +3788,17 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              Success Story 23: Innovating Tomorrow
+                              Success Story 22: Innovating Tomorrow
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Celebrate the journey of Mohammed Raj, who is not
                             just succeeding today but innovating for tomorrow
-                            with our AWS Training. His story exemplifies how our
-                            program empowers individuals not only with current
-                            knowledge but also with the ability to shape the
-                            future of technology.
+                            with our Selenium Training. His story exemplifies
+                            how our program empowers individuals not only with
+                            current knowledge but also with the ability to shape
+                            the future of technology.
                           </p>
                         </div>
                       </div>
@@ -3787,15 +3816,15 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                           <h4 class="title-inner">
                             <a href="course-details.html">
                               {" "}
-                              Success Story 24: Architect of Efficiency
+                              Success Story 23: Architect of Efficiency
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Witness the story of Shalim, who became the
-                            architect of efficiency with our AWS Training in
-                            Chennai. His ability to design and implement
-                            streamlined AWS solutions contributed to a
+                            architect of efficiency with our Selenium Training
+                            in Chennai. His ability to design and implement
+                            streamlined Selenium solutions contributed to a
                             remarkable improvement in processes at Cognizant.
                           </p>
                         </div>
@@ -3808,16 +3837,16 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              Success Story 25: Cloud Pioneer
+                              Success Story 24: Cloud Pioneer
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Become acquainted with Kishnan, a true cloud pioneer
-                            who embraced AWS expertise through our training. His
-                            journey from novice to pioneer exemplifies the
-                            transformative impact of our program on individuals
-                            seeking to lead in the cloud era.
+                            who embraced Selenium expertise through our
+                            training. His journey from novice to pioneer
+                            exemplifies the transformative impact of our program
+                            on individuals seeking to lead in the cloud era.
                           </p>
                         </div>
                       </div>
@@ -3833,17 +3862,16 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
-                              Success Story 26: Tech Trailblazer
+                              Success Story 25: Tech Trailblazer
                             </a>
                             <hr />
                           </h4>
                           <p>
                             Meet Kajal, a tech trailblazer who blazed a path of
-                            success with our AWS Training. Her ability to
-                            leverage AWS solutions not only transformed
+                            success with our Selenium Training. Her ability to
+                            leverage Selenium solutions not only transformed
                             cognizant's operations but also set new standards
-                            for tech innovation.
+                            for tech innovation
                           </p>
                         </div>
                       </div>
@@ -3890,10 +3918,16 @@ Ensure Cross-Browser Compatibility: Conduct cross-browser testing to validate th
               >
                 <h3 class="title mb-2 text-white">Your Journey Starts Here</h3>
                 <p className="description mt-0 text-center ">
-                These success stories are just a glimpse of what awaits you at Aimore Technologies. Our Selenium Training and Placement program is designed to empower individuals with the skills, knowledge, and confidence needed to thrive in the competitive landscape of cloud computing.
-When you enroll with us, you're not just joining a program; you're joining a community committed to your success. Our experienced trainers, hands-on labs, and personalized guidance are here to shape your journey, from novice to Selenium professional.
-Modes Of Training
-
+                  These success stories are just a glimpse of what awaits you at
+                  Aimore Technologies. Our Selenium Training and Placement
+                  program is designed to empower individuals with the skills,
+                  knowledge, and confidence needed to thrive in the competitive
+                  landscape of cloud computing. When you enroll with us, you're
+                  not just joining a program; you're joining a community
+                  committed to your success. Our experienced trainers, hands-on
+                  labs, and personalized guidance are here to shape your
+                  journey, from novice to Selenium professional. Modes Of
+                  Training
                 </p>
               </div>
             </div>
@@ -4076,7 +4110,8 @@ Modes Of Training
           <div class="row py-5">
             <div class="col-md-12 section-title">
               <h3 class="text-center title">
-              Frequently Asked Questions - Selenium Training in Chennai by Aimore              
+                Frequently Asked Questions - Selenium Training in Chennai by
+                Aimore
               </h3>
               <div class="row py-5">
                 <div class="col-md-6">
@@ -4109,7 +4144,11 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body section-title">
                             <p>
-                            Selenium is an open-source framework for automating web applications. It is crucial for software testing as it allows testers to automate browser interactions, ensuring the efficient and accurate testing of web applications.
+                              Selenium is an open-source framework for
+                              automating web applications. It is crucial for
+                              software testing as it allows testers to automate
+                              browser interactions, ensuring the efficient and
+                              accurate testing of web applications.
                             </p>
                           </div>
                         </div>
@@ -4124,7 +4163,8 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapseb"
                           >
-                            How does Aimore's Selenium training program differ from other Selenium courses?
+                            How does Aimore's Selenium training program differ
+                            from other Selenium courses?
                           </button>
                         </div>
                         <div
@@ -4135,8 +4175,11 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Aimore's Selenium training stands out due to its comprehensive curriculum, hands-on approach, live projects, and 100% guaranteed placement support. Our program is designed for practical proficiency and real-world application.
-
+                              Aimore's Selenium training stands out due to its
+                              comprehensive curriculum, hands-on approach, live
+                              projects, and 100% guaranteed placement support.
+                              Our program is designed for practical proficiency
+                              and real-world application.
                             </p>
                           </div>
                         </div>
@@ -4151,7 +4194,9 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapsec"
                           >
-                            What programming languages are covered in the Selenium training, and do I need prior programming experience?
+                            What programming languages are covered in the
+                            Selenium training, and do I need prior programming
+                            experience?
                           </button>
                         </div>
                         <div
@@ -4162,7 +4207,11 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Aimore's Selenium training covers Java, Python, C#, and SQL essentials. No prior programming experience is necessary as the course caters to beginners, covering the basics of programming languages used in Selenium.
+                              Aimore's Selenium training covers Java, Python,
+                              C#, and SQL essentials. No prior programming
+                              experience is necessary as the course caters to
+                              beginners, covering the basics of programming
+                              languages used in Selenium.
                             </p>
                           </div>
                         </div>
@@ -4177,7 +4226,8 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapsed"
                           >
-                         Is the Selenium training suitable for beginners in software testing?
+                            Is the Selenium training suitable for beginners in
+                            software testing?
                           </button>
                         </div>
                         <div
@@ -4188,7 +4238,10 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Yes, Aimore's Selenium training is designed for beginners. The program covers foundational concepts, making it accessible to individuals with diverse backgrounds in software testing.
+                              Yes, Aimore's Selenium training is designed for
+                              beginners. The program covers foundational
+                              concepts, making it accessible to individuals with
+                              diverse backgrounds in software testing.
                             </p>
                           </div>
                         </div>
@@ -4203,7 +4256,8 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapsei"
                           >
-                           What certification will I receive upon completing the Selenium training course at Aimore?
+                            What certification will I receive upon completing
+                            the Selenium training course at Aimore?
                           </button>
                         </div>
                         <div
@@ -4214,7 +4268,10 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Participants will receive the SeU (Selenium Engineer) certification upon successful completion of the training program, validating their proficiency in Selenium testing.
+                              Participants will receive the SeU (Selenium
+                              Engineer) certification upon successful completion
+                              of the training program, validating their
+                              proficiency in Selenium testing.
                             </p>
                           </div>
                         </div>
@@ -4229,8 +4286,8 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapsej"
                           >
-                            How hands-on is the Selenium training, and will I work on real-world projects?
-
+                            How hands-on is the Selenium training, and will I
+                            work on real-world projects?
                           </button>
                         </div>
                         <div
@@ -4241,8 +4298,10 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Aimore emphasizes a hands-on learning approach, and participants engage in practical exercises and real-world projects to apply Selenium concepts in real scenarios.
-
+                              Aimore emphasizes a hands-on learning approach,
+                              and participants engage in practical exercises and
+                              real-world projects to apply Selenium concepts in
+                              real scenarios.
                             </p>
                           </div>
                         </div>
@@ -4257,7 +4316,8 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapsek"
                           >
-                            Does Aimore provide placement assistance after completing the Selenium training?
+                            Does Aimore provide placement assistance after
+                            completing the Selenium training?
                           </button>
                         </div>
                         <div
@@ -4268,7 +4328,10 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Yes, Aimore offers 100% guaranteed placement support after completing the Selenium training. The institute has tie-ups with a network of companies and an active placement cell.
+                              Yes, Aimore offers 100% guaranteed placement
+                              support after completing the Selenium training.
+                              The institute has tie-ups with a network of
+                              companies and an active placement cell.
                             </p>
                           </div>
                         </div>
@@ -4283,7 +4346,9 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapsek"
                           >
-                         Is the Selenium training at Aimore suitable for individuals looking to transition into testing from other domains?
+                            Is the Selenium training at Aimore suitable for
+                            individuals looking to transition into testing from
+                            other domains?
                           </button>
                         </div>
                         <div
@@ -4294,7 +4359,10 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Yes, Aimore's Selenium training is suitable for individuals looking to transition into testing from other domains, offering foundational knowledge and practical skills.
+                              Yes, Aimore's Selenium training is suitable for
+                              individuals looking to transition into testing
+                              from other domains, offering foundational
+                              knowledge and practical skills.
                             </p>
                           </div>
                         </div>
@@ -4321,7 +4389,8 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapsee"
                           >
-                            Can I choose flexible timings for Selenium training classes based on my schedule?
+                            Can I choose flexible timings for Selenium training
+                            classes based on my schedule?
                           </button>
                         </div>
                         <div
@@ -4332,8 +4401,10 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Yes, Aimore offers flexible batch timings, including weekend, weekday, and fast-track options, allowing participants to choose a schedule that suits their availability.
-
+                              Yes, Aimore offers flexible batch timings,
+                              including weekend, weekday, and fast-track
+                              options, allowing participants to choose a
+                              schedule that suits their availability.
                             </p>
                           </div>
                         </div>
@@ -4348,7 +4419,8 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapsef"
                           >
-                     What are the career prospects and job roles after completing Selenium training?
+                            What are the career prospects and job roles after
+                            completing Selenium training?
                           </button>
                         </div>
                         <div
@@ -4358,8 +4430,10 @@ Modes Of Training
                           data-bs-parent="#accordionExample1"
                         >
                           <div class="edu-accordion-body">
-                          Career prospects include roles such as Automation Tester, QA Engineer, Test Automation Architect, SDET, and more in the software testing and automation domain.
-
+                            Career prospects include roles such as Automation
+                            Tester, QA Engineer, Test Automation Architect,
+                            SDET, and more in the software testing and
+                            automation domain.
                           </div>
                         </div>
                       </div>
@@ -4373,8 +4447,8 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapseg"
                           >
-                            Can I attend Selenium training remotely, or is it only available in a classroom setting?
-
+                            Can I attend Selenium training remotely, or is it
+                            only available in a classroom setting?
                           </button>
                         </div>
                         <div
@@ -4385,7 +4459,10 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Aimore provides flexibility, and participants can choose to attend Selenium training either remotely or in a classroom setting, depending on their preferences.
+                              Aimore provides flexibility, and participants can
+                              choose to attend Selenium training either remotely
+                              or in a classroom setting, depending on their
+                              preferences.
                             </p>
                           </div>
                         </div>
@@ -4400,7 +4477,8 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapseh"
                           >
-                            How experienced are the trainers conducting the Selenium training sessions?
+                            How experienced are the trainers conducting the
+                            Selenium training sessions?
                           </button>
                         </div>
                         <div
@@ -4411,7 +4489,10 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Trainers at Aimore are industry experts with significant experience in Selenium testing. Their expertise ensures high-quality instruction and real-world insights.
+                              Trainers at Aimore are industry experts with
+                              significant experience in Selenium testing. Their
+                              expertise ensures high-quality instruction and
+                              real-world insights.
                             </p>
                           </div>
                         </div>
@@ -4426,7 +4507,8 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapseL"
                           >
-                            Is the Selenium training curriculum regularly updated to align with industry trends?
+                            Is the Selenium training curriculum regularly
+                            updated to align with industry trends?
                           </button>
                         </div>
                         <div
@@ -4437,7 +4519,10 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Yes, Aimore ensures that the Selenium training curriculum is regularly updated to align with the latest industry trends and advancements in Selenium testing.
+                              Yes, Aimore ensures that the Selenium training
+                              curriculum is regularly updated to align with the
+                              latest industry trends and advancements in
+                              Selenium testing.
                             </p>
                           </div>
                         </div>
@@ -4452,7 +4537,8 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapseM"
                           >
-                            What is the duration of the Selenium training program at Aimore?
+                            What is the duration of the Selenium training
+                            program at Aimore?
                           </button>
                         </div>
                         <div
@@ -4463,7 +4549,10 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            The duration of the Selenium training program may vary, and participants can choose from different batch timings, including weekend, weekday, and fast-track options.
+                              The duration of the Selenium training program may
+                              vary, and participants can choose from different
+                              batch timings, including weekend, weekday, and
+                              fast-track options.
                             </p>
                           </div>
                         </div>
@@ -4478,7 +4567,9 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapseN"
                           >
-                         Are there any prerequisites for enrolling in the Selenium training course?                          </button>
+                            Are there any prerequisites for enrolling in the
+                            Selenium training course?{" "}
+                          </button>
                         </div>
                         <div
                           id="collapseN"
@@ -4488,7 +4579,10 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            There are no strict prerequisites. Aimore's Selenium training is designed for individuals with diverse backgrounds, and participants can join without extensive prerequisites.
+                              There are no strict prerequisites. Aimore's
+                              Selenium training is designed for individuals with
+                              diverse backgrounds, and participants can join
+                              without extensive prerequisites.
                             </p>
                           </div>
                         </div>
@@ -4503,7 +4597,9 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapseN"
                           >
-                         Can I switch between different programming languages during the Selenium training?                         </button>
+                            Can I switch between different programming languages
+                            during the Selenium training?{" "}
+                          </button>
                         </div>
                         <div
                           id="collapseN"
@@ -4513,7 +4609,9 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Yes, participants have the flexibility to choose and switch between programming languages such as Java, Python, and C# during the Selenium training.
+                              Yes, participants have the flexibility to choose
+                              and switch between programming languages such as
+                              Java, Python, and C# during the Selenium training.
                             </p>
                           </div>
                         </div>
@@ -4528,7 +4626,9 @@ Modes Of Training
                             aria-expanded="false"
                             aria-controls="collapseN"
                           >
-                         How does Aimore ensure individual learning needs are addressed in the Selenium training?                         </button>
+                            How does Aimore ensure individual learning needs are
+                            addressed in the Selenium training?{" "}
+                          </button>
                         </div>
                         <div
                           id="collapseN"
@@ -4538,7 +4638,10 @@ Modes Of Training
                         >
                           <div class="edu-accordion-body">
                             <p>
-                            Aimore prioritizes individual learning needs and provides personalized attention, ensuring that participants' unique requirements are addressed throughout the training.
+                              Aimore prioritizes individual learning needs and
+                              provides personalized attention, ensuring that
+                              participants' unique requirements are addressed
+                              throughout the training.
                             </p>
                           </div>
                         </div>
@@ -4555,4 +4658,4 @@ Modes Of Training
   );
 }
 
-export default Aws;
+export default Selenium;
