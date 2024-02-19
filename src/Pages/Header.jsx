@@ -122,12 +122,13 @@ function Header() {
                             <li class="has-droupdown" onClick={showSubmenu}>
                                 <a href="#">Coursers</a>
                                 <ul class="submenu">
-                                    <li><Link to="/power-bi-training-in-chennai/" onClick={closeMobile}>Power BI Training</Link></li>
-                                    <li><Link to="/snowflake-training-in-chennai/" onClick={closeMobile}>Snow Flake Training</Link></li>
+                                    <li><Link to="/power-bi-training-in-chennai/" onClick={closeMobile}>Power BI Training</Link></li>       
                                     <li><Link to="/selenium-training-in-chennai/" onClick={closeMobile}>Selenium Training</Link></li>
                                     <li><Link to="/aws-training-in-chennai/" onClick={closeMobile}>Aws Training</Link></li>                                    
                                     <li><Link to="/python-training-in-chennai/" onClick={closeMobile}>Python Training</Link></li>
                                     <li><Link to="/best-software-training-institute-in-chennai/" onClick={closeMobile}>Best Software Training</Link></li>
+                                    <li><Link to="/full-stack-developer-course-in-chennai/" onClick={closeMobile}>Fullstack Developer Training</Link></li>
+                                 
                                 </ul>
                             </li>
                             <li> <Link to="/contact-us/" onClick={closeMobile}>Contact</Link>                   
