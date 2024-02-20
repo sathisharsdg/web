@@ -461,13 +461,13 @@ function Home() {
             </div>
 
 
-      <div className="testi-section">
+      <div className="testi-section py-5">
       <div className="container">
-                <div className="row section-title py-5 mt-5 mb-5">
+                <div className="row section-title py-5">
                     <div className="col-md-8 offset-md-2 client-testimonials">
                         <h1 className='title text-center'>What Do People Say About Us?</h1>
                         <h4 className='text-center py-2'>Trusted by Thousands of Students and Tutors</h4>
-                        <Slider {...settings}>
+                        <Slider {...settings} className='py-5'>
                             <div className='text-center py-2'>
                                 <h1><i class="ri-user-line"></i></h1>
                                 <h1><b>Kiran Rajesh</b></h1>

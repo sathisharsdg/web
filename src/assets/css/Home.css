@@ -21,14 +21,14 @@
 }
 .client-testimonials h1 i {
     font-size: 50px;
-    color: #191eca;
+    color: #ffffff;
 }
 .slick-dots li button:before {
     font-family: 'slick';
     font-size: 20px;
 }
 .start-rating span i.ri-star-fill {
-    color: #0780bd;
+    color: #07ffc9;
     font-size: 20px;
 }
  
@@ -47,4 +47,14 @@
     font-size: 16px;
     line-height: 26px;
     height: 60px;
+}
+.testi-section {
+    background-color: #2b387c;
+    color: #fff;
+}
+.testi-section h1, .testi-section h4, .testi-section p {
+    color: #fff;
+}
+.slick-dots li button:before {
+    color: #fff!important;
 }
