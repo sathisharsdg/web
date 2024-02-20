@@ -13,3 +13,9 @@
     color: #0c0c95;
     font-size: 40px;
 }
+.service-card-3 .inner .content .title {
+    font-size: 24px!important;
+    line-height: 32px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}

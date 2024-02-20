@@ -1,5 +1,10 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import "../assets/css/Home.css"
 import homeMainbanner from "../assets/images/home-banner.png"
 import selenium from "../assets/images/homepage/selenium-aimore.png"
@@ -10,6 +15,11 @@ import pythonimg from "../assets/images/homepage/python-training-aimore.png"
 import bestsoftware from "../assets/images/homepage/best-software-training-aimore.png"
 import { Link } from 'react-router-dom'
 import whychoose from "../assets/images/homepage/why-choose-aimore.png"
+import bestgateway from "../assets/images/homepage/best-way-to-enter-it-industry.png"
+import bestSoftware from "../assets/images/homepage/Software-Training-Institute-in-Chennai-with-Placements.png"
+import upskill from "../assets/images/homepage/Up-skill-yourself-with-aimore-technologies.png"
+import increase from "../assets/images/homepage/increase-career-opportunities-with-aimore.png"
+import numerous from "../assets/images/homepage/Numerous-Advantages-of-Joining-Aimore-Technology.png"
 function Home() {
     return (
         <div>
@@ -313,77 +323,103 @@ function Home() {
 
 
             <div class="edu-service-area service-wrapper-3">
-   <div class="about-us-two-service-wrapper edu-section-gapTop bg-image position-relative">
-      <div class="eduvibe-about-us-two-service ">
-         <div class="container eduvibe-animated-shape">
-         
-            <div class="row eduvibe-about-one-service g-5 mt--20">
-               <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                  <div class="service-card service-card-3 text-left shape-bg-1">
-                     <div class="inner">
-                       
-                        <div class="content">
-                           <h3 class="title">The Gateway to Success to Enter in the IT Industry</h3>
-                           <p class="description">Aimore Technology welcomes candidates with diverse skills, providing them with all the necessary knowledge and helping them build their careers. The best software IT training institute in Chennai also helps candidates build a successful career by guiding them on what they should do next. They offer employment opportunities for those who want to work on their terms.<br/>
-                           Aimore Technology excels at finding out what kind of candidate they are and helping them get started on the right foot by guiding them through various courses that are tailored specifically for that particular candidate’s needs.</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>    
-               <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                  <div class="service-card service-card-3 text-left shape-bg-1">
-                     <div class="inner">
-                       
-                        <div class="content">
-                           <h3 class="title">Software Training Institute in Chennai with Placements</h3>
-                           <p class="description">Aimore Technology, the fastest-growing IT Training Institute in Chennai offers a wide variety of courses for students and professionals. Aimore Technology's courses are designed per the latest industry trends and requirements. With industry-leading trainers, we ensure that our students are always updated with all new skills required by them. <br/>
-                           Our placement team is dedicated to securing prompt placements for our candidates in their preferred positions upon course completion. We consider it a significant accomplishment when we witness a candidate achieving placement at their dream company.</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>     
-               <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                  <div class="service-card service-card-3 text-left shape-bg-1">
-                     <div class="inner">
-                      
-                        <div class="content">
-                           <h3 class="title">Up-skill yourself with the best It software training institute in Chennai</h3>
-                           <p class="description">The best IT training institute in Chennai helps freshers and working professionals alike to up-skill themselves with the latest technologies. They offer a wide range of courses from AWS, Java, Python, Data Science, Power BI, AI, ML, etc. Their well-trained faculty provides input on how students can get an edge over others by developing their skills and knowledge about specific topics. In addition, they also have workshops that help develop soft skills like time management, leadership skills, and team building.</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>    
-               <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                  <div class="service-card service-card-3 text-left shape-bg-1">
-                     <div class="inner">
-                       
-                        <div class="content">
-                           <h3 class="title">Increase Your Career Opportunities with Aimore Technology </h3>
-                           <p class="description">Aimore provides a variety of courses like web designing, Java, Python, Selenium, and much more. These courses are available for people with diverse skill sets and backgrounds. Aimore also provides quality training for students who want to gain experience before they enter the job market.<br/> Aimore’s teaching methodology is based on active learning. This helps candidates retain knowledge better because they are involved in its creation process. The educators at Aimore also provide individual attention to each student so that they can excel in their respective fields.</p>
-                        </div>
-                     </div>
-                  </div>
-               </div> 
-               <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                  <div class="service-card service-card-3 text-left shape-bg-1">
-                     <div class="inner">
-                         
-                        <div class="content">
-                           <h3 class="title">Numerous Advantages of Joining Aimore Technology – Best Software Training Institute in Chennai </h3>
-                           <p class="description">Aimore Technology has been a top provider of IT training courses in Chennai for more than 12 years. We offer a wide range of courses at all levels including vocational, certification, and degree programs. <br/>
-                           Aimore offers different types of classes including Classroom and online courses. One can choose from a wide range of certification programs such as Oracle, Data Science, Azure, Aws, DevOps, etc.<br/>
-                           Our team consists of expert faculty who have been teaching for over 12 years and are well-versed with the latest technologies and trends. Our students are given hands-on training by our experienced professionals from leading organisations like CTS, TCS, etc. </p>
-                        </div>
-                     </div>
-                  </div>
-               </div> 
-           </div>
-         </div>
-      </div>
-   </div>
-</div>
+                <div class="about-us-two-service-wrapper edu-section-gapTop bg-image position-relative">
+                    <div class="eduvibe-about-us-two-service ">
+                        <div class="container eduvibe-animated-shape">
 
+                            <div class="row eduvibe-about-one-service g-5 mt--20">
+                                <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                    <div class="service-card service-card-3 text-left shape-bg-1">
+                                        <div class="inner">
 
+                                            <div class="content">
+                                                <h3 class="title">The Gateway to Success to Enter in the IT Industry</h3>
+                                                <p class="description">Aimore Technology welcomes candidates with diverse skills, providing them with all the necessary knowledge and helping them build their careers. The best software IT training institute in Chennai also helps candidates build a successful career by guiding them on what they should do next. They offer employment opportunities for those who want to work on their terms.<br />
+                                                    Aimore Technology excels at finding out what kind of candidate they are and helping them get started on the right foot by guiding them through various courses that are tailored specifically for that particular candidate’s needs.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                     
+                                     <img src={bestgateway}alt="Gateway to Success to Enter in the IT Industry" />
+                                    
+                                </div>
+                                <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                     
+                                     <img src={bestSoftware}alt="Software Training Institute in Chennai with Placements" />
+                                    
+                                </div>
+                                <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                    <div class="service-card service-card-3 text-left shape-bg-1">
+                                        <div class="inner">
+
+                                            <div class="content">
+                                                <h3 class="title">Software Training Institute in Chennai with Placements</h3>
+                                                <p class="description">Aimore Technology, the fastest-growing IT Training Institute in Chennai offers a wide variety of courses for students and professionals. Aimore Technology's courses are designed per the latest industry trends and requirements. With industry-leading trainers, we ensure that our students are always updated with all new skills required by them. <br />
+                                                    Our placement team is dedicated to securing prompt placements for our candidates in their preferred positions upon course completion. We consider it a significant accomplishment when we witness a candidate achieving placement at their dream company.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                    <div class="service-card service-card-3 text-left shape-bg-1">
+                                        <div class="inner">
+
+                                            <div class="content">
+                                                <h3 class="title">Up-skill yourself with the best It software training institute in Chennai</h3>
+                                                <p class="description">The best IT training institute in Chennai helps freshers and working professionals alike to up-skill themselves with the latest technologies. They offer a wide range of courses from AWS, Java, Python, Data Science, Power BI, AI, ML, etc. Their well-trained faculty provides input on how students can get an edge over others by developing their skills and knowledge about specific topics. In addition, they also have workshops that help develop soft skills like time management, leadership skills, and team building.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                     
+                                     <img src={upskill}alt="Up-skill yourself with the best It software training institute in Chennai" />
+                                    
+                                </div>
+                                <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                     
+                                     <img src={increase}alt="Increase Your Career Opportunities with Aimore Technology" />
+                                    
+                                </div>
+                                <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                    <div class="service-card service-card-3 text-left shape-bg-1">
+                                        <div class="inner">
+
+                                            <div class="content">
+                                                <h3 class="title">Increase Your Career Opportunities with Aimore Technology </h3>
+                                                <p class="description">Aimore provides a variety of courses like web designing, Java, Python, Selenium, and much more. These courses are available for people with diverse skill sets and backgrounds. Aimore also provides quality training for students who want to gain experience before they enter the job market.<br /> Aimore’s teaching methodology is based on active learning. This helps candidates retain knowledge better because they are involved in its creation process. The educators at Aimore also provide individual attention to each student so that they can excel in their respective fields.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                    <div class="service-card service-card-3 text-left shape-bg-1">
+                                        <div class="inner">
+
+                                            <div class="content">
+                                                <h3 class="title">Numerous Advantages of Joining Aimore Technology – Best Software Training Institute in Chennai </h3>
+                                                <p class="description">Aimore Technology has been a top provider of IT training courses in Chennai for more than 12 years. We offer a wide range of courses at all levels including vocational, certification, and degree programs. <br />
+                                                    Aimore offers different types of classes including Classroom and online courses. One can choose from a wide range of certification programs such as Oracle, Data Science, Azure, Aws, DevOps, etc.<br />
+                                                    Our team consists of expert faculty who have been teaching for over 12 years and are well-versed with the latest technologies and trends. Our students are given hands-on training by our experienced professionals from leading organisations like CTS, TCS, etc. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                     
+                                     <img src={numerous}alt="Numerous Advantages of Joining Aimore Technology" />
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
         </div>
 
     )

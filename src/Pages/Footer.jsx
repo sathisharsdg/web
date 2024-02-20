@@ -57,6 +57,13 @@ function Footer() {
                                                 Perumbakkam Main Rd, Medavakkam,<br />
                                                 Chennai, Tamil Nadu - 600100
                                             </h4>
+                                            <hr/>
+                                            <h4 className='text-white mb-3'><i class="ri-phone-line"></i>
+                                            <span className='mx-2'>+91 9176-333-334</span><br/>
+                                             <span className='px-4'>+91 9962-698-698</span>
+                                             <hr/>
+                                              
+                                            </h4>
                                             <h2 className='text-white pb-2'>Porur Branch</h2>
                                             <h4 className='text-white mb-3'><i class="icon-map-pin-line me-3"></i>
                                                 No 112/2, Door No 140/104, First Floor,<br />
