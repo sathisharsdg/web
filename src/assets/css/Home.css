@@ -3,3 +3,13 @@
     height: 100%;
     border: 1px solid #7a7a7a4a;
 }
+.bg-color-white {
+    background-color: #fcfcfc !important;
+}
+.edu-winner-card {   
+    box-shadow: -1px 10px 30px rgb(0 0 0 / 17%);  
+}
+.content h1 i {
+    color: #0c0c95;
+    font-size: 40px;
+}
