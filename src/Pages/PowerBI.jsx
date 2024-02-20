@@ -6,6 +6,8 @@ import amozoncloud from "../assets/images/banner/banner-01/amazon-cloud-services
 import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg";
 import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
 import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg";
+import powerBIintro from "../assets/images/powerBI/power-bi-intro.png"
+import powerBIimportance from "../assets/images/powerBI/importance-of-power-BI-at-aimore.jpg"
 
 function PowerBI() {
   const [schemas, setSchemas] = useState([]);
@@ -66,7 +68,7 @@ function PowerBI() {
         <div className="container py-5">
           <div className="row">
             <div className="col-md-6">
-              <img src="/assets/images/banner/banner-06.jpg" alt="banner" />
+              <img src={powerBIintro} alt="powerBI training in chennai"  className="img-fluid"/>
             </div>
             <div className="col-md-6 section-title sal-animate">
               <h1 className="title">
@@ -506,7 +508,7 @@ function PowerBI() {
                     </div>
                   </div>
                   <div className="col-lg-5">
-                    <img src={amazonbanner} alt="Amazon Web Services" />
+                    <img src={powerBIimportance} alt="Power BI importance"  className="img-fluid"/>
                   </div>
                 </div>
 
@@ -885,7 +887,7 @@ function PowerBI() {
 
         <div className="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
           <div className="container eduvibe-animated-shape">
-            <div className="row gy-lg-0 gy-5 row--60 align-items-center">
+            <div className="row gy-lg-0 gy-5 row--60">
               <div className="col-lg-7 order-2 order-lg-1">
                 <div className="workshop-inner">
                   <div
@@ -944,60 +946,7 @@ function PowerBI() {
 Implement custom visualizations and charts when the standard Power BI visuals do not meet specific business requirements. This may involve using custom visuals from the Power BI marketplace or developing custom visuals using Power BI developer tools.
 
                   </p>
-                  <p
-                    className="description sal-animate"
-                    data-sal-delay="250"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                  >
-                    Query Optimization:
-Optimize Power BI queries to enhance performance and ensure that reports and dashboards load quickly, especially when dealing with large datasets.
 
-                  </p>
-                  <p
-                    className="description sal-animate"
-                    data-sal-delay="250"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                  >
-                    Power BI Service Administration:
-Administer and manage Power BI Service, including tasks such as sharing and publishing reports, setting up data refresh schedules, and managing user access and permissions.
-
-                  </p>
-                  <p
-                    className="description sal-animate"
-                    data-sal-delay="250"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                  >
-                    Troubleshooting and Debugging:
-Identify and troubleshoot issues within Power BI reports or datasets. This may involve debugging DAX (Data Analysis Expressions) formulas, resolving connectivity problems, or addressing data modeling challenges.
-
-
-
-                  </p>
-                  <p
-                    className="description sal-animate"
-                    data-sal-delay="250"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                  >
-                    Integration with Other Tools:
-Integrate Power BI with other tools and platforms within the organization's ecosystem. This includes connecting Power BI to data stored in Azure, SQL Server, Excel, or other relevant systems.
-
-
-
-                  </p>
-                  <p
-                    className="description sal-animate"
-                    data-sal-delay="250"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                  >
-                   Continuous Learning and Skill Enhancement:
-Stay updated on the latest features and updates in the Power BI ecosystem. Continuously enhance skills in data visualization, DAX scripting, and other relevant areas to ensure optimal utilization of Power BI capabilities.
-
-                  </p>
                   <p
                     className="description sal-animate"
                     data-sal-delay="250"
@@ -1027,6 +976,60 @@ Collaborate with cross-functional teams, including data engineers, business anal
                     alt="About Image"
                   />
                 </div>
+                <p
+                    className="description sal-animate text-white"
+                    data-sal-delay="250"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                    Query Optimization:
+Optimize Power BI queries to enhance performance and ensure that reports and dashboards load quickly, especially when dealing with large datasets.
+
+                  </p>
+                  <p
+                    className="description sal-animate text-white"
+                    data-sal-delay="250"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                    Power BI Service Administration:
+Administer and manage Power BI Service, including tasks such as sharing and publishing reports, setting up data refresh schedules, and managing user access and permissions.
+
+                  </p>
+                  <p
+                    className="description sal-animate text-white"
+                    data-sal-delay="250"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                    Troubleshooting and Debugging:
+Identify and troubleshoot issues within Power BI reports or datasets. This may involve debugging DAX (Data Analysis Expressions) formulas, resolving connectivity problems, or addressing data modeling challenges.
+
+
+
+                  </p>
+                  <p
+                    className="description sal-animate text-white"
+                    data-sal-delay="250"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                    Integration with Other Tools:
+Integrate Power BI with other tools and platforms within the organization's ecosystem. This includes connecting Power BI to data stored in Azure, SQL Server, Excel, or other relevant systems.
+
+
+
+                  </p>
+                  <p
+                    className="description sal-animate text-white"
+                    data-sal-delay="250"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                  >
+                   Continuous Learning and Skill Enhancement:
+Stay updated on the latest features and updates in the Power BI ecosystem. Continuously enhance skills in data visualization, DAX scripting, and other relevant areas to ensure optimal utilization of Power BI capabilities.
+
+                  </p>
               </div>
             </div>
           </div>

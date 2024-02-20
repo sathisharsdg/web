@@ -4,6 +4,7 @@ import $ from 'jquery';
 import "../App.css";
 import { Link } from 'react-router-dom';
 import Popupform from '../Components/Popupform';
+import "../assets/css/Header.css"
 
 function Header() {
     useLayoutEffect(()=>{
@@ -47,6 +48,9 @@ function Header() {
  
     return (
         <div>
+            <div className="stickynavbtn">
+                <Link to="/contact-us/">Qucik Enquiry</Link>
+            </div>
             <header class="edu-header header-style-2 header-transparent header-sticky">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-xl-3 col-md-6 col-6">

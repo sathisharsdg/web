@@ -1,0 +1,15 @@
+.stickynavbtn {
+    position: fixed;
+    right: -4%;
+    transform: rotate(89deg);
+    top: 50%;
+    background-color: #ff1c2a;
+    padding: 7px 20px;
+    /* color: #fff; */
+    z-index: 999;
+}
+.stickynavbtn a {
+    color: #fff;
+    font-size: 15px;
+    transform: rotate(101deg);
+}
