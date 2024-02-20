@@ -5092,7 +5092,7 @@ textarea:-ms-input-placeholder {
 
 /* Breadcrumb  */
 .edu-breadcrumb-area {
-  background-image: url(../images/bg/breadcrumb-bg.jpg); }
+  background-image: url(../images/bg/new-banner.png); }
   .edu-breadcrumb-area .shape-image {
     position: absolute;
     z-index: -1; }
@@ -14007,7 +14007,6 @@ Gallery Item
   .blog-pagination-list::after {
     position: absolute;
     content: "";
-    background-image: url(../images/bg/bg-image-28.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -14778,7 +14777,7 @@ Gallery Item
 .banner-style-5 {
   position: relative;
   z-index: 0;
-  background-image: url(../images/bg/home-five-banner.jpg); 
+  background-image: url('../images/bg/home-five-courses.jpg'); 
 }
   .banner-style-5 .wrapper {
     height: 600px; 
@@ -16119,7 +16118,7 @@ Gallery Item
     InnerPages    
 --------------------------*/
 .background-marque {
-  background-image: url(../images/bg/landing-page-innerpages.png);
+  /* background-image: url(../images/bg/landing-page-innerpages.png); */
   background-repeat: repeat-x;
   background-size: auto;
   height: 770px;
