@@ -37,14 +37,12 @@ function Home() {
       emailjs.sendForm('service_m2qphau', 'template_fuxwcph', form.current, 'R1muJOWgzl2ngf6ye')
         .then((result) => {
           setMessage("Form Submitted Successfully..")       
-            console.log(result.text);
-            
+            console.log(result.text);            
         }, (error) => {
           setMessage("Something went wrong..")
             console.log(error.text);
         });
-        form.current.reset();
-       
+        form.current.reset();       
     };
     var settings = {
         dots: true,
@@ -463,7 +461,8 @@ function Home() {
             </div>
 
 
-            <div className="container">
+      <div className="testi-section">
+      <div className="container">
                 <div className="row section-title py-5 mt-5 mb-5">
                     <div className="col-md-8 offset-md-2 client-testimonials">
                         <h1 className='title text-center'>What Do People Say About Us?</h1>
@@ -534,6 +533,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+      </div>
 
             <div class="edu-contact-us-area eduvibe-contact-us edu-section-gap bg-color-white">
         <div class="container eduvibe-animated-shape">

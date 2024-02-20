@@ -31,3 +31,20 @@
     color: #0780bd;
     font-size: 20px;
 }
+ 
+.bg-color-white {
+    background-color: #f0f0f0 !important;
+}
+.rwt-dynamic-form .form-group input {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 0 30px;
+    border: 1px solid #2883e5;
+    transition: 0.4s;
+    outline: none;
+    box-shadow: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    height: 60px;
+}
