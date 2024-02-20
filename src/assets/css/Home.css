@@ -19,3 +19,15 @@
     margin-bottom: 15px;
     font-weight: 700;
 }
+.client-testimonials h1 i {
+    font-size: 50px;
+    color: #191eca;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 20px;
+}
+.start-rating span i.ri-star-fill {
+    color: #0780bd;
+    font-size: 20px;
+}

@@ -1,4 +1,4 @@
-import React ,{useEffect}from 'react'
+import React ,{useEffect, useLayoutEffect}from 'react'
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import "../App.css";
@@ -6,6 +6,11 @@ import { Link } from 'react-router-dom';
 import Popupform from '../Components/Popupform';
 
 function Header() {
+    useLayoutEffect(()=>{
+        setTimeout(()=>{
+             document.getElementById("staticBackdrop").click();
+        },3000)
+    })
     useEffect(() => {
         window.addEventListener('scroll', sticky);
         return () => {

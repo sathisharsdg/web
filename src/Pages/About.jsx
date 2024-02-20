@@ -33,6 +33,9 @@ function About() {
                     </div>
                     <div className="col-md-5">
                          <img src={aboutBanner} alt="about-banner" />
+                         <div className='text-center'>
+                         <a class="edu-btn" href="/contact-us">To Know More <i class="icon-arrow-right-line-right"></i></a>
+                         </div>
                     </div>
                 </div>
             </div>
