@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import amazonbanner from "../assets/images/banner/banner-01/new-amazon.jpg";
 import amozoncloud from "../assets/images/banner/banner-01/amazon-cloud-services.png";
 import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg";
 import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
