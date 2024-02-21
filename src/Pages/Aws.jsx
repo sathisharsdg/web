@@ -1697,7 +1697,7 @@ function Aws() {
 
                 <div class="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
                     <div class="container eduvibe-animated-shape">
-                        <div class="row gy-lg-0 gy-5 row--60 align-items-center">
+                        <div class="row gy-lg-0 gy-5  align-items-center">
                             <div class="section-title  text-center sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 <h3 class="title text-white">Corporate Training</h3>
                                 <h4 className='title-inner text-white py-3'>Advantages</h4>
@@ -2212,7 +2212,7 @@ function Aws() {
                             </div>
 
                         </div>
-                        <div class="row gy-lg-0 gy-5 row--60  section-title">
+                        <div class="row gy-lg-0 gy-5   section-title">
 
                             <div class="col-lg-4 col-md-4 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 <div class="edu-winner-card edu-winner-card-left">

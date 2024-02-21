@@ -337,7 +337,7 @@ function PowerBI() {
                           id="collapse11"
                           className="accordion-collapse collapse"
                           aria-labelledby="heading11"
-                          data-bs-parent="#accordionExample1"
+                          data-bs-parent="#accordionExample"
                         >
                           <div className="edu-accordion-body">
                             <p>
@@ -966,17 +966,7 @@ Monitor the performance of Power BI reports and dashboards, identifying opportun
                     Project Collaboration:
 Collaborate with cross-functional teams, including data engineers, business analysts, and IT professionals, to deliver comprehensive business intelligence solutions that align with organizational goals.
                   </p>
-                </div>
-              </div>
-              <div className="col-lg-5 order-1 order-lg-2">
-                <div className="thumbnail video-popup-wrapper">
-                  <img
-                    className="radius-small w-100"
-                    src={amozoncloud}
-                    alt="About Image"
-                  />
-                </div>
-                <p
+                  <p
                     className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
@@ -996,6 +986,17 @@ Optimize Power BI queries to enhance performance and ensure that reports and das
 Administer and manage Power BI Service, including tasks such as sharing and publishing reports, setting up data refresh schedules, and managing user access and permissions.
 
                   </p>
+                </div>
+              </div>
+              <div className="col-lg-5 order-1 order-lg-2">
+                <div className="thumbnail video-popup-wrapper">
+                  <img
+                    className="radius-small w-100"
+                    src={amozoncloud}
+                    alt="About Image"
+                  />
+                </div>
+              
                   <p
                     className="description sal-animate text-white"
                     data-sal-delay="250"
@@ -2018,7 +2019,7 @@ Aimore places a premium on addressing individual learning needs, providing perso
 
         <div class="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
           <div class="container eduvibe-animated-shape">
-            <div class="row gy-lg-0 gy-5 row--60 align-items-center">
+            <div class="row gy-lg-0 gy-5  align-items-center">
               <div
                 class="section-title  text-center sal-animate"
                 data-sal-delay="150"

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import amazonbanner from "../assets/images/banner/banner-01/new-amazon.jpg";
 import amozoncloud from "../assets/images/banner/banner-01/amazon-cloud-services.png";
 import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg";
 import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
 import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg";
+import selenium from "../assets/images/selenium/selenium-intro.png"
 
 function Selenium() {
   const [schemas, setSchemas] = useState([]);
@@ -66,7 +66,7 @@ function Selenium() {
         <div className="container py-5">
           <div className="row">
             <div className="col-md-6">
-              <img src="/assets/images/banner/banner-06.jpg" alt="banner" />
+              <img src={selenium} alt="selenium" />
             </div>
             <div className="col-md-6 section-title sal-animate">
               <h1 className="title">
@@ -290,7 +290,7 @@ function Selenium() {
             <div className="eduvibe-about-us-two-service ">
               <div className="container eduvibe-animated-shape">
                 <div className="row">
-                  <div className="col-lg-7">
+                  <div className="col-md-12 text-center">
                     <div
                       className="section-title  sal-animate"
                       data-sal-delay="150"
@@ -302,9 +302,7 @@ function Selenium() {
                       </h3>
                     </div>
                   </div>
-                  <div className="col-lg-5">
-                    <img src={amazonbanner} alt="Amazon Web Services" />
-                  </div>
+              
                 </div>
 
                 <div className="row eduvibe-about-one-service g-5 mt--20">
@@ -3068,7 +3066,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
 
         <div class="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
           <div class="container eduvibe-animated-shape">
-            <div class="row gy-lg-0 gy-5 row--60 align-items-center">
+            <div class="row gy-lg-0 gy-5  align-items-center">
               <div
                 class="section-title  text-center sal-animate"
                 data-sal-delay="150"
@@ -3891,7 +3889,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                 </p>
               </div>
             </div>
-            <div class="row gy-lg-0 gy-5 row--60  section-title">
+            <div class="row gy-lg-0 gy-5   section-title">
               <div
                 class="col-lg-4 col-md-4 col-12 sal-animate"
                 data-sal-delay="150"
