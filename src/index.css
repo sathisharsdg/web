@@ -1,3 +1,12 @@
+
+@media(max-width:560px){
+    :root {       
+        overflow-x: hidden;
+    }
+    .stickynavbtn {         
+        right: -8%;       
+    }
+}
  a{
   text-decoration: none!important;
  }

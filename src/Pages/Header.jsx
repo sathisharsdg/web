@@ -49,7 +49,7 @@ function Header() {
     return (
         <div>
             <div className="stickynavbtn">
-                <Link to="/contact-us/">Qucik Enquiry</Link>
+                <Link  data-bs-target="#staticBackdrop" data-bs-toggle="modal">Qucik Enquiry</Link>
             </div>
             <header class="edu-header header-style-2 header-transparent header-sticky">
             <div class="row align-items-center">

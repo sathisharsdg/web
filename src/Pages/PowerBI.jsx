@@ -2683,7 +2683,7 @@ Currently contributing to the success of Birla, Sneha exemplifies how our Power 
                 data-sal-duration="800"
               >
                 <h3 class="title mb-2 text-white">Your Journey Starts Here</h3>
-                <p className="description mt-0 text-center ">
+                <p className="description mt-0 text-center mb-5">
                 These success stories are just a glimpse of what awaits you at Aimore Technologies. Our Power BI Training and Placement program is designed to empower individuals with the skills, knowledge, and confidence needed to thrive in the competitive landscape of cloud computing.
                 When you enroll with us, you're not just joining a program; you're joining a community committed to your success. Our experienced trainers, hands-on labs, and personalized guidance are here to shape your journey, from novice to Power BI professional.
 Modes Of Training

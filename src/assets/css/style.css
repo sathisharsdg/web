@@ -86,7 +86,7 @@
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;}
 
 article,
 aside,
@@ -11238,8 +11238,8 @@ button.edu-btn {
 ----------------------------*/
 .workshop-style-1 .workshop-inner .description {
   color: var(--color-white);
-  margin-top: 40px;
-  margin-bottom: 40px; }
+  margin-top: 10px;
+  margin-bottom: 10px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .workshop-style-1 .workshop-inner .description {
       margin-top: 20px;
@@ -16785,12 +16785,7 @@ Gallery Item
     filter: invert(100%)!important;
     z-index: 999!important;
 }
-.carousel-control-next {
-  right: -8%!important;
-}
-.carousel-control-prev {
-  left: -8%!important;
-}
+
 .eduvibe-home-three-one-video{
    background-image: url(".././images/bg/home-one-instructor.jpg");
    background-size: cover;
