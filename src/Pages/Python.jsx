@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import amazonbanner from "../assets/images/banner/banner-01/new-amazon.jpg";
+
 import amozoncloud from "../assets/images/banner/banner-01/amazon-cloud-services.png";
 import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg";
 import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
 import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg";
+import pythonCourse from "../assets/images/python/python-intro-course.png"
 
 function Python() {
   const [schemas, setSchemas] = useState([]);
@@ -67,7 +68,8 @@ function Python() {
         <div className="container py-5">
           <div className="row">
             <div className="col-md-6">
-              <img src="/assets/images/banner/banner-06.jpg" alt="banner" />
+              <img src={pythonCourse} alt="python-Course"  className="img-fluid"/>
+            
             </div>
             <div className="col-md-6 section-title sal-animate">
               <h1 className="title">
@@ -421,7 +423,7 @@ function Python() {
             <div className="eduvibe-about-us-two-service ">
               <div className="container eduvibe-animated-shape">
                 <div className="row">
-                  <div className="col-lg-7">
+                  <div className="col-md-12">
                     <div
                       className="section-title  sal-animate"
                       data-sal-delay="150"
@@ -436,9 +438,7 @@ function Python() {
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-5">
-                    <img src={amazonbanner} alt="Amazon Web Services" />
-                  </div>
+                
                 </div>
 
                 <div className="row eduvibe-about-one-service g-5 mt--20">
@@ -452,7 +452,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Destination"></i>
+                          <i class="ri-chat-thread-line"></i>
                           </a>
                         </div>
                         <div className="content">
