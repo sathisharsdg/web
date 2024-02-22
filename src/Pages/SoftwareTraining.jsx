@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import amazonbanner from "../assets/images/banner/banner-01/new-amazon.jpg";
-import amozoncloud from "../assets/images/banner/banner-01/amazon-cloud-services.png";
-import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg";
-import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
-import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg";
-
+import softwarecertificate from "../assets/images/bestsoftware/course-certification.png"
+import LandscapeSoftwareTraining from "../assets/images/bestsoftware/Landscape-of-Software-Training.png"
+import softwaretraininggoodcareer from "../assets/images/bestsoftware/good-career.png"
+import softwaretraingingrole from "../assets/images/bestsoftware/software-training-role.png"
+import challenges from "../assets/images/bestsoftware/challenges.png"
+import bestsoftwaretraining from "../assets/images/bestsoftware/Premier-Software-Training-Institute.png";
+import importantofsoftware from "../assets/images/bestsoftware/Importance-of-Software-Training.png"
+import impactofsoftware from "../assets/images/bestsoftware/impact-of-software-training.png"
+import excellencesoftwaretraining from "../assets/images/bestsoftware/Excellence-in-Software-Training-Institute.png"
 function SoftwareTraining() {
   const [schemas, setSchemas] = useState([]);
   const loadSchema = () => {
@@ -48,7 +51,7 @@ function SoftwareTraining() {
                   <nav className="edu-breadcrumb-nav">
                     <ol className="edu-breadcrumb d-flex justify-content-start liststyle">
                       <li className="breadcrumb-item">
-                        <Link to="/">Home</Link>{" "}
+                        <Link to="/">Home</Link>
                       </li>
                       <li className="separator">
                         <i className="ri-arrow-drop-right-line"></i>
@@ -71,7 +74,7 @@ function SoftwareTraining() {
         <div className="container py-5">
           <div className="row">
             <div className="col-md-6">
-              <img src="/assets/images/banner/banner-06.jpg" alt="banner" />
+              <img src={bestsoftwaretraining} alt="best-software-training-in-chennai" />
             </div>
             <div className="col-md-6 section-title sal-animate">
               <h1 className="title">
@@ -224,7 +227,7 @@ function SoftwareTraining() {
                             aria-expanded="false"
                             aria-controls="collapseThree"
                           >
-                            <i className="ri-printer-cloud-line"></i>{" "}
+                            <i className="ri-printer-cloud-line"></i>
                             Infrastructure
                           </button>
                         </div>
@@ -258,7 +261,7 @@ function SoftwareTraining() {
                             aria-expanded="false"
                             aria-controls="collapse10"
                           >
-                            <i className="ri-git-repository-private-line"></i>{" "}
+                            <i className="ri-git-repository-private-line"></i>
                             Placement Assistance
                           </button>
                         </div>
@@ -295,7 +298,7 @@ function SoftwareTraining() {
                             aria-expanded="false"
                             aria-controls="collapse101"
                           >
-                            <i className="ri-git-repository-private-line"></i>{" "}
+                            <i className="ri-git-repository-private-line"></i>
                             Student Support Services
                           </button>
                         </div>
@@ -509,9 +512,9 @@ function SoftwareTraining() {
 
         <div class="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
           <div class="container eduvibe-animated-shape">
-            <div class="row gy-lg-0 gy-5 row--60 align-items-center">
+            <div class="row gy-lg-0 gy-5  align-items-center">
               <div
-                class="section-title  text-center sal-animate"
+                class="section-title  mb-5 text-center sal-animate"
                 data-sal-delay="150"
                 data-sal="slide-up"
                 data-sal-duration="800"
@@ -583,9 +586,9 @@ function SoftwareTraining() {
           </div>
         </div>
 
-        <div class="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
+        <div class="edu-workshop-area eduvibe-home-three-video workshop-style-1 py-5 bg-image bg-color-primary">
           <div class="container eduvibe-animated-shape">
-            <div class="row gy-lg-0 gy-5 row--60 align-items-center">
+            <div class="row gy-lg-0 gy-5  align-items-center">
               <div
                 class="section-title  text-center sal-animate"
                 data-sal-delay="150"
@@ -629,7 +632,7 @@ function SoftwareTraining() {
                       <p>
                         Engage in real-time projects for a hands-on experience.
                         Showcase your project work to enhance your chances of
-                        employment.{" "}
+                        employment. 
                       </p>
                     </div>
                   </div>
@@ -649,7 +652,7 @@ function SoftwareTraining() {
                         Become certified with Aimore and gain the skills to
                         clear global certifications. Join the 82% of Aimore
                         students who appear for global certifications, with a
-                        100% success rate.{" "}
+                        100% success rate.
                       </p>
                     </div>
                   </div>
@@ -668,7 +671,7 @@ function SoftwareTraining() {
                       <p>
                         Our course fees are not only affordable but also offer
                         installment options. Quality training at an accessible
-                        price is our commitment.{" "}
+                        price is our commitment.
                       </p>
                     </div>
                   </div>
@@ -721,7 +724,7 @@ function SoftwareTraining() {
             <div className="eduvibe-about-us-two-service ">
               <div className="container eduvibe-animated-shape">
                 <div className="row">
-                  <div className="col-lg-7">
+                  <div className="col-md-12">
                     <div
                       className="section-title  sal-animate"
                       data-sal-delay="150"
@@ -734,9 +737,7 @@ function SoftwareTraining() {
                       </h3>
                     </div>
                   </div>
-                  <div className="col-lg-5">
-                    <img src={amazonbanner} alt="Amazon Web Services" />
-                  </div>
+                
                 </div>
 
                 <div className="row eduvibe-about-one-service g-5 mt--20">
@@ -750,7 +751,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Destination"></i>
+                          <i class="ri-artboard-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -777,7 +778,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Browser"></i>
+                          <i class="ri-leaf-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -832,7 +833,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-user-follow-fill"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -859,7 +860,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-window-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -886,7 +887,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-feedback-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -912,7 +913,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-chat-3-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -940,7 +941,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-file-cloud-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -967,7 +968,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-vip-crown-fill"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -993,7 +994,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-windows-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -1021,7 +1022,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-cloud-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -1046,7 +1047,7 @@ function SoftwareTraining() {
 
         <div className="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
           <div className="container eduvibe-animated-shape">
-            <div className="row gy-lg-0 gy-5 row--60 align-items-center">
+            <div className="row gy-lg-0 gy-5 row--60">
               <div className="col-lg-7 order-2 order-lg-1">
                 <div className="workshop-inner">
                   <div
@@ -1172,8 +1173,18 @@ function SoftwareTraining() {
                     This has a positive ripple effect on morale, job
                     satisfaction, and the retention of valuable employees.
                   </p>
-                  <p
-                    className="description sal-animate"
+          
+                </div>
+              </div>
+              <div className="col-lg-5 order-1 order-lg-2">
+                <div className="thumbnail video-popup-wrapper">
+                  <img
+                    className="w-100  img-fluid mb-5"
+                    src={importantofsoftware}
+                    alt="best-software-training"
+                  />
+                          <p
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -1184,7 +1195,7 @@ function SoftwareTraining() {
                     standards, contributing to regulatory compliance.
                   </p>
                   <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -1195,7 +1206,7 @@ function SoftwareTraining() {
                     communication among team members.
                   </p>
                   <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -1206,7 +1217,7 @@ function SoftwareTraining() {
                     applications and data.
                   </p>
                   <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -1216,11 +1227,11 @@ function SoftwareTraining() {
                     and implement creative solutions. It empowers them to think
                     critically and apply their knowledge in inventive ways.
                   </p>
-                  <h3 className="title text-white">
-                    Is Software Training a Good Career Choice?
-                  </h3>
+                  <h2 className="title text-white">
+                    <b>Is Software Training a Good Career Choice?</b>
+                  </h2>
                   <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -1234,15 +1245,6 @@ function SoftwareTraining() {
                     software training institute in Chennai a compelling and
                     potentially rewarding career choice.
                   </p>
-                </div>
-              </div>
-              <div className="col-lg-5 order-1 order-lg-2">
-                <div className="thumbnail video-popup-wrapper">
-                  <img
-                    className="radius-small w-100"
-                    src={amozoncloud}
-                    alt="About Image"
-                  />
                 </div>
               </div>
             </div>
@@ -1745,7 +1747,7 @@ function SoftwareTraining() {
         <section className="py-5 mb-5 section-title">
           <div class="container">
             <div class="row">
-              <div class="col-md-7 mb-5">
+              <div class="col-md-12">
                 <h3 class="title pb-3">
                   The Best Software Training Institute in Chennai
                 </h3>
@@ -1765,7 +1767,7 @@ function SoftwareTraining() {
           </div>
         </section>
 
-        <section className="py-5 mt-5 mb-5 section-title">
+        <section className="py-3 mt-5 mb-5 section-title">
           <div class="container">
             <div class="row">
               <div class="col-md-7 mb-5">
@@ -1787,28 +1789,28 @@ function SoftwareTraining() {
                   mastering in-demand programming languages, diving into data
                   science, or navigating the intricacies of cybersecurity, the
                   training should align with the current needs and future trends
-                  of the tech industry.{" "}
+                  of the tech industry.
                 </p>
                 <p>
                   3. Hands-On Learning: Practical application is a cornerstone
                   of effective software training. The best programs provide
                   hands-on learning experiences, allowing participants to work
                   on real-world projects, collaborate on coding challenges, and
-                  build a portfolio that showcases their capabilities.{" "}
+                  build a portfolio that showcases their capabilities.
                 </p>
                 <p>
                   4. Expert-Led Instruction: Learning from seasoned
                   professionals in the field is a hallmark of the best software
                   training. Instructors with industry experience bring practical
                   insights, real-world examples, and a passion for sharing their
-                  knowledge, creating an enriching learning environment.{" "}
+                  knowledge, creating an enriching learning environment.
                 </p>
                 <p>
                   5. State-of-the-Art Facilities: Cutting-edge facilities with
                   access to the latest software and technology contribute to a
                   conducive learning atmosphere. The best training institutes
                   invest in resources that mirror industry standards, providing
-                  a platform for learners to explore and experiment.{" "}
+                  a platform for learners to explore and experiment.
                 </p>
                 <p>
                   6. Personalized Guidance: Recognizing that each learner is
@@ -1816,7 +1818,7 @@ function SoftwareTraining() {
                   guidance. Whether through one-on-one mentorship, career
                   counseling, or tailored learning paths, personalization
                   ensures that individual strengths are honed and challenges
-                  addressed.{" "}
+                  addressed.
                 </p>
                 <p>
                   7. Certifications and Recognition: The best training programs
@@ -1824,11 +1826,11 @@ function SoftwareTraining() {
                   Certifications validate the skills acquired during training
                   and serve as valuable credentials in the job market.
                   Additionally, partnerships with industry leaders add
-                  credibility to the training institute.{" "}
+                  credibility to the training institute.
                 </p>
               </div>
               <div class="col-md-5 mb-5">
-                <img src={awsaimore} alt="" className="img-fluid" />
+                <img src={excellencesoftwaretraining} alt="excellence-software-training" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -1838,7 +1840,7 @@ function SoftwareTraining() {
           <div class="container">
             <div class="row">
               <div class="col-md-5 mb-5">
-                <img src={awscertification} alt="" className="img-fluid" />
+                <img src={impactofsoftware} alt="Software Training Institute in Chennai" className="img-fluid" />
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
@@ -1850,36 +1852,36 @@ function SoftwareTraining() {
                   in Chennai open doors to diverse career opportunities. Whether
                   aspiring to be a software developer, data scientist, or
                   cybersecurity specialist, comprehensive training lays the
-                  foundation for a successful career journey.{" "}
+                  foundation for a successful career journey.
                 </p>
                 <p>
                   2. Industry Relevance: Chennai's software training institute
                   are attuned to the industry's pulse, ensuring that learners
                   acquire skills that are not only relevant today but also
                   aligned with future industry trends. This industry relevance
-                  enhances the employability of graduates.{" "}
+                  enhances the employability of graduates.
                 </p>
                 <p>
                   3.Skill Enhancement: Software training goes beyond theoretical
                   knowledge;it is a journey of skill enhancement. Learners not
                   only gain insights into concepts but also develop the hands-on
-                  skills required to tackle real-world{" "}
+                  skills required to tackle real-world
                 </p>
                 <p>
-                  {" "}
+                  
                   4. Networking Opportunities: Institutes providing the best
                   software training often serve as hubs for networking.
                   Interacting with industry professionals, fellow learners, and
                   participating in community events creates a valuable network
-                  that can lead to mentorship and career opportunities.{" "}
+                  that can lead to mentorship and career opportunities.
                 </p>
                 <p>
-                  {" "}
+                  
                   5. Continuous Learning Culture: Engaging in software training
                   fosters a culture of continuous learning. Graduates are
                   equipped with the mindset and skills to adapt to evolving
                   technologies, ensuring they remain competitive throughout
-                  their careers.{" "}
+                  their careers.
                 </p>
               </div>
             </div>
@@ -1900,17 +1902,17 @@ function SoftwareTraining() {
                   competitive world of software development.
                 </p>
                 <p>
-                  {" "}
+                  
                   1. Background and Mission Aimore, founded with a vision to
                   bridge the gap between academia and industry requirements, has
                   been a pioneer in the field of software training institute in
                   Chennai. The institute's mission revolves around equipping
                   individuals with the latest technological expertise, ensuring
                   they are not just job-ready but also capable of contributing
-                  meaningfully to the fast-paced IT landscape.{" "}
+                  meaningfully to the fast-paced IT landscape.
                 </p>
                 <p>
-                  {" "}
+                  
                   2. Comprehensive Course Offerings One of the distinguishing
                   features of Aimore is its expansive range of courses catering
                   to various domains within the software industry. From
@@ -1920,10 +1922,10 @@ function SoftwareTraining() {
                   industry trends and demands. The institute collaborates with
                   industry experts to continuously update its course offerings,
                   ensuring that students are exposed to the most relevant and
-                  sought-after skills.{" "}
+                  sought-after skills.
                 </p>
                 <p>
-                  {" "}
+                  
                   3. Experienced and Industry-Ready Faculty At the heart of
                   Aimore's success is its team of seasoned and
                   industry-experienced faculty members. These mentors bring not
@@ -1932,10 +1934,10 @@ function SoftwareTraining() {
                   understanding of the software development lifecycle. The
                   institute's commitment to maintaining a faculty of industry
                   practitioners ensures that the training is not just academic
-                  but also practical and relevant.{" "}
+                  but also practical and relevant.
                 </p>
                 <p>
-                  {" "}
+                  
                   4. State-of-the-Art Infrastructure Aimore takes pride in its
                   state-of-the-art infrastructure, providing students with a
                   conducive learning environment. Well-equipped classrooms,
@@ -1943,10 +1945,10 @@ function SoftwareTraining() {
                   and hardware resources contribute to an immersive learning
                   experience. The institute understands the importance of a
                   technologically advanced environment in fostering innovation
-                  and skill development.{" "}
+                  and skill development.
                 </p>
                 <p>
-                  {" "}
+                  
                   5. Industry Partnerships and Placement Assistance To enhance
                   the employability of its students, Aimore has forged strategic
                   partnerships with leading companies in the IT sector. These
@@ -1955,10 +1957,10 @@ function SoftwareTraining() {
                   industry experts. The institute's placement assistance program
                   is tailored to match the skills of each student with the
                   requirements of potential employers, ensuring a seamless
-                  transition from education to employment.{" "}
+                  transition from education to employment.
                 </p>
                 <p>
-                  {" "}
+                  
                   6. Certification Programs and Continuous Learning Aimore
                   recognize the significance of certifications in validating
                   one's skills in the competitive job market. The institute
@@ -1967,11 +1969,11 @@ function SoftwareTraining() {
                   individual's proficiency in specific technologies.
                   Furthermore, Aimore promotes a culture of continuous learning,
                   encouraging students to stay updated with emerging trends
-                  through workshops, webinars, and industry conferences.{" "}
+                  through workshops, webinars, and industry conferences.
                 </p>
               </div>
               <div class="col-md-5 mb-5">
-                <img src={aimorecourse} alt="" className="img-fluid" />
+                <img src={softwarecertificate} alt="sofware-training-certification" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -1981,7 +1983,7 @@ function SoftwareTraining() {
           <div class="container">
             <div class="row">
               <div class="col-md-5 mb-5">
-                <img src={awscertification} alt="" className="img-fluid" />
+                <img src={softwaretraingingrole} alt="Role of a Software Training Professional" className="img-fluid" />
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
@@ -1992,16 +1994,16 @@ function SoftwareTraining() {
                   in chennai professionals play a crucial role in facilitating
                   skill development. They design and deliver courses that
                   empower individuals to navigate software interfaces, utilize
-                  tools effectively, and perform tasks with precision.{" "}
+                  tools effectively, and perform tasks with precision.
                 </p>
 
                 <p>
-                  {" "}
+                  
                   2. Fostering Innovation: By instilling a culture of continuous
                   learning, software training institute in chennai professionals
                   contributes to fostering innovation within organizations. They
                   empower individuals to think creatively, explore inventive
-                  solutions, and stay abreast of industry trends.{" "}
+                  solutions, and stay abreast of industry trends.
                 </p>
 
                 <p>
@@ -2010,11 +2012,11 @@ function SoftwareTraining() {
                   institute in chennai professionals identify these gaps and
                   design targeted programs to address them, ensuring that
                   individuals are equipped with the skills demanded by the
-                  industry.{" "}
+                  industry.
                 </p>
 
                 <p>
-                  {" "}
+                  
                   4. Contributing to Career Advancement: Individuals seeking
                   career advancement often turn to software training to acquire
                   new skills or enhance existing ones. Software training
@@ -2024,7 +2026,7 @@ function SoftwareTraining() {
                 </p>
 
                 <p>
-                  {" "}
+                  
                   5. Enhancing Productivity: Proficient use of software tools is
                   directly linked to increased productivity. Software training
                   institute in chennai professionals contribute to workplace
@@ -2048,7 +2050,7 @@ function SoftwareTraining() {
                   technology across industries translates into a robust demand
                   for software training institute in chennai. Organizations
                   recognize the pivotal role these experts play in upskilling
-                  their workforce.{" "}
+                  their workforce.
                 </p>
 
                 <p>
@@ -2056,7 +2058,7 @@ function SoftwareTraining() {
                   in chennai opens doors to diverse career paths. Professionals
                   can specialize in training for specific software applications,
                   programming languages, or broader areas such as cybersecurity,
-                  data science, and artificial intelligence.{" "}
+                  data science, and artificial intelligence.
                 </p>
 
                 <p>
@@ -2064,17 +2066,17 @@ function SoftwareTraining() {
                   the software landscape ensures that software training
                   professionals are engaged in continuous learning. Staying
                   updated with the latest technologies keeps their knowledge
-                  relevant and in demand.{" "}
+                  relevant and in demand.
                 </p>
 
                 <p>
-                  {" "}
+                  
                   4. Impactful Contribution to Learning Culture: Software
                   training institute in Chennai professionals contribute
                   significantly to cultivating a learning culture within
                   organizations. Their impact extends beyond individual skill
                   development to shaping the overall learning mindset of teams
-                  and companies.{" "}
+                  and companies.
                 </p>
 
                 <p>
@@ -2082,20 +2084,20 @@ function SoftwareTraining() {
                   software training institute in Chennai are transferable across
                   various industries. This flexibility allows professionals to
                   explore different sectors, contributing their expertise to
-                  diverse fields.{" "}
+                  diverse fields.
                 </p>
 
                 <p>
-                  {" "}
+                  
                   6. Personal Satisfaction in Skill Development: Witnessing the
                   tangible impact of skill development on individuals' careers
                   provides a sense of personal satisfaction to software training
                   institute in Chennai professionals. Knowing that their efforts
-                  contribute to others' success is inherently rewarding.{" "}
+                  contribute to others' success is inherently rewarding.
                 </p>
               </div>
               <div class="col-md-5 mb-5">
-                <img src={aimorecourse} alt="" className="img-fluid" />
+                <img src={softwaretraininggoodcareer} alt="Software Training a Good Career Choice" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -2105,7 +2107,7 @@ function SoftwareTraining() {
           <div class="container">
             <div class="row">
               <div class="col-md-5 mb-5">
-                <img src={awscertification} alt="" className="img-fluid" />
+                <img src={LandscapeSoftwareTraining} alt="Landscape Software Training" className="img-fluid" />
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
@@ -2180,7 +2182,7 @@ function SoftwareTraining() {
                 </p>
               </div>
               <div class="col-md-5 mb-5">
-                <img src={aimorecourse} alt="" className="img-fluid" />
+                <img src={challenges} alt="challenges and consideration" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -2344,7 +2346,7 @@ function SoftwareTraining() {
                         the skills and competencies acquired during the
                         training. This holistic approach ensures that our
                         graduates enter the job market with confidence and
-                        poise.{" "}
+                        poise.
                       </p>
                     </div>
                   </div>
@@ -2451,7 +2453,7 @@ function SoftwareTraining() {
                         Our regular networking events, seminars, and industry
                         meet-ups provide opportunities for students to connect
                         with professionals, creating a platform for
-                        collaboration and knowledge exchange.{" "}
+                        collaboration and knowledge exchange.
                       </p>
                     </div>
                   </div>
@@ -2477,7 +2479,7 @@ function SoftwareTraining() {
                         affordable prices. We offer various financial assistance
                         options, making it possible for aspiring individuals to
                         pursue their dreams without the burden of exorbitant
-                        fees.{" "}
+                        fees.
                       </p>
                     </div>
                   </div>
@@ -2504,7 +2506,7 @@ function SoftwareTraining() {
                         needs of our students and adapt our training programs
                         accordingly. This commitment to continuous improvement
                         ensures that Aimore remains at the forefront of
-                        delivering relevant and impactful training.{" "}
+                        delivering relevant and impactful training.
                       </p>
                     </div>
                   </div>
@@ -2559,7 +2561,7 @@ function SoftwareTraining() {
                         From foundational concepts to advanced techniques, our
                         curriculum is meticulously crafted to meet industry
                         standards and equip participants with the skills
-                        demanded by top employers.{" "}
+                        demanded by top employers.
                       </p>
                     </div>
                   </div>
@@ -2835,7 +2837,7 @@ function SoftwareTraining() {
                             present themselves as well-rounded professionals.
                             Being able to articulate technical concepts
                             effectively and collaborate seamlessly are qualities
-                            that make candidates stand out in interviews.{" "}
+                            that make candidates stand out in interviews.
                           </p>
                         </div>
                       </div>
@@ -2862,7 +2864,7 @@ function SoftwareTraining() {
                             knowledge in a particular domain but also positions
                             candidates as experts in their chosen field, making
                             them attractive prospects for employers seeking
-                            specialized skill sets.{" "}
+                            specialized skill sets.
                           </p>
                         </div>
                       </div>
@@ -2893,7 +2895,7 @@ function SoftwareTraining() {
                             plays a crucial role in the job search process, and
                             Aimore ensures that participants are well-positioned
                             to leverage these connections for potential job
-                            opportunities.{" "}
+                            opportunities.
                           </p>
                         </div>
                       </div>
@@ -2920,7 +2922,7 @@ function SoftwareTraining() {
                             interviews and navigating the recruitment process.
                             The comprehensive assistance includes resume
                             building, interview coaching, and continuous support
-                            until placement is achieved.{" "}
+                            until placement is achieved.
                           </p>
                         </div>
                       </div>
@@ -2950,7 +2952,7 @@ function SoftwareTraining() {
                             certifications not only showcases a commitment to
                             continuous learning but also serves as a tangible
                             indicator of a candidate's proficiency, often acting
-                            as a differentiator in interviews.{" "}
+                            as a differentiator in interviews.
                           </p>
                         </div>
                       </div>
@@ -2976,7 +2978,7 @@ function SoftwareTraining() {
                             to the tech industry. These success stories not only
                             inspire current participants but also validate the
                             transformative impact of Aimore's training on career
-                            trajectories.{" "}
+                            trajectories.
                           </p>
                         </div>
                       </div>
@@ -3006,7 +3008,7 @@ function SoftwareTraining() {
                             thriving tech ecosystem provides the backdrop for
                             Aimore's programs, creating an environment where
                             learning transcends the classroom and seamlessly
-                            integrates with the demands of the industry.{" "}
+                            integrates with the demands of the industry.
                           </p>
                         </div>
                       </div>
@@ -3266,7 +3268,7 @@ function SoftwareTraining() {
                         required for the training program should be readily
                         available. Ensuring that you have the technological
                         infrastructure in place sets the stage for a seamless
-                        and uninterrupted learning experience.{" "}
+                        and uninterrupted learning experience.
                       </p>
                     </div>
                   </div>
@@ -3680,7 +3682,7 @@ function SoftwareTraining() {
                         programs in chennai for their employees. The duration of
                         such programs can vary based on the organization's
                         specific needs and the complexity of the skills being
-                        taught.{" "}
+                        taught.
                       </p>
                     </div>
                   </div>
@@ -4236,7 +4238,7 @@ function SoftwareTraining() {
                 data-sal-duration="800"
               >
                 <h3 class="title mb-2 text-white">Your Journey Starts Here</h3>
-                <p className="description mt-0 text-center ">
+                <p className="description mt-0 text-center mb-5">
                   These success stories are just a glimpse of what awaits you at
                   Aimore Technologies. Our Software Training and Placement
                   program is designed to empower individuals with the skills,
@@ -4271,38 +4273,38 @@ function SoftwareTraining() {
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Clarify
-                          doubts instantly,{" "}
+                          doubts instantly,
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Enjoy
                           premium learning environments with well-equipped
-                          classrooms and labs,{" "}
+                          classrooms and labs,
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Participate
-                          in Codeathon practices{" "}
+                          in Codeathon practices
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Receive
-                          direct aptitude training{" "}
+                          direct aptitude training
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Enhance
-                          interview skills{" "}
+                          interview skills
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Engage in
-                          panel mock interviews{" "}
+                          panel mock interviews
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Benefit
-                          from campus drives{" "}
+                          from campus drives
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> All are
                           supported by our commitment to ensuring 100% placement
                           support. Your journey to success begins with
-                          personalized excellence.{" "}
+                          personalized excellence.
                         </li>
                       </ul>
                       <div
@@ -4333,19 +4335,19 @@ function SoftwareTraining() {
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i>Blended
                           Delivery model (both Online and Offline as per
-                          Clients’ requirements){" "}
+                          Clients’ requirements)
                         </li>
                         <li className=" lh-sm">
-                          <i class="ri-arrow-right-circle-fill"></i>{" "}
+                          <i class="ri-arrow-right-circle-fill"></i>
                           Industry-endorsed Skilled Faculties
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Flexible
-                          Pricing Options{" "}
+                          Pricing Options
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Customized
-                          Syllabus{" "}
+                          Syllabus
                         </li>
                       </ul>
                       <div
@@ -4375,7 +4377,7 @@ function SoftwareTraining() {
                       <ul className="list-unstyled">
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i>Instructor
-                          Led Live Training!{" "}
+                          Led Live Training!
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> No Recorded
@@ -4383,27 +4385,27 @@ function SoftwareTraining() {
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Live
-                          Virtual Interaction with the Trainer{" "}
+                          Virtual Interaction with the Trainer
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Clarify
-                          doubts then and there virtually{" "}
+                          doubts then and there virtually
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Live
-                          Virtual Interview Skills Training{" "}
+                          Virtual Interview Skills Training
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Live
-                          Virtual Aptitude Training{" "}
+                          Virtual Aptitude Training
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Online
-                          Panel Mock Interviews{" "}
+                          Panel Mock Interviews
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> 100%
-                          Placement Support{" "}
+                          Placement Support
                         </li>
                       </ul>
                       <div
@@ -4563,7 +4565,7 @@ function SoftwareTraining() {
                               and schedule. Our online classes offer the
                               convenience of learning from anywhere, while
                               in-person classes provide a traditional classroom
-                              experience.{" "}
+                              experience.
                             </p>
                           </div>
                         </div>
@@ -4595,7 +4597,7 @@ function SoftwareTraining() {
                               generally span from a few weeks to a few months in
                               duration. We offer fast-track and regular-paced
                               options to accommodate different learning
-                              preferences.{" "}
+                              preferences.
                             </p>
                           </div>
                         </div>
@@ -4627,7 +4629,7 @@ function SoftwareTraining() {
                               hands-on exercises, projects, and real-world
                               applications to ensure you gain practical
                               experience with the software and technologies you
-                              are learning.{" "}
+                              are learning.
                             </p>
                           </div>
                         </div>
@@ -4659,7 +4661,7 @@ function SoftwareTraining() {
                               that allow you to apply your software skills in
                               practical situations, preparing you for the
                               challenges you may encounter in your future
-                              career.{" "}
+                              career.
                             </p>
                           </div>
                         </div>
@@ -4703,7 +4705,7 @@ function SoftwareTraining() {
                               including guidance on job opportunities, interview
                               preparation, and resume building. Our goal is to
                               help you transition seamlessly into the software
-                              industry.{" "}
+                              industry.
                             </p>
                           </div>
                         </div>
@@ -4733,7 +4735,7 @@ function SoftwareTraining() {
                             competitive and affordable prices. Aimore believes
                             in making quality training accessible to all,
                             ensuring that cost is not a barrier to advancing
-                            your skills and career.{" "}
+                            your skills and career.
                           </div>
                         </div>
                       </div>
@@ -4795,7 +4797,7 @@ function SoftwareTraining() {
                               industry relevance, and continuous improvement
                               sets us apart. Aimore has a track record of
                               producing successful software professionals who
-                              excel in their careers.{" "}
+                              excel in their careers.
                             </p>
                           </div>
                         </div>
@@ -4826,7 +4828,7 @@ function SoftwareTraining() {
                               including study materials, practice exercises, and
                               access to an online community. These resources
                               enhance your learning experience and provide
-                              ongoing support throughout the program.{" "}
+                              ongoing support throughout the program.
                             </p>
                           </div>
                         </div>
@@ -4858,7 +4860,7 @@ function SoftwareTraining() {
                               scenarios. Our training focuses on practical
                               skills that are in demand in the software
                               industry, ensuring you are well-prepared for your
-                              career.{" "}
+                              career.
                             </p>
                           </div>
                         </div>
@@ -4889,7 +4891,7 @@ function SoftwareTraining() {
                               are suitable for individuals looking to change
                               careers, as well as those seeking to upskill or
                               enhance their existing skill set. Our courses
-                              cater to diverse learning needs and career goals.{" "}
+                              cater to diverse learning needs and career goals.
                             </p>
                           </div>
                         </div>

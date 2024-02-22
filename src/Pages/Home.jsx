@@ -54,7 +54,17 @@ function Home() {
     return (
         <div>
             <Helmet>
-                <title>Home Page</title>
+            <title>
+            Software Training Institute in Chennai - Aimore Technology 
+          </title>
+          <meta
+            name="description"
+            content="Aimore Technology is the best software training institute in Chennai that offers software courses With 100% placement. Online Training, Flexible Batches"
+          />
+          <meta
+            name="keywords"
+            content="Best Software Training Institute in Chennai, Software Training Institute in Chennai,  IT Training Institute in Chennai, IT Courses in Chennai"
+          />
             </Helmet>
             <div class="slider-area banner-style-5 bg-image index-banner">
                 <div class="wrapper d-flex align-items-center">

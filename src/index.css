@@ -3,8 +3,9 @@
     :root {       
         overflow-x: hidden;
     }
-    .stickynavbtn {         
-        right: -8%;       
+    
+    .stickynavbtn a {         
+        right: -10%!important;       
     }
 }
  a{
@@ -26,4 +27,8 @@
     /* body{
         overflow-x: hidden!important;
     } */
+}
+
+.slick-prev, .slick-next {
+    display: none!important;
 }

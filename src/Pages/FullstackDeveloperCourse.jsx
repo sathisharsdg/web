@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import amazonbanner from "../assets/images/banner/banner-01/new-amazon.jpg";
-import amozoncloud from "../assets/images/banner/banner-01/amazon-cloud-services.png";
-import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg";
 import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
-import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg";
-
+import fullstackintro from "../assets/images/fullstack/fullstack-development-intro.png"
+import whatfullstackdo from "../assets/images/fullstack/Full-Stack-Developer-Do.png"
+import bestfullstackcourse from "../assets/images/fullstack/Best-Full-Stack-Developer-Course.png"
+import fullstackcareer from "../assets/images/fullstack/fullstack-career.png"
+import fullstackdiration from "../assets/images/fullstack/fullstack-course-duration.png"
+import fullstackplacement from "../assets/images/fullstack/fullstack-course-placement.png"
+import fullstackcareernew from "../assets/images/fullstack/fullstack-career.png"
+import fullstackplacementnew from "../assets/images/fullstack/fullstack-placement-chennai.png"
 function FullstackDeveloperCourse() {
   const [schemas, setSchemas] = useState([]);
   const loadSchema = () => {
@@ -71,7 +74,7 @@ function FullstackDeveloperCourse() {
         <div className="container py-5">
           <div className="row">
             <div className="col-md-6">
-              <img src="/assets/images/banner/banner-06.jpg" alt="banner" />
+              <img src={fullstackintro} alt="fullstack developement course in chennai" />
             </div>
             <div className="col-md-6 section-title sal-animate">
               <h1 className="title">
@@ -305,25 +308,23 @@ function FullstackDeveloperCourse() {
             <div className="eduvibe-about-us-two-service ">
               <div className="container eduvibe-animated-shape">
                 <div className="row">
-                  <div className="col-lg-7">
+                  <div className="col-lg-12">
                     <div
-                      className="section-title  sal-animate"
+                      className="section-title text-center  sal-animate"
                       data-sal-delay="150"
                       data-sal="slide-up"
                       data-sal-duration="800"
                     >
-                      <h3 className="title">
+                      <h3 className="title ">
                       The Importance of <br />
                       Full Stack Development Courses
                       </h3>
-                      <p>
+                      <p className="mb-0 mt-3">
                       The Full Stack Development course holds immense importance in today's technology-driven landscape, offering a range of benefits for individuals looking to pursue a career in web development. Here are several key reasons highlighting the importance of undertaking a Full Stack Development course:
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-5">
-                    <img src={amazonbanner} alt="Amazon Web Services" />
-                  </div>
+ 
                 </div>
 
                 <div className="row eduvibe-about-one-service g-5 mt--20">
@@ -337,7 +338,7 @@ function FullstackDeveloperCourse() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Destination"></i>
+                          <i class="ri-bubble-chart-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -388,7 +389,7 @@ function FullstackDeveloperCourse() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-bubble-chart-fill"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -414,7 +415,7 @@ function FullstackDeveloperCourse() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-money-dollar-box-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -440,7 +441,7 @@ function FullstackDeveloperCourse() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-microsoft-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -466,7 +467,7 @@ function FullstackDeveloperCourse() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-building-2-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -491,7 +492,7 @@ function FullstackDeveloperCourse() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-thumb-up-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -516,7 +517,7 @@ function FullstackDeveloperCourse() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-award-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -540,7 +541,7 @@ function FullstackDeveloperCourse() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-graduation-cap-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -565,7 +566,7 @@ function FullstackDeveloperCourse() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-earth-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -588,7 +589,7 @@ function FullstackDeveloperCourse() {
 
         <div className="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
           <div className="container eduvibe-animated-shape">
-            <div className="row gy-lg-0 gy-5 row--60 align-items-center">
+            <div className="row gy-lg-0 gy-5 row--60">
               <div className="col-lg-7 order-2 order-lg-1">
                 <div className="workshop-inner">
                   <div
@@ -665,8 +666,18 @@ Security Implementation: Full Stack Developers implement security measures to sa
                   >
  Continuous Learning: Given the rapid evolution of technology, Full Stack Developers are committed to continuous learning, and staying updated on the latest trends, tools, and frameworks in the web development landscape.                  
  </p>
- <p
-                    className="description sal-animate"
+
+                </div>
+              </div>
+              <div className="col-lg-5 order-1 order-lg-2">
+                <div className="thumbnail video-popup-wrapper">
+                  <img
+                    className="radius-small w-100 img-fluid mb-5"
+                    src={whatfullstackdo}
+                    alt="Full Stack Develope Course in chennai"
+                  />
+                   <p
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -674,7 +685,7 @@ Security Implementation: Full Stack Developers implement security measures to sa
 Unit Testing: They write and execute unit tests to ensure the reliability and functionality of the code.
  </p>
  <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -682,7 +693,7 @@ Unit Testing: They write and execute unit tests to ensure the reliability and fu
 Debugging: Full Stack Developers identify and fix bugs in the code, ensuring the smooth performance of the application.
  </p>
  <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -690,22 +701,13 @@ Debugging: Full Stack Developers identify and fix bugs in the code, ensuring the
 Continuous Integration/Continuous Deployment (CI/CD): They set up and manage CI/CD pipelines to automate the process of testing and deploying code changes.
  </p>
  <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
                   >
 Deployment Strategies: Full-stack developers deploy applications to servers or cloud platforms, managing the deployment process efficiently.
  </p>
-                </div>
-              </div>
-              <div className="col-lg-5 order-1 order-lg-2">
-                <div className="thumbnail video-popup-wrapper">
-                  <img
-                    className="radius-small w-100"
-                    src={amozoncloud}
-                    alt="About Image"
-                  />
                 </div>
               </div>
             </div>
@@ -1004,6 +1006,10 @@ Deployment Strategies: Full-stack developers deploy applications to servers or c
                 <p>
                 One of the distinguishing features of Aimore's Full Stack Developer course is its flexibility. Recognizing the diverse needs of learners, the institute offers flexible batch timings, allowing students to choose between weekend, weekday, or fast-track courses. This flexibility accommodates individuals with various schedules and commitments, making the course accessible to a broader audience.
                 </p>
+          
+              </div>
+              <div class="col-md-5 mb-5"> 
+                <img src={bestfullstackcourse} alt="Best Full Stack Developer Course in Chennai" className="img-fluid mb-5" />
                 <p>
                 A critical aspect that contributes to the reputation of Aimore Technologies is its strong placement assistance program. Upon successful completion of the Full Stack Developer course, students receive 100% placement assistance. Aimore has established ties with over 1500 companies, ranging from startups to large-scale enterprises, ensuring that graduates have access to a wide array of job opportunities. The active placement cell at Aimore actively supports students in securing high-paying Full Stack development positions, aligning with their career aspirations.
                 </p>
@@ -1014,9 +1020,6 @@ Deployment Strategies: Full-stack developers deploy applications to servers or c
                 While Aimore Technologies stands out as a notable option for Full Stack Developer Course in Chennai, it's advisable to conduct thorough research, attend informational sessions, and possibly explore trial classes to determine which course aligns best with your learning preferences and career goals. Ultimately, the best Full Stack Developer course is one that not only imparts valuable skills but also resonates with your individual educational journey and professional aspirations.
                 </p>
               </div>
-              <div class="col-md-5 mb-5">
-                <img src={awsaimore} alt="" className="img-fluid" />
-              </div>
             </div>
           </div>
         </section>
@@ -1025,7 +1028,7 @@ Deployment Strategies: Full-stack developers deploy applications to servers or c
           <div class="container">
             <div class="row">
               <div class="col-md-5 mb-5">
-                <img src={awscertification} alt="" className="img-fluid" />
+                <img src={fullstackcareer} alt="Full Stack Developer course in chennai" className="img-fluid" />
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
@@ -1093,7 +1096,7 @@ With the rise of online learning platforms, self-paced Full Stack Developer cour
                 </p>
               </div>
               <div class="col-md-5 mb-5">
-                <img src={aimorecourse} alt="" className="img-fluid" />
+                <img src={fullstackdiration} alt="Full Stack Developer Course In Chennai" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -1103,7 +1106,7 @@ With the rise of online learning platforms, self-paced Full Stack Developer cour
           <div class="container">
             <div class="row">
               <div class="col-md-5 mb-5">
-                <img src={awscertification} alt="" className="img-fluid" />
+                <img src={fullstackplacement} alt="Stack Developer Course In Chennai With Placement Guidance" className="img-fluid" />
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
@@ -1182,7 +1185,7 @@ Secure coding practices protect applications against common web vulnerabilities.
                 </p>
               </div>
               <div class="col-md-5 mb-5">
-                <img src={aimorecourse} alt="" className="img-fluid" />
+                <img src={fullstackcareernew} alt="Full Stack Development Training In Chennai" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -1191,7 +1194,7 @@ Secure coding practices protect applications against common web vulnerabilities.
           <div class="container">
             <div class="row">
               <div class="col-md-5 mb-5">
-                <img src={awscertification} alt="" className="img-fluid" />
+                <img src={fullstackplacementnew} alt="lacement Guidance at Aimore" className="img-fluid" />
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
@@ -2486,7 +2489,7 @@ Secure coding practices protect applications against common web vulnerabilities.
 
         <div class="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
           <div class="container eduvibe-animated-shape">
-            <div class="row gy-lg-0 gy-5 row--60 align-items-center">
+            <div class="row gy-lg-0 gy-5 align-items-center">
               <div
                 class="section-title  text-center sal-animate"
                 data-sal-delay="150"
@@ -2525,7 +2528,7 @@ Secure coding practices protect applications against common web vulnerabilities.
                   <div class="inner">
                     <div class="content">
                       <h3 class="title">Team Collaboration</h3>
-                      <p>Fosters collaboration among team members.</p>
+                      <p>Fosters collaboration among <br/>team members.</p>
                     </div>
                   </div>
                 </div>
@@ -2559,7 +2562,7 @@ Secure coding practices protect applications against common web vulnerabilities.
                     <div class="content">
                       <h3 class="title">Limited to Corporate Teams</h3>
                       <p>
-                        Typically not available for individual <br />
+                        Typically not available for individual 
                         enrollment.
                       </p>
                     </div>
@@ -3147,13 +3150,13 @@ Currently contributing to the success of Birla, Sneha exemplifies how our Full S
                 data-sal-duration="800"
               >
                 <h3 class="title mb-2 text-white">Your Journey Starts Here</h3>
-                <p className="description mt-0 text-center ">
+                <p className="description mt-0 text-center mb-5">
                 Join Aimore Technologies, where Full Stack Developer training meets expert placement guidance. Elevate your career, embrace innovation, and open doors to a world of possibilities. Your success story begins with Aimore. Enroll today and unlock the gateway to excellence!
                 When you enroll with us, you're not just joining a program; you're joining a community committed to your success. Our experienced trainers, hands-on labs, and personalized guidance are here to shape your journey, from novice to Full Stack Developer professional.
                 </p>
               </div>
             </div>
-            <div class="row gy-lg-0 gy-5 row--60  section-title">
+            <div class="row gy-lg-0 gy-5   section-title">
               <div
                 class="col-lg-4 col-md-4 col-12 sal-animate"
                 data-sal-delay="150"
