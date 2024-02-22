@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import amozoncloud from "../assets/images/banner/banner-01/amazon-cloud-services.png";
 import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg";
 import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
 import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg";
 import powerBIintro from "../assets/images/powerBI/power-bi-intro.png"
 import powerBIimportance from "../assets/images/powerBI/importance-of-power-BI-at-aimore.jpg"
+import microsoftpowerBI from "../assets/images/powerBI/Microsoft-Power-BI-Engineer.png"
 
 function PowerBI() {
   const [schemas, setSchemas] = useState([]);
@@ -229,23 +229,23 @@ function PowerBI() {
                         </div>
                       </div>
                       <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="heading10">
+                        <div className="edu-accordion-header" id="heading100">
                           <button
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapse10"
+                            data-bs-target="#collapse100"
                             aria-expanded="false"
-                            aria-controls="collapse10"
+                            aria-controls="collapse100"
                           >
                             <i className="ri-git-repository-private-line"></i>
                             Power BI Gateway
                         </button>
                         </div>
                         <div
-                          id="collapse10"
+                          id="collapse100"
                           className="accordion-collapse collapse"
-                          aria-labelledby="heading10"
+                          aria-labelledby="heading100"
                           data-bs-parent="#accordionExample1"
                         >
                           <div className="edu-accordion-body">
@@ -256,22 +256,22 @@ function PowerBI() {
                         </div>
                       </div>
                       <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="headingThree">
+                        <div className="edu-accordion-header" id="headingThree1">
                           <button
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree"
+                            data-bs-target="#collapseThree1"
                             aria-expanded="false"
-                            aria-controls="collapseThree"
+                            aria-controls="collapseThree1"
                           >
                             <i className="ri-printer-cloud-line"></i> Power Query
                           </button>
                         </div>
                         <div
-                          id="collapseThree"
+                          id="collapseThree1"
                           className="accordion-collapse collapse"
-                          aria-labelledby="headingThree"
+                          aria-labelledby="headingThree1"
                           data-bs-parent="#accordionExample1"
                         >
                           <div className="edu-accordion-body">
@@ -320,22 +320,22 @@ function PowerBI() {
                       data-sal-duration="800"
                     >
                       <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="heading11">
+                        <div className="edu-accordion-header" id="heading11a">
                           <button
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapse11"
+                            data-bs-target="#collapse11a"
                             aria-expanded="false"
-                            aria-controls="collapse11"
+                            aria-controls="collapse11a"
                           >
                             <i className="ri-tools-line"></i> Power View
                           </button>
                         </div>
                         <div
-                          id="collapse11"
+                          id="collapse11a"
                           className="accordion-collapse collapse"
-                          aria-labelledby="heading11"
+                          aria-labelledby="heading11a"
                           data-bs-parent="#accordionExample"
                         >
                           <div className="edu-accordion-body">
@@ -346,22 +346,22 @@ function PowerBI() {
                         </div>
                       </div>
                       <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="headingFour">
+                        <div className="edu-accordion-header" id="headingFourb">
                           <button
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour"
+                            data-bs-target="#collapseFourb"
                             aria-expanded="false"
-                            aria-controls="collapseFour"
+                            aria-controls="collapseFourb"
                           >
                             <i className="ri-lightbulb-line"></i> Power Map
                           </button>
                         </div>
                         <div
-                          id="collapseFour"
+                          id="collapseFourb"
                           className="accordion-collapse collapse"
-                          aria-labelledby="headingFour"
+                          aria-labelledby="headingFourb"
                           data-bs-parent="#accordionExample1"
                         >
                           <div className="edu-accordion-body">
@@ -450,22 +450,22 @@ function PowerBI() {
                         </div>
                       </div>
                       <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="heading9">
+                        <div className="edu-accordion-header" id="heading91">
                           <button
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapse9"
+                            data-bs-target="#collapse91"
                             aria-expanded="false"
-                            aria-controls="collapse9"
+                            aria-controls="collapse91"
                           >
                             <i className="ri-slideshow-line"></i> Power BI Templates
                           </button>
                         </div>
                         <div
-                          id="collapse9"
+                          id="collapse91"
                           className="accordion-collapse collapse"
-                          aria-labelledby="heading9"
+                          aria-labelledby="heading91"
                           data-bs-parent="#accordionExample1"
                         >
                           <div className="edu-accordion-body">
@@ -522,7 +522,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Destination"></i>
+                          <i class="ri-database-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -570,7 +570,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-time-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -618,7 +618,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-mail-send-fill"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -642,7 +642,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-lightbulb-flash-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -666,7 +666,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-global-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -690,7 +690,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-shuffle-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -714,7 +714,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-wallet-2-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -739,7 +739,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-database-2-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -763,7 +763,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-map-pin-time-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -789,7 +789,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-thumb-up-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -814,7 +814,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-file-chart-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -838,7 +838,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-file-search-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -863,7 +863,7 @@ function PowerBI() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-flow-chart"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -990,9 +990,9 @@ Administer and manage Power BI Service, including tasks such as sharing and publ
               <div className="col-lg-5 order-1 order-lg-2">
                 <div className="thumbnail video-popup-wrapper">
                   <img
-                    className="radius-small w-100"
-                    src={amozoncloud}
-                    alt="About Image"
+                    className="img-fluid mb-4 w-100"
+                    src={microsoftpowerBI}
+                    alt="Power BI Training Aimore"
                   />
                 </div>
               
@@ -1069,7 +1069,7 @@ Stay updated on the latest features and updates in the Power BI ecosystem. Conti
                         <div class="content ">
                           <div class="icon">
                             <a href="#">
-                              <i class="ri-shield-user-fill"></i>
+                            <i class="ri-check-double-line"></i>
                             </a>
                           </div>
                           <h4 class="title-inner">
@@ -1295,7 +1295,7 @@ Stay updated on the latest features and updates in the Power BI ecosystem. Conti
                         <div class="content ">
                           <div class="icon">
                             <a href="#">
-                              <i class="ri-vip-crown-fill"></i>
+                            <i class="ri-creative-commons-line"></i>
                             </a>
                           </div>
                           <h4 class="title-inner">
@@ -1939,7 +1939,7 @@ Aimore places a premium on addressing individual learning needs, providing perso
                   <div class="inner">
                     <div class="content">
                       <h1>
-                        <i class="ri-at-fill"></i>
+                      <i class="ri-time-line"></i>
                       </h1>
                       <h3 class="title">Real-Time Interaction</h3>
                       <p>
@@ -1959,7 +1959,7 @@ Aimore places a premium on addressing individual learning needs, providing perso
                   <div class="inner">
                     <div class="content">
                       <h1>
-                        <i class="ri-at-fill"></i>
+                      <i class="ri-profile-line"></i>
                       </h1>
                       <h3 class="title">Structured Schedule</h3>
                       <p>
@@ -1979,7 +1979,7 @@ Aimore places a premium on addressing individual learning needs, providing perso
                   <div class="inner">
                     <div class="content">
                       <h1>
-                        <i class="ri-at-fill"></i>
+                      <i class="ri-water-flash-line"></i>
                       </h1>
                       <h3 class="title">Scheduled Sessions</h3>
                       <p>
