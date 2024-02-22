@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import amozoncloud from "../assets/images/banner/banner-01/amazon-cloud-services.png";
-import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg";
 import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
-import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg";
 import selenium from "../assets/images/selenium/selenium-intro.png"
+import seleniumEngineer from "../assets/images/selenium/selenium-engineer.jpg"
+import bestselenium from "../assets/images/selenium/Best-Selenium-Training.png"
+import seleniumtrainginchenai from "../assets/images/selenium/selenium-training-in-chennai.jpg"
+import bestseleniumcourse from "../assets/images/selenium/Selenium-Training-course-in-Chennai.png"
+import challengessleniumcourse from "../assets/images/selenium/challenges-slenium-course.png"
 
 function Selenium() {
   const [schemas, setSchemas] = useState([]);
@@ -316,7 +318,7 @@ function Selenium() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Destination"></i>
+                          <i class="ri-global-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -346,7 +348,7 @@ function Selenium() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Browser"></i>
+                          <i class="ri-a-b"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -376,7 +378,7 @@ function Selenium() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-mail-send-fill"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -405,7 +407,7 @@ function Selenium() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-bar-chart-horizontal-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -434,7 +436,7 @@ function Selenium() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-service-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -464,7 +466,7 @@ function Selenium() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-recycle-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -495,7 +497,7 @@ function Selenium() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-earth-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -523,7 +525,7 @@ function Selenium() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-compass-2-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -551,7 +553,7 @@ function Selenium() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-file-user-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -580,7 +582,7 @@ function Selenium() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-calendar-check-fill"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -737,7 +739,7 @@ function Selenium() {
         </div>
         <div className="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
           <div className="container eduvibe-animated-shape">
-            <div className="row gy-lg-0 gy-5 row--60 align-items-center">
+            <div className="row gy-lg-0 gy-5 row--60">
               <div className="col-lg-7 order-2 order-lg-1">
                 <div className="workshop-inner">
                   <div
@@ -887,8 +889,19 @@ function Selenium() {
                     status, test coverage, and any defects identified. Use
                     reporting tools or frameworks to enhance visibility.
                   </p>
+           
+                </div>
+              </div>
+              <div className="col-lg-5 order-1 order-lg-2">
+                <div className="thumbnail video-popup-wrapper">
+                  <img
+                    className="radius-small w-100 mb-4"
+                    src={seleniumEngineer}
+                    alt="Selenium engineer"
+                  />
+                  <br/>
                   <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -899,7 +912,7 @@ function Selenium() {
                     arising from application updates or modifications.
                   </p>
                   <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -910,7 +923,7 @@ function Selenium() {
                     ensure alignment on testing objectives.
                   </p>
                   <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -921,7 +934,7 @@ function Selenium() {
                     of new team members.
                   </p>
                   <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -933,15 +946,6 @@ function Selenium() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-5 order-1 order-lg-2">
-                <div className="thumbnail video-popup-wrapper">
-                  <img
-                    className="radius-small w-100"
-                    src={amozoncloud}
-                    alt="About Image"
-                  />
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -949,7 +953,7 @@ function Selenium() {
         <div className="section-title eduvibe-home-five-course slider-dots edu-course-area edu-section-gap bg-image">
           <div className="container">
             <div className="row">
-              <div className="col-md-6 mb-5">
+              <div className="col-md-12 mb-2">
                 <h2 className="title pb-3">
                   Why Should You Choose Aimore for Selenium Training In Chennai?
                 </h2>
@@ -966,7 +970,7 @@ function Selenium() {
                   techniques used in the industry.
                 </p>
               </div>
-              <div className="col-md-6 mb-5">
+              
                 <p>
                   Moreover, the learning experience at Aimore goes beyond the
                   classroom. The institute fosters a supportive community where
@@ -975,7 +979,7 @@ function Selenium() {
                   overall learning journey and creates a conducive environment
                   for skill development.
                 </p>
-              </div>
+           
             </div>
           </div>
           <div
@@ -1347,7 +1351,7 @@ function Selenium() {
                 </p>
               </div>
               <div class="col-md-5 mb-5">
-                <img src={awsaimore} alt="" className="img-fluid" />
+                <img src={bestselenium} alt="bestselenium training in chennai" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -1357,7 +1361,7 @@ function Selenium() {
           <div class="container">
             <div class="row">
               <div class="col-md-5 mb-5">
-                <img src={awscertification} alt="" className="img-fluid" />
+                <img src={seleniumtrainginchenai} alt="selenium-traing-in-chenai" className="img-fluid" />
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">Best Selenium Training In Chennai</h3>
@@ -1504,7 +1508,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                 </p>
               </div>
               <div class="col-md-5 mb-5">
-                <img src={aimorecourse} alt="" className="img-fluid" />
+                <img src={bestseleniumcourse} alt="best-selenium-course-in-chennai" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -1514,7 +1518,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
           <div class="container">
             <div class="row">
               <div class="col-md-5 mb-5">
-                <img src={awscertification} alt="" className="img-fluid" />
+                <img src={challengessleniumcourse} alt="challenges-slenium-course" className="img-fluid" />
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">Challenges and Considerations</h3>
@@ -4265,23 +4269,23 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         </div>
                       </div>
                       <div class="edu-accordion-item">
-                        <div class="edu-accordion-header" id="headingk">
+                        <div class="edu-accordion-header" id="headingk1">
                           <button
                             class="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapsek"
+                            data-bs-target="#collapsek1"
                             aria-expanded="false"
-                            aria-controls="collapsek"
+                            aria-controls="collapsek1"
                           >
                             Does Aimore provide placement assistance after
                             completing the Selenium training?
                           </button>
                         </div>
                         <div
-                          id="collapsek"
+                          id="collapsek1"
                           class="accordion-collapse collapse"
-                          aria-labelledby="headingk"
+                          aria-labelledby="headingk1"
                           data-bs-parent="#accordionExample1"
                         >
                           <div class="edu-accordion-body">
@@ -4516,23 +4520,23 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         </div>
                       </div>
                       <div class="edu-accordion-item">
-                        <div class="edu-accordion-header" id="headingN">
+                        <div class="edu-accordion-header" id="headingNq">
                           <button
                             class="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseN"
+                            data-bs-target="#collapseNq"
                             aria-expanded="false"
-                            aria-controls="collapseN"
+                            aria-controls="collapseNq"
                           >
                             Are there any prerequisites for enrolling in the
                             Selenium training course?{" "}
                           </button>
                         </div>
                         <div
-                          id="collapseN"
+                          id="collapseNq"
                           class="accordion-collapse collapse"
-                          aria-labelledby="headingN"
+                          aria-labelledby="headingNq"
                           data-bs-parent="#accordionExample1"
                         >
                           <div class="edu-accordion-body">
@@ -4546,23 +4550,23 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         </div>
                       </div>
                       <div class="edu-accordion-item">
-                        <div class="edu-accordion-header" id="headingN">
+                        <div class="edu-accordion-header" id="headingNw">
                           <button
                             class="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseN"
+                            data-bs-target="#collapseNw"
                             aria-expanded="false"
-                            aria-controls="collapseN"
+                            aria-controls="collapseNw"
                           >
                             Can I switch between different programming languages
                             during the Selenium training?{" "}
                           </button>
                         </div>
                         <div
-                          id="collapseN"
+                          id="collapseNw"
                           class="accordion-collapse collapse"
-                          aria-labelledby="headingN"
+                          aria-labelledby="headingNw"
                           data-bs-parent="#accordionExample1"
                         >
                           <div class="edu-accordion-body">
