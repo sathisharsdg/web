@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg";
-import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
 import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg";
 import powerBIintro from "../assets/images/powerBI/power-bi-intro.png"
 import powerBIimportance from "../assets/images/powerBI/importance-of-power-BI-at-aimore.jpg"
 import microsoftpowerBI from "../assets/images/powerBI/Microsoft-Power-BI-Engineer.png"
+import bestpowerbitraining from "../assets/images/powerBI/best-power-bi-training.jpg"
+import powerbicourse from "../assets/images/powerBI/Power-BI-Course-In-Chennai.png"
+import bestpowerBIcourse from "../assets/images/powerBI/best-power-bi-course-in-chennai.png"
 
 function PowerBI() {
   const [schemas, setSchemas] = useState([]);
@@ -319,32 +320,7 @@ function PowerBI() {
                       data-sal="slide-up"
                       data-sal-duration="800"
                     >
-                      <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="heading11a">
-                          <button
-                            className="edu-accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapse11a"
-                            aria-expanded="false"
-                            aria-controls="collapse11a"
-                          >
-                            <i className="ri-tools-line"></i> Power View
-                          </button>
-                        </div>
-                        <div
-                          id="collapse11a"
-                          className="accordion-collapse collapse"
-                          aria-labelledby="heading11a"
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div className="edu-accordion-body">
-                            <p>
-                              <b>Power View is a data visualization tool within Power BI Desktop that allows users to create interactive visualizations, reports, and dashboards. It supports a variety of chart types, maps, and tables.</b>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
+              
                       <div className="edu-accordion-item">
                         <div className="edu-accordion-header" id="headingFourb">
                           <button
@@ -371,6 +347,24 @@ function PowerBI() {
                           </div>
                         </div>
                       </div>
+                      <div className="edu-accordion-item">
+        <div className="edu-accordion-header" id="headingFourb">
+            <button className="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFourbq" aria-expanded="false" aria-controls="collapseFourbq">
+                <i class="ri-eye-line"></i> Power View
+            </button>
+        </div>
+        <div id="collapseFourbq" className="accordion-collapse collapse" aria-labelledby="headingFourbq"
+            data-bs-parent="#accordionExample1">
+            <div className="edu-accordion-body">
+                <p>
+                    <b>Power View is a data visualization tool within Power BI Desktop that allows users to create
+                        interactive visualizations, reports, and dashboards. It supports a variety of chart types, maps,
+                        and tables.</b>
+                </p>
+            </div>
+        </div>
+    </div>
                       <div className="edu-accordion-item">
                         <div className="edu-accordion-header" id="heading9">
                           <button
@@ -433,7 +427,7 @@ function PowerBI() {
                             aria-expanded="false"
                             aria-controls="collapseFour"
                           >
-                            <i className="ri-lightbulb-line"></i> Power BI Report Server
+                           <i class="ri-file-chart-line"></i> Power BI Report Server
                           </button>
                         </div>
                         <div
@@ -1403,7 +1397,7 @@ Stay updated on the latest features and updates in the Power BI ecosystem. Conti
 
         <section className="py-5 mt-5 mb-5 section-title">
           <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
                 Which Is the Best Power BI Training In Chennai?                </h3>
@@ -1423,7 +1417,7 @@ Stay updated on the latest features and updates in the Power BI ecosystem. Conti
                 </p>
               </div>
               <div class="col-md-5 mb-5">
-                <img src={awsaimore} alt="" className="img-fluid" />
+                <img src={bestpowerbitraining} alt="best-power-bi-training" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -1433,7 +1427,7 @@ Stay updated on the latest features and updates in the Power BI ecosystem. Conti
           <div class="container">
             <div class="row">
               <div class="col-md-5 mb-5">
-                <img src={awscertification} alt="" className="img-fluid" />
+                <img src={powerbicourse} alt="power-bi-course-in-chennai" className="img-fluid" />
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
@@ -1524,7 +1518,7 @@ Aimore places a premium on addressing individual learning needs, providing perso
                </p>
               </div>
               <div class="col-md-5 mb-5">
-                <img src={aimorecourse} alt="" className="img-fluid" />
+                <img src={bestpowerBIcourse} alt="best-power-BI-course-in-chennai" className="img-fluid" />
               </div>
             </div>
           </div>
