@@ -3018,22 +3018,22 @@ Modes Of Training
                         </div>
                       </div>
                       <div class="edu-accordion-item">
-                        <div class="edu-accordion-header" id="headingj">
+                        <div class="edu-accordion-header" id="headingjj">
                           <button
                             class="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapsej"
+                            data-bs-target="#collapsejj"
                             aria-expanded="false"
-                            aria-controls="collapsej"
+                            aria-controls="collapsejj"
                           >
                            How hands-on is the Power BI training, and will I work on real-world projects?
                           </button>
                         </div>
                         <div
-                          id="collapsej"
+                          id="collapsejj"
                           class="accordion-collapse collapse"
-                          aria-labelledby="headingj"
+                          aria-labelledby="headingjj"
                           data-bs-parent="#accordionExample1"
                         >
                           <div class="edu-accordion-body">
@@ -3045,22 +3045,22 @@ Modes Of Training
                         </div>
                       </div>
                       <div class="edu-accordion-item">
-                        <div class="edu-accordion-header" id="headingk">
+                        <div class="edu-accordion-header" id="headingkk">
                           <button
                             class="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapsek"
+                            data-bs-target="#collapsekk"
                             aria-expanded="false"
-                            aria-controls="collapsek"
+                            aria-controls="collapsekk"
                           >
                             Does Aimore provide placement assistance after completing the Power BI training?
                           </button>
                         </div>
                         <div
-                          id="collapsek"
+                          id="collapsekk"
                           class="accordion-collapse collapse"
-                          aria-labelledby="headingk"
+                          aria-labelledby="headingkk"
                           data-bs-parent="#accordionExample1"
                         >
                           <div class="edu-accordion-body">
@@ -3302,22 +3302,22 @@ What support does Aimore offer for interview preparation and resume building pos
                         </div>
                       </div>
                       <div class="edu-accordion-item">
-                        <div class="edu-accordion-header" id="headingN">
+                        <div class="edu-accordion-header" id="headingNa">
                           <button
                             class="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseN"
+                            data-bs-target="#collapseNa"
                             aria-expanded="false"
-                            aria-controls="collapseN"
+                            aria-controls="collapseNa"
                           >
                          Are there any prerequisites for enrolling in the Power BI training course?
                            </button>
                         </div>
                         <div
-                          id="collapseN"
+                          id="collapseNa"
                           class="accordion-collapse collapse"
-                          aria-labelledby="headingN"
+                          aria-labelledby="headingNa"
                           data-bs-parent="#accordionExample1"
                         >
                           <div class="edu-accordion-body">
@@ -3328,22 +3328,22 @@ What support does Aimore offer for interview preparation and resume building pos
                         </div>
                       </div>
                       <div class="edu-accordion-item">
-                        <div class="edu-accordion-header" id="headingN">
+                        <div class="edu-accordion-header" id="headingNb">
                           <button
                             class="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseN"
+                            data-bs-target="#collapseNb"
                             aria-expanded="false"
-                            aria-controls="collapseN"
+                            aria-controls="collapseNb"
                           >
                           Can I switch between different versions of Power BI during the training?
                            </button>
                         </div>
                         <div
-                          id="collapseN"
+                          id="collapseNb"
                           class="accordion-collapse collapse"
-                          aria-labelledby="headingN"
+                          aria-labelledby="headingNb"
                           data-bs-parent="#accordionExample1"
                         >
                           <div class="edu-accordion-body">
@@ -3354,21 +3354,21 @@ What support does Aimore offer for interview preparation and resume building pos
                         </div>
                       </div>
                       <div class="edu-accordion-item">
-                        <div class="edu-accordion-header" id="headingN">
+                        <div class="edu-accordion-header" id="headingNc">
                           <button
                             class="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseN"
+                            data-bs-target="#collapseNc"
                             aria-expanded="false"
-                            aria-controls="collapseN"
+                            aria-controls="collapseNc"
                           >
 Is the Power BI training at Aimore suitable for individuals looking to enhance their data analysis skills?                           </button>
                         </div>
                         <div
-                          id="collapseN"
+                          id="collapseNc"
                           class="accordion-collapse collapse"
-                          aria-labelledby="headingN"
+                          aria-labelledby="headingNc"
                           data-bs-parent="#accordionExample1"
                         >
                           <div class="edu-accordion-body">
