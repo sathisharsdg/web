@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-
-import amozoncloud from "../assets/images/banner/banner-01/amazon-cloud-services.png";
-import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg";
-import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
-import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg";
 import pythonCourse from "../assets/images/python/python-intro-course.png"
+import pythonengineer from "../assets/images/python/python-engieer-course.png"
+import bestpythontraining from "../assets/images/python/best-python-training-in-chennai.png"
+import bestpythontraininginchennai from "../assets/images/python/best-python-training-course.png"
+import pythoncertification from "../assets/images/python/Best-Python-Training-In-Chennai-Certification.png"
+import pythoncourseinchennai from "../assets/images/python/how-long-python-course.png"
 
 function Python() {
   const [schemas, setSchemas] = useState([]);
@@ -452,7 +452,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-chat-thread-line"></i>
+                          <i class="ri-book-open-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -510,7 +510,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-user-search-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -540,7 +540,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-group-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -569,7 +569,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-database-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -597,7 +597,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-window-fill"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -624,7 +624,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-chat-settings-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -680,7 +680,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Lock"></i>
+                          <i class="ri-git-repository-fill"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -707,7 +707,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                            <i className="icon-Settings"></i>
+                          <i class="ri-microsoft-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -732,7 +732,7 @@ function Python() {
 
         <div className="edu-workshop-area eduvibe-home-three-video workshop-style-1 edu-section-gap bg-image bg-color-primary">
           <div className="container eduvibe-animated-shape">
-            <div className="row gy-lg-0 gy-5 row--60 align-items-center">
+            <div className="row gy-lg-0 gy-5 row--60">
               <div className="col-lg-7 order-2 order-lg-1">
                 <div className="workshop-inner">
                   <div
@@ -842,8 +842,18 @@ function Python() {
                     design and implement APIs to allow communication between
                     different software components and systems.
                   </p>
-                  <p
-                    className="description sal-animate"
+
+                </div>
+              </div>
+              <div className="col-lg-5 order-1 order-lg-2">
+                <div className="thumbnail video-popup-wrapper">
+                  <img
+                    className="radius-small w-100 img-fluid mb-5"
+                    src={pythonengineer}
+                    alt="python-engineer"
+                  />
+                                    <p
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -854,7 +864,7 @@ function Python() {
                     the latest security threats and solutions.
                   </p>
                   <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -865,7 +875,7 @@ function Python() {
                     related technologies.
                   </p>
                   <p
-                    className="description sal-animate"
+                    className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
                     data-sal-duration="800"
@@ -874,15 +884,6 @@ function Python() {
                     documentation for their code, making it easier for other
                     team members to understand and contribute to the project.
                   </p>
-                </div>
-              </div>
-              <div className="col-lg-5 order-1 order-lg-2">
-                <div className="thumbnail video-popup-wrapper">
-                  <img
-                    className="radius-small w-100"
-                    src={amozoncloud}
-                    alt="About Image"
-                  />
                 </div>
               </div>
             </div>
@@ -1542,7 +1543,7 @@ function Python() {
           <div class="container">
             <div class="row">
               <div class="col-md-5 mb-5">
-                <img src={awscertification} alt="" className="img-fluid" />
+                <img src={bestpythontraining} alt="best-python-training" className="img-fluid" />
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
@@ -1585,7 +1586,7 @@ function Python() {
             <div class="row">
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
-                  Which Is the Best AWS Training In Chennai?
+                  Which Is the Best Python Training In Chennai?
                 </h3>
                 <p>
                   Determining the absolute Python training in Chennai can be
@@ -1598,7 +1599,7 @@ function Python() {
                 </p>
               </div>
               <div class="col-md-5 mb-5">
-                <img src={awsaimore} alt="" className="img-fluid" />
+                <img src={bestpythontraininginchennai} alt="best-python-training-in-chennai" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -1608,11 +1609,11 @@ function Python() {
           <div class="container">
             <div class="row">
               <div class="col-md-5 mb-5">
-                <img src={awscertification} alt="" className="img-fluid" />
+                <img src={pythoncertification} alt="python-certification" className="img-fluid" />
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
-                  Best Python Training In Chennai And Certification{" "}
+                  Best Python Training In Chennai And Certification 
                 </h3>
                 <p>
                   When it comes to seeking the finest Python training in Chennai
@@ -1713,7 +1714,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                 </p>
               </div>
               <div class="col-md-5 mb-5">
-                <img src={aimorecourse} alt="" className="img-fluid" />
+                <img src={pythoncourseinchennai} alt="python-course-in-chennai" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -2618,7 +2619,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                   <div class="inner">
                     <div class="content">
                       <h1>
-                        <i class="ri-at-fill"></i>
+                      <i class="ri-time-line"></i>
                       </h1>
                       <h3 class="title">Real-Time Interaction</h3>
                       <p>
@@ -2638,7 +2639,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                   <div class="inner">
                     <div class="content">
                       <h1>
-                        <i class="ri-at-fill"></i>
+                      <i class="ri-profile-line"></i>
                       </h1>
                       <h3 class="title">Structured Schedule</h3>
                       <p>
@@ -2658,7 +2659,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                   <div class="inner">
                     <div class="content">
                       <h1>
-                        <i class="ri-at-fill"></i>
+                      <i class="ri-water-flash-line"></i>
                       </h1>
                       <h3 class="title">Scheduled Sessions</h3>
                       <p>
@@ -3667,18 +3668,18 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo"
+                            data-bs-target="#collapseTwow"
                             aria-expanded="false"
-                            aria-controls="collapseTwo"
+                            aria-controls="collapseTwow"
                           >
                             <i className="ri-database-2-line"></i> Data
                             Analyst/Scientist
                           </button>
                         </div>
                         <div
-                          id="collapseTwo"
+                          id="collapseTwow"
                           className="accordion-collapse collapse"
-                          aria-labelledby="headingTwo"
+                          aria-labelledby="headingTwow"
                           data-bs-parent="#accordionExample1"
                         >
                           <div className="edu-accordion-body">
@@ -3694,23 +3695,23 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         </div>
                       </div>
                       <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="headingThree">
+                        <div className="edu-accordion-header" id="headingThreeq">
                           <button
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree"
+                            data-bs-target="#collapseThreeq"
                             aria-expanded="false"
-                            aria-controls="collapseThree"
+                            aria-controls="collapseThreeq"
                           >
                             <i className="ri-printer-cloud-line"></i> Web
                             Developer
                           </button>
                         </div>
                         <div
-                          id="collapseThree"
+                          id="collapseThreeq"
                           className="accordion-collapse collapse"
-                          aria-labelledby="headingThree"
+                          aria-labelledby="headingThreeq"
                           data-bs-parent="#accordionExample1"
                         >
                           <div className="edu-accordion-body">
@@ -3725,23 +3726,23 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         </div>
                       </div>
                       <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="heading10">
+                        <div className="edu-accordion-header" id="heading10z">
                           <button
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapse10"
+                            data-bs-target="#collapse10z"
                             aria-expanded="false"
-                            aria-controls="collapse10"
+                            aria-controls="collapse10z"
                           >
                             <i className="ri-git-repository-private-line"></i>
                             Software Engineer
                           </button>
                         </div>
                         <div
-                          id="collapse10"
+                          id="collapse10z"
                           className="accordion-collapse collapse"
-                          aria-labelledby="heading10"
+                          aria-labelledby="heading10z"
                           data-bs-parent="#accordionExample1"
                         >
                           <div className="edu-accordion-body">
@@ -3861,23 +3862,23 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                       data-sal-duration="800"
                     >
                       <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="heading11">
+                        <div className="edu-accordion-header" id="heading11x">
                           <button
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapse11"
+                            data-bs-target="#collapse11x"
                             aria-expanded="false"
-                            aria-controls="collapse11"
+                            aria-controls="collapse11x"
                           >
                             <i className="ri-tools-line"></i> Quality Assurance
                             Engineer
                           </button>
                         </div>
                         <div
-                          id="collapse11"
+                          id="collapse11x"
                           className="accordion-collapse collapse"
-                          aria-labelledby="heading11"
+                          aria-labelledby="heading11x"
                           data-bs-parent="#accordionExample1"
                         >
                           <div className="edu-accordion-body">
@@ -3892,23 +3893,23 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         </div>
                       </div>
                       <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="headingFour">
+                        <div className="edu-accordion-header" id="headingFourq">
                           <button
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour"
+                            data-bs-target="#collapseFourq"
                             aria-expanded="false"
-                            aria-controls="collapseFour"
+                            aria-controls="collapseFourq"
                           >
                             <i className="ri-lightbulb-line"></i> Network
                             Engineer
                           </button>
                         </div>
                         <div
-                          id="collapseFour"
+                          id="collapseFourq"
                           className="accordion-collapse collapse"
-                          aria-labelledby="headingFour"
+                          aria-labelledby="headingFourq"
                           data-bs-parent="#accordionExample1"
                         >
                           <div className="edu-accordion-body">
@@ -3923,23 +3924,23 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         </div>
                       </div>
                       <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="heading9">
+                        <div className="edu-accordion-header" id="heading9q">
                           <button
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapse9"
+                            data-bs-target="#collapse9q"
                             aria-expanded="false"
-                            aria-controls="collapse9"
+                            aria-controls="collapse9q"
                           >
                             <i className="ri-slideshow-line"></i> Cybersecurity
                             Analyst
                           </button>
                         </div>
                         <div
-                          id="collapse9"
+                          id="collapse9q"
                           className="accordion-collapse collapse"
-                          aria-labelledby="heading9"
+                          aria-labelledby="heading9q"
                           data-bs-parent="#accordionExample1"
                         >
                           <div className="edu-accordion-body">
@@ -3983,23 +3984,23 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         </div>
                       </div>
                       <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="headingFour">
+                        <div className="edu-accordion-header" id="headingFour21">
                           <button
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour"
+                            data-bs-target="#collapseFour21"
                             aria-expanded="false"
-                            aria-controls="collapseFour"
+                            aria-controls="collapseFour21"
                           >
-                            <i className="ri-lightbulb-line"></i>{" "}
+                            <i className="ri-lightbulb-line"></i> 
                             Freelancer/Consultant
                           </button>
                         </div>
                         <div
-                          id="collapseFour"
+                          id="collapseFour21"
                           className="accordion-collapse collapse"
-                          aria-labelledby="headingFour"
+                          aria-labelledby="headingFour21"
                           data-bs-parent="#accordionExample1"
                         >
                           <div className="edu-accordion-body">
@@ -4014,23 +4015,23 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         </div>
                       </div>
                       <div className="edu-accordion-item">
-                        <div className="edu-accordion-header" id="heading9">
+                        <div className="edu-accordion-header" id="heading9t">
                           <button
                             className="edu-accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapse9"
+                            data-bs-target="#collapse9t"
                             aria-expanded="false"
-                            aria-controls="collapse9"
+                            aria-controls="collapse9t"
                           >
                             <i className="ri-slideshow-line"></i> Technical
                             Trainer/Educator
                           </button>
                         </div>
                         <div
-                          id="collapse9"
+                          id="collapse9t"
                           className="accordion-collapse collapse"
-                          aria-labelledby="heading9"
+                          aria-labelledby="heading9t"
                           data-bs-parent="#accordionExample1"
                         >
                           <div className="edu-accordion-body">
@@ -4123,7 +4124,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                 data-sal-duration="800"
               >
                 <h3 class="title mb-2 text-white">Your Journey Starts Here</h3>
-                <p className="description mt-0 text-center ">
+                <p className="description mt-0 text-center mb-5">
                 These success stories are just a glimpse of what awaits you at Aimore Technologies. Our Python Training and Placement program is designed to empower individuals with the skills, knowledge, and confidence needed to thrive in the competitive landscape of cloud computing.
                 When you enroll with us, you're not just joining a program; you're joining a community committed to your success. Our experienced trainers, hands-on labs, and personalized guidance are here to shape your journey, from novice to Python professional.
                 Modes Of Training
