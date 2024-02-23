@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
 import fullstackintro from "../assets/images/fullstack/fullstack-development-intro.png"
 import whatfullstackdo from "../assets/images/fullstack/Full-Stack-Developer-Do.png"
 import bestfullstackcourse from "../assets/images/fullstack/Best-Full-Stack-Developer-Course.png"

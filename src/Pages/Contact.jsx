@@ -209,19 +209,19 @@ function Contact() {
               <h1 className='title py-3'>Fill up the details</h1>
                <form onSubmit={sendEmail} ref={form} className='rnt-contact-form rwt-dynamic-form row'>
                     <div className='form-group'>
-                        <input type="text" name='contact_name' placeholder='Enter Name' className='form-control'/>
+                        <input type="text" name='contact_name' placeholder='Enter Name' className='form-control' required/>
                     </div>
                     <div className='form-group'>
-                        <input type="email" name='contact_email' placeholder='Enter Email' className='form-control'/>
+                        <input type="email" name='contact_email' placeholder='Enter Email' className='form-control' required/>
                     </div>
                     <div className='form-group'>
-                        <input type="text" name='contact_phone' placeholder='Enter Phone' className='form-control'/>
+                        <input type="text" name='contact_phone' placeholder='Enter Phone' className='form-control' required/>
                     </div>
                     <div className='form-group'>
-                        <input type="text" name='contact_course' placeholder='Enter Course' className='form-control'/>
+                        <input type="text" name='contact_course' placeholder='Enter Course' className='form-control' required/>
                     </div>
                     <div className='form-group'>
-                        <input type="text" name='contact_message' placeholder='Enter Message' className='form-control'/>
+                        <input type="text" name='contact_message' placeholder='Enter Message' className='form-control' required/>
                     </div>
                     <div className='form-group' style={{display:"none"}}>
                         <input value={urls} type="text" name='contact_url' placeholder='Enter URL' className='form-control'/>
