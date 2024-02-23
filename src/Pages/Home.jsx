@@ -21,6 +21,7 @@ import bestSoftware from "../assets/images/homepage/Software-Training-Institute-
 import upskill from "../assets/images/homepage/Up-skill-yourself-with-aimore-technologies.png"
 import increase from "../assets/images/homepage/increase-career-opportunities-with-aimore.png"
 import numerous from "../assets/images/homepage/Numerous-Advantages-of-Joining-Aimore-Technology.png"
+import newhome from "../assets/images/new-home-banner.png"
 import Slider from "react-slick";
 import { useRef, useState,useEffect } from 'react'
 import emailjs from '@emailjs/browser';
@@ -76,7 +77,7 @@ function Home() {
                                 <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"><Link class="edu-btn" to="/contact-us">Enroll Now <i class="icon-arrow-right-line-right"></i></Link></div>
                             </div>
                             <div className="col-md-5">
-                                <img src={homeMainbanner} alt="home" className='img-fluid' />
+                                <img src={newhome} alt="best software training in chennai" className='img-fluid' />
                             </div>
                         </div>
 
