@@ -1,6 +1,4 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from 'react'
-import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
+import React, {  useLayoutEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 function Popupform() {
   const form = useRef()
@@ -46,19 +44,19 @@ function Popupform() {
            
                <form onSubmit={sendEmail} ref={form} className='rnt-contact-form rwt-dynamic-form row'>
                     <div className='form-group'>
-                        <input type="text" name='contact_name' placeholder='Enter Name' className='form-control'/>
+                        <input type="text" name='contact_name' placeholder='Enter Name' className='form-control' required/>
                     </div>
                     <div className='form-group'>
-                        <input type="email" name='contact_email' placeholder='Enter Email' className='form-control'/>
+                        <input type="email" name='contact_email' placeholder='Enter Email' className='form-control' required/>
                     </div>
                     <div className='form-group'>
-                        <input type="text" name='contact_phone' placeholder='Enter Phone' className='form-control'/>
+                        <input type="text" name='contact_phone' placeholder='Enter Phone' className='form-control' required/>
                     </div>
                     <div className='form-group'>
-                        <input type="text" name='contact_course' placeholder='Enter Course' className='form-control'/>
+                        <input type="text" name='contact_course' placeholder='Enter Course' className='form-control' required/>
                     </div>
                     <div className='form-group'>
-                        <input type="text" name='contact_message' placeholder='Enter Message' className='form-control'/>
+                        <input type="text" name='contact_message' placeholder='Enter Message' className='form-control' required/>
                     </div>
                     <div className='form-group' style={{display:"none"}}>
                         <input value={urls} type="text" name='contact_url' placeholder='Enter URL' className='form-control'/>
