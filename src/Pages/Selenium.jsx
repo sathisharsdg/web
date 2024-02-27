@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif";
-import selenium from "../assets/images/selenium/selenium-intro.png"
-import seleniumEngineer from "../assets/images/selenium/selenium-engineer.jpg"
-import bestselenium from "../assets/images/selenium/Best-Selenium-Training.png"
-import seleniumtrainginchenai from "../assets/images/selenium/selenium-training-in-chennai.jpg"
-import bestseleniumcourse from "../assets/images/selenium/Selenium-Training-course-in-Chennai.png"
-import challengessleniumcourse from "../assets/images/selenium/challenges-slenium-course.png"
+
+import selenium from "../assets/images/selenium/selenium-intro.webp"
+import seleniumEngineer from "../assets/images/selenium/selenium-engineer.webp"
+import bestselenium from "../assets/images/selenium/Best-Selenium-Training.webp"
+import seleniumtrainginchenai from "../assets/images/selenium/selenium-training-in-chennai.webp"
+import bestseleniumcourse from "../assets/images/selenium/Selenium-Training-course-in-Chennai.webp"
+import challengessleniumcourse from "../assets/images/selenium/challenges-slenium-course.webp"
 
 function Selenium() {
   const [schemas, setSchemas] = useState([]);
@@ -3879,7 +3879,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                 data-sal-duration="800"
               >
                 <h3 class="title mb-2 text-white">Your Journey Starts Here</h3>
-                <p className="description mt-0 text-center ">
+                <p className="description mt-0 text-center mb-5">
                   These success stories are just a glimpse of what awaits you at
                   Aimore Technologies. Our Selenium Training and Placement
                   program is designed to empower individuals with the skills,

@@ -58,26 +58,26 @@ function Footer() {
                                                 Perumbakkam Main Rd, Medavakkam,<br />
                                                 Chennai, Tamil Nadu - 600100
                                             </h4>
-                                            <hr />
+                                  
                                             <h2 className='text-white pb-2'><i class="ri-phone-line me-2"></i> Call us </h2>
                                             <h4 className='text-white mb-3'>
-                                                <span className='mx-2'>+91 9176-333-334</span><br />
-                                                <span className='mx-2'>+91 9962-698-698</span>
-                                                <hr />
-
+                                            <Link to="tel:+91 9176333334">+91 9176-333-334</Link><br/>
+                                            <Link to="tel:+91 9962698698">+91 9962-698-698</Link>
+                                            <hr/>
                                             </h4>
+                                           
                                             <h2 className='text-white pb-2'><i class="icon-map-pin-line me-2"></i> Porur Branch </h2>
                                             <h4 className='text-white mb-3'>
                                                 No 112/2, Door No 140/104, First Floor,<br />
                                                 Phase 1 Mount Poonamallee Trunk Rd, Porur,<br />
                                                 Chennai, Tamilnadu - 600116
                                             </h4>
+                                            
                                             <h2 className='text-white pb-2'><i class="ri-phone-line me-2"></i> Call us </h2>
-                                            <h4 className='text-white mb-3'>
-                                                <span className='mx-2'>+91 9159-333-334</span><br />
-                                                <span className='mx-2'>+91 9786-400-004</span>
-                                                <hr />
-
+                                            <h4 className='text-white mb-3'>                                            
+                                                <Link to="tel:+91 9159333334">+91 9159-333-334</Link><br/>
+                                               <Link to="tel:+91 9786400004">+91 9786-400-004</Link>  
+                                               <hr/>                                      
                                             </h4>
                                             <h2 className='text-white pb-2'><i class="icon-map-pin-line me-2"></i> Karappakkam Branch </h2>
                                             <h4 className='text-white mb-3'> 
@@ -86,12 +86,12 @@ function Footer() {
                                                 Chennai, Tamil Nadu - 600097
                                             </h4>
                                             <h2 className='text-white pb-2'><i class="ri-phone-line me-2"></i> Call us </h2>
-                                            <h4 className='text-white mb-3'>
-                                                <span className='mx-2'>+91 9655-333-334</span><br />
-                                                <span className='mx-2'>+91 9962-898-898</span>
-                                                <hr />
-
+                                            <h4 className='text-white mb-3'>                             
+                                                <Link to="tel:+91 9655333334">+91 9655-333-334</Link><br/>
+                                               <Link to="tel:+91 9962898898">+91 9962-898-898</Link>
+                                               
                                             </h4>
+                                         
 
                                         </div>
                                     </div>

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import pythonCourse from "../assets/images/python/python-intro-course.png"
-import pythonengineer from "../assets/images/python/python-engieer-course.png"
-import bestpythontraining from "../assets/images/python/best-python-training-in-chennai.png"
-import bestpythontraininginchennai from "../assets/images/python/best-python-training-course.png"
-import pythoncertification from "../assets/images/python/Best-Python-Training-In-Chennai-Certification.png"
-import pythoncourseinchennai from "../assets/images/python/how-long-python-course.png"
+import pythonCourse from "../assets/images/python/python-intro-course.webp"
+import pythonengineer from "../assets/images/python/python-engieer-course.webp"
+import bestpythontraining from "../assets/images/python/best-python-training-in-chennai.webp"
+import bestpythontraininginchennai from "../assets/images/python/best-python-training-course.webp"
+import pythoncertification from "../assets/images/python/Best-Python-Training-In-Chennai-Certification.webp"
+import pythoncourseinchennai from "../assets/images/python/how-long-python-course.webp"
 
 function Python() {
   const [schemas, setSchemas] = useState([]);
@@ -3611,7 +3611,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
         <div className="container py-5">
           <div className="row py-5">
             <div className="col-md-12 section-title">
-              <h3 className="text-center title">
+              <h3 className="text-center title mb-3">
                 Career prospects post completing Python training in Chennai
               </h3>
               <p className="description mt-0 text-center ">

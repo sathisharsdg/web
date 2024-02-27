@@ -3,10 +3,7 @@
     :root {       
         overflow-x: hidden;
     }
-    
-    .stickynavbtn a {         
-        right: -10%!important;       
-    }
+ 
 }
  a{
   text-decoration: none!important;
@@ -31,4 +28,14 @@
 
 .slick-prev, .slick-next {
     display: none!important;
+}
+.contact-info a {
+    font-size: 17px;
+    color: #6f6b80;
+}
+.contact-address-card-1:hover .contact-info a {
+    color: #ffffff;
+}
+.contact-address-card-1:hover .inner .content a {
+    color: #ffffff;
 }

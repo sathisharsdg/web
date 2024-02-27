@@ -1,3 +1,13 @@
 .showingSubmenu{
    display: block!important;
 }
+.notfiund.text-center {
+   font-size: 122px;
+   color: #5297ff;
+   
+}
+.notfoundhead{
+   font-size: 80px;
+   text-align: center;
+   font-weight: 800;
+}

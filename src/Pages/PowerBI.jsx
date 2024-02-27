@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg";
-import powerBIintro from "../assets/images/powerBI/power-bi-intro.png"
-import powerBIimportance from "../assets/images/powerBI/importance-of-power-BI-at-aimore.jpg"
-import microsoftpowerBI from "../assets/images/powerBI/Microsoft-Power-BI-Engineer.png"
-import bestpowerbitraining from "../assets/images/powerBI/best-power-bi-training.jpg"
-import powerbicourse from "../assets/images/powerBI/Power-BI-Course-In-Chennai.png"
-import bestpowerBIcourse from "../assets/images/powerBI/best-power-bi-course-in-chennai.png"
+ 
+import powerBIintro from "../assets/images/powerBI/power-bi-intro.webp"
+import powerBIimportance from "../assets/images/powerBI/importance-of-power-BI-at-aimore.webp"
+import microsoftpowerBI from "../assets/images/powerBI/Microsoft-Power-BI-Engineer.webp"
+import bestpowerbitraining from "../assets/images/powerBI/best-power-bi-training.webp"
+import powerbicourse from "../assets/images/powerBI/Power-BI-Course-In-Chennai.webp"
+import bestpowerBIcourse from "../assets/images/powerBI/best-power-bi-course-in-chennai.webp"
 
 function PowerBI() {
   const [schemas, setSchemas] = useState([]);

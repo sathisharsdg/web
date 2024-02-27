@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import fullstackintro from "../assets/images/fullstack/fullstack-development-intro.png"
-import whatfullstackdo from "../assets/images/fullstack/Full-Stack-Developer-Do.png"
-import bestfullstackcourse from "../assets/images/fullstack/Best-Full-Stack-Developer-Course.png"
-import fullstackcareer from "../assets/images/fullstack/fullstack-career.png"
-import fullstackdiration from "../assets/images/fullstack/fullstack-course-duration.png"
-import fullstackplacement from "../assets/images/fullstack/fullstack-course-placement.png"
-import fullstackcareernew from "../assets/images/fullstack/fullstack-career.png"
-import fullstackplacementnew from "../assets/images/fullstack/fullstack-placement-chennai.png"
+import fullstackintro from "../assets/images/fullstack/fullstack-development-intro.webp"
+import whatfullstackdo from "../assets/images/fullstack/Full-Stack-Developer-Do.webp"
+import bestfullstackcourse from "../assets/images/fullstack/Best-Full-Stack-Developer-Course.webp"
+import fullstackcareer from "../assets/images/fullstack/fullstack-career.webp"
+import fullstackdiration from "../assets/images/fullstack/fullstack-course-duration.webp"
+import fullstackplacement from "../assets/images/fullstack/fullstack-course-placement.webp"
+import fullstackcareernew from "../assets/images/fullstack/fullstack-career.webp"
+import fullstackplacementnew from "../assets/images/fullstack/fullstack-placement-chennai.webp"
 function FullstackDeveloperCourse() {
   const [schemas, setSchemas] = useState([]);
   const loadSchema = () => {

@@ -6013,7 +6013,6 @@ body.sal-disabled [data-sal|='flip'] {
   left: -1.5px;
   right: 0;
   width: auto;
-  background-image: url("/public/assets/images/bg/new-banner.jpg"); 
   backdrop-filter: inherit;
   z-index: 9; 
 background-position: top;}
@@ -6696,8 +6695,7 @@ button.edu-btn {
 /*---------------------------
  * Home 1 Testimonial
 ----------------------------*/
-.eduvibe-testimonial-one {
-  background-image: url(../images/bg/home-one-testimonial.jpg); }
+ 
   .eduvibe-testimonial-one .shape-image {
     position: absolute;
     z-index: -1; }
@@ -6734,8 +6732,7 @@ button.edu-btn {
 /*---------------------------
  * Home 1 Instructor
 ----------------------------*/
-.eduvibe-home-one-instructor {
-  background-image: url(../images/bg/home-one-instructor.jpg); }
+ 
   .eduvibe-home-one-instructor .shape-image {
     position: absolute;
     z-index: -1; }
@@ -6766,7 +6763,7 @@ button.edu-btn {
  * Home 1 Blog
 ----------------------------*/
 .eduvibe-home-one-blog {
-  background-image: url(../images/bg/home-one-blog.jpg);
+ 
   position: relative; }
   .eduvibe-home-one-blog .shape-image {
     position: absolute;
@@ -6812,8 +6809,7 @@ button.edu-btn {
 /*---------------------------
  * About 3
 ----------------------------*/
-.about-style-3 {
-  background-image: url(../images/bg/home-two-about-us.jpg); }
+ 
   .about-style-3 .shape-image {
     position: absolute;
     z-index: -1; }
@@ -6877,8 +6873,7 @@ button.edu-btn {
 /*---------------------------
  * Home 2 Event
 ----------------------------*/
-.eduvibe-home-two-event {
-  background-image: url(../images/bg/home-two-events.jpg); }
+ 
   .eduvibe-home-two-event .shape-image {
     position: absolute;
     z-index: -1; }
@@ -6911,8 +6906,7 @@ button.edu-btn {
 /*---------------------------
  * Home 2 Testimonial
 ----------------------------*/
-.eduvibe-home-two-testimonial {
-  background-image: url(../images/bg/home-two-testimonial.jpg); }
+ 
   .eduvibe-home-two-testimonial .shape-image {
     position: absolute;
     z-index: -1; }
@@ -6940,7 +6934,6 @@ button.edu-btn {
  * Home 2 Blog
 ----------------------------*/
 .eduvibe-home-two-blog {
-  background-image: url(../images/bg/home-two-blog.jpg);
   position: relative; }
   .eduvibe-home-two-blog .shape-image {
     position: absolute;
@@ -7017,8 +7010,7 @@ button.edu-btn {
 /*---------------------------
  * Home 3 Course
 ----------------------------*/
-.eduvibe-home-three-course {
-  background-image: url(../images/bg/home-three-course.jpg); }
+ 
   .eduvibe-home-three-course .shape-image {
     position: absolute;
     z-index: -1; }
@@ -7046,8 +7038,7 @@ button.edu-btn {
 /*---------------------------
  * Home 3 Video
 ----------------------------*/
-.eduvibe-home-three-video {
-  background-image: url(../images/bg/video-home-3-bg.png);
+.eduvibe-home-three-video { 
   background-size: auto;
   background-repeat: no-repeat;
   background-position: top 15px left 10%; }
@@ -7097,8 +7088,7 @@ button.edu-btn {
 /*---------------------------
  * Home 3 Testimonial
 ----------------------------*/
-.eduvibe-home-three-testimonial {
-  background-image: url(../images/bg/home-three-testimonial.jpg); }
+ 
   .eduvibe-home-three-testimonial .shape-image {
     position: absolute;
     z-index: -1; }
@@ -7138,8 +7128,7 @@ button.edu-btn {
 /*---------------------------
  * Home 3 Nesletter
 ----------------------------*/
-.eduvibe-home-three-newsletter {
-  background-image: url(../images/bg/home-three-newsletter.jpg); }
+
   .eduvibe-home-three-newsletter .shape-image {
     position: absolute;
     z-index: -1; }
@@ -7212,8 +7201,7 @@ button.edu-btn {
 /*---------------------------
  * Home 4 Course
 ----------------------------*/
-.eduvibe-home-four-courses {
-  background-image: url(../images/bg/home-four-courses.jpg); }
+
   .eduvibe-home-four-courses .shape-image {
     position: absolute;
     z-index: -1; }
@@ -7248,8 +7236,7 @@ button.edu-btn {
 /*---------------------------
  * Home 4 Video PopUp
 ----------------------------*/
-.eduvibe-home-four-video {
-  background-image: url(../images/bg/home-four-video.jpg); }
+
   @media only screen and (max-width: 991px) {
     .eduvibe-home-four-video {
       background-image: none; } }
@@ -7268,7 +7255,7 @@ button.edu-btn {
 ----------------------------*/
 .eduvibe-home-four-team {
   padding: 130px 0 275px;
-  background-image: url(../images/bg/home-four-instructor.jpg); }
+   }
   @media only screen and (max-width: 991px) {
     .eduvibe-home-four-team {
       padding: 80px 0 160px; } }
@@ -7305,8 +7292,7 @@ button.edu-btn {
 /*---------------------------
  * Home 4 Blog
 ----------------------------*/
-.eduvibe-home-four-blog {
-  background-image: url(../images/bg/home-four-blog.jpg); }
+ 
   .eduvibe-home-four-blog .shape-image {
     position: absolute;
     z-index: -1; }
@@ -7358,8 +7344,7 @@ button.edu-btn {
 /*---------------------------
  * 404 Page
 ----------------------------*/
-.eduvibe-404-page {
-  background-image: url(../images/bg/404.jpg); }
+
   .eduvibe-404-page .shape-image {
     position: absolute;
     z-index: -1; }
@@ -7385,8 +7370,7 @@ button.edu-btn {
 /*---------------------------
  * Coming Soon Page
 ----------------------------*/
-.eduvibe-coming-soon {
-  background-image: url(../images/bg/coming-soon.jpg); }
+
   .eduvibe-coming-soon .shape-image {
     position: absolute;
     z-index: -1; }
@@ -7585,8 +7569,7 @@ button.edu-btn {
 /*---------------------------
  * Home 5 Progress
 ----------------------------*/
-.eduvibe-home-five-progress {
-  background-image: url(../images/bg/home-five-hiw.jpg); }
+
   .eduvibe-home-five-progress .shape-image {
     position: absolute;
     z-index: -1; }
@@ -7622,7 +7605,6 @@ button.edu-btn {
  * Home 5 Blog
 ----------------------------*/
 .eduvibe-home-five-blog {
-  background-image: url(../images/bg/home-five-blog.jpg);
   position: relative; }
   .eduvibe-home-five-blog .shape-image {
     position: absolute;
@@ -7670,7 +7652,7 @@ button.edu-btn {
 ----------------------------*/
 .eduvibe-about-one-team {
   position: relative;
-  background-image: url(../images/bg/about-us-one-team.jpg); }
+ }
   .eduvibe-about-one-team .shape-image {
     position: absolute;
     z-index: -1; }
@@ -8863,7 +8845,6 @@ button.edu-btn {
       content: "";
       left: 0;
       top: 0;
-      background-image: url(../images/instructor/border-shape.png);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -9104,8 +9085,7 @@ button.edu-btn {
       bottom: -25px;
       left: -201px; }
 
-.home-one-cat {
-  background-image: url(../images/bg/home-one-service.jpg); }
+ 
 
 .service-card-1 {
   background: var(--color-white);
@@ -9512,7 +9492,6 @@ button.edu-btn {
 .service-card-single {
   position: relative; }
   .service-card-single:first-child::after {
-    background-image: url(../images/shape-bg/arrow-down.png);
     content: "";
     width: 155px;
     height: 43px;
@@ -9528,7 +9507,6 @@ button.edu-btn {
       .service-card-single:first-child::after {
         display: none; } }
   .service-card-single:last-child::after {
-    background-image: url(../images/shape-bg/arrow-top.png);
     content: "";
     width: 155px;
     height: 43px;
@@ -9650,7 +9628,6 @@ button.edu-btn {
     line-height: 28px;
     font-weight: 400;
     padding-right: 30px;
-    background: url(../images/shape-bg/arrow-icon.png) 92% center no-repeat transparent;
     border-radius: 5px;
     background-color: #F5F5F5;
     max-width: 256px;
@@ -10996,7 +10973,6 @@ button.edu-btn {
     z-index: 2; }
 
 .newsletter-style-3 {
-  background-image: url(../images/bg/home-two-cta.jpg);
   position: relative; }
   .newsletter-style-3 .contact-info {
     margin-left: 43px; }
@@ -11261,8 +11237,7 @@ button.edu-btn {
 .video-popup-wrapper {
   position: relative; }
   .video-popup-wrapper.video-popup-two img {
-    -webkit-mask: url("../images/shapes/mask-shape-1.svg");
-    mask: url("../images/shapes/mask-shape-1.svg");
+ 
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -12128,7 +12103,6 @@ Accordion Style
       .edu-tab-nav li.nav-item button.nav-link::after {
         position: absolute;
         content: "";
-        background-image: url(../images/shape-bg/shape-57.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -12556,8 +12530,7 @@ Gallery Item
 /*--------------------------
     Pricing Table  
 ----------------------------*/
-.edu-pricing-area {
-  background-image: url(../images/bg/pricing-plan.jpg); }
+ 
 
 .pricing-billing-duration {
   text-align: right; }
@@ -13083,7 +13056,7 @@ Gallery Item
   font-weight: 500;
   color: var(--color-body);
   position: relative;
-  background: url(../images/icons/arrow-icon.png) 95% center no-repeat transparent; }
+ }
 
 .checkout-page-style textarea {
   background: #F5F5F5;
@@ -14101,7 +14074,6 @@ Gallery Item
 
 .banner-style-1 {
   position: relative;
-  background-image: url(../images/bg/home-one-banner.jpg);
   z-index: 2; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .banner-style-1 {
@@ -14273,7 +14245,7 @@ Gallery Item
     Banner Style Two  
 --------------------------*/
 .banner-style-2 {
-  background-image: url(../images/bg/home-two-banner.jpg);
+ 
   position: relative;
   z-index: 1;
   min-height: 930px; }
@@ -14451,7 +14423,7 @@ Gallery Item
   position: relative;
   z-index: 1;
   overflow: hidden;
-  background-image: url(../images/bg/home-three-banner.jpg); }
+ }
   @media only screen and (max-width: 991px) {
     .banner-style-3 {
       padding: 160px 0 100px; }
@@ -14575,7 +14547,6 @@ Gallery Item
     Banner Style Four  
 --------------------------*/
 .banner-style-4 {
-  background-image: url(../images/bg/home-four-banner.jpg);
   position: relative;
   z-index: 1;
   overflow: hidden; }
@@ -14794,7 +14765,7 @@ Gallery Item
     @media only screen and (max-width: 767px) {
       .banner-style-5 .wrapper {
         height: auto;
-        padding-top: 120px; } }
+        padding-top: 20px; } }
   .banner-style-5 .content .title {
     font-weight: 800;
     font-size: 72px;
@@ -15960,7 +15931,7 @@ Gallery Item
   line-height: 26px; }
 
 .eduvibe-landing-banner {
-  background-image: url(../images/bg/landing-page-banner.jpg);
+ 
   position: relative;
   z-index: 1; }
   .eduvibe-landing-banner .height-800 {
@@ -16097,8 +16068,7 @@ Gallery Item
 /*-----------------------
     Course Layout Style    
 --------------------------*/
-.edu-demo-course-layout {
-  background-image: url(../images/bg/landing-page-courses.jpg); }
+ 
   .edu-demo-course-layout .shape-image {
     position: absolute;
     z-index: -1; }
@@ -16135,7 +16105,7 @@ Gallery Item
     Ecommerce Layout Style    
 --------------------------*/
 .edu-demo-ecommerce-layout {
-  background-image: url(../images/bg/landing-page-ecommerce.jpg);
+ 
   padding: 192px 0 163px !important;
   position: relative; }
   .edu-demo-ecommerce-layout .pre-section-title {
@@ -16787,7 +16757,7 @@ Gallery Item
 }
 
 .eduvibe-home-three-one-video{
-   background-image: url(".././images/bg/home-one-instructor.jpg");
+   background-image: url("../images/bg/newsletter-home-4-bg.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;

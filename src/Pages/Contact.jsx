@@ -104,18 +104,17 @@ function Contact() {
                               <i class="icon-Headphone"></i>
                             </div>
                             <p className='mx-3'>
-                              +91 9176-333-334<br />
-                              +91 9962-698-698
+                                <Link to="tel:+91 9176333334">+91 9176-333-334</Link><br/>
+                                <Link to="tel:+91 9962698698">+91 9962-698-698</Link>                               
+                              
                             </p>
                           </div>
 
                           <div className="d-flex align-items-center mb-4">
                             <div class="icon mb-2">
                               <i class="icon-mail-open-line"></i>
-                            </div>
-                            <p className='mx-3'>
-                              info@aimoretechnologies.com
-                            </p>
+                            </div>                  
+                            <Link className='mx-3' to="mailto:info@aimoretechnologies.com">info@aimoretechnologies.com</Link>                            
                           </div>
 
 
@@ -141,19 +140,17 @@ function Contact() {
                             <div class="icon mb-2">
                               <i class="icon-Headphone"></i>
                             </div>
-                            <p className='mx-3'>
-                              +91 9159-333-334<br />
-                              +91 9786-400-004
+                            <p className='mx-3'>                              
+                              <Link to="tel:+91 9159333334">+91 9159-333-334</Link><br/>
+                                <Link to="tel:+91 9786400004">+91 9786-400-004</Link>
                             </p>
                           </div>
 
                           <div className="d-flex align-items-center mb-4">
                             <div class="icon mb-2">
                               <i class="icon-mail-open-line"></i>
-                            </div>
-                            <p className='mx-3'>
-                              info@aimoretechnologies.com
-                            </p>
+                            </div>                  
+                            <Link className='mx-3' to="mailto:info@aimoretechnologies.com">info@aimoretechnologies.com</Link>                            
                           </div>
 
 
@@ -180,18 +177,17 @@ function Contact() {
                               <i class="icon-Headphone"></i>
                             </div>
                             <p className='mx-3'>
-                              +91 9655-333-334<br/>
-                              +91 9962-898-898
+                            
+                                <Link to="tel:+91 9655333334">+91 9655-333-334</Link><br/>
+                                <Link to="tel:+91 9962898898">+91 9962-898-898</Link>
                             </p>
                           </div>
 
                           <div className="d-flex align-items-center mb-4">
                             <div class="icon mb-2">
                               <i class="icon-mail-open-line"></i>
-                            </div>
-                            <p className='mx-3'>
-                            info@aimoretechnologies.com
-                            </p>
+                            </div>                  
+                            <Link className='mx-3' to="mailto:info@aimoretechnologies.com">info@aimoretechnologies.com</Link>                            
                           </div>
 
 
@@ -224,7 +220,7 @@ function Contact() {
                         <input type="text" name='contact_message' placeholder='Enter Message' className='form-control' required/>
                     </div>
                     <div className='form-group' style={{display:"none"}}>
-                        <input value={urls} type="text" name='contact_url' placeholder='Enter URL' className='form-control'/>
+                        <input value={urls} type="text" name='contact_url' placeholder='Enter URL' className='form-control' />
                     </div>
                     <div className='form-group'>
                         <button type='submit' className='btn btn-primary rn-btn edu-btn w-100'>SUBMIT</button>
@@ -234,15 +230,7 @@ function Contact() {
             </div>
           </div>
 
-          <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-            <div class="shape-image scene shape-image-1" >
-              <span data-depth="-2.2" >
-                <img src="assets/images/shapes/shape-04-01.png" alt="Shape Thumb" />
-              </span>
-            </div>
-            <div class="shape-image shape-image-2">
-              <img src="assets/images/shapes/shape-02-08.png" alt="Shape Thumb" />
-            </div>
+          <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">   
             <div class="shape-image shape-image-3">
               <img src="assets/images/shapes/shape-15.png" alt="Shape Thumb" />
             </div>

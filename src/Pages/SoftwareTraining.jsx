@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import softwarecertificate from "../assets/images/bestsoftware/course-certification.png"
-import LandscapeSoftwareTraining from "../assets/images/bestsoftware/Landscape-of-Software-Training.png"
-import softwaretraininggoodcareer from "../assets/images/bestsoftware/good-career.png"
-import softwaretraingingrole from "../assets/images/bestsoftware/software-training-role.png"
-import challenges from "../assets/images/bestsoftware/challenges.png"
-import bestsoftwaretraining from "../assets/images/bestsoftware/Premier-Software-Training-Institute.png";
-import importantofsoftware from "../assets/images/bestsoftware/Importance-of-Software-Training.png"
-import impactofsoftware from "../assets/images/bestsoftware/impact-of-software-training.png"
-import excellencesoftwaretraining from "../assets/images/bestsoftware/Excellence-in-Software-Training-Institute.png"
+import softwarecertificate from "../assets/images/bestsoftware/course-certification.webp"
+import LandscapeSoftwareTraining from "../assets/images/bestsoftware/Landscape-of-Software-Training.webp"
+import softwaretraininggoodcareer from "../assets/images/bestsoftware/good-career.webp"
+import softwaretraingingrole from "../assets/images/bestsoftware/software-training-role.webp"
+import challenges from "../assets/images/bestsoftware/challenges.webp"
+import bestsoftwaretraining from "../assets/images/bestsoftware/Premier-Software-Training-Institute.webp";
+import importantofsoftware from "../assets/images/bestsoftware/Importance-of-Software-Training.webp"
+import impactofsoftware from "../assets/images/bestsoftware/impact-of-software-training.webp"
+import excellencesoftwaretraining from "../assets/images/bestsoftware/Excellence-in-Software-Training-Institute.webp"
 function SoftwareTraining() {
   const [schemas, setSchemas] = useState([]);
   const loadSchema = () => {

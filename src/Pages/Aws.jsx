@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
-import amazonbanner from "../assets/images/banner/banner-01/new-amazon.jpg"
-import amozoncloud from "../assets/images/banner/banner-01/amazon-cloud-services.png"
-import awsaimore from "../assets/images/about/about-02/why-aimore-in-chennai.jpg"
-import awscertification from "../assets/images/about/about-02/aws-certification-in-chennai.avif"
-import aimorecourse from "../assets/images/about/about-02/aws-aimore-course-in-chennai.jpg"
+import amazonbanner from "../assets/images/about/new-amazon.webp"
+import amozoncloud from "../assets/images/about/amazon-cloud-services.webp"
+import awsaimore from "../assets/images/about/why-aimore-in-chennai.webp"
+import awscertification from "../assets/images/about/aws-certification-in-chennai.webp"
+import aimorecourse from "../assets/images/about/aws-aimore-course-in-chennai.webp"
 
 function Aws() {
     const [schemas,setSchemas] = useState([]);
@@ -55,7 +55,7 @@ function Aws() {
                 <div className="container py-5">
                     <div className="row">
                         <div className="col-md-6">
-                            <img src="/assets/images/banner/banner-06.jpg" alt="banner" />
+                            <img src={amazonbanner} alt="Aws course in chennai" />
                         </div>
                         <div className="col-md-6 section-title sal-animate">
                             <h1 className='title'>Achieve AWS Solution Architect Associate Certification with AWS Expert Training in Chennai</h1>
@@ -2205,7 +2205,7 @@ function Aws() {
                         <div class="workshop-inner text-center">
                             <div class="section-title  sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 <h3 class="title mb-2 text-white">Your Journey Starts Here</h3>
-                                <p className='description mt-0 text-center '>These success stories are just a glimpse of what awaits you at Aimore Technologies. Our AWS Training and Placement program is designed to empower individuals with the skills, knowledge, and confidence needed to thrive in the competitive landscape of cloud computing.
+                                <p className='description mt-0 text-center mb-5'>These success stories are just a glimpse of what awaits you at Aimore Technologies. Our AWS Training and Placement program is designed to empower individuals with the skills, knowledge, and confidence needed to thrive in the competitive landscape of cloud computing.
                                     When you enroll with us, you're not just joining a program; you're joining a community committed to your success. Our experienced trainers, hands-on labs, and personalized guidance are here to shape your journey, from novice to AWS professional.
                                     Modes Of Training
                                 </p>

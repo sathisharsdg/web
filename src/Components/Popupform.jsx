@@ -54,10 +54,7 @@ function Popupform() {
                     </div>
                     <div className='form-group'>
                         <input type="text" name='contact_course' placeholder='Enter Course' className='form-control' required/>
-                    </div>
-                    <div className='form-group'>
-                        <input type="text" name='contact_message' placeholder='Enter Message' className='form-control' required/>
-                    </div>
+                    </div>                  
                     <div className='form-group' style={{display:"none"}}>
                         <input value={urls} type="text" name='contact_url' placeholder='Enter URL' className='form-control'/>
                     </div>

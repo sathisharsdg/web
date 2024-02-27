@@ -7,43 +7,43 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import "../assets/css/Home.css"
-import homeMainbanner from "../assets/images/home-banner.png"
-import selenium from "../assets/images/homepage/selenium-aimore.png"
-import powerBi from "../assets/images/homepage/power-bi-training-aimore.png"
-import fullstack from "../assets/images/homepage/fullstack-training-aimore.png"
-import awsimg from "../assets/images/homepage/aws-training-aimore.png"
-import pythonimg from "../assets/images/homepage/python-training-aimore.png"
-import bestsoftware from "../assets/images/homepage/best-software-training-aimore.png"
+import selenium from "../assets/images/homepage/selenium-aimore.webp"
+import powerBi from "../assets/images/homepage/power-bi-training-aimore.webp"
+import fullstack from "../assets/images/homepage/fullstack-training-aimore.webp"
+import awsimg from "../assets/images/homepage/aws-training-aimore.webp"
+import pythonimg from "../assets/images/homepage/python-training-aimore.webp"
+import bestsoftware from "../assets/images/homepage/best-software-training-aimore.webp"
 import { Link } from 'react-router-dom'
-import whychoose from "../assets/images/homepage/why-choose-aimore.png"
-import bestgateway from "../assets/images/homepage/best-way-to-enter-it-industry.png"
-import bestSoftware from "../assets/images/homepage/Software-Training-Institute-in-Chennai-with-Placements.png"
-import upskill from "../assets/images/homepage/Up-skill-yourself-with-aimore-technologies.png"
-import increase from "../assets/images/homepage/increase-career-opportunities-with-aimore.png"
-import numerous from "../assets/images/homepage/Numerous-Advantages-of-Joining-Aimore-Technology.png"
-import newhome from "../assets/images/new-home-banner.png"
+import whychoose from "../assets/images/homepage/why-choose-aimore.webp"
+import bestgateway from "../assets/images/homepage/best-way-to-enter-it-industry.webp"
+import bestSoftware from "../assets/images/homepage/Software-Training-Institute-in-Chennai-with-Placements.webp"
+import upskill from "../assets/images/homepage/Up-skill-yourself-with-aimore-technologies.webp"
+import increase from "../assets/images/homepage/increase-career-opportunities-with-aimore.webp"
+import numerous from "../assets/images/homepage/Numerous-Advantages-of-Joining-Aimore-Technology.webp"
+import newhome from "../assets/images/new-home-banner.webp"
 import Slider from "react-slick";
-import { useRef, useState,useEffect } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import emailjs from '@emailjs/browser';
+import Commonpopup from '../Components/Commonpopup';
 function Home() {
     const form = useRef()
-    const [urls, setUrls] = useState("")  
+    const [urls, setUrls] = useState("")
     const [message, setMessage] = useState("");
-    useEffect(()=>{
-      setUrls(window.location.href)
-    },[])
+    useEffect(() => {
+        setUrls(window.location.href)
+    }, [])
     const sendEmail = (e) => {
-      e.preventDefault();
-     
-      emailjs.sendForm('service_m2qphau', 'template_fuxwcph', form.current, 'R1muJOWgzl2ngf6ye')
-        .then((result) => {
-          setMessage("Form Submitted Successfully..")       
-            console.log(result.text);            
-        }, (error) => {
-          setMessage("Something went wrong..")
-            console.log(error.text);
-        });
-        form.current.reset();       
+        e.preventDefault();
+
+        emailjs.sendForm('service_m2qphau', 'template_fuxwcph', form.current, 'R1muJOWgzl2ngf6ye')
+            .then((result) => {
+                setMessage("Form Submitted Successfully..")
+                console.log(result.text);
+            }, (error) => {
+                setMessage("Something went wrong..")
+                console.log(error.text);
+            });
+        form.current.reset();
     };
     var settings = {
         dots: true,
@@ -55,18 +55,33 @@ function Home() {
     return (
         <div>
             <Helmet>
-            <title>
-            Software Training Institute in Chennai - Aimore Technology 
-          </title>
-          <meta
-            name="description"
-            content="Aimore Technology is the best software training institute in Chennai that offers software courses With 100% placement. Online Training, Flexible Batches"
-          />
-          <meta
-            name="keywords"
-            content="Best Software Training Institute in Chennai, Software Training Institute in Chennai,  IT Training Institute in Chennai, IT Courses in Chennai"
-          />
+                <title>
+                    Software Training Institute in Chennai - Aimore Technology
+                </title>
+                <meta
+                    name="description"
+                    content="Aimore Technology is the best software training institute in Chennai that offers software courses With 100% placement. Online Training, Flexible Batches"
+                />
+                <meta
+                    name="keywords"
+                    content="Best Software Training Institute in Chennai, Software Training Institute in Chennai,  IT Training Institute in Chennai, IT Courses in Chennai"
+                />
             </Helmet>
+
+
+            <div class="modal fade" id="staticBackdropNew" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <Commonpopup />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
             <div class="slider-area banner-style-5 bg-image index-banner">
                 <div class="wrapper d-flex align-items-center">
                     <div class="container eduvibe-animated-shape content">
@@ -74,7 +89,7 @@ function Home() {
                             <div className="col-md-7">
                                 <h1 className='title'>Software Training Institute In Chennai</h1>
                                 <p>Best Software Training Institute In Chennai. We Offer The Best Training For Courses Like AWS, Data Science, Selenium, Python, Web Development, Azure DevOps, Cloud Computing, Artificial Intelligence, Machine Learning, Power BI, And More</p>
-                                <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"><Link class="edu-btn" to="/contact-us">Enroll Now <i class="icon-arrow-right-line-right"></i></Link></div>
+                                <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"><Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link></div>
                             </div>
                             <div className="col-md-5">
                                 <img src={newhome} alt="best software training in chennai" className='img-fluid' />
@@ -208,7 +223,7 @@ function Home() {
 
                 <div className="row py-5">
                     <div className="col-md-12 text-center">
-                        <a class="edu-btn" href="/contact-us">To Know More Course Details  <i class="icon-arrow-right-line-right"></i></a>
+                        <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal"> To Know More Course Details <i class="icon-arrow-right-line-right"></i></Link>
                     </div>
                 </div>
 
@@ -362,7 +377,8 @@ function Home() {
                     </div>
                     <div className="row py-3">
                         <div className="col-md-12 text-center">
-                            <a class="edu-btn" href="/contact-us">GET STARTED <i class="icon-arrow-right-line-right"></i></a>
+                            <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">GET STARTED <i class="icon-arrow-right-line-right"></i></Link>
+                        
                         </div>
                     </div>
                 </div>
@@ -463,7 +479,8 @@ function Home() {
                             </div>
                             <div className="row py-5">
                                 <div className="col-md-12 text-center">
-                                    <a class="edu-btn" href="/contact-us">To Know More About Us  <i class="icon-arrow-right-line-right"></i></a>
+                                <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">To Know More About Us<i class="icon-arrow-right-line-right"></i></Link>
+ 
                                 </div>
                             </div>
                         </div>
@@ -472,257 +489,253 @@ function Home() {
             </div>
 
 
-      <div className="testi-section py-5">
-      <div className="container">
-                <div className="row section-title py-5">
-                    <div className="col-md-8 offset-md-2 client-testimonials">
-                        <h1 className='title text-center'>What Do People Say About Us?</h1>
-                        <h4 className='text-center py-2'>Trusted by Thousands of Students and Tutors</h4>
-                        <Slider {...settings} className='py-5'>
-                            <div className='text-center py-2'>
-                                <h1><i class="ri-user-line"></i></h1>
-                                <h1><b>Kiran Rajesh</b></h1>
-                                <p><i>Aimore Technologies is a very good place to learn IT software courses and Placement.  Trainers are very professional and very expert in SQL, UNIX, ETL and Scripting Languages. I suggest Aimore Technologies for Tester, Developer and supporting role for the IT Sector. Thank You </i></p>
-                                <div className="text-center start-rating">
-                                    <div className="d-flex justify-content-center">
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
+            <div className="testi-section py-5">
+                <div className="container">
+                    <div className="row section-title py-5">
+                        <div className="col-md-8 offset-md-2 client-testimonials">
+                            <h1 className='title text-center'>What Do People Say About Us?</h1>
+                            <h4 className='text-center py-2'>Trusted by Thousands of Students and Tutors</h4>
+                            <Slider {...settings} className='py-5'>
+                                <div className='text-center py-2'>
+                                    <h1><i class="ri-user-line"></i></h1>
+                                    <h1><b>Kiran Rajesh</b></h1>
+                                    <p><i>Aimore Technologies is a very good place to learn IT software courses and Placement.  Trainers are very professional and very expert in SQL, UNIX, ETL and Scripting Languages. I suggest Aimore Technologies for Tester, Developer and supporting role for the IT Sector. Thank You </i></p>
+                                    <div className="text-center start-rating">
+                                        <div className="d-flex justify-content-center">
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className='text-center py-2'>
-                                <h1><i class="ri-user-line"></i></h1>
-                                <h1><b>Vinodh</b></h1>
-                                <p><i>If you need to start your career in the IT Sector. I would prefer Aimore technology. One of the best institutes to learn. The staff are very kind and supportive and in giving guidance. I have learned queries from Prabhu and he covered all topics. Placement trainings are given by Gobi, It's very helpful to attend the Interviews in a short period of time. </i></p>
-                                <div className="text-center start-rating">
-                                    <div className="d-flex justify-content-center">
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
+                                <div className='text-center py-2'>
+                                    <h1><i class="ri-user-line"></i></h1>
+                                    <h1><b>Vinodh</b></h1>
+                                    <p><i>If you need to start your career in the IT Sector. I would prefer Aimore technology. One of the best institutes to learn. The staff are very kind and supportive and in giving guidance. I have learned queries from Prabhu and he covered all topics. Placement trainings are given by Gobi, It's very helpful to attend the Interviews in a short period of time. </i></p>
+                                    <div className="text-center start-rating">
+                                        <div className="d-flex justify-content-center">
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className='text-center py-2'>
-                                <h1><i class="ri-user-line"></i></h1>
-                                <h1><b>Revathi</b></h1>
-                                <p><i>Excellent training institute in Chennai. The way of coaching is extraordinary and they give good practical training. They make to understand all the concepts in a very easy way. One can find a job very easily if they follow the words of the trainer. Trainers are very dedicated, friendly and supportive. Would recommend it to everyone who seeks a job in IT.</i></p>
-                                <div className="text-center start-rating">
-                                    <div className="d-flex justify-content-center">
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
+                                <div className='text-center py-2'>
+                                    <h1><i class="ri-user-line"></i></h1>
+                                    <h1><b>Revathi</b></h1>
+                                    <p><i>Excellent training institute in Chennai. The way of coaching is extraordinary and they give good practical training. They make to understand all the concepts in a very easy way. One can find a job very easily if they follow the words of the trainer. Trainers are very dedicated, friendly and supportive. Would recommend it to everyone who seeks a job in IT.</i></p>
+                                    <div className="text-center start-rating">
+                                        <div className="d-flex justify-content-center">
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className='text-center py-2'>
-                                <h1><i class="ri-user-line"></i></h1>
-                                <h1><b>Padmapriya</b></h1>
-                                <p><i>The faculties are highly experienced and friendly. The quality of teaching is excellent and the approach is very practical.
-                                    They have designed the syllabus for easy learning and every aspect of the subject is covered with real-time knowledge and problems.
-                                    They train everyone irrespective of their technical or non-technical knowledge at their best. build us from the basics. Aimore is the best choice for any course learning and it is more than worth our time and money.</i></p>
-                                <div className="text-center start-rating">
-                                    <div className="d-flex justify-content-center">
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
-                                        <span><i class="ri-star-fill"></i></span>
+                                <div className='text-center py-2'>
+                                    <h1><i class="ri-user-line"></i></h1>
+                                    <h1><b>Padmapriya</b></h1>
+                                    <p><i>The faculties are highly experienced and friendly. The quality of teaching is excellent and the approach is very practical.
+                                        They have designed the syllabus for easy learning and every aspect of the subject is covered with real-time knowledge and problems.
+                                        They train everyone irrespective of their technical or non-technical knowledge at their best. build us from the basics. Aimore is the best choice for any course learning and it is more than worth our time and money.</i></p>
+                                    <div className="text-center start-rating">
+                                        <div className="d-flex justify-content-center">
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </Slider>
+                            </Slider>
+                        </div>
                     </div>
                 </div>
             </div>
-      </div>
 
             <div class="edu-contact-us-area eduvibe-contact-us edu-section-gap bg-color-white">
-        <div class="container eduvibe-animated-shape">
-          <div class="row g-5">
-            <div class="col-lg-12">
-              <div class="section-title text-center sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                <h3 class="title">Get In Touch With us</h3>
-              </div>
-            </div>
-          </div>
-          <div class="row g-5 mt--20">
-            <div class="col-lg-7">
-              <div class="contact-info  pr_lg--0 pr_md--0 pr_sm--0">
-                <div class="row g-5">
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <div class="contact-address-card-1 website">
-                      <div class="inner">
-
-                        <div class="content">
-                          <h1 class="title">Medavakkam-Branch</h1>
-                          <div className="d-flex align-items-center mb-4">
-                            <div class="icon mb-2">
-                              <i class="icon-map-pin-line"></i>
+                <div class="container eduvibe-animated-shape">
+                    <div class="row g-5">
+                        <div class="col-lg-12">
+                            <div class="section-title text-center sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <h3 class="title">Get In Touch With us</h3>
                             </div>
-                            <p className='mx-3'>3/165, Sumangali Second floor,
-                              Perumbakkam Main Road, Medavakkam,
-                              Chennai, Tamil Nadu 600100</p>
-                          </div>
-                          <div className="d-flex align-items-center mb-4">
-                            <div class="icon mb-2">
-                              <i class="icon-Headphone"></i>
-                            </div>
-                            <p className='mx-3'>
-                              +91 9176-333-334<br />
-                              +91 9962-698-698
-                            </p>
-                          </div>
-
-                          <div className="d-flex align-items-center mb-4">
-                            <div class="icon mb-2">
-                              <i class="icon-mail-open-line"></i>
-                            </div>
-                            <p className='mx-3'>
-                              info@aimoretechnologies.com
-                            </p>
-                          </div>
-
-
                         </div>
-                      </div>
                     </div>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <div class="contact-address-card-1 website">
-                      <div class="inner">
+                    <div class="row g-5 mt--20">
+                        <div class="col-lg-7">
+                            <div class="contact-info  pr_lg--0 pr_md--0 pr_sm--0">
+                                <div class="row g-5">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                        <div class="contact-address-card-1 website">
+                                            <div class="inner">
 
-                        <div class="content">
-                          <h1 class="title">Porur-Branch</h1>
-                          <div className="d-flex align-items-center mb-4">
-                            <div class="icon mb-2">
-                              <i class="icon-map-pin-line"></i>
+                                                <div class="content">
+                                                    <h1 class="title">Medavakkam-Branch</h1>
+                                                    <div className="d-flex align-items-center mb-4">
+                                                        <div class="icon mb-2">
+                                                            <i class="icon-map-pin-line"></i>
+                                                        </div>
+                                                        <p className='mx-3'>3/165, Sumangali Second floor,
+                                                            Perumbakkam Main Road, Medavakkam,
+                                                            Chennai, Tamil Nadu 600100</p>
+                                                    </div>
+                                                    <div className="d-flex align-items-center mb-4">
+                                                        <div class="icon mb-2">
+                                                            <i class="icon-Headphone"></i>
+                                                        </div>
+                                                        <p className='mx-3'>
+                                                            <Link to="tel:+91 9176333334">+91 9176-333-334</Link><br />
+                                                            <Link to="tel:+91 9962698698">+91 9962-698-698</Link>
+
+                                                        </p>
+                                                    </div>
+
+                                                    <div className="d-flex align-items-center mb-4">
+                                                        <div class="icon mb-2">
+                                                            <i class="icon-mail-open-line"></i>
+                                                        </div>
+                                                        <Link className='mx-3' to="mailto:info@aimoretechnologies.com">info@aimoretechnologies.com</Link>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                        <div class="contact-address-card-1 website">
+                                            <div class="inner">
+
+                                                <div class="content">
+                                                    <h1 class="title">Porur-Branch</h1>
+                                                    <div className="d-flex align-items-center mb-4">
+                                                        <div class="icon mb-2">
+                                                            <i class="icon-map-pin-line"></i>
+                                                        </div>
+                                                        <p className='mx-3'>No 112/2, Door No 140/104, First Floor,
+                                                            Phase 1 Mount Poonamallee, Trunk Road,
+                                                            Porur, Chennai, Tamil Nadu - 600116</p>
+                                                    </div>
+                                                    <div className="d-flex align-items-center mb-4">
+                                                        <div class="icon mb-2">
+                                                            <i class="icon-Headphone"></i>
+                                                        </div>
+                                                        <p className='mx-3'>
+                                                            <Link to="tel:+91 9159333334">+91 9159-333-334</Link><br />
+                                                            <Link to="tel:+91 9786400004">+91 9786-400-004</Link>
+                                                        </p>
+                                                    </div>
+
+                                                    <div className="d-flex align-items-center mb-4">
+                                                        <div class="icon mb-2">
+                                                            <i class="icon-mail-open-line"></i>
+                                                        </div>
+                                                        <Link className='mx-3' to="mailto:info@aimoretechnologies.com">info@aimoretechnologies.com</Link>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                        <div class="contact-address-card-1 website">
+                                            <div class="inner">
+
+                                                <div class="content">
+                                                    <h1 class="title">Karapakkam-Branch</h1>
+                                                    <div className="d-flex align-items-center mb-4">
+                                                        <div class="icon mb-2">
+                                                            <i class="icon-map-pin-line"></i>
+                                                        </div>
+                                                        <p className='mx-3'>1/16/2, Rajiv Gandhi Road
+                                                            (Old Mahabalipuram Road),
+                                                            Karapakkam(N198), Chennai - 600097</p>
+                                                    </div>
+                                                    <div className="d-flex align-items-center mb-4">
+                                                        <div class="icon mb-2">
+                                                            <i class="icon-Headphone"></i>
+                                                        </div>
+                                                        <p className='mx-3'>
+
+                                                            <Link to="tel:+91 9655333334">+91 9655-333-334</Link><br />
+                                                            <Link to="tel:+91 9962898898">+91 9962-898-898</Link>
+                                                        </p>
+                                                    </div>
+
+                                                    <div className="d-flex align-items-center mb-4">
+                                                        <div class="icon mb-2">
+                                                            <i class="icon-mail-open-line"></i>
+                                                        </div>
+                                                        <Link className='mx-3' to="mailto:info@aimoretechnologies.com">info@aimoretechnologies.com</Link>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
                             </div>
-                            <p className='mx-3'>No 112/2, Door No 140/104, First Floor,
-                              Phase 1 Mount Poonamallee, Trunk Road,
-                              Porur, Chennai, Tamil Nadu - 600116</p>
-                          </div>
-                          <div className="d-flex align-items-center mb-4">
-                            <div class="icon mb-2">
-                              <i class="icon-Headphone"></i>
-                            </div>
-                            <p className='mx-3'>
-                              +91 9159-333-334<br />
-                              +91 9786-400-004
-                            </p>
-                          </div>
-
-                          <div className="d-flex align-items-center mb-4">
-                            <div class="icon mb-2">
-                              <i class="icon-mail-open-line"></i>
-                            </div>
-                            <p className='mx-3'>
-                              info@aimoretechnologies.com
-                            </p>
-                          </div>
-
-
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-12 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <div class="contact-address-card-1 website">
-                      <div class="inner">
 
-                        <div class="content">
-                          <h1 class="title">Karapakkam-Branch</h1>
-                          <div className="d-flex align-items-center mb-4">
-                            <div class="icon mb-2">
-                              <i class="icon-map-pin-line"></i>
-                            </div>
-                            <p className='mx-3'>1/16/2, Rajiv Gandhi Road
-                              (Old Mahabalipuram Road),
-                              Karapakkam(N198), Chennai - 600097</p>
-                          </div>
-                          <div className="d-flex align-items-center mb-4">
-                            <div class="icon mb-2">
-                              <i class="icon-Headphone"></i>
-                            </div>
-                            <p className='mx-3'>
-                              +91 9655-333-334<br/>
-                              +91 9962-898-898
-                            </p>
-                          </div>
-
-                          <div className="d-flex align-items-center mb-4">
-                            <div class="icon mb-2">
-                              <i class="icon-mail-open-line"></i>
-                            </div>
-                            <p className='mx-3'>
-                            info@aimoretechnologies.com
-                            </p>
-                          </div>
-
-
+                        <div class="col-lg-5">
+                            <h1 className='title py-3'>Fill up the details</h1>
+                            <form onSubmit={sendEmail} ref={form} className='rnt-contact-form rwt-dynamic-form row'>
+                                <div className='form-group'>
+                                    <input type="text" name='contact_name' placeholder='Enter Name' className='form-control' required />
+                                </div>
+                                <div className='form-group'>
+                                    <input type="email" name='contact_email' placeholder='Enter Email' className='form-control' required />
+                                </div>
+                                <div className='form-group'>
+                                    <input type="text" name='contact_phone' placeholder='Enter Phone' className='form-control' required />
+                                </div>
+                                <div className='form-group'>
+                                    <input type="text" name='contact_course' placeholder='Enter Course' className='form-control' required />
+                                </div>
+                                <div className='form-group'>
+                                    <input type="text" name='contact_message' placeholder='Enter Message' className='form-control' required />
+                                </div>
+                                <div className='form-group' style={{ display: "none" }}>
+                                    <input value={urls} type="text" name='contact_url' placeholder='Enter URL' className='form-control' />
+                                </div>
+                                <div className='form-group'>
+                                    <button type='submit' className='btn btn-primary rn-btn edu-btn w-100'>SUBMIT</button>
+                                </div>
+                            </form>
+                            <h4>{message}</h4>
                         </div>
-                      </div>
                     </div>
-                  </div>
 
-
+                    <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
+                        <div class="shape-image scene shape-image-1" >
+                            <span data-depth="-2.2" >
+                                <img src="assets/images/shapes/shape-04-01.png" alt="Shape Thumb" />
+                            </span>
+                        </div>
+                        <div class="shape-image shape-image-2">
+                            <img src="assets/images/shapes/shape-02-08.png" alt="Shape Thumb" />
+                        </div>
+                        <div class="shape-image shape-image-3">
+                            <img src="assets/images/shapes/shape-15.png" alt="Shape Thumb" />
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-
-            <div class="col-lg-5">
-              <h1 className='title py-3'>Fill up the details</h1>
-               <form onSubmit={sendEmail} ref={form} className='rnt-contact-form rwt-dynamic-form row'>
-                    <div className='form-group'>
-                        <input type="text" name='contact_name' placeholder='Enter Name' className='form-control' required/>
-                    </div>
-                    <div className='form-group'>
-                        <input type="email" name='contact_email' placeholder='Enter Email' className='form-control' required/>
-                    </div>
-                    <div className='form-group'>
-                        <input type="text" name='contact_phone' placeholder='Enter Phone' className='form-control' required/>
-                    </div>
-                    <div className='form-group'>
-                        <input type="text" name='contact_course' placeholder='Enter Course' className='form-control' required/>
-                    </div>
-                    <div className='form-group'>
-                        <input type="text" name='contact_message' placeholder='Enter Message' className='form-control' required/>
-                    </div>
-                    <div className='form-group' style={{display:"none"}}>
-                        <input value={urls} type="text" name='contact_url' placeholder='Enter URL' className='form-control' />
-                    </div>
-                    <div className='form-group'>
-                        <button type='submit' className='btn btn-primary rn-btn edu-btn w-100'>SUBMIT</button>
-                    </div>
-               </form>
-               <h4>{message}</h4>
-            </div>
-          </div>
-
-          <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-            <div class="shape-image scene shape-image-1" >
-              <span data-depth="-2.2" >
-                <img src="assets/images/shapes/shape-04-01.png" alt="Shape Thumb" />
-              </span>
-            </div>
-            <div class="shape-image shape-image-2">
-              <img src="assets/images/shapes/shape-02-08.png" alt="Shape Thumb" />
-            </div>
-            <div class="shape-image shape-image-3">
-              <img src="assets/images/shapes/shape-15.png" alt="Shape Thumb" />
-            </div>
-          </div>
-        </div>
-      </div>
         </div>
 
     )

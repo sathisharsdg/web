@@ -1,22 +1,33 @@
-import React ,{useEffect, useLayoutEffect}from 'react'
-import ReactDOM from 'react-dom';
-import $ from 'jquery';
+import React ,{useEffect, useLayoutEffect, useState}from 'react'
 import "../App.css";
 import { Link } from 'react-router-dom';
 import Popupform from '../Components/Popupform';
 import "../assets/css/Header.css"
 
 function Header() {
+    const [showPopup,setshowpopup] = useState(false)
+    window.onload=function(){
+        document.getElementById("staticBackdrop").click();
+      };
+     
+        window.onload = function(){
+            setTimeout(()=>{
+                document.getElementById('common_click').click();
+            },5000)
+           
+          }
+  
+     
     useLayoutEffect(()=>{
         setTimeout(()=>{
-             document.getElementById("staticBackdrop").click();
+             document.getElementById("staticBackdrop").click()              
         },3000)
     })
     useEffect(() => {
         window.addEventListener('scroll', sticky);
         return () => {
             window.removeEventListener('scroll', sticky);
-        };
+        }; 
 
     });
     const sticky = (e) => {
@@ -51,6 +62,7 @@ function Header() {
             <div className="stickynavbtn">
                 <Link  data-bs-target="#staticBackdrop" data-bs-toggle="modal">Qucik Enquiry</Link>
             </div>
+           
             <header class="edu-header header-style-2 header-transparent header-sticky">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-xl-3 col-md-6 col-6">
@@ -91,7 +103,7 @@ function Header() {
                         <div class="header-menu-bar">
 
                             <div class="quote-icon quote-user d-none d-md-block ml--15">
-                            <Link to="contact-us" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="edu-btn btn-medium left-icon btn-white"><i class="ri-user-line"></i> Quick Contact</Link> 
+                            <Link to="contact-us" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="edu-btn btn-medium left-icon header-button" id='common_click'><i class="ri-user-line"></i> Quick Contact</Link> 
                                 
                             </div>
 
@@ -129,7 +141,7 @@ function Header() {
                             <li><Link to="/about-us/" onClick={closeMobile}>About Us</Link>                       
                             </li>
                             <li class="has-droupdown" onClick={showSubmenu}>
-                                <a href="#">Coursers</a>
+                                <a href="#">Courses</a>
                                 <ul class="submenu">
                                     <li><Link to="/power-bi-training-in-chennai/" onClick={closeMobile}>Power BI Training</Link></li>       
                                     <li><Link to="/selenium-training-in-chennai/" onClick={closeMobile}>Selenium Training</Link></li>
@@ -153,7 +165,7 @@ function Header() {
 
  
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">        
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>

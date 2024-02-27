@@ -5,7 +5,7 @@
     transform: rotate(101deg);
     position: fixed;
     right: -3%;
-    transform: rotate(89deg);
+    transform: rotate(90deg);
     top: 50%;
     background-color: #8d0f17;
     padding: 10px 20px;
@@ -18,3 +18,21 @@
 .modal-header {
     border-bottom: 1px solid #ffffff!important;
 }
+.modal-header .btn-close {
+    padding: 0.5rem 0.5rem;
+    margin: -0.5rem -0.5rem -0.5rem auto;
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+@media(max-width:520px){
+    .stickynavbtn a {
+        right: -10%!important;        
+        padding: 10px 20px!important;
+        font-size: 13px!important;
+    }
+}
+
+ 

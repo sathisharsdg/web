@@ -1,6 +1,9 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import aboutBanner from "../assets/images/about-banner.png" 
+import aboutBanner from "../assets/images/about-banner.webp" 
+import Commonpopup from '../Components/Commonpopup'
+import { Link } from 'react-router-dom'
+ 
 function About() {
     return (
         <div>
@@ -34,11 +37,26 @@ function About() {
                     <div className="col-md-5">
                          <img src={aboutBanner} alt="about-banner" />
                          <div className='text-center'>
-                         <a class="edu-btn" href="/contact-us">To Know More <i class="icon-arrow-right-line-right"></i></a>
+                         <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">To Know More<i class="icon-arrow-right-line-right"></i></Link>
+ 
                          </div>
                     </div>
                 </div>
             </div>
+            <div class="modal fade" id="staticBackdropNew" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <Commonpopup/>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }
