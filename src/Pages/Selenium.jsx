@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-
-import selenium from "../assets/images/selenium/selenium-intro.webp"
-import seleniumEngineer from "../assets/images/selenium/selenium-engineer.webp"
-import bestselenium from "../assets/images/selenium/Best-Selenium-Training.webp"
-import seleniumtrainginchenai from "../assets/images/selenium/selenium-training-in-chennai.webp"
-import bestseleniumcourse from "../assets/images/selenium/Selenium-Training-course-in-Chennai.webp"
-import challengessleniumcourse from "../assets/images/selenium/challenges-slenium-course.webp"
+import Commonpopup from '../Components/Commonpopup'
+import selenium from "../assets/images/selenium/Selenium-Course-in- Chennai.webp"
+import seleniumEngineer from "../assets/images/selenium/Selenium- Training-in- Chennai- with-Placement.webp"
+import bestselenium from "../assets/images/selenium/Best-Selenium- Training-in- Chennai.webp"
+import seleniumtrainginchenai from "../assets/images/selenium/Selenium-Training-in Chennai.webp"
+import bestseleniumcourse from "../assets/images/selenium/Selenium- Training-Institute-in- Chennai.webp"
+import challengessleniumcourse from "../assets/images/selenium/Selenium- Course-in- Chennai- with-Placement.webp"
 
 function Selenium() {
   const [schemas, setSchemas] = useState([]);
@@ -26,6 +26,7 @@ function Selenium() {
       <div>
         <Helmet>
           <title>Selenium Training in Chennai | Aimore Technology</title>
+          <link rel="canonical" href="https://aimoretechnology.com/selenium-training-in-chennai/" />
           <meta
             name="description"
             content="Aimore Technology offers Selenium Training in Chennai with Guaranteed Placement. Elevate your skills with hands-on. ✔️ Online Classes ✔️ certification ✔️ 40 Hrs ✔️. Live projects ✔️Job Guaranteed."
@@ -46,7 +47,7 @@ function Selenium() {
                   <nav className="edu-breadcrumb-nav">
                     <ol className="edu-breadcrumb d-flex justify-content-start liststyle">
                       <li className="breadcrumb-item">
-                        <Link to="/">Home</Link>{" "}
+                        <Link to="/">Home</Link>
                       </li>
                       <li className="separator">
                         <i className="ri-arrow-drop-right-line"></i>
@@ -59,6 +60,7 @@ function Selenium() {
                       </li>
                     </ol>
                   </nav>
+                  <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
                 </div>
               </div>
             </div>
@@ -76,7 +78,7 @@ function Selenium() {
                 Training in Chennai for Career Advancement
               </h1>
               <p>
-                {" "}
+                
                 At Aimore Technologies, our Selenium training program caters to
                 both graduates and professionals, providing comprehensive
                 insights into every aspect of Selenium. Recognized as the best
@@ -92,7 +94,7 @@ function Selenium() {
                 standards of coaching and delivering positive guidance to our
                 learners. By enrolling in our Selenium training, you will not
                 only acquire valuable skills but also experience career growth
-                opportunities.{" "}
+                opportunities.
               </p>
 
               <hr />
@@ -104,7 +106,7 @@ function Selenium() {
                 testers to write test scripts in various programming languages
                 like Java, Python, C#, Ruby, and others. Selenium supports
                 multiple browsers such as Chrome, Firefox, Safari, and Internet
-                Explorer, making it a versatile tool for web automation.{" "}
+                Explorer, making it a versatile tool for web automation.
               </p>
               <p>
                 Selenium is widely adopted in the software testing industry for
@@ -121,9 +123,8 @@ function Selenium() {
                 data-sal="slide-up"
                 data-sal-duration="800"
               >
-                <a className="edu-btn" href="/about-us">
-                  Know About Us <i className="icon-arrow-right-line-right"></i>
-                </a>
+               
+                <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Know About Us <i class="icon-arrow-right-line-right"></i></Link>
               </div>
             </div>
           </div>
@@ -331,7 +332,7 @@ function Selenium() {
                             seamlessly across different browsers such as Chrome,
                             Firefox, Safari, and Internet Explorer. This is
                             crucial for delivering a consistent user experience
-                            to a diverse audience.{" "}
+                            to a diverse audience.
                           </p>
                         </div>
                       </div>
@@ -509,7 +510,7 @@ function Selenium() {
                             including Java, Python, C#, Ruby, and more. It is
                             also compatible with various testing frameworks,
                             allowing teams to choose the language and framework
-                            that best suits their requirements.{" "}
+                            that best suits their requirements.
                           </p>
                         </div>
                       </div>
@@ -537,7 +538,7 @@ function Selenium() {
                             allowing testers to simulate user interactions with
                             web elements. This includes clicking buttons,
                             filling out forms, navigating through pages, and
-                            verifying expected outcomes.{" "}
+                            verifying expected outcomes.
                           </p>
                         </div>
                       </div>
@@ -594,7 +595,7 @@ function Selenium() {
                             accurate results, eliminating the potential for
                             human errors that may occur in manual testing. This
                             contributes to the overall reliability of the
-                            testing process.{" "}
+                            testing process.
                           </p>
                         </div>
                       </div>
@@ -637,7 +638,7 @@ function Selenium() {
                         Selenium interacts with web browsers by using
                         browser-specific driver executables. These drivers
                         interpret the Selenium commands and perform actions on
-                        the browser.{" "}
+                        the browser.
                       </p>
                     </div>
                   </div>
@@ -733,6 +734,9 @@ function Selenium() {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="text-center">
+              <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
               </div>
             </div>
           </div>
@@ -1088,7 +1092,7 @@ function Selenium() {
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+                              
                               Regular Curriculum Updates
                             </a>
                           </h4>
@@ -1254,7 +1258,7 @@ function Selenium() {
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+                              
                               Who Should Attend?
                             </a>
                           </h4>
@@ -1546,6 +1550,9 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                 </p>
               </div>
             </div>
+            <div className="text-center">
+            <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
+            </div>
           </div>
         </section>
 
@@ -1585,7 +1592,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                       excel in automated web testing using Selenium. The
                       practical and hands-on approach ensures that participants
                       are well-prepared for real-world testing scenarios and
-                      challenges.{" "}
+                      challenges.
                     </p>
                     <h5 class="title-inner text-white">
                       Understanding Selenium Ecosystem
@@ -1598,7 +1605,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                       </li>
                     </ul>
                     <h5 class="title-inner text-white">
-                      Mastering Selenium WebDriver{" "}
+                      Mastering Selenium WebDriver
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
@@ -1661,7 +1668,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                       </li>
                     </ul>
                     <h5 class="title-inner text-white">
-                      Handling Dynamic Elements{" "}
+                      Handling Dynamic Elements
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
@@ -1671,23 +1678,23 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                       </li>
                     </ul>
                     <h5 class="title-inner text-white">
-                      Best Practices and Coding Standards{" "}
+                      Best Practices and Coding Standards
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
                         Follow industry best practices and coding standards for
                         writing efficient, maintainable, and scalable Selenium
-                        test scripts.{" "}
+                        test scripts.
                       </li>
                     </ul>
                     <h5 class="title-inner text-white">
-                      Debugging and Troubleshooting{" "}
+                      Debugging and Troubleshooting
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
                         Develop skills in debugging and troubleshooting
                         automated test scripts to identify and resolve issues
-                        effectively.{" "}
+                        effectively.
                       </li>
                     </ul>
                   </div>
@@ -1703,7 +1710,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                     data-sal-duration="800"
                   >
                     <h5 class="title-inner text-white">
-                      Synchronization Strategies{" "}
+                      Synchronization Strategies
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
@@ -1721,7 +1728,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                       </li>
                     </ul>
                     <h5 class="title-inner text-white">
-                      Continuous Integration with Jenkin{" "}
+                      Continuous Integration with Jenkin
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
@@ -1731,34 +1738,34 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                       </li>
                     </ul>
                     <h5 class="title-inner text-white">
-                      Real-Time Projects and Case Studies{" "}
+                      Real-Time Projects and Case Studies
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
                         Apply the acquired knowledge through hands-on experience
                         with real-time projects and case studies, gaining
                         practical exposure to Selenium in a professional
-                        setting.{" "}
+                        setting.
                       </li>
                     </ul>
                     <h5 class="title-inner text-white">
-                      Performance Optimization{" "}
+                      Performance Optimization
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
                         Learn techniques for optimizing the performance of
                         automated test scripts, ensuring efficiency and
-                        reliability.{" "}
+                        reliability.
                       </li>
                     </ul>
                     <h5 class="title-inner text-white">
-                      Reporting and Documentation{" "}
+                      Reporting and Documentation
                     </h5>
                     <ul className="mb-5 border-bottom border-1">
                       <li className="text-white">
                         Implement effective reporting mechanisms and
                         documentation practices for test results, making it
-                        easier to communicate and analyze test outcomes.{" "}
+                        easier to communicate and analyze test outcomes.
                       </li>
                     </ul>
                   </div>
@@ -1815,7 +1822,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         automated testing to accelerate the testing process,
                         reduce manual errors, and achieve quicker
                         time-to-market. Selenium, being a powerful and versatile
-                        automation tool, is at the forefront of this demand.{" "}
+                        automation tool, is at the forefront of this demand.
                       </p>
                     </div>
                   </div>
@@ -1953,7 +1960,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         licensing fees associated with proprietary automation
                         tools. This cost-effectiveness makes Selenium an
                         attractive choice for companies aiming to achieve
-                        automation within budget constraints.{" "}
+                        automation within budget constraints.
                       </p>
                     </div>
                   </div>
@@ -2062,6 +2069,9 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="text-center">
+            <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
             </div>
           </div>
         </div>
@@ -2324,7 +2334,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              Test Trainer/Educator{" "}
+                              Test Trainer/Educator
                             </a>
                             <hr />
                           </h4>
@@ -2542,6 +2552,9 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="text-center">
+              <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
               </div>
             </div>
           </div>
@@ -2761,7 +2774,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+                              
                               Continuous Learning
                             </a>
                           </h4>
@@ -3065,6 +3078,9 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                 </div>
               </div>
             </div>
+            <div className="text-center">
+            <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
+            </div>
           </div>
         </div>
 
@@ -3214,7 +3230,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                             industry, he enrolled in our Selenium Training
                             program. The structured curriculum, hands-on labs,
                             and the guidance of our experienced trainers helped
-                            Rajkumar grasp Selenium concepts with precision.{" "}
+                            Rajkumar grasp Selenium concepts with precision.
                             <br />
                             Upon completion of the training, Rajkumar not only
                             earned the coveted Selenium certification but also
@@ -3727,7 +3743,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+                              
                               Success Story 21: Future-Ready Professional
                             </a>
                             <hr />
@@ -3777,7 +3793,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+                              
                               Success Story 23: Architect of Efficiency
                             </a>
                             <hr />
@@ -3915,38 +3931,38 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Clarify
-                          doubts instantly,{" "}
+                          doubts instantly,
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Enjoy
                           premium learning environments with well-equipped
-                          classrooms and labs,{" "}
+                          classrooms and labs,
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Participate
-                          in Codeathon practices{" "}
+                          in Codeathon practices
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Receive
-                          direct aptitude training{" "}
+                          direct aptitude training
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Enhance
-                          interview skills{" "}
+                          interview skills
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Engage in
-                          panel mock interviews{" "}
+                          panel mock interviews
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Benefit
-                          from campus drives{" "}
+                          from campus drives
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> All are
                           supported by our commitment to ensuring 100% placement
                           support. Your journey to success begins with
-                          personalized excellence.{" "}
+                          personalized excellence.
                         </li>
                       </ul>
                       <div
@@ -3955,9 +3971,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         data-sal="slide-up"
                         data-sal-duration="800"
                       >
-                        <a class="edu-btn" href="/contact-us">
-                          Explore Now<i class="icon-arrow-right-line-right"></i>
-                        </a>
+                        <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Explore Now <i class="icon-arrow-right-line-right"></i></Link>
                       </div>
                     </div>
                   </div>
@@ -3977,19 +3991,19 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i>Blended
                           Delivery model (both Online and Offline as per
-                          Clients’ requirements){" "}
+                          Clients’ requirements)
                         </li>
                         <li className=" lh-sm">
-                          <i class="ri-arrow-right-circle-fill"></i>{" "}
+                          <i class="ri-arrow-right-circle-fill"></i>
                           Industry-endorsed Skilled Faculties
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Flexible
-                          Pricing Options{" "}
+                          Pricing Options
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Customized
-                          Syllabus{" "}
+                          Syllabus
                         </li>
                       </ul>
                       <div
@@ -3998,9 +4012,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         data-sal="slide-up"
                         data-sal-duration="800"
                       >
-                        <a class="edu-btn" href="/contact-us">
-                          Explore Now<i class="icon-arrow-right-line-right"></i>
-                        </a>
+                      <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Explore Now <i class="icon-arrow-right-line-right"></i></Link>
                       </div>
                     </div>
                   </div>
@@ -4019,7 +4031,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                       <ul className="list-unstyled">
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i>Instructor
-                          Led Live Training!{" "}
+                          Led Live Training!
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> No Recorded
@@ -4027,27 +4039,27 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Live
-                          Virtual Interaction with the Trainer{" "}
+                          Virtual Interaction with the Trainer
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Clarify
-                          doubts then and there virtually{" "}
+                          doubts then and there virtually
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Live
-                          Virtual Interview Skills Training{" "}
+                          Virtual Interview Skills Training
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Live
-                          Virtual Aptitude Training{" "}
+                          Virtual Aptitude Training
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Online
-                          Panel Mock Interviews{" "}
+                          Panel Mock Interviews
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> 100%
-                          Placement Support{" "}
+                          Placement Support
                         </li>
                       </ul>
                       <div
@@ -4056,9 +4068,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                         data-sal="slide-up"
                         data-sal-duration="800"
                       >
-                        <a class="edu-btn" href="/contact-us">
-                          Explore Now<i class="icon-arrow-right-line-right"></i>
-                        </a>
+                     <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Explore Now <i class="icon-arrow-right-line-right"></i></Link>
                       </div>
                     </div>
                   </div>
@@ -4530,7 +4540,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                             aria-controls="collapseNq"
                           >
                             Are there any prerequisites for enrolling in the
-                            Selenium training course?{" "}
+                            Selenium training course?
                           </button>
                         </div>
                         <div
@@ -4560,7 +4570,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                             aria-controls="collapseNw"
                           >
                             Can I switch between different programming languages
-                            during the Selenium training?{" "}
+                            during the Selenium training?
                           </button>
                         </div>
                         <div
@@ -4589,7 +4599,7 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
                             aria-controls="collapseN"
                           >
                             How does Aimore ensure individual learning needs are
-                            addressed in the Selenium training?{" "}
+                            addressed in the Selenium training?
                           </button>
                         </div>
                         <div
@@ -4616,6 +4626,19 @@ Bootcamps or intensive training programs may compress the curriculum into a few 
           </div>
         </div>
       </div>
+      <div class="modal fade" id="staticBackdropNew" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <Commonpopup />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
     </div>
   );
 }

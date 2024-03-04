@@ -5092,7 +5092,7 @@ textarea:-ms-input-placeholder {
 
 /* Breadcrumb  */
 .edu-breadcrumb-area {
-  background-image: url(../images/bg/new-banner.png); }
+  background-image: url(../images/bg/new-banner.webp); }
   .edu-breadcrumb-area .shape-image {
     position: absolute;
     z-index: -1; }
@@ -6499,17 +6499,18 @@ button.btn-transparent {
 a.edu-btn,
 button.edu-btn {
   border-radius: 5px;
-  display: inline-block;
-  height: 60px;
-  line-height: 60px;
-  color: var(--color-white);
-  background: var(--color-primary);
-  padding: 0 30px;
-  font-size: 18px;
-  font-weight: 700;
-  transition: 0.4s;
-  font-family: var(--font-primary);
-  border: 0 none; }
+    display: inline-block;
+    height: 50px;
+    line-height: 45px;
+    color: var(--color-white);
+    background: var(--color-primary);
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0;
+    transition: 0.4s;
+    font-family: var(--font-primary);
+    border: 0 none;}
   a.edu-btn i,
   button.edu-btn i {
     padding-left: 10px;
@@ -7529,7 +7530,7 @@ button.edu-btn {
  * Home 5 Course
 ----------------------------*/
 .eduvibe-home-five-course {
-  background-image: url(../images/bg/home-five-courses.jpg); }
+  background-image: url(../images/bg/home-five-courses.webp); }
   .eduvibe-home-five-course .shape-image {
     position: absolute;
     z-index: -1; }
@@ -7780,7 +7781,7 @@ button.edu-btn {
  * Home 5 Instructor
 ----------------------------*/
 .eduvibe-about-us-two-instructor {
-  background-image: url(../images/bg/about-us-two-team-team.jpg); }
+  background-image: url(../images/bg/about-us-two-team-team.webp); }
   .eduvibe-about-us-two-instructor .shape-image {
     position: absolute;
     z-index: -1; }
@@ -9227,7 +9228,7 @@ button.edu-btn {
   z-index: 1;
   padding-bottom: 0px; }
   .service-wrapper-3 .about-us-two-service-wrapper {
-    background-image: url(../images/bg/about-us-two-service.jpg); 
+    background-image: url(../images/bg/about-us-two-service.webp); 
   padding: 60px 0;}
 
 .service-card-3 {
@@ -11012,7 +11013,7 @@ button.edu-btn {
   border-radius: 5px;
   min-width: 1400px;
   padding: 100px 115px;
-  background-image: url(../images/bg/newsletter-home-4-bg.jpg); }
+  background-image: url(../images/bg/newsletter-home-4-bg.webp); }
   @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .newsletter-style-5 {
       min-width: auto; } }
@@ -11828,7 +11829,7 @@ button.edu-btn {
     color: var(--color-body); }
 
 .edu-countdown-area {
-  background-image: url(../images/bg/about-us-two-countdown.jpg); }
+  background-image: url(../images/bg/about-us-two-countdown.webp); }
   .edu-countdown-area .countdown .countdown-container .countdown-value {
     color: var(--color-secondary); }
 
@@ -14748,7 +14749,7 @@ Gallery Item
 .banner-style-5 {
   position: relative;
   z-index: 0;
-  background-image: url('../images/bg/home-five-courses.jpg'); 
+  background-image: url('../images/bg/home-five-courses.webp'); 
 }
   .banner-style-5 .wrapper {
     height: 600px; 
@@ -16757,7 +16758,7 @@ Gallery Item
 }
 
 .eduvibe-home-three-one-video{
-   background-image: url("../images/bg/newsletter-home-4-bg.jpg");
+   background-image: url("../images/bg/newsletter-home-4-bg.webp");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;

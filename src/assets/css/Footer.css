@@ -1,0 +1,17 @@
+@keyframes mymove { 
+    0%    { top: 30%; }
+  20%   { top: 40%; }
+  80%   { top: 40%; }
+  100%  { top: 30%; }
+  }
+
+  .chat-section img {
+    width: 70px;
+    /* float: right; */
+    position: fixed;
+    right: 5px;    
+    animation: mymove 3s infinite;
+    z-index: 999;
+    cursor: pointer;
+}
+ 

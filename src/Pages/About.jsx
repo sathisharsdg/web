@@ -9,6 +9,7 @@ function About() {
         <div>
             <Helmet>
                 <title>About Page</title>
+                <link rel="canonical" href="https://aimoretechnology.com/about-us" />
             </Helmet>
             <div class="edu-breadcrumb-area breadcrumb-style-1 ptb--60 ptb_md--40 ptb_sm--40 bg-image ">
                 <div class="container eduvibe-animated-shape">
@@ -17,7 +18,10 @@ function About() {
                             <div class="page-title">
                                 <h1 class="title">About us</h1>
                             </div><nav class="edu-breadcrumb-nav">
-                                <ol class="edu-breadcrumb d-flex justify-content-start liststyle"><li class="breadcrumb-item"><a href="/">Home</a> </li><li class="separator"><i class="ri-arrow-drop-right-line"></i></li><li class="breadcrumb-item active" aria-current="page">About us</li></ol></nav></div>
+                                <ol class="edu-breadcrumb d-flex justify-content-start liststyle"><li class="breadcrumb-item"><a href="/">Home</a> </li><li class="separator"><i class="ri-arrow-drop-right-line"></i></li><li class="breadcrumb-item active" aria-current="page">About us</li></ol></nav>
+                                
+<Link class="edu-btn subpage-btn-top" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
+                                </div>
                     </div></div><div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
                        
                     </div>

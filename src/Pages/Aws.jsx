@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
-import amazonbanner from "../assets/images/about/new-amazon.webp"
+import amazonbanner from "../assets/images/about/Why-to-Choose- Aimore-Technology.webp"
 import amozoncloud from "../assets/images/about/amazon-cloud-services.webp"
-import awsaimore from "../assets/images/about/why-aimore-in-chennai.webp"
+import awsaimore from "../assets/images/about/Why-to-Choose- Aimore.webp"
 import awscertification from "../assets/images/about/aws-certification-in-chennai.webp"
 import aimorecourse from "../assets/images/about/aws-aimore-course-in-chennai.webp"
-
+import Commonpopup from '../Components/Commonpopup'
 function Aws() {
     const [schemas,setSchemas] = useState([]);
     const loadSchema = ()=>{
         const script = document.createElement("script");
-        script.src = "https://aimoretech.com/schemafiles/scriptsaws.json";
+        script.src = "https://www.aimoretechnology.com/aws.json";
         script.async = true;    
         console.log(document.body.appendChild(script));       
     }
@@ -26,6 +26,7 @@ function Aws() {
             <div>
                 <Helmet>
                     <title>Aws Training in Chennai | Aimore Technology</title>
+                    <link rel="canonical" href="https://aimoretechnology.com/aws-training-in-chennai/" />
                     <meta name="description" content="Aimore Technology offers Aws Training in Chennai with Guaranteed Placement. Elevate your skills with hands-on. ✔️ Online Classes ✔️ certification ✔️ 40 Hrs ✔️. Live projects ✔️Job Guaranteed." />
                     <meta name="keywords" content="Aws Training in Chennai,  Aws Course in Chennai, Aws Training institute in Chennai " />
                      
@@ -45,6 +46,7 @@ function Aws() {
                                             <li className="breadcrumb-item active" aria-current="page">AWS Training In Chennai</li>
                                         </ol>
                                     </nav>
+                                    <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -63,8 +65,8 @@ function Aws() {
                             <hr />
                             <h3 className='title-h2'>What is Amazon Web Services?</h3>
                             <p>Amazon.com offers a widely utilized cloud computing platform known as Amazon Web Services (AWS), which is comprehensive in its features and services. Launched in 2006, AWS offers a broad set of services, including computing power, storage options, networking, databases, machine learning, analytics, security, and more. AWS enables businesses and individuals to access computing resources on demand, eliminating the need for upfront infrastructure investments and allowing them to scale resources as needed.</p>
-                            <div className="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                <a className="edu-btn" href="/about-us">Know About Us <i className="icon-arrow-right-line-right"></i></a>
+                            <div className="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">                                
+                                <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">To Know About Us <i class="icon-arrow-right-line-right"></i></Link>
                             </div>
                         </div>
                     </div>
@@ -221,6 +223,9 @@ function Aws() {
 
                                             <h3 className="title">The Importance of <br />Amazon Web Services</h3>
                                             <p>The importance of Amazon Web Services (AWS) stems from its transformative impact on the way businesses, <br />organizations, and individuals leverage computing resources. Here are several key aspects highlighting the significance of AWS</p>
+                                          <div className="mb-3">
+                                          <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
+                                          </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-5">
@@ -865,6 +870,7 @@ function Aws() {
                                 <p>Part-time or evening courses, designed for individuals balancing work or other commitments, might extend over a longer period, such as a few months. These courses often provide a more flexible schedule to accommodate diverse learner needs.</p>
                                 <p>Additionally, the duration may be influenced by the level of the AWS course—whether it is an introductory course for beginners, an intermediate-level program, or an advanced, specialized training for professionals seeking in-depth expertise in specific AWS services or solutions.</p>
                                 <p>It's advisable for individuals considering an AWS course in Chennai to review the curriculum and duration offered by specific training institutes, ensuring alignment with their learning goals and schedule constraints. Ultimately, the length of an AWS course is structured to provide comprehensive coverage of AWS services while accommodating the diverse needs and preferences of the participants.</p>
+                                <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
                             </div>
                             <div class="col-md-5 mb-5">
                                 <img src={aimorecourse} alt="" className='img-fluid' />
@@ -1048,6 +1054,9 @@ function Aws() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className="text-center">
+                        <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -1383,6 +1392,9 @@ function Aws() {
                             </div>
 
                         </div>
+                        <div className="text-center">
+                        <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
+                        </div>
                     </div>
                 </div>
 
@@ -1691,6 +1703,9 @@ function Aws() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className="text-center">
+                        <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -2232,7 +2247,9 @@ function Aws() {
                                                 <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i>    All are supported by our commitment to ensuring 100% placement support. Your journey to success begins with personalized excellence. </li>
 
                                             </ul>
-                                            <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"><a class="edu-btn" href="/contact-us">Explore Now<i class="icon-arrow-right-line-right"></i></a></div>
+                                            <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                            <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Explore Now <i class="icon-arrow-right-line-right"></i></Link>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -2250,7 +2267,10 @@ function Aws() {
 
 
                                             </ul>
-                                            <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"><a class="edu-btn" href="/contact-us">Explore Now<i class="icon-arrow-right-line-right"></i></a></div>
+                                            <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                            <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Explore Now <i class="icon-arrow-right-line-right"></i></Link>
+                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -2271,13 +2291,11 @@ function Aws() {
                                                 <li className=' lh-sm'><i class="ri-arrow-right-circle-fill"></i>   100% Placement Support </li>
 
                                             </ul>
-                                            <div class="read-more-btn mt--30 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"><a class="edu-btn" href="/contact-us">Explore Now<i class="icon-arrow-right-line-right"></i></a></div>
+                                            <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
@@ -2466,7 +2484,19 @@ function Aws() {
                     </div>
                 </div>
             </div>
+            <div class="modal fade" id="staticBackdropNew" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <Commonpopup />
+                        </div>
 
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

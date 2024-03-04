@@ -58,3 +58,12 @@
 .slick-dots li button:before {
     color: #fff!important;
 }
+
+@media(max-width:560px){
+    .slider-area {
+        text-align: center;
+    }
+    .slider-area img {
+        width: 190px;
+    }
+}

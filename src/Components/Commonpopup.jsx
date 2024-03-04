@@ -34,7 +34,7 @@ function Commonpopup() {
           <div class="row">
             <div class="col-lg-12">
               <div class="section-title text-center sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                <h3 class="title">Get In Touch With us</h3>
+                <h3 class="title mb-3">Get In Touch With us</h3>
               </div>
             </div>
           </div>

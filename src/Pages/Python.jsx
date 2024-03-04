@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import pythonCourse from "../assets/images/python/python-intro-course.webp"
-import pythonengineer from "../assets/images/python/python-engieer-course.webp"
-import bestpythontraining from "../assets/images/python/best-python-training-in-chennai.webp"
-import bestpythontraininginchennai from "../assets/images/python/best-python-training-course.webp"
-import pythoncertification from "../assets/images/python/Best-Python-Training-In-Chennai-Certification.webp"
-import pythoncourseinchennai from "../assets/images/python/how-long-python-course.webp"
+import Commonpopup from '../Components/Commonpopup'
+import pythonCourse from "../assets/images/python/Python-Training-in- Chennai.webp"
+import pythonengineer from "../assets/images/python/Python-Training-in- Chennai-with- Placement.webp"
+import bestpythontraining from "../assets/images/python/Best-Python- Training-institute -in-Chennai.webp"
+import bestpythontraininginchennai from "../assets/images/python/Python-Training- with-Placement-in Chennai.webp"
+import pythoncertification from "../assets/images/python/Best-Python- Training-in-Chennai.webp"
+import pythoncourseinchennai from "../assets/images/python/Python-Course-in- Chennai.webp"
 
 function Python() {
   const [schemas, setSchemas] = useState([]);
@@ -25,6 +26,7 @@ function Python() {
       <div>
         <Helmet>
           <title>Python Training in Chennai | Aimore Technology</title>
+          <link rel="canonical" href="https://aimoretechnology.com/python-training-in-chennai/" />
           <meta
             name="description"
             content="Unlock the full potential of Python with our dynamic Python Training in Chennai! Join now for expert-led sessions, and hands-on projects."
@@ -45,7 +47,7 @@ function Python() {
                   <nav className="edu-breadcrumb-nav">
                     <ol className="edu-breadcrumb d-flex justify-content-start liststyle">
                       <li className="breadcrumb-item">
-                        <Link to="/">Home</Link>{" "}
+                        <Link to="/">Home</Link>
                       </li>
                       <li className="separator">
                         <i className="ri-arrow-drop-right-line"></i>
@@ -58,18 +60,19 @@ function Python() {
                       </li>
                     </ol>
                   </nav>
+                  <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
                 </div>
               </div>
             </div>
 
-          
+
           </div>
         </div>
         <div className="container py-5">
           <div className="row">
             <div className="col-md-6">
-              <img src={pythonCourse} alt="python-Course"  className="img-fluid"/>
-            
+              <img src={pythonCourse} alt="python-Course" className="img-fluid" />
+
             </div>
             <div className="col-md-6 section-title sal-animate">
               <h1 className="title">
@@ -114,9 +117,8 @@ function Python() {
                 data-sal="slide-up"
                 data-sal-duration="800"
               >
-                <a className="edu-btn" href="/about-us">
-                  Know About Us <i className="icon-arrow-right-line-right"></i>
-                </a>
+               
+                <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
               </div>
             </div>
           </div>
@@ -126,9 +128,9 @@ function Python() {
           <div className="row py-5">
             <div className="col-md-12 section-title">
               <h3 className="text-center title">
-              Is Python a good career choice?              </h3><br />
+                Is Python a good career choice?              </h3><br />
               <p><b>Choosing Python as a career offers a multitude of advantages, making it a compelling and rewarding choice for individuals entering the world of programming and software development. </b></p>
-                <div className="row py-5">
+              <div className="row py-5">
                 <div className="col-md-6">
                   <div className="accordion-style-1">
                     <div
@@ -159,7 +161,7 @@ function Python() {
                         >
                           <div className="edu-accordion-body section-title">
                             <p>
-                            Python is an incredibly versatile language, applicable across various domains. Whether you are interested in web development, data science, machine learning, artificial intelligence, automation, or scientific computing, Python is widely used in each of these areas. Its adaptability enables professionals to transition seamlessly between different roles and industries.
+                              Python is an incredibly versatile language, applicable across various domains. Whether you are interested in web development, data science, machine learning, artificial intelligence, automation, or scientific computing, Python is widely used in each of these areas. Its adaptability enables professionals to transition seamlessly between different roles and industries.
                             </p>
                           </div>
                         </div>
@@ -185,7 +187,7 @@ function Python() {
                         >
                           <div className="edu-accordion-body">
                             <p>
-                            Python is renowned for its readability and simplicity. Its clean syntax and clear structure make it one of the most accessible programming languages for beginners. This ease of learning not only accelerates the onboarding process for new developers but also attracts individuals from diverse backgrounds to enter the field of programming.
+                              Python is renowned for its readability and simplicity. Its clean syntax and clear structure make it one of the most accessible programming languages for beginners. This ease of learning not only accelerates the onboarding process for new developers but also attracts individuals from diverse backgrounds to enter the field of programming.
                             </p>
                           </div>
                         </div>
@@ -211,7 +213,7 @@ function Python() {
                         >
                           <div className="edu-accordion-body">
                             <p>
-                            The demand for Python developers is consistently high in the job market. Many prominent companies, ranging from startups to established enterprises, rely on Python for their projects. This widespread adoption creates a steady demand for skilled Python professionals, translating into numerous job opportunities.
+                              The demand for Python developers is consistently high in the job market. Many prominent companies, ranging from startups to established enterprises, rely on Python for their projects. This widespread adoption creates a steady demand for skilled Python professionals, translating into numerous job opportunities.
                             </p>
                           </div>
                         </div>
@@ -226,7 +228,7 @@ function Python() {
                             aria-expanded="false"
                             aria-controls="collapsefour"
                           >
-                            <i className="ri-git-repository-private-line"></i>{" "}
+                            <i className="ri-git-repository-private-line"></i>
                             Community Support and Resources                          </button>
                         </div>
                         <div
@@ -237,7 +239,7 @@ function Python() {
                         >
                           <div className="edu-accordion-body">
                             <p>
-                            Python boasts a robust and supportive community of developers. The Python community is known for its inclusivity, collaborative spirit, and wealth of available resources. Documentation, tutorials, forums, and open-source projects provide a supportive learning environment, enabling developers to improve their skills continuously.
+                              Python boasts a robust and supportive community of developers. The Python community is known for its inclusivity, collaborative spirit, and wealth of available resources. Documentation, tutorials, forums, and open-source projects provide a supportive learning environment, enabling developers to improve their skills continuously.
                             </p>
                           </div>
                         </div>
@@ -263,7 +265,7 @@ function Python() {
                         >
                           <div className="edu-accordion-body">
                             <p>
-                            Python is extensively used in web development, with frameworks like Django and Flask being popular choices. These frameworks provide powerful tools for building scalable and maintainable web applications. Python developers in the web development domain have opportunities to work on exciting and impactful projects.
+                              Python is extensively used in web development, with frameworks like Django and Flask being popular choices. These frameworks provide powerful tools for building scalable and maintainable web applications. Python developers in the web development domain have opportunities to work on exciting and impactful projects.
                             </p>
                           </div>
                         </div>
@@ -301,7 +303,7 @@ function Python() {
                         >
                           <div className="edu-accordion-body">
                             <p>
-                            Python has emerged as the language of choice in data science and machine learning. Libraries like NumPy, Pandas, scikit-learn, TensorFlow, and PyTorch have solidified Python's position in these fields. Professionals working with Python can leverage these libraries to analyze data, build machine learning models, and contribute to groundbreaking advancements.
+                              Python has emerged as the language of choice in data science and machine learning. Libraries like NumPy, Pandas, scikit-learn, TensorFlow, and PyTorch have solidified Python's position in these fields. Professionals working with Python can leverage these libraries to analyze data, build machine learning models, and contribute to groundbreaking advancements.
                             </p>
                           </div>
                         </div>
@@ -327,7 +329,7 @@ function Python() {
                         >
                           <div className="edu-accordion-body">
                             <p>
-                            Its straightforwardness and clear syntax render Python a top pick for automating processes and scripting assignments. Python scripts are widely used in system administration, DevOps, and other areas to automate repetitive tasks, enhancing overall efficiency.
+                              Its straightforwardness and clear syntax render Python a top pick for automating processes and scripting assignments. Python scripts are widely used in system administration, DevOps, and other areas to automate repetitive tasks, enhancing overall efficiency.
                             </p>
                           </div>
                         </div>
@@ -353,7 +355,7 @@ function Python() {
                         >
                           <div className="edu-accordion-body">
                             <p>
-                            Python developers often command competitive salaries due to the high demand for their skills. The language's prevalence in various industries and its contribution to innovative technologies contribute to the strong earning potential for Python professionals.
+                              Python developers often command competitive salaries due to the high demand for their skills. The language's prevalence in various industries and its contribution to innovative technologies contribute to the strong earning potential for Python professionals.
                             </p>
                           </div>
                         </div>
@@ -379,7 +381,7 @@ function Python() {
                         >
                           <div className="edu-accordion-body">
                             <p>
-                            Python offers a range of career paths, allowing professionals to choose roles that align with their interests and expertise. Whether working as a web developer, data scientist, machine learning engineer, or in other specialized roles, Python professionals have the flexibility to explore diverse opportunities.
+                              Python offers a range of career paths, allowing professionals to choose roles that align with their interests and expertise. Whether working as a web developer, data scientist, machine learning engineer, or in other specialized roles, Python professionals have the flexibility to explore diverse opportunities.
                             </p>
                           </div>
                         </div>
@@ -405,7 +407,7 @@ function Python() {
                         >
                           <div className="edu-accordion-body">
                             <p>
-                            Python's continued popularity and relevance in emerging technologies, including artificial intelligence, machine learning, and data science, suggest that it will remain a sought-after skill in the foreseeable future. Choosing Python equips professionals with a skill set that aligns with the evolving landscape of technology.
+                              Python's continued popularity and relevance in emerging technologies, including artificial intelligence, machine learning, and data science, suggest that it will remain a sought-after skill in the foreseeable future. Choosing Python equips professionals with a skill set that aligns with the evolving landscape of technology.
                             </p>
                           </div>
                         </div>
@@ -438,7 +440,7 @@ function Python() {
                       </p>
                     </div>
                   </div>
-                
+
                 </div>
 
                 <div className="row eduvibe-about-one-service g-5 mt--20">
@@ -452,7 +454,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-book-open-line"></i>
+                            <i class="ri-book-open-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -464,7 +466,7 @@ function Python() {
                             straightforward, making it accessible for beginners
                             and allowing developers to express ideas clearly and
                             concisely. Enhanced readability lowers the expenses
-                            associated with program development and upkeep.{" "}
+                            associated with program development and upkeep.
                           </p>
                         </div>
                       </div>
@@ -493,7 +495,7 @@ function Python() {
                             such as procedural, object-oriented, and functional
                             programming methodologies. Its versatility makes it
                             applicable in diverse fields, from web development
-                            to data science and artificial intelligence.{" "}
+                            to data science and artificial intelligence.
                           </p>
                         </div>
                       </div>
@@ -510,7 +512,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-user-search-line"></i>
+                            <i class="ri-user-search-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -540,7 +542,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-group-line"></i>
+                            <i class="ri-group-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -569,7 +571,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-database-line"></i>
+                            <i class="ri-database-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -580,7 +582,7 @@ function Python() {
                             Python is the preferred language among data
                             scientists and machine learning engineers. Libraries
                             like NumPy, Pandas, and Scikit-learn empower data
-                            professionals to analyze and model data efficiently.{" "}
+                            professionals to analyze and model data efficiently.
                           </p>
                         </div>
                       </div>
@@ -597,7 +599,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-window-fill"></i>
+                            <i class="ri-window-fill"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -624,7 +626,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-chat-settings-line"></i>
+                            <i class="ri-chat-settings-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -636,7 +638,7 @@ function Python() {
                             excellent choice for automation and scripting tasks.
                             It is widely used for writing scripts to automate
                             repetitive tasks, making it a valuable tool for
-                            system administrators and DevOps professionals.{" "}
+                            system administrators and DevOps professionals.
                           </p>
                         </div>
                       </div>
@@ -664,7 +666,7 @@ function Python() {
                             intelligence and robotics. Frameworks like
                             TensorFlow and PyTorch are popular choices for
                             developing machine learning and deep learning
-                            models.{" "}
+                            models.
                           </p>
                         </div>
                       </div>
@@ -680,7 +682,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-git-repository-fill"></i>
+                            <i class="ri-git-repository-fill"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -691,7 +693,7 @@ function Python() {
                             Python is often the programming language of choice
                             for educational purposes. Its readability and
                             simplicity make it an ideal language for beginners
-                            to learn programming concepts.{" "}
+                            to learn programming concepts.
                           </p>
                         </div>
                       </div>
@@ -707,7 +709,7 @@ function Python() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-microsoft-line"></i>
+                            <i class="ri-microsoft-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -718,12 +720,14 @@ function Python() {
                             Python functions effortlessly across diverse
                             operating systems such as Windows, macOS, and Linux,
                             guaranteeing the smooth execution of Python
-                            applications across various environments.{" "}
+                            applications across various environments.
                           </p>
                         </div>
+                       
                       </div>
                     </div>
                   </div>
+              
                 </div>
               </div>
             </div>
@@ -852,7 +856,7 @@ function Python() {
                     src={pythonengineer}
                     alt="python-engineer"
                   />
-                                    <p
+                  <p
                     className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
@@ -931,6 +935,7 @@ function Python() {
                   market.
                 </p>
               </div>
+              
             </div>
           </div>
           <div
@@ -1006,7 +1011,7 @@ function Python() {
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+
                               A Comprehensive Curriculum
                             </a>
                           </h4>
@@ -1085,7 +1090,7 @@ function Python() {
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+
                               Flexibility and Convenience
                             </a>
                           </h4>
@@ -1478,7 +1483,7 @@ function Python() {
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+
                               Who Should Attend?
                             </a>
                           </h4>
@@ -1536,6 +1541,9 @@ function Python() {
               ></span>
               <span class="visually-hidden">Next</span>
             </button>
+            <div className="text-center">
+            <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
+            </div>
           </div>
         </div>
 
@@ -1547,10 +1555,10 @@ function Python() {
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
-                 Best Python Training In Chennai
+                  Best Python Training In Chennai
                 </h3>
                 <p>
-                Elevate your programming journey with our comprehensive Python Training in Chennai, meticulously crafted for aspiring developers in Chennai. At Aimore, we don't just teach Python; we sculpt coding enthusiasts into Python maestros. 
+                  Elevate your programming journey with our comprehensive Python Training in Chennai, meticulously crafted for aspiring developers in Chennai. At Aimore, we don't just teach Python; we sculpt coding enthusiasts into Python maestros.
                 </p>
                 <p>
                   Aimore's training encompasses the entire spectrum of Python
@@ -1563,19 +1571,19 @@ function Python() {
                   valuable insights and tips for achieving success.
                 </p>
                 <p><b>Expert-Led Learning:</b>
-                Delve into the world of Python with industry-seasoned instructors who bring real-world experience to the classroom. Learn the best practices, and insider tips, and gain insights that go beyond the textbooks.</p>
-                <p><b>Cutting-Edge Curriculum:</b> 
-                Our curriculum is a carefully curated blend of fundamentals and cutting-edge concepts. From mastering basic syntax to diving into advanced frameworks, our training covers the full spectrum of Python's capabilities.</p>
+                  Delve into the world of Python with industry-seasoned instructors who bring real-world experience to the classroom. Learn the best practices, and insider tips, and gain insights that go beyond the textbooks.</p>
+                <p><b>Cutting-Edge Curriculum:</b>
+                  Our curriculum is a carefully curated blend of fundamentals and cutting-edge concepts. From mastering basic syntax to diving into advanced frameworks, our training covers the full spectrum of Python's capabilities.</p>
                 <p><b> Hands-On Projects:</b>
-                Theory meets practice in our hands-on projects. Build real-world applications, solve industry-relevant problems, and showcase your skills with a portfolio that speaks volumes to potential employers.</p>
+                  Theory meets practice in our hands-on projects. Build real-world applications, solve industry-relevant problems, and showcase your skills with a portfolio that speaks volumes to potential employers.</p>
                 <p><b>Collaborative Learning Environment:</b>
-                Join a community of like-minded learners and thrive in a collaborative environment. Share ideas, engage in coding challenges, and benefit from the collective knowledge of your peers.</p>
+                  Join a community of like-minded learners and thrive in a collaborative environment. Share ideas, engage in coding challenges, and benefit from the collective knowledge of your peers.</p>
                 <p><b> Pathways to Success:</b>
-                Whether you're aiming for web development, data science, or machine learning, our Python training opens pathways to diverse career opportunities. We guide charting your unique career map within the expansive Python landscape.</p>
+                  Whether you're aiming for web development, data science, or machine learning, our Python training opens pathways to diverse career opportunities. We guide charting your unique career map within the expansive Python landscape.</p>
                 <p><b>Career Support and Placement Assistance:</b>
-                Our commitment doesn't end with the training. Take advantage of career support services, encompassing resume crafting, interview readiness, and aid in securing job placements. We're invested in your success beyond the classroom.</p>
+                  Our commitment doesn't end with the training. Take advantage of career support services, encompassing resume crafting, interview readiness, and aid in securing job placements. We're invested in your success beyond the classroom.</p>
                 <p><b>Flexible Learning Options:</b>
-                Balancing work or other commitments? Our flexible Python Training in Chennai learning options cater to your schedule. Choose from full-time immersive courses or part-time programs tailored to fit your lifestyle.</p>
+                  Balancing work or other commitments? Our flexible Python Training in Chennai learning options cater to your schedule. Choose from full-time immersive courses or part-time programs tailored to fit your lifestyle.</p>
               </div>
             </div>
           </div>
@@ -1613,7 +1621,7 @@ function Python() {
               </div>
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
-                  Best Python Training In Chennai And Certification 
+                  Best Python Training In Chennai And Certification
                 </h3>
                 <p>
                   When it comes to seeking the finest Python training in Chennai
@@ -1666,51 +1674,51 @@ function Python() {
             <div class="row">
               <div class="col-md-7 mb-5">
                 <h3 class="title pb-3">
-                How long is the Python Training course in Chennai?                </h3>
+                  How long is the Python Training course in Chennai?                </h3>
                 <p>
-                The duration of a Python training course in Chennai can vary based on several factors, including the level of the course, the depth of content covered, the training institute's curriculum, and whether it's a full-time or part-time program. Generally, Python training courses in Chennai can range from a few weeks to several months, catering to different learning needs and schedules.
+                  The duration of a Python training course in Chennai can vary based on several factors, including the level of the course, the depth of content covered, the training institute's curriculum, and whether it's a full-time or part-time program. Generally, Python training courses in Chennai can range from a few weeks to several months, catering to different learning needs and schedules.
                 </p>
                 <p><b>Short-Term Python Training Courses:</b></p>
                 <p>
-                <b>Basic Python Programming (2-4 Weeks):</b>
-Short-term courses typically focus on introducing participants to the fundamentals of Python programming. They cover basic syntax, data types, control structures, functions, and introductory concepts in a condensed timeframe.
+                  <b>Basic Python Programming (2-4 Weeks):</b>
+                  Short-term courses typically focus on introducing participants to the fundamentals of Python programming. They cover basic syntax, data types, control structures, functions, and introductory concepts in a condensed timeframe.
                 </p>
                 <p>
-               <b> Web Development with Django or Flask (4-6 Weeks):</b>
-Courses that specialize in web development using Python frameworks like Django or Flask may have a slightly longer duration. Participants learn to build web applications, understand the MVC (Model-View-Controller) architecture, and work with databases.
+                  <b> Web Development with Django or Flask (4-6 Weeks):</b>
+                  Courses that specialize in web development using Python frameworks like Django or Flask may have a slightly longer duration. Participants learn to build web applications, understand the MVC (Model-View-Controller) architecture, and work with databases.
                 </p>
                 <p><b>Intermediate Python Training Courses:</b></p>
                 <p>
-               <b> Data Science and Analytics (6-8 Weeks):</b>
-Intermediate courses often delve into data science and analytics using Python. Participants learn to work with data manipulation libraries like NumPy and Pandas, explore data visualization with tools like Matplotlib and Seaborn, and gain insights into statistical analysis.
+                  <b> Data Science and Analytics (6-8 Weeks):</b>
+                  Intermediate courses often delve into data science and analytics using Python. Participants learn to work with data manipulation libraries like NumPy and Pandas, explore data visualization with tools like Matplotlib and Seaborn, and gain insights into statistical analysis.
                 </p>
                 <p>
-                <b>Machine Learning and AI (8-12 Weeks):</b>
-Courses that cover machine learning and artificial intelligence using Python usually have a more extensive duration. Participants dive into machine learning algorithms, model development, and practical applications, using popular libraries such as scikit-learn and TensorFlow.
+                  <b>Machine Learning and AI (8-12 Weeks):</b>
+                  Courses that cover machine learning and artificial intelligence using Python usually have a more extensive duration. Participants dive into machine learning algorithms, model development, and practical applications, using popular libraries such as scikit-learn and TensorFlow.
                 </p>
                 <p><b>Comprehensive Python Certification Programs:</b></p>
                 <p>
-                <b>Full-Stack Python Development (12-16 Weeks):</b>
-Full-stack Python development courses cover both front-end and back-end development. Participants learn to build complete web applications, work with databases, and understand the end-to-end development process.
+                  <b>Full-Stack Python Development (12-16 Weeks):</b>
+                  Full-stack Python development courses cover both front-end and back-end development. Participants learn to build complete web applications, work with databases, and understand the end-to-end development process.
                 </p>
                 <p>
-                <b>Advanced Python Concepts and Specializations (16-20 Weeks):</b>
-Advanced courses might cover specialized areas like network programming, game development, or advanced frameworks. These courses provide an in-depth understanding of specific Python applications.
+                  <b>Advanced Python Concepts and Specializations (16-20 Weeks):</b>
+                  Advanced courses might cover specialized areas like network programming, game development, or advanced frameworks. These courses provide an in-depth understanding of specific Python applications.
                 </p>
                 <p><b>Factors Influencing Course Duration:</b></p>
                 <p>
-                <b>Intensity of Training:</b>
-Full-time, immersive courses may have shorter durations as participants dedicate extensive hours to learning. Part-time courses, designed to accommodate working professionals, may span a more extended period.
+                  <b>Intensity of Training:</b>
+                  Full-time, immersive courses may have shorter durations as participants dedicate extensive hours to learning. Part-time courses, designed to accommodate working professionals, may span a more extended period.
                 </p>
                 <p>
                   <b>Practical Projects and Assignments:</b>
-Courses that emphasize hands-on projects and assignments may extend in duration as participants spend time applying theoretical knowledge to real-world scenarios.
+                  Courses that emphasize hands-on projects and assignments may extend in duration as participants spend time applying theoretical knowledge to real-world scenarios.
                 </p>
                 <p><b>Pre-requisites and Participant Background:</b>
-Courses tailored for beginners might have a longer duration to ensure a solid foundation, while those designed for individuals with prior programming experience might progress more quickly.
+                  Courses tailored for beginners might have a longer duration to ensure a solid foundation, while those designed for individuals with prior programming experience might progress more quickly.
                 </p>
                 <p><b>Instructor-Led vs. Self-Paced:</b>
-                The learning format can impact the duration. Instructor-led courses with regular classes and interactions may follow a structured schedule, while self-paced courses offer flexibility but may take longer to complete.
+                  The learning format can impact the duration. Instructor-led courses with regular classes and interactions may follow a structured schedule, while self-paced courses offer flexibility but may take longer to complete.
                 </p>
               </div>
               <div class="col-md-5 mb-5">
@@ -1718,7 +1726,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
               </div>
             </div>
           </div>
-        </section> 
+        </section>
 
 
         <div class="section-title eduvibe-home-five-course slider-dots edu-course-area edu-section-gap bg-image">
@@ -1823,7 +1831,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              Mentorship and Guidance{" "}
+                              Mentorship and Guidance
                             </a>
                             <hr />
                           </h4>
@@ -1876,7 +1884,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              Pedagogical Expertise{" "}
+                              Pedagogical Expertise
                             </a>
                             <hr />
                           </h4>
@@ -1929,7 +1937,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              Certification Guidance{" "}
+                              Certification Guidance
                             </a>
                             <hr />
                           </h4>
@@ -2228,6 +2236,9 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                 </div>
               </div>
             </div>
+            <div className="text-center">
+            <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
+            </div>
           </div>
         </div>
 
@@ -2365,7 +2376,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                           </div>
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+
                               24x7 Expert Support & Access
                             </a>
                           </h4>
@@ -2619,7 +2630,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                   <div class="inner">
                     <div class="content">
                       <h1>
-                      <i class="ri-time-line"></i>
+                        <i class="ri-time-line"></i>
                       </h1>
                       <h3 class="title">Real-Time Interaction</h3>
                       <p>
@@ -2639,7 +2650,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                   <div class="inner">
                     <div class="content">
                       <h1>
-                      <i class="ri-profile-line"></i>
+                        <i class="ri-profile-line"></i>
                       </h1>
                       <h3 class="title">Structured Schedule</h3>
                       <p>
@@ -2659,7 +2670,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                   <div class="inner">
                     <div class="content">
                       <h1>
-                      <i class="ri-water-flash-line"></i>
+                        <i class="ri-water-flash-line"></i>
                       </h1>
                       <h3 class="title">Scheduled Sessions</h3>
                       <p>
@@ -2691,6 +2702,9 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="text-center">
+            <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
             </div>
           </div>
         </div>
@@ -2939,7 +2953,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+
                               Success Story 1: From Novice to Python Pro
                             </a>
                             <hr />
@@ -3131,7 +3145,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+
                               Success Story 7: Elevating Expertise
                             </a>
                             <hr />
@@ -3179,7 +3193,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+
                               Success Story 9: Confidence Redefined
                             </a>
                             <hr />
@@ -3275,7 +3289,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+
                               Success Story 13: Learning to Leadership
                             </a>
                             <hr />
@@ -3322,7 +3336,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+
                               Success Story 15: Beyond Certification Success
                             </a>
                             <hr />
@@ -3465,7 +3479,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+
                               Success Story 22: Future-Ready Professional
                             </a>
                             <hr />
@@ -3515,7 +3529,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+
                               Success Story 24: Architect of Efficiency
                             </a>
                             <hr />
@@ -3562,7 +3576,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         <div class="content ">
                           <h4 class="title-inner">
                             <a href="course-details.html">
-                              {" "}
+
                               Success Story 26: Tech Trailblazer
                             </a>
                             <hr />
@@ -3782,7 +3796,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                               Python skills, you can work in a DevOps role,
                               streamlining development processes, and ensuring
                               efficient collaboration between development and
-                              operations teams.{" "}
+                              operations teams.
                             </p>
                           </div>
                         </div>
@@ -3813,7 +3827,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                               machine learning. As a Machine Learning Engineer,
                               you'll work on developing and deploying machine
                               learning models, conducting experiments, and
-                              improving algorithm performance.{" "}
+                              improving algorithm performance.
                             </p>
                           </div>
                         </div>
@@ -3844,7 +3858,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                               data architectures, databases, and large-scale
                               processing systems. This role involves handling
                               big data and ensuring data pipelines are efficient
-                              and reliable.{" "}
+                              and reliable.
                             </p>
                           </div>
                         </div>
@@ -3993,7 +4007,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                             aria-expanded="false"
                             aria-controls="collapseFour21"
                           >
-                            <i className="ri-lightbulb-line"></i> 
+                            <i className="ri-lightbulb-line"></i>
                             Freelancer/Consultant
                           </button>
                         </div>
@@ -4125,9 +4139,9 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
               >
                 <h3 class="title mb-2 text-white">Your Journey Starts Here</h3>
                 <p className="description mt-0 text-center mb-5">
-                These success stories are just a glimpse of what awaits you at Aimore Technologies. Our Python Training and Placement program is designed to empower individuals with the skills, knowledge, and confidence needed to thrive in the competitive landscape of cloud computing.
-                When you enroll with us, you're not just joining a program; you're joining a community committed to your success. Our experienced trainers, hands-on labs, and personalized guidance are here to shape your journey, from novice to Python professional.
-                Modes Of Training
+                  These success stories are just a glimpse of what awaits you at Aimore Technologies. Our Python Training and Placement program is designed to empower individuals with the skills, knowledge, and confidence needed to thrive in the competitive landscape of cloud computing.
+                  When you enroll with us, you're not just joining a program; you're joining a community committed to your success. Our experienced trainers, hands-on labs, and personalized guidance are here to shape your journey, from novice to Python professional.
+                  Modes Of Training
 
                 </p>
               </div>
@@ -4154,38 +4168,38 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Clarify
-                          doubts instantly,{" "}
+                          doubts instantly,
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Enjoy
                           premium learning environments with well-equipped
-                          classrooms and labs,{" "}
+                          classrooms and labs,
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Participate
-                          in Codeathon practices{" "}
+                          in Codeathon practices
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Receive
-                          direct aptitude training{" "}
+                          direct aptitude training
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Enhance
-                          interview skills{" "}
+                          interview skills
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Engage in
-                          panel mock interviews{" "}
+                          panel mock interviews
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Benefit
-                          from campus drives{" "}
+                          from campus drives
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> All are
                           supported by our commitment to ensuring 100% placement
                           support. Your journey to success begins with
-                          personalized excellence.{" "}
+                          personalized excellence.
                         </li>
                       </ul>
                       <div
@@ -4194,9 +4208,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         data-sal="slide-up"
                         data-sal-duration="800"
                       >
-                        <a class="edu-btn" href="/contact-us">
-                          Explore Now<i class="icon-arrow-right-line-right"></i>
-                        </a>
+                         <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Explore Now <i class="icon-arrow-right-line-right"></i></Link>
                       </div>
                     </div>
                   </div>
@@ -4241,9 +4253,8 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         data-sal="slide-up"
                         data-sal-duration="800"
                       >
-                        <a class="edu-btn" href="/contact-us">
-                          Explore Now<i class="icon-arrow-right-line-right"></i>
-                        </a>
+                       
+                        <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Explore Now <i class="icon-arrow-right-line-right"></i></Link>
                       </div>
                     </div>
                   </div>
@@ -4262,7 +4273,7 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                       <ul className="list-unstyled">
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i>Instructor
-                          Led Live Training!{" "}
+                          Led Live Training!
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> No Recorded
@@ -4270,27 +4281,27 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Live
-                          Virtual Interaction with the Trainer{" "}
+                          Virtual Interaction with the Trainer
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Clarify
-                          doubts then and there virtually{" "}
+                          doubts then and there virtually
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Live
-                          Virtual Interview Skills Training{" "}
+                          Virtual Interview Skills Training
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Live
-                          Virtual Aptitude Training{" "}
+                          Virtual Aptitude Training
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> Online
-                          Panel Mock Interviews{" "}
+                          Panel Mock Interviews
                         </li>
                         <li className=" lh-sm">
                           <i class="ri-arrow-right-circle-fill"></i> 100%
-                          Placement Support{" "}
+                          Placement Support
                         </li>
                       </ul>
                       <div
@@ -4299,9 +4310,8 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                         data-sal="slide-up"
                         data-sal-duration="800"
                       >
-                        <a class="edu-btn" href="/contact-us">
-                          Explore Now<i class="icon-arrow-right-line-right"></i>
-                        </a>
+                         
+                        <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Explore Now <i class="icon-arrow-right-line-right"></i></Link>
                       </div>
                     </div>
                   </div>
@@ -4655,6 +4665,19 @@ Courses tailored for beginners might have a longer duration to ensure a solid fo
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="staticBackdropNew" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <Commonpopup />
+            </div>
+
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React  from 'react'
 import { Helmet } from 'react-helmet'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,20 +7,20 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import "../assets/css/Home.css"
-import selenium from "../assets/images/homepage/selenium-aimore.webp"
-import powerBi from "../assets/images/homepage/power-bi-training-aimore.webp"
-import fullstack from "../assets/images/homepage/fullstack-training-aimore.webp"
-import awsimg from "../assets/images/homepage/aws-training-aimore.webp"
-import pythonimg from "../assets/images/homepage/python-training-aimore.webp"
-import bestsoftware from "../assets/images/homepage/best-software-training-aimore.webp"
+import selenium from "../assets/images/homepage/Selenium-Training Course-in-Chennai - Aimore-Technology.webp"
+import powerBi from "../assets/images/homepage/Power-BI-Training -institute-in-Chennai-Placement.webp"
+import fullstack from "../assets/images/homepage/Full-Stack-Training -Institute-in-Chennai.webp"
+import awsimg from "../assets/images/homepage/Aws-Training-in -Chennai.webp"
+import pythonimg from "../assets/images/homepage/Python-Training-in Chennai.webp"
+import bestsoftware from "../assets/images/homepage/Best-Software Training-institute -in-Chennai - Aimore-Technology.webp"
 import { Link } from 'react-router-dom'
-import whychoose from "../assets/images/homepage/why-choose-aimore.webp"
-import bestgateway from "../assets/images/homepage/best-way-to-enter-it-industry.webp"
-import bestSoftware from "../assets/images/homepage/Software-Training-Institute-in-Chennai-with-Placements.webp"
-import upskill from "../assets/images/homepage/Up-skill-yourself-with-aimore-technologies.webp"
-import increase from "../assets/images/homepage/increase-career-opportunities-with-aimore.webp"
-import numerous from "../assets/images/homepage/Numerous-Advantages-of-Joining-Aimore-Technology.webp"
-import newhome from "../assets/images/new-home-banner.webp"
+import whychoose from "../assets/images/homepage/Why-Choose-Aimore- Technology-for- Upskill.webp"
+import bestgateway from "../assets/images/homepage/Best-Software-Training-Course-in Chennai.webp"
+import bestSoftware from "../assets/images/homepage/Software-Training in-Chennai-with -Placement.webp"
+import upskill from "../assets/images/homepage/Grow-Your-Career -With-Aimore-Technology.webp"
+import increase from "../assets/images/homepage/IT-Training- Courses-in-Chennai-With-Placement.webp"
+import numerous from "../assets/images/homepage/Why-Choose -Aimore- Technology For-IT -Training.webp"
+import newhome from "../assets/images/best-software-institute-chennai.webp"
 import Slider from "react-slick";
 import { useRef, useState, useEffect } from 'react'
 import emailjs from '@emailjs/browser';
@@ -29,9 +29,18 @@ function Home() {
     const form = useRef()
     const [urls, setUrls] = useState("")
     const [message, setMessage] = useState("");
+    const loadSchema = ()=>{
+        const script = document.createElement("script");
+        script.src = "https://www.aimoretechnology.com/homepage.json/";
+        script.async = true;    
+         
+    }
+    
+    
     useEffect(() => {
-        setUrls(window.location.href)
-    }, [])
+        setUrls(window.location.href) 
+         loadSchema()
+    },[])
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -58,6 +67,7 @@ function Home() {
                 <title>
                     Software Training Institute in Chennai - Aimore Technology
                 </title>
+                <link rel="canonical" href="https://aimoretechnology.com/" />
                 <meta
                     name="description"
                     content="Aimore Technology is the best software training institute in Chennai that offers software courses With 100% placement. Online Training, Flexible Batches"
@@ -231,7 +241,6 @@ function Home() {
             </div>
 
             <div class="eduvibe-home-five-progress edu-service-area edu-section-gap bg-image">
-
                 <div class="container eduvibe-animated-shape">
                     <div class="row">
                         <div class="col-lg-12">
@@ -244,7 +253,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 section-title">
                             <h2 className='title'>Why Choose Aimore Technology for the Software Training Institute in Chennai?</h2>
                             <p>Aimore Technology offers a range of IT courses in Chennai for freshers and professionals. The courses are designed to meet the requirements of industry and equip students with relevant skills that are in demand. As one of the leading IT Training Institute in Chennai, we ensure that our candidates get adequate exposure to all aspects related to IT. We offer flexible timings, high-quality learning resources, and instructors with years of experience teaching at top institutes. If you’re looking for an IT Training Institute in Chennai, look no further than Aimore Technology.</p>
                         </div>
@@ -721,19 +730,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                        <div class="shape-image scene shape-image-1" >
-                            <span data-depth="-2.2" >
-                                <img src="assets/images/shapes/shape-04-01.png" alt="Shape Thumb" />
-                            </span>
-                        </div>
-                        <div class="shape-image shape-image-2">
-                            <img src="assets/images/shapes/shape-02-08.png" alt="Shape Thumb" />
-                        </div>
-                        <div class="shape-image shape-image-3">
-                            <img src="assets/images/shapes/shape-15.png" alt="Shape Thumb" />
-                        </div>
-                    </div>
+                 
                 </div>
             </div>
         </div>

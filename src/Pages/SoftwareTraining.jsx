@@ -1,20 +1,21 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import softwarecertificate from "../assets/images/bestsoftware/course-certification.webp"
-import LandscapeSoftwareTraining from "../assets/images/bestsoftware/Landscape-of-Software-Training.webp"
-import softwaretraininggoodcareer from "../assets/images/bestsoftware/good-career.webp"
-import softwaretraingingrole from "../assets/images/bestsoftware/software-training-role.webp"
-import challenges from "../assets/images/bestsoftware/challenges.webp"
-import bestsoftwaretraining from "../assets/images/bestsoftware/Premier-Software-Training-Institute.webp";
-import importantofsoftware from "../assets/images/bestsoftware/Importance-of-Software-Training.webp"
-import impactofsoftware from "../assets/images/bestsoftware/impact-of-software-training.webp"
-import excellencesoftwaretraining from "../assets/images/bestsoftware/Excellence-in-Software-Training-Institute.webp"
+import Commonpopup from '../Components/Commonpopup'
+import softwarecertificate from "../assets/images/bestsoftware/Software-Training-With-Placement-in-Chennai.webp"
+import LandscapeSoftwareTraining from "../assets/images/bestsoftware/IT-Training- Institute-in- Chennai.webp"
+import softwaretraininggoodcareer from "../assets/images/bestsoftware/IT-Software Training-Institute in-Chennai-With Placement.webp"
+import softwaretraingingrole from "../assets/images/bestsoftware/Best-Software- Training-Institute -in-Chennai.webp"
+import challenges from "../assets/images/bestsoftware/Software-Training -Institutes-in-Chennai.webp"
+import bestsoftwaretraining from "../assets/images/bestsoftware/Software-Training -Institutes-in-Chennai.webp";
+import importantofsoftware from "../assets/images/bestsoftware/It-Courses-in-chennai.webp"
+import impactofsoftware from "../assets/images/bestsoftware/Software-Training -Institute-in-Chennai-With Placement.webp"
+import excellencesoftwaretraining from "../assets/images/bestsoftware/Best-IT-Software Training-Institute in-Chennai-With -Placement.webp"
 function SoftwareTraining() {
   const [schemas, setSchemas] = useState([]);
   const loadSchema = () => {
     const script = document.createElement("script");
-    script.src = "https://aimoretech.com/schemafiles/scriptsaws.json";
+    script.src = "https://www.aimoretechnology.com/bestsoftware.json";
     script.async = true;
     console.log(document.body.appendChild(script));
   };
@@ -29,6 +30,7 @@ function SoftwareTraining() {
           <title>
             Best Software Training Institute in Chennai | Aimore Technology
           </title>
+          <link rel="canonical" href="https://aimoretechnology.com/best-software-training-institute-in-chennai/" />
           <meta
             name="description"
             content="Aimore Technologies is top-ranked and the best software training institute in Chennai. Elevate your skills with expert guidance and hands-on."
@@ -64,11 +66,12 @@ function SoftwareTraining() {
                       </li>
                     </ol>
                   </nav>
+                  <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
                 </div>
               </div>
             </div>
 
-           
+
           </div>
         </div>
         <div className="container py-5">
@@ -113,9 +116,8 @@ function SoftwareTraining() {
                 data-sal="slide-up"
                 data-sal-duration="800"
               >
-                <a className="edu-btn" href="/about-us">
-                  Know About Us <i className="icon-arrow-right-line-right"></i>
-                </a>
+               
+                <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
               </div>
             </div>
           </div>
@@ -632,7 +634,7 @@ function SoftwareTraining() {
                       <p>
                         Engage in real-time projects for a hands-on experience.
                         Showcase your project work to enhance your chances of
-                        employment. 
+                        employment.
                       </p>
                     </div>
                   </div>
@@ -737,7 +739,7 @@ function SoftwareTraining() {
                       </h3>
                     </div>
                   </div>
-                
+
                 </div>
 
                 <div className="row eduvibe-about-one-service g-5 mt--20">
@@ -751,7 +753,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-artboard-line"></i>
+                            <i class="ri-artboard-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -778,7 +780,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-leaf-line"></i>
+                            <i class="ri-leaf-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -833,7 +835,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-user-follow-fill"></i>
+                            <i class="ri-user-follow-fill"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -860,7 +862,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-window-line"></i>
+                            <i class="ri-window-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -887,7 +889,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-feedback-line"></i>
+                            <i class="ri-feedback-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -913,7 +915,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-chat-3-line"></i>
+                            <i class="ri-chat-3-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -941,7 +943,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-file-cloud-line"></i>
+                            <i class="ri-file-cloud-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -968,7 +970,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-vip-crown-fill"></i>
+                            <i class="ri-vip-crown-fill"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -994,7 +996,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-windows-line"></i>
+                            <i class="ri-windows-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -1022,7 +1024,7 @@ function SoftwareTraining() {
                       <div className="inner">
                         <div className="icon">
                           <a href="#">
-                          <i class="ri-cloud-line"></i>
+                            <i class="ri-cloud-line"></i>
                           </a>
                         </div>
                         <div className="content">
@@ -1039,6 +1041,9 @@ function SoftwareTraining() {
                       </div>
                     </div>
                   </div>
+                </div>
+                <div className="text-center">
+                <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
                 </div>
               </div>
             </div>
@@ -1173,7 +1178,7 @@ function SoftwareTraining() {
                     This has a positive ripple effect on morale, job
                     satisfaction, and the retention of valuable employees.
                   </p>
-          
+
                 </div>
               </div>
               <div className="col-lg-5 order-1 order-lg-2">
@@ -1183,7 +1188,7 @@ function SoftwareTraining() {
                     src={importantofsoftware}
                     alt="best-software-training"
                   />
-                          <p
+                  <p
                     className="description sal-animate text-white"
                     data-sal-delay="250"
                     data-sal="slide-up"
@@ -1716,7 +1721,11 @@ function SoftwareTraining() {
                   </div>
                 </div>
               </div>
+           
             </div>
+            <div className="text-center">
+              <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
+              </div>
             <button
               class="carousel-control-prev"
               type="button"
@@ -1868,7 +1877,7 @@ function SoftwareTraining() {
                   skills required to tackle real-world
                 </p>
                 <p>
-                  
+
                   4. Networking Opportunities: Institutes providing the best
                   software training often serve as hubs for networking.
                   Interacting with industry professionals, fellow learners, and
@@ -1876,7 +1885,7 @@ function SoftwareTraining() {
                   that can lead to mentorship and career opportunities.
                 </p>
                 <p>
-                  
+
                   5. Continuous Learning Culture: Engaging in software training
                   fosters a culture of continuous learning. Graduates are
                   equipped with the mindset and skills to adapt to evolving
@@ -1902,7 +1911,7 @@ function SoftwareTraining() {
                   competitive world of software development.
                 </p>
                 <p>
-                  
+
                   1. Background and Mission Aimore, founded with a vision to
                   bridge the gap between academia and industry requirements, has
                   been a pioneer in the field of software training institute in
@@ -1912,7 +1921,7 @@ function SoftwareTraining() {
                   meaningfully to the fast-paced IT landscape.
                 </p>
                 <p>
-                  
+
                   2. Comprehensive Course Offerings One of the distinguishing
                   features of Aimore is its expansive range of courses catering
                   to various domains within the software industry. From
@@ -1925,7 +1934,7 @@ function SoftwareTraining() {
                   sought-after skills.
                 </p>
                 <p>
-                  
+
                   3. Experienced and Industry-Ready Faculty At the heart of
                   Aimore's success is its team of seasoned and
                   industry-experienced faculty members. These mentors bring not
@@ -1937,7 +1946,7 @@ function SoftwareTraining() {
                   but also practical and relevant.
                 </p>
                 <p>
-                  
+
                   4. State-of-the-Art Infrastructure Aimore takes pride in its
                   state-of-the-art infrastructure, providing students with a
                   conducive learning environment. Well-equipped classrooms,
@@ -1948,7 +1957,7 @@ function SoftwareTraining() {
                   and skill development.
                 </p>
                 <p>
-                  
+
                   5. Industry Partnerships and Placement Assistance To enhance
                   the employability of its students, Aimore has forged strategic
                   partnerships with leading companies in the IT sector. These
@@ -1960,7 +1969,7 @@ function SoftwareTraining() {
                   transition from education to employment.
                 </p>
                 <p>
-                  
+
                   6. Certification Programs and Continuous Learning Aimore
                   recognize the significance of certifications in validating
                   one's skills in the competitive job market. The institute
@@ -1998,7 +2007,7 @@ function SoftwareTraining() {
                 </p>
 
                 <p>
-                  
+
                   2. Fostering Innovation: By instilling a culture of continuous
                   learning, software training institute in chennai professionals
                   contributes to fostering innovation within organizations. They
@@ -2016,7 +2025,7 @@ function SoftwareTraining() {
                 </p>
 
                 <p>
-                  
+
                   4. Contributing to Career Advancement: Individuals seeking
                   career advancement often turn to software training to acquire
                   new skills or enhance existing ones. Software training
@@ -2026,7 +2035,7 @@ function SoftwareTraining() {
                 </p>
 
                 <p>
-                  
+
                   5. Enhancing Productivity: Proficient use of software tools is
                   directly linked to increased productivity. Software training
                   institute in chennai professionals contribute to workplace
@@ -2070,7 +2079,7 @@ function SoftwareTraining() {
                 </p>
 
                 <p>
-                  
+
                   4. Impactful Contribution to Learning Culture: Software
                   training institute in Chennai professionals contribute
                   significantly to cultivating a learning culture within
@@ -2088,7 +2097,7 @@ function SoftwareTraining() {
                 </p>
 
                 <p>
-                  
+
                   6. Personal Satisfaction in Skill Development: Witnessing the
                   tangible impact of skill development on individuals' careers
                   provides a sense of personal satisfaction to software training
@@ -2180,12 +2189,16 @@ function SoftwareTraining() {
                   these platforms and utilize technology effectively to deliver
                   engaging and effective training.
                 </p>
+                
+          <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
+         
               </div>
               <div class="col-md-5 mb-5">
                 <img src={challenges} alt="challenges and consideration" className="img-fluid" />
               </div>
             </div>
           </div>
+       
         </section>
 
 
@@ -2646,6 +2659,9 @@ function SoftwareTraining() {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="text-center">
+              <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
               </div>
             </div>
           </div>
@@ -3274,6 +3290,9 @@ function SoftwareTraining() {
                   </div>
                 </div>
               </div>
+              <div className="text-center">
+              <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
+              </div>
             </div>
           </div>
         </div>
@@ -3687,6 +3706,9 @@ function SoftwareTraining() {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="text-center">
+              <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
               </div>
             </div>
           </div>
@@ -4226,6 +4248,9 @@ function SoftwareTraining() {
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+          <div className="text-center">
+          <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
+          </div>
         </div>
 
         <div class="edu-workshop-area eduvibe-home-three-one-video workshop-style-1 edu-section-gap bg-image">
@@ -4313,9 +4338,8 @@ function SoftwareTraining() {
                         data-sal="slide-up"
                         data-sal-duration="800"
                       >
-                        <a class="edu-btn" href="/contact-us">
-                          Explore Now<i class="icon-arrow-right-line-right"></i>
-                        </a>
+                     
+                        <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
                       </div>
                     </div>
                   </div>
@@ -4356,9 +4380,7 @@ function SoftwareTraining() {
                         data-sal="slide-up"
                         data-sal-duration="800"
                       >
-                        <a class="edu-btn" href="/contact-us">
-                          Explore Now<i class="icon-arrow-right-line-right"></i>
-                        </a>
+                      <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
                       </div>
                     </div>
                   </div>
@@ -4414,9 +4436,7 @@ function SoftwareTraining() {
                         data-sal="slide-up"
                         data-sal-duration="800"
                       >
-                        <a class="edu-btn" href="/contact-us">
-                          Explore Now<i class="icon-arrow-right-line-right"></i>
-                        </a>
+                      <Link class="edu-btn" data-bs-target="#staticBackdropNew" data-bs-toggle="modal">Enroll Now <i class="icon-arrow-right-line-right"></i></Link>
                       </div>
                     </div>
                   </div>
@@ -4904,6 +4924,20 @@ function SoftwareTraining() {
           </div>
         </div>
       </div>
+      <div class="modal fade" id="staticBackdropNew" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <Commonpopup />
+            </div>
+
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }

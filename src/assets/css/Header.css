@@ -1,20 +1,6 @@
  
-.stickynavbtn a {
-    color: #fff;
-    font-size: 15px;
-    transform: rotate(101deg);
-    position: fixed;
-    right: -3%;
-    transform: rotate(90deg);
-    top: 50%;
-    background-color: #8d0f17;
-    padding: 10px 20px;
-    /* color: #fff; */
-    z-index: 999;
-}
-.stickynavbtn a:hover,.stickynavbtn a:focus {
-    color: #fff;
-}
+ 
+ 
 .modal-header {
     border-bottom: 1px solid #ffffff!important;
 }
@@ -27,12 +13,21 @@
     border-radius: 50%;
     border: 1px solid black;
 }
-@media(max-width:520px){
-    .stickynavbtn a {
-        right: -10%!important;        
-        padding: 10px 20px!important;
-        font-size: 13px!important;
-    }
-}
-
  
+
+.uparrow {
+    position: fixed;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    background-color: #8d0f17;
+    padding: 0px 10px;
+    z-index: 999;
+}
+.uparrow :hover i {
+    color: #fff!important;
+}

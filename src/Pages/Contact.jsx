@@ -30,6 +30,7 @@ function Contact() {
         <title>
           Contact us | Aimore Technology
         </title>
+        <link rel="canonical" href="https://aimoretechnology.com/contact-us" />
         <meta
           name="description"
           content="Aimore Technologies is top-ranked and the best software training institute in Chennai. Elevate your skills with expert guidance and hands-on."
